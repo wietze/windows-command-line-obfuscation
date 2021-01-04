@@ -37,15 +37,9 @@ class TestProcessObfuscation():
 
     # Class Methods
     @classmethod
-    def __randomise__(cls, command_parts: Union[List[str], str]) -> Union[List[str], str]:
+    def __randomise__(cls, command_parts: str) -> str:
         randomised = ''.join(random.choices('0123456789ABCDEF', k=10))
-        if isinstance(command_parts, str):
-            return command_parts.replace('{random}', randomised)
-        else:
-            result = []
-            for command_part in command_parts:
-                result.append(command_part.replace('{random}', randomised))
-            return result
+        return command_parts.replace('{random}', randomised)
 
     @classmethod
     def select_arg_index(cls, command: List[str], arg_index: Union[int, None]) -> int:
@@ -77,11 +71,11 @@ class TestProcessObfuscation():
 
     def __get_expected_result__(self) -> Tuple[int, str]:
         # Prepare command to run
-        command = self.__randomise__(self.command)
+        command = self.__randomise__(self.command_flat)
         self.log.info('About to run command "{}"'.format(' '.join(command)))
         # Run 'normal' command to get expected exit code
         try:
-            result = subprocess.run(command, capture_output=True)
+            result = self.__execute_command__(command)
             exit_code, stdout = result.returncode, "{} / {}".format(result.stdout, result.stderr)
             # Check if observed exit code is 0
             if exit_code != 0:
@@ -110,8 +104,8 @@ class TestProcessObfuscation():
         self.log.info('About to run command "{}"'.format(command))
         try:
             # Run command
-            import shlex
-            result = subprocess.run(shlex.split(command, posix=os.sep=='/'), capture_output=True, timeout=self.timeout)
+
+            result = self.__execute_command__(command, timeout=self.timeout)
             exit_code, stdout = result.returncode, "{} / {}".format(result.stdout, result.stderr)
             self.log.info('Exit code {} observed ({} desired)'.format(exit_code, self.expected_code))
             # Return result
@@ -126,7 +120,7 @@ class TestProcessObfuscation():
             if self.post_command:
                 result = None
                 try:
-                    result = subprocess.run(self.post_command, capture_output=True)
+                    result = self.__execute_command__(' '.join(self.post_command))
                 except Exception as e:
                     self.log.warning("Post command caused exception ({})".format(e))
                 finally:
@@ -136,6 +130,9 @@ class TestProcessObfuscation():
 
     def __get_option_argument__(self, arg_index: int) -> int:
         return self.select_arg_index(self.command, arg_index)
+
+    def __execute_command__(self, command: str, timeout: int = None) -> subprocess.CompletedProcess:
+        return subprocess.run(['sh', '-c', command] if os.sep == '/' else command, capture_output=True, timeout=timeout)
 
     # Public Methods
     def check_special_chars(self, char_at_position: int, operation: SpecialCharOperation) -> Set[Tuple[int, str]]:
