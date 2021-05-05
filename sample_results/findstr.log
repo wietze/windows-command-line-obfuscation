@@ -1,0 +1,45 @@
+PROCESS OBFUSCATION REPORT FOR findstr
+- Generated on 2020-11-30T15:00:17.278099
+- Command used      : findstr /offline "findstr" "*.json"
+- Insertion position:             ^
+- Char ranges scanned: 0x0001..0xFFFE
+
+:: Different dash/hyphens
+The following 11 commands were found to be working:
+0x002D : findstr -offline "findstr" "*.json"
+0x00AD : findstr ­offline "findstr" "*.json"
+0x2010 : findstr ‐offline "findstr" "*.json"
+0x2012 : findstr ‒offline "findstr" "*.json"
+0x2013 : findstr –offline "findstr" "*.json"
+0x2014 : findstr —offline "findstr" "*.json"
+0x2015 : findstr ―offline "findstr" "*.json"
+0x2044 : findstr ⁄offline "findstr" "*.json"
+0x2212 : findstr −offline "findstr" "*.json"
+0x2215 : findstr ∕offline "findstr" "*.json"
+0xFF0D : findstr －offline "findstr" "*.json"
+
+:: Character Insertion
+No alternative commands were found.
+
+:: Character Replacement
+The following commands were found to be working:
+0x0139 : findstr /offĹine "findstr" "*.json"
+0x013A : findstr /offĺine "findstr" "*.json"
+0x013B : findstr /offĻine "findstr" "*.json"
+0x013C : findstr /offļine "findstr" "*.json"
+0x013D : findstr /offĽine "findstr" "*.json"
+0x013E : findstr /offľine "findstr" "*.json"
+0x0141 : findstr /offŁine "findstr" "*.json"
+0x0142 : findstr /offłine "findstr" "*.json"
+0x019A : findstr /offƚine "findstr" "*.json"
+0x2112 : findstr /offℒine "findstr" "*.json"
+0x2113 : findstr /offℓine "findstr" "*.json"
+0xFF2C : findstr /offＬine "findstr" "*.json"
+0xFF4C : findstr /offｌine "findstr" "*.json"
+
+:: Quote Insertion
+Inserting quotes in the first argument did work, such as:
+findstr /"o"ffline "findstr" "*.json"
+
+:: Shortened Commands
+No alternative commands were found.

@@ -1,0 +1,32 @@
+PROCESS OBFUSCATION REPORT FOR ROUTE
+- Generated on 2021-01-02T14:38:35.220402
+- Command used      : ROUTE PRINT 123*
+- Insertion position:        ^
+- Char ranges scanned: 0x0001..0xFFFE
+
+:: Option Char Substitution
+The command does not contain any arguments starting with a slash or dash.
+
+:: Character Insertion
+No alternative commands were found.
+
+:: Character Substitution
+The following commands were found to be working:
+0x0154 : ROUTE PŔINT 123*
+0x0155 : ROUTE PŕINT 123*
+0x0156 : ROUTE PŖINT 123*
+0x0157 : ROUTE PŗINT 123*
+0x0158 : ROUTE PŘINT 123*
+0x0159 : ROUTE PřINT 123*
+0x211B : ROUTE PℛINT 123*
+0x211C : ROUTE PℜINT 123*
+0x211D : ROUTE PℝINT 123*
+0xFF32 : ROUTE PＲINT 123*
+0xFF52 : ROUTE PｒINT 123*
+
+:: Quote Insertion
+Inserting quotes in the first argument did work, such as:
+ROUTE P"R"INT 123*
+
+:: Shorthand Commands
+No alternative commands were found.

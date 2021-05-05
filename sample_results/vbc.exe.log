@@ -1,0 +1,22 @@
+PROCESS OBFUSCATION REPORT FOR vbc.exe
+- Generated on 2021-01-04T00:22:20.956666
+- Command used      : c:\windows\Microsoft.NET\Framework64\v4.0.30319\vbc.exe /target:exe /out:cache\file.exe inputs\file.vbs
+- Insertion position:                                                            ^
+- Char ranges scanned: 0x0001..0xFFFE
+
+:: Option Char Substitution
+The following 1 commands were found to be working:
+0x002D : c:\windows\Microsoft.NET\Framework64\v4.0.30319\vbc.exe -target:exe /out:cache\file.exe inputs\file.vbs
+
+:: Character Insertion
+No alternative commands were found.
+
+:: Character Substitution
+No alternative commands were found.
+
+:: Quote Insertion
+Inserting quotes in the first argument did not appear to be working.
+
+:: Shorthand Commands
+The following 1 commands were found to be working:
+c:\windows\Microsoft.NET\Framework64\v4.0.30319\vbc.exe /t:exe /out:cache\file.exe inputs\file.vbs

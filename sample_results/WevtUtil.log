@@ -1,0 +1,3392 @@
+PROCESS OBFUSCATION REPORT FOR WevtUtil
+- Generated on 2020-11-29T03:23:44.838532
+- Command used      : WevtUtil gli HardwareEvents
+- Insertion position:           ^
+- Char ranges scanned: 0x0001..0xFFFE
+
+:: Different dash/hyphens
+The command does not contain any arguments starting with a slash or dash.
+
+:: Character Insertion
+The following 3369 commands were found to be working:
+0x00AD : WevtUtil g­li HardwareEvents
+0x034F : WevtUtil g͏li HardwareEvents
+0x0378 : WevtUtil g͸li HardwareEvents
+0x0379 : WevtUtil g͹li HardwareEvents
+0x037F : WevtUtil gͿli HardwareEvents
+0x0380 : WevtUtil g΀li HardwareEvents
+0x0381 : WevtUtil g΁li HardwareEvents
+0x0382 : WevtUtil g΂li HardwareEvents
+0x0383 : WevtUtil g΃li HardwareEvents
+0x038B : WevtUtil g΋li HardwareEvents
+0x038D : WevtUtil g΍li HardwareEvents
+0x03A2 : WevtUtil g΢li HardwareEvents
+0x0524 : WevtUtil gԤli HardwareEvents
+0x0525 : WevtUtil gԥli HardwareEvents
+0x0528 : WevtUtil gԨli HardwareEvents
+0x0529 : WevtUtil gԩli HardwareEvents
+0x052A : WevtUtil gԪli HardwareEvents
+0x052B : WevtUtil gԫli HardwareEvents
+0x052C : WevtUtil gԬli HardwareEvents
+0x052D : WevtUtil gԭli HardwareEvents
+0x052E : WevtUtil gԮli HardwareEvents
+0x052F : WevtUtil gԯli HardwareEvents
+0x0530 : WevtUtil g԰li HardwareEvents
+0x0557 : WevtUtil g՗li HardwareEvents
+0x0558 : WevtUtil g՘li HardwareEvents
+0x0560 : WevtUtil gՠli HardwareEvents
+0x0588 : WevtUtil gֈli HardwareEvents
+0x058B : WevtUtil g֋li HardwareEvents
+0x058C : WevtUtil g֌li HardwareEvents
+0x058D : WevtUtil g֍li HardwareEvents
+0x058E : WevtUtil g֎li HardwareEvents
+0x058F : WevtUtil g֏li HardwareEvents
+0x0590 : WevtUtil g֐li HardwareEvents
+0x05C8 : WevtUtil g׈li HardwareEvents
+0x05C9 : WevtUtil g׉li HardwareEvents
+0x05CA : WevtUtil g׊li HardwareEvents
+0x05CB : WevtUtil g׋li HardwareEvents
+0x05CC : WevtUtil g׌li HardwareEvents
+0x05CD : WevtUtil g׍li HardwareEvents
+0x05CE : WevtUtil g׎li HardwareEvents
+0x05CF : WevtUtil g׏li HardwareEvents
+0x05EB : WevtUtil g׫li HardwareEvents
+0x05EC : WevtUtil g׬li HardwareEvents
+0x05ED : WevtUtil g׭li HardwareEvents
+0x05EE : WevtUtil g׮li HardwareEvents
+0x05EF : WevtUtil gׯli HardwareEvents
+0x05F5 : WevtUtil g׵li HardwareEvents
+0x05F6 : WevtUtil g׶li HardwareEvents
+0x05F7 : WevtUtil g׷li HardwareEvents
+0x05F8 : WevtUtil g׸li HardwareEvents
+0x05F9 : WevtUtil g׹li HardwareEvents
+0x05FA : WevtUtil g׺li HardwareEvents
+0x05FB : WevtUtil g׻li HardwareEvents
+0x05FC : WevtUtil g׼li HardwareEvents
+0x05FD : WevtUtil g׽li HardwareEvents
+0x05FE : WevtUtil g׾li HardwareEvents
+0x05FF : WevtUtil g׿li HardwareEvents
+0x0604 : WevtUtil g؄li HardwareEvents
+0x0605 : WevtUtil g؅li HardwareEvents
+0x061C : WevtUtil g؜li HardwareEvents
+0x061D : WevtUtil g؝li HardwareEvents
+0x0640 : WevtUtil gـli HardwareEvents
+0x070E : WevtUtil g܎li HardwareEvents
+0x074B : WevtUtil g݋li HardwareEvents
+0x074C : WevtUtil g݌li HardwareEvents
+0x07B2 : WevtUtil g޲li HardwareEvents
+0x07B3 : WevtUtil g޳li HardwareEvents
+0x07B4 : WevtUtil g޴li HardwareEvents
+0x07B5 : WevtUtil g޵li HardwareEvents
+0x07B6 : WevtUtil g޶li HardwareEvents
+0x07B7 : WevtUtil g޷li HardwareEvents
+0x07B8 : WevtUtil g޸li HardwareEvents
+0x07B9 : WevtUtil g޹li HardwareEvents
+0x07BA : WevtUtil g޺li HardwareEvents
+0x07BB : WevtUtil g޻li HardwareEvents
+0x07BC : WevtUtil g޼li HardwareEvents
+0x07BD : WevtUtil g޽li HardwareEvents
+0x07BE : WevtUtil g޾li HardwareEvents
+0x07BF : WevtUtil g޿li HardwareEvents
+0x07FB : WevtUtil g߻li HardwareEvents
+0x07FC : WevtUtil g߼li HardwareEvents
+0x07FD : WevtUtil g߽li HardwareEvents
+0x07FE : WevtUtil g߾li HardwareEvents
+0x07FF : WevtUtil g߿li HardwareEvents
+0x082E : WevtUtil g࠮li HardwareEvents
+0x082F : WevtUtil g࠯li HardwareEvents
+0x083F : WevtUtil g࠿li HardwareEvents
+0x085C : WevtUtil g࡜li HardwareEvents
+0x085D : WevtUtil g࡝li HardwareEvents
+0x085F : WevtUtil g࡟li HardwareEvents
+0x0860 : WevtUtil gࡠli HardwareEvents
+0x0861 : WevtUtil gࡡli HardwareEvents
+0x0862 : WevtUtil gࡢli HardwareEvents
+0x0863 : WevtUtil gࡣli HardwareEvents
+0x0864 : WevtUtil gࡤli HardwareEvents
+0x0865 : WevtUtil gࡥli HardwareEvents
+0x0866 : WevtUtil gࡦli HardwareEvents
+0x0867 : WevtUtil gࡧli HardwareEvents
+0x0868 : WevtUtil gࡨli HardwareEvents
+0x0869 : WevtUtil gࡩli HardwareEvents
+0x086A : WevtUtil gࡪli HardwareEvents
+0x086B : WevtUtil g࡫li HardwareEvents
+0x086C : WevtUtil g࡬li HardwareEvents
+0x086D : WevtUtil g࡭li HardwareEvents
+0x086E : WevtUtil g࡮li HardwareEvents
+0x086F : WevtUtil g࡯li HardwareEvents
+0x0870 : WevtUtil gࡰli HardwareEvents
+0x0871 : WevtUtil gࡱli HardwareEvents
+0x0872 : WevtUtil gࡲli HardwareEvents
+0x0873 : WevtUtil gࡳli HardwareEvents
+0x0874 : WevtUtil gࡴli HardwareEvents
+0x0875 : WevtUtil gࡵli HardwareEvents
+0x0876 : WevtUtil gࡶli HardwareEvents
+0x0877 : WevtUtil gࡷli HardwareEvents
+0x0878 : WevtUtil gࡸli HardwareEvents
+0x0879 : WevtUtil gࡹli HardwareEvents
+0x087A : WevtUtil gࡺli HardwareEvents
+0x087B : WevtUtil gࡻli HardwareEvents
+0x087C : WevtUtil gࡼli HardwareEvents
+0x087D : WevtUtil gࡽli HardwareEvents
+0x087E : WevtUtil gࡾli HardwareEvents
+0x087F : WevtUtil gࡿli HardwareEvents
+0x0880 : WevtUtil gࢀli HardwareEvents
+0x0881 : WevtUtil gࢁli HardwareEvents
+0x0882 : WevtUtil gࢂli HardwareEvents
+0x0883 : WevtUtil gࢃli HardwareEvents
+0x0884 : WevtUtil gࢄli HardwareEvents
+0x0885 : WevtUtil gࢅli HardwareEvents
+0x0886 : WevtUtil gࢆli HardwareEvents
+0x0887 : WevtUtil gࢇli HardwareEvents
+0x0888 : WevtUtil g࢈li HardwareEvents
+0x0889 : WevtUtil gࢉli HardwareEvents
+0x088A : WevtUtil gࢊli HardwareEvents
+0x088B : WevtUtil gࢋli HardwareEvents
+0x088C : WevtUtil gࢌli HardwareEvents
+0x088D : WevtUtil gࢍli HardwareEvents
+0x088E : WevtUtil gࢎli HardwareEvents
+0x088F : WevtUtil g࢏li HardwareEvents
+0x0890 : WevtUtil g࢐li HardwareEvents
+0x0891 : WevtUtil g࢑li HardwareEvents
+0x0892 : WevtUtil g࢒li HardwareEvents
+0x0893 : WevtUtil g࢓li HardwareEvents
+0x0894 : WevtUtil g࢔li HardwareEvents
+0x0895 : WevtUtil g࢕li HardwareEvents
+0x0896 : WevtUtil g࢖li HardwareEvents
+0x0897 : WevtUtil gࢗli HardwareEvents
+0x0898 : WevtUtil g࢘li HardwareEvents
+0x0899 : WevtUtil g࢙li HardwareEvents
+0x089A : WevtUtil g࢚li HardwareEvents
+0x089B : WevtUtil g࢛li HardwareEvents
+0x089C : WevtUtil g࢜li HardwareEvents
+0x089D : WevtUtil g࢝li HardwareEvents
+0x089E : WevtUtil g࢞li HardwareEvents
+0x089F : WevtUtil g࢟li HardwareEvents
+0x08A0 : WevtUtil gࢠli HardwareEvents
+0x08A1 : WevtUtil gࢡli HardwareEvents
+0x08A2 : WevtUtil gࢢli HardwareEvents
+0x08A3 : WevtUtil gࢣli HardwareEvents
+0x08A4 : WevtUtil gࢤli HardwareEvents
+0x08A5 : WevtUtil gࢥli HardwareEvents
+0x08A6 : WevtUtil gࢦli HardwareEvents
+0x08A7 : WevtUtil gࢧli HardwareEvents
+0x08A8 : WevtUtil gࢨli HardwareEvents
+0x08A9 : WevtUtil gࢩli HardwareEvents
+0x08AA : WevtUtil gࢪli HardwareEvents
+0x08AB : WevtUtil gࢫli HardwareEvents
+0x08AC : WevtUtil gࢬli HardwareEvents
+0x08AD : WevtUtil gࢭli HardwareEvents
+0x08AE : WevtUtil gࢮli HardwareEvents
+0x08AF : WevtUtil gࢯli HardwareEvents
+0x08B0 : WevtUtil gࢰli HardwareEvents
+0x08B1 : WevtUtil gࢱli HardwareEvents
+0x08B2 : WevtUtil gࢲli HardwareEvents
+0x08B3 : WevtUtil gࢳli HardwareEvents
+0x08B4 : WevtUtil gࢴli HardwareEvents
+0x08B5 : WevtUtil gࢵli HardwareEvents
+0x08B6 : WevtUtil gࢶli HardwareEvents
+0x08B7 : WevtUtil gࢷli HardwareEvents
+0x08B8 : WevtUtil gࢸli HardwareEvents
+0x08B9 : WevtUtil gࢹli HardwareEvents
+0x08BA : WevtUtil gࢺli HardwareEvents
+0x08BB : WevtUtil gࢻli HardwareEvents
+0x08BC : WevtUtil gࢼli HardwareEvents
+0x08BD : WevtUtil gࢽli HardwareEvents
+0x08BE : WevtUtil gࢾli HardwareEvents
+0x08BF : WevtUtil gࢿli HardwareEvents
+0x08C0 : WevtUtil gࣀli HardwareEvents
+0x08C1 : WevtUtil gࣁli HardwareEvents
+0x08C2 : WevtUtil gࣂli HardwareEvents
+0x08C3 : WevtUtil gࣃli HardwareEvents
+0x08C4 : WevtUtil gࣄli HardwareEvents
+0x08C5 : WevtUtil gࣅli HardwareEvents
+0x08C6 : WevtUtil gࣆli HardwareEvents
+0x08C7 : WevtUtil gࣇli HardwareEvents
+0x08C8 : WevtUtil gࣈli HardwareEvents
+0x08C9 : WevtUtil gࣉli HardwareEvents
+0x08CA : WevtUtil g࣊li HardwareEvents
+0x08CB : WevtUtil g࣋li HardwareEvents
+0x08CC : WevtUtil g࣌li HardwareEvents
+0x08CD : WevtUtil g࣍li HardwareEvents
+0x08CE : WevtUtil g࣎li HardwareEvents
+0x08CF : WevtUtil g࣏li HardwareEvents
+0x08D0 : WevtUtil g࣐li HardwareEvents
+0x08D1 : WevtUtil g࣑li HardwareEvents
+0x08D2 : WevtUtil g࣒li HardwareEvents
+0x08D3 : WevtUtil g࣓li HardwareEvents
+0x08D4 : WevtUtil gࣔli HardwareEvents
+0x08D5 : WevtUtil gࣕli HardwareEvents
+0x08D6 : WevtUtil gࣖli HardwareEvents
+0x08D7 : WevtUtil gࣗli HardwareEvents
+0x08D8 : WevtUtil gࣘli HardwareEvents
+0x08D9 : WevtUtil gࣙli HardwareEvents
+0x08DA : WevtUtil gࣚli HardwareEvents
+0x08DB : WevtUtil gࣛli HardwareEvents
+0x08DC : WevtUtil gࣜli HardwareEvents
+0x08DD : WevtUtil gࣝli HardwareEvents
+0x08DE : WevtUtil gࣞli HardwareEvents
+0x08DF : WevtUtil gࣟli HardwareEvents
+0x08E0 : WevtUtil g࣠li HardwareEvents
+0x08E1 : WevtUtil g࣡li HardwareEvents
+0x08E2 : WevtUtil g࣢li HardwareEvents
+0x08E3 : WevtUtil gࣣli HardwareEvents
+0x08E4 : WevtUtil gࣤli HardwareEvents
+0x08E5 : WevtUtil gࣥli HardwareEvents
+0x08E6 : WevtUtil gࣦli HardwareEvents
+0x08E7 : WevtUtil gࣧli HardwareEvents
+0x08E8 : WevtUtil gࣨli HardwareEvents
+0x08E9 : WevtUtil gࣩli HardwareEvents
+0x08EA : WevtUtil g࣪li HardwareEvents
+0x08EB : WevtUtil g࣫li HardwareEvents
+0x08EC : WevtUtil g࣬li HardwareEvents
+0x08ED : WevtUtil g࣭li HardwareEvents
+0x08EE : WevtUtil g࣮li HardwareEvents
+0x08EF : WevtUtil g࣯li HardwareEvents
+0x08F0 : WevtUtil gࣰli HardwareEvents
+0x08F1 : WevtUtil gࣱli HardwareEvents
+0x08F2 : WevtUtil gࣲli HardwareEvents
+0x08F3 : WevtUtil gࣳli HardwareEvents
+0x08F4 : WevtUtil gࣴli HardwareEvents
+0x08F5 : WevtUtil gࣵli HardwareEvents
+0x08F6 : WevtUtil gࣶli HardwareEvents
+0x08F7 : WevtUtil gࣷli HardwareEvents
+0x08F8 : WevtUtil gࣸli HardwareEvents
+0x08F9 : WevtUtil gࣹli HardwareEvents
+0x08FA : WevtUtil gࣺli HardwareEvents
+0x08FB : WevtUtil gࣻli HardwareEvents
+0x08FC : WevtUtil gࣼli HardwareEvents
+0x08FD : WevtUtil gࣽli HardwareEvents
+0x08FE : WevtUtil gࣾli HardwareEvents
+0x08FF : WevtUtil gࣿli HardwareEvents
+0x0900 : WevtUtil gऀli HardwareEvents
+0x0978 : WevtUtil gॸli HardwareEvents
+0x0980 : WevtUtil gঀli HardwareEvents
+0x0984 : WevtUtil g঄li HardwareEvents
+0x098D : WevtUtil g঍li HardwareEvents
+0x098E : WevtUtil g঎li HardwareEvents
+0x0991 : WevtUtil g঑li HardwareEvents
+0x0992 : WevtUtil g঒li HardwareEvents
+0x09A9 : WevtUtil g঩li HardwareEvents
+0x09B1 : WevtUtil g঱li HardwareEvents
+0x09B3 : WevtUtil g঳li HardwareEvents
+0x09B4 : WevtUtil g঴li HardwareEvents
+0x09B5 : WevtUtil g঵li HardwareEvents
+0x09BA : WevtUtil g঺li HardwareEvents
+0x09BB : WevtUtil g঻li HardwareEvents
+0x09C5 : WevtUtil g৅li HardwareEvents
+0x09C6 : WevtUtil g৆li HardwareEvents
+0x09C9 : WevtUtil g৉li HardwareEvents
+0x09CA : WevtUtil g৊li HardwareEvents
+0x09CF : WevtUtil g৏li HardwareEvents
+0x09D0 : WevtUtil g৐li HardwareEvents
+0x09D1 : WevtUtil g৑li HardwareEvents
+0x09D2 : WevtUtil g৒li HardwareEvents
+0x09D3 : WevtUtil g৓li HardwareEvents
+0x09D4 : WevtUtil g৔li HardwareEvents
+0x09D5 : WevtUtil g৕li HardwareEvents
+0x09D6 : WevtUtil g৖li HardwareEvents
+0x09D8 : WevtUtil g৘li HardwareEvents
+0x09D9 : WevtUtil g৙li HardwareEvents
+0x09DA : WevtUtil g৚li HardwareEvents
+0x09DB : WevtUtil g৛li HardwareEvents
+0x09DE : WevtUtil g৞li HardwareEvents
+0x09E4 : WevtUtil g৤li HardwareEvents
+0x09E5 : WevtUtil g৥li HardwareEvents
+0x09FB : WevtUtil g৻li HardwareEvents
+0x09FC : WevtUtil gৼli HardwareEvents
+0x09FD : WevtUtil g৽li HardwareEvents
+0x09FE : WevtUtil g৾li HardwareEvents
+0x09FF : WevtUtil g৿li HardwareEvents
+0x0A00 : WevtUtil g਀li HardwareEvents
+0x0A04 : WevtUtil g਄li HardwareEvents
+0x0A0B : WevtUtil g਋li HardwareEvents
+0x0A0C : WevtUtil g਌li HardwareEvents
+0x0A0D : WevtUtil g਍li HardwareEvents
+0x0A0E : WevtUtil g਎li HardwareEvents
+0x0A11 : WevtUtil g਑li HardwareEvents
+0x0A12 : WevtUtil g਒li HardwareEvents
+0x0A29 : WevtUtil g਩li HardwareEvents
+0x0A31 : WevtUtil g਱li HardwareEvents
+0x0A34 : WevtUtil g਴li HardwareEvents
+0x0A37 : WevtUtil g਷li HardwareEvents
+0x0A3A : WevtUtil g਺li HardwareEvents
+0x0A3B : WevtUtil g਻li HardwareEvents
+0x0A3D : WevtUtil g਽li HardwareEvents
+0x0A43 : WevtUtil g੃li HardwareEvents
+0x0A44 : WevtUtil g੄li HardwareEvents
+0x0A45 : WevtUtil g੅li HardwareEvents
+0x0A46 : WevtUtil g੆li HardwareEvents
+0x0A49 : WevtUtil g੉li HardwareEvents
+0x0A4A : WevtUtil g੊li HardwareEvents
+0x0A4E : WevtUtil g੎li HardwareEvents
+0x0A4F : WevtUtil g੏li HardwareEvents
+0x0A50 : WevtUtil g੐li HardwareEvents
+0x0A52 : WevtUtil g੒li HardwareEvents
+0x0A53 : WevtUtil g੓li HardwareEvents
+0x0A54 : WevtUtil g੔li HardwareEvents
+0x0A55 : WevtUtil g੕li HardwareEvents
+0x0A56 : WevtUtil g੖li HardwareEvents
+0x0A57 : WevtUtil g੗li HardwareEvents
+0x0A58 : WevtUtil g੘li HardwareEvents
+0x0A5D : WevtUtil g੝li HardwareEvents
+0x0A5F : WevtUtil g੟li HardwareEvents
+0x0A60 : WevtUtil g੠li HardwareEvents
+0x0A61 : WevtUtil g੡li HardwareEvents
+0x0A62 : WevtUtil g੢li HardwareEvents
+0x0A63 : WevtUtil g੣li HardwareEvents
+0x0A64 : WevtUtil g੤li HardwareEvents
+0x0A65 : WevtUtil g੥li HardwareEvents
+0x0A76 : WevtUtil g੶li HardwareEvents
+0x0A77 : WevtUtil g੷li HardwareEvents
+0x0A78 : WevtUtil g੸li HardwareEvents
+0x0A79 : WevtUtil g੹li HardwareEvents
+0x0A7A : WevtUtil g੺li HardwareEvents
+0x0A7B : WevtUtil g੻li HardwareEvents
+0x0A7C : WevtUtil g੼li HardwareEvents
+0x0A7D : WevtUtil g੽li HardwareEvents
+0x0A7E : WevtUtil g੾li HardwareEvents
+0x0A7F : WevtUtil g੿li HardwareEvents
+0x0A80 : WevtUtil g઀li HardwareEvents
+0x0A84 : WevtUtil g઄li HardwareEvents
+0x0A8E : WevtUtil g઎li HardwareEvents
+0x0A92 : WevtUtil g઒li HardwareEvents
+0x0AA9 : WevtUtil g઩li HardwareEvents
+0x0AB1 : WevtUtil g઱li HardwareEvents
+0x0AB4 : WevtUtil g઴li HardwareEvents
+0x0ABA : WevtUtil g઺li HardwareEvents
+0x0ABB : WevtUtil g઻li HardwareEvents
+0x0AC6 : WevtUtil g૆li HardwareEvents
+0x0ACA : WevtUtil g૊li HardwareEvents
+0x0ACE : WevtUtil g૎li HardwareEvents
+0x0ACF : WevtUtil g૏li HardwareEvents
+0x0AD1 : WevtUtil g૑li HardwareEvents
+0x0AD2 : WevtUtil g૒li HardwareEvents
+0x0AD3 : WevtUtil g૓li HardwareEvents
+0x0AD4 : WevtUtil g૔li HardwareEvents
+0x0AD5 : WevtUtil g૕li HardwareEvents
+0x0AD6 : WevtUtil g૖li HardwareEvents
+0x0AD7 : WevtUtil g૗li HardwareEvents
+0x0AD8 : WevtUtil g૘li HardwareEvents
+0x0AD9 : WevtUtil g૙li HardwareEvents
+0x0ADA : WevtUtil g૚li HardwareEvents
+0x0ADB : WevtUtil g૛li HardwareEvents
+0x0ADC : WevtUtil g૜li HardwareEvents
+0x0ADD : WevtUtil g૝li HardwareEvents
+0x0ADE : WevtUtil g૞li HardwareEvents
+0x0ADF : WevtUtil g૟li HardwareEvents
+0x0AE4 : WevtUtil g૤li HardwareEvents
+0x0AE5 : WevtUtil g૥li HardwareEvents
+0x0AF0 : WevtUtil g૰li HardwareEvents
+0x0AF2 : WevtUtil g૲li HardwareEvents
+0x0AF3 : WevtUtil g૳li HardwareEvents
+0x0AF4 : WevtUtil g૴li HardwareEvents
+0x0AF5 : WevtUtil g૵li HardwareEvents
+0x0AF6 : WevtUtil g૶li HardwareEvents
+0x0AF7 : WevtUtil g૷li HardwareEvents
+0x0AF8 : WevtUtil g૸li HardwareEvents
+0x0AF9 : WevtUtil gૹli HardwareEvents
+0x0AFA : WevtUtil gૺli HardwareEvents
+0x0AFB : WevtUtil gૻli HardwareEvents
+0x0AFC : WevtUtil gૼli HardwareEvents
+0x0AFD : WevtUtil g૽li HardwareEvents
+0x0AFE : WevtUtil g૾li HardwareEvents
+0x0AFF : WevtUtil g૿li HardwareEvents
+0x0B00 : WevtUtil g଀li HardwareEvents
+0x0B04 : WevtUtil g଄li HardwareEvents
+0x0B0D : WevtUtil g଍li HardwareEvents
+0x0B0E : WevtUtil g଎li HardwareEvents
+0x0B11 : WevtUtil g଑li HardwareEvents
+0x0B12 : WevtUtil g଒li HardwareEvents
+0x0B29 : WevtUtil g଩li HardwareEvents
+0x0B31 : WevtUtil g଱li HardwareEvents
+0x0B34 : WevtUtil g଴li HardwareEvents
+0x0B3A : WevtUtil g଺li HardwareEvents
+0x0B3B : WevtUtil g଻li HardwareEvents
+0x0B45 : WevtUtil g୅li HardwareEvents
+0x0B46 : WevtUtil g୆li HardwareEvents
+0x0B49 : WevtUtil g୉li HardwareEvents
+0x0B4A : WevtUtil g୊li HardwareEvents
+0x0B4E : WevtUtil g୎li HardwareEvents
+0x0B4F : WevtUtil g୏li HardwareEvents
+0x0B50 : WevtUtil g୐li HardwareEvents
+0x0B51 : WevtUtil g୑li HardwareEvents
+0x0B52 : WevtUtil g୒li HardwareEvents
+0x0B53 : WevtUtil g୓li HardwareEvents
+0x0B54 : WevtUtil g୔li HardwareEvents
+0x0B55 : WevtUtil g୕li HardwareEvents
+0x0B58 : WevtUtil g୘li HardwareEvents
+0x0B59 : WevtUtil g୙li HardwareEvents
+0x0B5A : WevtUtil g୚li HardwareEvents
+0x0B5B : WevtUtil g୛li HardwareEvents
+0x0B5E : WevtUtil g୞li HardwareEvents
+0x0B64 : WevtUtil g୤li HardwareEvents
+0x0B65 : WevtUtil g୥li HardwareEvents
+0x0B78 : WevtUtil g୸li HardwareEvents
+0x0B79 : WevtUtil g୹li HardwareEvents
+0x0B7A : WevtUtil g୺li HardwareEvents
+0x0B7B : WevtUtil g୻li HardwareEvents
+0x0B7C : WevtUtil g୼li HardwareEvents
+0x0B7D : WevtUtil g୽li HardwareEvents
+0x0B7E : WevtUtil g୾li HardwareEvents
+0x0B7F : WevtUtil g୿li HardwareEvents
+0x0B80 : WevtUtil g஀li HardwareEvents
+0x0B81 : WevtUtil g஁li HardwareEvents
+0x0B84 : WevtUtil g஄li HardwareEvents
+0x0B8B : WevtUtil g஋li HardwareEvents
+0x0B8C : WevtUtil g஌li HardwareEvents
+0x0B8D : WevtUtil g஍li HardwareEvents
+0x0B91 : WevtUtil g஑li HardwareEvents
+0x0B96 : WevtUtil g஖li HardwareEvents
+0x0B97 : WevtUtil g஗li HardwareEvents
+0x0B98 : WevtUtil g஘li HardwareEvents
+0x0B9B : WevtUtil g஛li HardwareEvents
+0x0B9D : WevtUtil g஝li HardwareEvents
+0x0BA0 : WevtUtil g஠li HardwareEvents
+0x0BA1 : WevtUtil g஡li HardwareEvents
+0x0BA2 : WevtUtil g஢li HardwareEvents
+0x0BA5 : WevtUtil g஥li HardwareEvents
+0x0BA6 : WevtUtil g஦li HardwareEvents
+0x0BA7 : WevtUtil g஧li HardwareEvents
+0x0BAB : WevtUtil g஫li HardwareEvents
+0x0BAC : WevtUtil g஬li HardwareEvents
+0x0BAD : WevtUtil g஭li HardwareEvents
+0x0BBA : WevtUtil g஺li HardwareEvents
+0x0BBB : WevtUtil g஻li HardwareEvents
+0x0BBC : WevtUtil g஼li HardwareEvents
+0x0BBD : WevtUtil g஽li HardwareEvents
+0x0BC3 : WevtUtil g௃li HardwareEvents
+0x0BC4 : WevtUtil g௄li HardwareEvents
+0x0BC5 : WevtUtil g௅li HardwareEvents
+0x0BC9 : WevtUtil g௉li HardwareEvents
+0x0BCE : WevtUtil g௎li HardwareEvents
+0x0BCF : WevtUtil g௏li HardwareEvents
+0x0BD1 : WevtUtil g௑li HardwareEvents
+0x0BD2 : WevtUtil g௒li HardwareEvents
+0x0BD3 : WevtUtil g௓li HardwareEvents
+0x0BD4 : WevtUtil g௔li HardwareEvents
+0x0BD5 : WevtUtil g௕li HardwareEvents
+0x0BD6 : WevtUtil g௖li HardwareEvents
+0x0BD8 : WevtUtil g௘li HardwareEvents
+0x0BD9 : WevtUtil g௙li HardwareEvents
+0x0BDA : WevtUtil g௚li HardwareEvents
+0x0BDB : WevtUtil g௛li HardwareEvents
+0x0BDC : WevtUtil g௜li HardwareEvents
+0x0BDD : WevtUtil g௝li HardwareEvents
+0x0BDE : WevtUtil g௞li HardwareEvents
+0x0BDF : WevtUtil g௟li HardwareEvents
+0x0BE0 : WevtUtil g௠li HardwareEvents
+0x0BE1 : WevtUtil g௡li HardwareEvents
+0x0BE2 : WevtUtil g௢li HardwareEvents
+0x0BE3 : WevtUtil g௣li HardwareEvents
+0x0BE4 : WevtUtil g௤li HardwareEvents
+0x0BE5 : WevtUtil g௥li HardwareEvents
+0x0BFB : WevtUtil g௻li HardwareEvents
+0x0BFC : WevtUtil g௼li HardwareEvents
+0x0BFD : WevtUtil g௽li HardwareEvents
+0x0BFE : WevtUtil g௾li HardwareEvents
+0x0BFF : WevtUtil g௿li HardwareEvents
+0x0C00 : WevtUtil gఀli HardwareEvents
+0x0C04 : WevtUtil gఄli HardwareEvents
+0x0C0D : WevtUtil g఍li HardwareEvents
+0x0C11 : WevtUtil g఑li HardwareEvents
+0x0C29 : WevtUtil g఩li HardwareEvents
+0x0C34 : WevtUtil gఴli HardwareEvents
+0x0C3A : WevtUtil g఺li HardwareEvents
+0x0C3B : WevtUtil g఻li HardwareEvents
+0x0C3C : WevtUtil g఼li HardwareEvents
+0x0C45 : WevtUtil g౅li HardwareEvents
+0x0C49 : WevtUtil g౉li HardwareEvents
+0x0C4E : WevtUtil g౎li HardwareEvents
+0x0C4F : WevtUtil g౏li HardwareEvents
+0x0C50 : WevtUtil g౐li HardwareEvents
+0x0C51 : WevtUtil g౑li HardwareEvents
+0x0C52 : WevtUtil g౒li HardwareEvents
+0x0C53 : WevtUtil g౓li HardwareEvents
+0x0C54 : WevtUtil g౔li HardwareEvents
+0x0C57 : WevtUtil g౗li HardwareEvents
+0x0C5A : WevtUtil gౚli HardwareEvents
+0x0C5B : WevtUtil g౛li HardwareEvents
+0x0C5C : WevtUtil g౜li HardwareEvents
+0x0C5D : WevtUtil gౝli HardwareEvents
+0x0C5E : WevtUtil g౞li HardwareEvents
+0x0C5F : WevtUtil g౟li HardwareEvents
+0x0C64 : WevtUtil g౤li HardwareEvents
+0x0C65 : WevtUtil g౥li HardwareEvents
+0x0C70 : WevtUtil g౰li HardwareEvents
+0x0C71 : WevtUtil g౱li HardwareEvents
+0x0C72 : WevtUtil g౲li HardwareEvents
+0x0C73 : WevtUtil g౳li HardwareEvents
+0x0C74 : WevtUtil g౴li HardwareEvents
+0x0C75 : WevtUtil g౵li HardwareEvents
+0x0C76 : WevtUtil g౶li HardwareEvents
+0x0C77 : WevtUtil g౷li HardwareEvents
+0x0C80 : WevtUtil gಀli HardwareEvents
+0x0C81 : WevtUtil gಁli HardwareEvents
+0x0C84 : WevtUtil g಄li HardwareEvents
+0x0C8D : WevtUtil g಍li HardwareEvents
+0x0C91 : WevtUtil g಑li HardwareEvents
+0x0CA9 : WevtUtil g಩li HardwareEvents
+0x0CB4 : WevtUtil g಴li HardwareEvents
+0x0CBA : WevtUtil g಺li HardwareEvents
+0x0CBB : WevtUtil g಻li HardwareEvents
+0x0CC5 : WevtUtil g೅li HardwareEvents
+0x0CC9 : WevtUtil g೉li HardwareEvents
+0x0CCE : WevtUtil g೎li HardwareEvents
+0x0CCF : WevtUtil g೏li HardwareEvents
+0x0CD0 : WevtUtil g೐li HardwareEvents
+0x0CD1 : WevtUtil g೑li HardwareEvents
+0x0CD2 : WevtUtil g೒li HardwareEvents
+0x0CD3 : WevtUtil g೓li HardwareEvents
+0x0CD4 : WevtUtil g೔li HardwareEvents
+0x0CD7 : WevtUtil g೗li HardwareEvents
+0x0CD8 : WevtUtil g೘li HardwareEvents
+0x0CD9 : WevtUtil g೙li HardwareEvents
+0x0CDA : WevtUtil g೚li HardwareEvents
+0x0CDB : WevtUtil g೛li HardwareEvents
+0x0CDC : WevtUtil g೜li HardwareEvents
+0x0CDD : WevtUtil gೝli HardwareEvents
+0x0CDF : WevtUtil g೟li HardwareEvents
+0x0CE4 : WevtUtil g೤li HardwareEvents
+0x0CE5 : WevtUtil g೥li HardwareEvents
+0x0CF0 : WevtUtil g೰li HardwareEvents
+0x0CF3 : WevtUtil gೳli HardwareEvents
+0x0CF4 : WevtUtil g೴li HardwareEvents
+0x0CF5 : WevtUtil g೵li HardwareEvents
+0x0CF6 : WevtUtil g೶li HardwareEvents
+0x0CF7 : WevtUtil g೷li HardwareEvents
+0x0CF8 : WevtUtil g೸li HardwareEvents
+0x0CF9 : WevtUtil g೹li HardwareEvents
+0x0CFA : WevtUtil g೺li HardwareEvents
+0x0CFB : WevtUtil g೻li HardwareEvents
+0x0CFC : WevtUtil g೼li HardwareEvents
+0x0CFD : WevtUtil g೽li HardwareEvents
+0x0CFE : WevtUtil g೾li HardwareEvents
+0x0CFF : WevtUtil g೿li HardwareEvents
+0x0D00 : WevtUtil gഀli HardwareEvents
+0x0D01 : WevtUtil gഁli HardwareEvents
+0x0D04 : WevtUtil gഄli HardwareEvents
+0x0D0D : WevtUtil g഍li HardwareEvents
+0x0D11 : WevtUtil g഑li HardwareEvents
+0x0D3B : WevtUtil g഻li HardwareEvents
+0x0D3C : WevtUtil g഼li HardwareEvents
+0x0D45 : WevtUtil g൅li HardwareEvents
+0x0D49 : WevtUtil g൉li HardwareEvents
+0x0D4F : WevtUtil g൏li HardwareEvents
+0x0D50 : WevtUtil g൐li HardwareEvents
+0x0D51 : WevtUtil g൑li HardwareEvents
+0x0D52 : WevtUtil g൒li HardwareEvents
+0x0D53 : WevtUtil g൓li HardwareEvents
+0x0D54 : WevtUtil gൔli HardwareEvents
+0x0D55 : WevtUtil gൕli HardwareEvents
+0x0D56 : WevtUtil gൖli HardwareEvents
+0x0D58 : WevtUtil g൘li HardwareEvents
+0x0D59 : WevtUtil g൙li HardwareEvents
+0x0D5A : WevtUtil g൚li HardwareEvents
+0x0D5B : WevtUtil g൛li HardwareEvents
+0x0D5C : WevtUtil g൜li HardwareEvents
+0x0D5D : WevtUtil g൝li HardwareEvents
+0x0D5E : WevtUtil g൞li HardwareEvents
+0x0D5F : WevtUtil gൟli HardwareEvents
+0x0D64 : WevtUtil g൤li HardwareEvents
+0x0D65 : WevtUtil g൥li HardwareEvents
+0x0D76 : WevtUtil g൶li HardwareEvents
+0x0D77 : WevtUtil g൷li HardwareEvents
+0x0D78 : WevtUtil g൸li HardwareEvents
+0x0D80 : WevtUtil g඀li HardwareEvents
+0x0D81 : WevtUtil gඁli HardwareEvents
+0x0D84 : WevtUtil g඄li HardwareEvents
+0x0D97 : WevtUtil g඗li HardwareEvents
+0x0D98 : WevtUtil g඘li HardwareEvents
+0x0D99 : WevtUtil g඙li HardwareEvents
+0x0DB2 : WevtUtil g඲li HardwareEvents
+0x0DBC : WevtUtil g඼li HardwareEvents
+0x0DBE : WevtUtil g඾li HardwareEvents
+0x0DBF : WevtUtil g඿li HardwareEvents
+0x0DC7 : WevtUtil g෇li HardwareEvents
+0x0DC8 : WevtUtil g෈li HardwareEvents
+0x0DC9 : WevtUtil g෉li HardwareEvents
+0x0DCB : WevtUtil g෋li HardwareEvents
+0x0DCC : WevtUtil g෌li HardwareEvents
+0x0DCD : WevtUtil g෍li HardwareEvents
+0x0DCE : WevtUtil g෎li HardwareEvents
+0x0DD5 : WevtUtil g෕li HardwareEvents
+0x0DD7 : WevtUtil g෗li HardwareEvents
+0x0DE0 : WevtUtil g෠li HardwareEvents
+0x0DE1 : WevtUtil g෡li HardwareEvents
+0x0DE2 : WevtUtil g෢li HardwareEvents
+0x0DE3 : WevtUtil g෣li HardwareEvents
+0x0DE4 : WevtUtil g෤li HardwareEvents
+0x0DE5 : WevtUtil g෥li HardwareEvents
+0x0DE6 : WevtUtil g෦li HardwareEvents
+0x0DE7 : WevtUtil g෧li HardwareEvents
+0x0DE8 : WevtUtil g෨li HardwareEvents
+0x0DE9 : WevtUtil g෩li HardwareEvents
+0x0DEA : WevtUtil g෪li HardwareEvents
+0x0DEB : WevtUtil g෫li HardwareEvents
+0x0DEC : WevtUtil g෬li HardwareEvents
+0x0DED : WevtUtil g෭li HardwareEvents
+0x0DEE : WevtUtil g෮li HardwareEvents
+0x0DEF : WevtUtil g෯li HardwareEvents
+0x0DF0 : WevtUtil g෰li HardwareEvents
+0x0DF1 : WevtUtil g෱li HardwareEvents
+0x0DF5 : WevtUtil g෵li HardwareEvents
+0x0DF6 : WevtUtil g෶li HardwareEvents
+0x0DF7 : WevtUtil g෷li HardwareEvents
+0x0DF8 : WevtUtil g෸li HardwareEvents
+0x0DF9 : WevtUtil g෹li HardwareEvents
+0x0DFA : WevtUtil g෺li HardwareEvents
+0x0DFB : WevtUtil g෻li HardwareEvents
+0x0DFC : WevtUtil g෼li HardwareEvents
+0x0DFD : WevtUtil g෽li HardwareEvents
+0x0DFE : WevtUtil g෾li HardwareEvents
+0x0DFF : WevtUtil g෿li HardwareEvents
+0x0E00 : WevtUtil g฀li HardwareEvents
+0x0E3B : WevtUtil g฻li HardwareEvents
+0x0E3C : WevtUtil g฼li HardwareEvents
+0x0E3D : WevtUtil g฽li HardwareEvents
+0x0E3E : WevtUtil g฾li HardwareEvents
+0x0E5C : WevtUtil g๜li HardwareEvents
+0x0E5D : WevtUtil g๝li HardwareEvents
+0x0E5E : WevtUtil g๞li HardwareEvents
+0x0E5F : WevtUtil g๟li HardwareEvents
+0x0E60 : WevtUtil g๠li HardwareEvents
+0x0E61 : WevtUtil g๡li HardwareEvents
+0x0E62 : WevtUtil g๢li HardwareEvents
+0x0E63 : WevtUtil g๣li HardwareEvents
+0x0E64 : WevtUtil g๤li HardwareEvents
+0x0E65 : WevtUtil g๥li HardwareEvents
+0x0E66 : WevtUtil g๦li HardwareEvents
+0x0E67 : WevtUtil g๧li HardwareEvents
+0x0E68 : WevtUtil g๨li HardwareEvents
+0x0E69 : WevtUtil g๩li HardwareEvents
+0x0E6A : WevtUtil g๪li HardwareEvents
+0x0E6B : WevtUtil g๫li HardwareEvents
+0x0E6C : WevtUtil g๬li HardwareEvents
+0x0E6D : WevtUtil g๭li HardwareEvents
+0x0E6E : WevtUtil g๮li HardwareEvents
+0x0E6F : WevtUtil g๯li HardwareEvents
+0x0E70 : WevtUtil g๰li HardwareEvents
+0x0E71 : WevtUtil g๱li HardwareEvents
+0x0E72 : WevtUtil g๲li HardwareEvents
+0x0E73 : WevtUtil g๳li HardwareEvents
+0x0E74 : WevtUtil g๴li HardwareEvents
+0x0E75 : WevtUtil g๵li HardwareEvents
+0x0E76 : WevtUtil g๶li HardwareEvents
+0x0E77 : WevtUtil g๷li HardwareEvents
+0x0E78 : WevtUtil g๸li HardwareEvents
+0x0E79 : WevtUtil g๹li HardwareEvents
+0x0E7A : WevtUtil g๺li HardwareEvents
+0x0E7B : WevtUtil g๻li HardwareEvents
+0x0E7C : WevtUtil g๼li HardwareEvents
+0x0E7D : WevtUtil g๽li HardwareEvents
+0x0E7E : WevtUtil g๾li HardwareEvents
+0x0E7F : WevtUtil g๿li HardwareEvents
+0x0E80 : WevtUtil g຀li HardwareEvents
+0x0E83 : WevtUtil g຃li HardwareEvents
+0x0E85 : WevtUtil g຅li HardwareEvents
+0x0E86 : WevtUtil gຆli HardwareEvents
+0x0E89 : WevtUtil gຉli HardwareEvents
+0x0E8B : WevtUtil g຋li HardwareEvents
+0x0E8C : WevtUtil gຌli HardwareEvents
+0x0E8E : WevtUtil gຎli HardwareEvents
+0x0E8F : WevtUtil gຏli HardwareEvents
+0x0E90 : WevtUtil gຐli HardwareEvents
+0x0E91 : WevtUtil gຑli HardwareEvents
+0x0E92 : WevtUtil gຒli HardwareEvents
+0x0E93 : WevtUtil gຓli HardwareEvents
+0x0E98 : WevtUtil gຘli HardwareEvents
+0x0EA0 : WevtUtil gຠli HardwareEvents
+0x0EA4 : WevtUtil g຤li HardwareEvents
+0x0EA6 : WevtUtil g຦li HardwareEvents
+0x0EA8 : WevtUtil gຨli HardwareEvents
+0x0EA9 : WevtUtil gຩli HardwareEvents
+0x0EAC : WevtUtil gຬli HardwareEvents
+0x0EBA : WevtUtil g຺li HardwareEvents
+0x0EBE : WevtUtil g຾li HardwareEvents
+0x0EBF : WevtUtil g຿li HardwareEvents
+0x0EC5 : WevtUtil g໅li HardwareEvents
+0x0EC7 : WevtUtil g໇li HardwareEvents
+0x0ECC : WevtUtil g໌li HardwareEvents
+0x0ECE : WevtUtil g໎li HardwareEvents
+0x0ECF : WevtUtil g໏li HardwareEvents
+0x0EDA : WevtUtil g໚li HardwareEvents
+0x0EDB : WevtUtil g໛li HardwareEvents
+0x0EDE : WevtUtil gໞli HardwareEvents
+0x0EDF : WevtUtil gໟli HardwareEvents
+0x0EE0 : WevtUtil g໠li HardwareEvents
+0x0EE1 : WevtUtil g໡li HardwareEvents
+0x0EE2 : WevtUtil g໢li HardwareEvents
+0x0EE3 : WevtUtil g໣li HardwareEvents
+0x0EE4 : WevtUtil g໤li HardwareEvents
+0x0EE5 : WevtUtil g໥li HardwareEvents
+0x0EE6 : WevtUtil g໦li HardwareEvents
+0x0EE7 : WevtUtil g໧li HardwareEvents
+0x0EE8 : WevtUtil g໨li HardwareEvents
+0x0EE9 : WevtUtil g໩li HardwareEvents
+0x0EEA : WevtUtil g໪li HardwareEvents
+0x0EEB : WevtUtil g໫li HardwareEvents
+0x0EEC : WevtUtil g໬li HardwareEvents
+0x0EED : WevtUtil g໭li HardwareEvents
+0x0EEE : WevtUtil g໮li HardwareEvents
+0x0EEF : WevtUtil g໯li HardwareEvents
+0x0EF0 : WevtUtil g໰li HardwareEvents
+0x0EF1 : WevtUtil g໱li HardwareEvents
+0x0EF2 : WevtUtil g໲li HardwareEvents
+0x0EF3 : WevtUtil g໳li HardwareEvents
+0x0EF4 : WevtUtil g໴li HardwareEvents
+0x0EF5 : WevtUtil g໵li HardwareEvents
+0x0EF6 : WevtUtil g໶li HardwareEvents
+0x0EF7 : WevtUtil g໷li HardwareEvents
+0x0EF8 : WevtUtil g໸li HardwareEvents
+0x0EF9 : WevtUtil g໹li HardwareEvents
+0x0EFA : WevtUtil g໺li HardwareEvents
+0x0EFB : WevtUtil g໻li HardwareEvents
+0x0EFC : WevtUtil g໼li HardwareEvents
+0x0EFD : WevtUtil g໽li HardwareEvents
+0x0EFE : WevtUtil g໾li HardwareEvents
+0x0EFF : WevtUtil g໿li HardwareEvents
+0x0F48 : WevtUtil g཈li HardwareEvents
+0x0F6D : WevtUtil g཭li HardwareEvents
+0x0F6E : WevtUtil g཮li HardwareEvents
+0x0F6F : WevtUtil g཯li HardwareEvents
+0x0F70 : WevtUtil g཰li HardwareEvents
+0x0F98 : WevtUtil g྘li HardwareEvents
+0x0FBD : WevtUtil g྽li HardwareEvents
+0x0FCD : WevtUtil g࿍li HardwareEvents
+0x0FDB : WevtUtil g࿛li HardwareEvents
+0x0FDC : WevtUtil g࿜li HardwareEvents
+0x0FDD : WevtUtil g࿝li HardwareEvents
+0x0FDE : WevtUtil g࿞li HardwareEvents
+0x0FDF : WevtUtil g࿟li HardwareEvents
+0x0FE0 : WevtUtil g࿠li HardwareEvents
+0x0FE1 : WevtUtil g࿡li HardwareEvents
+0x0FE2 : WevtUtil g࿢li HardwareEvents
+0x0FE3 : WevtUtil g࿣li HardwareEvents
+0x0FE4 : WevtUtil g࿤li HardwareEvents
+0x0FE5 : WevtUtil g࿥li HardwareEvents
+0x0FE6 : WevtUtil g࿦li HardwareEvents
+0x0FE7 : WevtUtil g࿧li HardwareEvents
+0x0FE8 : WevtUtil g࿨li HardwareEvents
+0x0FE9 : WevtUtil g࿩li HardwareEvents
+0x0FEA : WevtUtil g࿪li HardwareEvents
+0x0FEB : WevtUtil g࿫li HardwareEvents
+0x0FEC : WevtUtil g࿬li HardwareEvents
+0x0FED : WevtUtil g࿭li HardwareEvents
+0x0FEE : WevtUtil g࿮li HardwareEvents
+0x0FEF : WevtUtil g࿯li HardwareEvents
+0x0FF0 : WevtUtil g࿰li HardwareEvents
+0x0FF1 : WevtUtil g࿱li HardwareEvents
+0x0FF2 : WevtUtil g࿲li HardwareEvents
+0x0FF3 : WevtUtil g࿳li HardwareEvents
+0x0FF4 : WevtUtil g࿴li HardwareEvents
+0x0FF5 : WevtUtil g࿵li HardwareEvents
+0x0FF6 : WevtUtil g࿶li HardwareEvents
+0x0FF7 : WevtUtil g࿷li HardwareEvents
+0x0FF8 : WevtUtil g࿸li HardwareEvents
+0x0FF9 : WevtUtil g࿹li HardwareEvents
+0x0FFA : WevtUtil g࿺li HardwareEvents
+0x0FFB : WevtUtil g࿻li HardwareEvents
+0x0FFC : WevtUtil g࿼li HardwareEvents
+0x0FFD : WevtUtil g࿽li HardwareEvents
+0x0FFE : WevtUtil g࿾li HardwareEvents
+0x0FFF : WevtUtil g࿿li HardwareEvents
+0x10C6 : WevtUtil g჆li HardwareEvents
+0x10C7 : WevtUtil gჇli HardwareEvents
+0x10C8 : WevtUtil g჈li HardwareEvents
+0x10C9 : WevtUtil g჉li HardwareEvents
+0x10CA : WevtUtil g჊li HardwareEvents
+0x10CB : WevtUtil g჋li HardwareEvents
+0x10CC : WevtUtil g჌li HardwareEvents
+0x10CD : WevtUtil gჍli HardwareEvents
+0x10CE : WevtUtil g჎li HardwareEvents
+0x10CF : WevtUtil g჏li HardwareEvents
+0x10FD : WevtUtil gჽli HardwareEvents
+0x10FE : WevtUtil gჾli HardwareEvents
+0x10FF : WevtUtil gჿli HardwareEvents
+0x1249 : WevtUtil g቉li HardwareEvents
+0x124E : WevtUtil g቎li HardwareEvents
+0x124F : WevtUtil g቏li HardwareEvents
+0x1257 : WevtUtil g቗li HardwareEvents
+0x1259 : WevtUtil g቙li HardwareEvents
+0x125E : WevtUtil g቞li HardwareEvents
+0x125F : WevtUtil g቟li HardwareEvents
+0x1289 : WevtUtil g኉li HardwareEvents
+0x128E : WevtUtil g኎li HardwareEvents
+0x128F : WevtUtil g኏li HardwareEvents
+0x12B1 : WevtUtil g኱li HardwareEvents
+0x12B6 : WevtUtil g኶li HardwareEvents
+0x12B7 : WevtUtil g኷li HardwareEvents
+0x12BF : WevtUtil g኿li HardwareEvents
+0x12C1 : WevtUtil g዁li HardwareEvents
+0x12C6 : WevtUtil g዆li HardwareEvents
+0x12C7 : WevtUtil g዇li HardwareEvents
+0x12D7 : WevtUtil g዗li HardwareEvents
+0x1311 : WevtUtil g጑li HardwareEvents
+0x1316 : WevtUtil g጖li HardwareEvents
+0x1317 : WevtUtil g጗li HardwareEvents
+0x135B : WevtUtil g፛li HardwareEvents
+0x135C : WevtUtil g፜li HardwareEvents
+0x137D : WevtUtil g፽li HardwareEvents
+0x137E : WevtUtil g፾li HardwareEvents
+0x137F : WevtUtil g፿li HardwareEvents
+0x139A : WevtUtil g᎚li HardwareEvents
+0x139B : WevtUtil g᎛li HardwareEvents
+0x139C : WevtUtil g᎜li HardwareEvents
+0x139D : WevtUtil g᎝li HardwareEvents
+0x139E : WevtUtil g᎞li HardwareEvents
+0x139F : WevtUtil g᎟li HardwareEvents
+0x13F5 : WevtUtil gᏵli HardwareEvents
+0x13F6 : WevtUtil g᏶li HardwareEvents
+0x13F7 : WevtUtil g᏷li HardwareEvents
+0x13F8 : WevtUtil gᏸli HardwareEvents
+0x13F9 : WevtUtil gᏹli HardwareEvents
+0x13FA : WevtUtil gᏺli HardwareEvents
+0x13FB : WevtUtil gᏻli HardwareEvents
+0x13FC : WevtUtil gᏼli HardwareEvents
+0x13FD : WevtUtil gᏽli HardwareEvents
+0x13FE : WevtUtil g᏾li HardwareEvents
+0x13FF : WevtUtil g᏿li HardwareEvents
+0x169D : WevtUtil g᚝li HardwareEvents
+0x169E : WevtUtil g᚞li HardwareEvents
+0x169F : WevtUtil g᚟li HardwareEvents
+0x16F1 : WevtUtil gᛱli HardwareEvents
+0x16F2 : WevtUtil gᛲli HardwareEvents
+0x16F3 : WevtUtil gᛳli HardwareEvents
+0x16F4 : WevtUtil gᛴli HardwareEvents
+0x16F5 : WevtUtil gᛵli HardwareEvents
+0x16F6 : WevtUtil gᛶli HardwareEvents
+0x16F7 : WevtUtil gᛷli HardwareEvents
+0x16F8 : WevtUtil gᛸli HardwareEvents
+0x16F9 : WevtUtil g᛹li HardwareEvents
+0x16FA : WevtUtil g᛺li HardwareEvents
+0x16FB : WevtUtil g᛻li HardwareEvents
+0x16FC : WevtUtil g᛼li HardwareEvents
+0x16FD : WevtUtil g᛽li HardwareEvents
+0x16FE : WevtUtil g᛾li HardwareEvents
+0x16FF : WevtUtil g᛿li HardwareEvents
+0x170D : WevtUtil gᜍli HardwareEvents
+0x1715 : WevtUtil g᜕li HardwareEvents
+0x1716 : WevtUtil g᜖li HardwareEvents
+0x1717 : WevtUtil g᜗li HardwareEvents
+0x1718 : WevtUtil g᜘li HardwareEvents
+0x1719 : WevtUtil g᜙li HardwareEvents
+0x171A : WevtUtil g᜚li HardwareEvents
+0x171B : WevtUtil g᜛li HardwareEvents
+0x171C : WevtUtil g᜜li HardwareEvents
+0x171D : WevtUtil g᜝li HardwareEvents
+0x171E : WevtUtil g᜞li HardwareEvents
+0x171F : WevtUtil gᜟli HardwareEvents
+0x1737 : WevtUtil g᜷li HardwareEvents
+0x1738 : WevtUtil g᜸li HardwareEvents
+0x1739 : WevtUtil g᜹li HardwareEvents
+0x173A : WevtUtil g᜺li HardwareEvents
+0x173B : WevtUtil g᜻li HardwareEvents
+0x173C : WevtUtil g᜼li HardwareEvents
+0x173D : WevtUtil g᜽li HardwareEvents
+0x173E : WevtUtil g᜾li HardwareEvents
+0x173F : WevtUtil g᜿li HardwareEvents
+0x1754 : WevtUtil g᝔li HardwareEvents
+0x1755 : WevtUtil g᝕li HardwareEvents
+0x1756 : WevtUtil g᝖li HardwareEvents
+0x1757 : WevtUtil g᝗li HardwareEvents
+0x1758 : WevtUtil g᝘li HardwareEvents
+0x1759 : WevtUtil g᝙li HardwareEvents
+0x175A : WevtUtil g᝚li HardwareEvents
+0x175B : WevtUtil g᝛li HardwareEvents
+0x175C : WevtUtil g᝜li HardwareEvents
+0x175D : WevtUtil g᝝li HardwareEvents
+0x175E : WevtUtil g᝞li HardwareEvents
+0x175F : WevtUtil g᝟li HardwareEvents
+0x176D : WevtUtil g᝭li HardwareEvents
+0x1771 : WevtUtil g᝱li HardwareEvents
+0x1774 : WevtUtil g᝴li HardwareEvents
+0x1775 : WevtUtil g᝵li HardwareEvents
+0x1776 : WevtUtil g᝶li HardwareEvents
+0x1777 : WevtUtil g᝷li HardwareEvents
+0x1778 : WevtUtil g᝸li HardwareEvents
+0x1779 : WevtUtil g᝹li HardwareEvents
+0x177A : WevtUtil g᝺li HardwareEvents
+0x177B : WevtUtil g᝻li HardwareEvents
+0x177C : WevtUtil g᝼li HardwareEvents
+0x177D : WevtUtil g᝽li HardwareEvents
+0x177E : WevtUtil g᝾li HardwareEvents
+0x177F : WevtUtil g᝿li HardwareEvents
+0x17DE : WevtUtil g៞li HardwareEvents
+0x17DF : WevtUtil g៟li HardwareEvents
+0x17EA : WevtUtil g៪li HardwareEvents
+0x17EB : WevtUtil g៫li HardwareEvents
+0x17EC : WevtUtil g៬li HardwareEvents
+0x17ED : WevtUtil g៭li HardwareEvents
+0x17EE : WevtUtil g៮li HardwareEvents
+0x17EF : WevtUtil g៯li HardwareEvents
+0x17FA : WevtUtil g៺li HardwareEvents
+0x17FB : WevtUtil g៻li HardwareEvents
+0x17FC : WevtUtil g៼li HardwareEvents
+0x17FD : WevtUtil g៽li HardwareEvents
+0x17FE : WevtUtil g៾li HardwareEvents
+0x17FF : WevtUtil g៿li HardwareEvents
+0x1806 : WevtUtil g᠆li HardwareEvents
+0x180B : WevtUtil g᠋li HardwareEvents
+0x180C : WevtUtil g᠌li HardwareEvents
+0x180D : WevtUtil g᠍li HardwareEvents
+0x180F : WevtUtil g᠏li HardwareEvents
+0x181A : WevtUtil g᠚li HardwareEvents
+0x181B : WevtUtil g᠛li HardwareEvents
+0x181C : WevtUtil g᠜li HardwareEvents
+0x181D : WevtUtil g᠝li HardwareEvents
+0x181E : WevtUtil g᠞li HardwareEvents
+0x181F : WevtUtil g᠟li HardwareEvents
+0x1878 : WevtUtil gᡸli HardwareEvents
+0x1879 : WevtUtil g᡹li HardwareEvents
+0x187A : WevtUtil g᡺li HardwareEvents
+0x187B : WevtUtil g᡻li HardwareEvents
+0x187C : WevtUtil g᡼li HardwareEvents
+0x187D : WevtUtil g᡽li HardwareEvents
+0x187E : WevtUtil g᡾li HardwareEvents
+0x187F : WevtUtil g᡿li HardwareEvents
+0x18AB : WevtUtil g᢫li HardwareEvents
+0x18AC : WevtUtil g᢬li HardwareEvents
+0x18AD : WevtUtil g᢭li HardwareEvents
+0x18AE : WevtUtil g᢮li HardwareEvents
+0x18AF : WevtUtil g᢯li HardwareEvents
+0x18F6 : WevtUtil g᣶li HardwareEvents
+0x18F7 : WevtUtil g᣷li HardwareEvents
+0x18F8 : WevtUtil g᣸li HardwareEvents
+0x18F9 : WevtUtil g᣹li HardwareEvents
+0x18FA : WevtUtil g᣺li HardwareEvents
+0x18FB : WevtUtil g᣻li HardwareEvents
+0x18FC : WevtUtil g᣼li HardwareEvents
+0x18FD : WevtUtil g᣽li HardwareEvents
+0x18FE : WevtUtil g᣾li HardwareEvents
+0x18FF : WevtUtil g᣿li HardwareEvents
+0x191D : WevtUtil gᤝli HardwareEvents
+0x191E : WevtUtil gᤞli HardwareEvents
+0x191F : WevtUtil g᤟li HardwareEvents
+0x192C : WevtUtil g᤬li HardwareEvents
+0x192D : WevtUtil g᤭li HardwareEvents
+0x192E : WevtUtil g᤮li HardwareEvents
+0x192F : WevtUtil g᤯li HardwareEvents
+0x193C : WevtUtil g᤼li HardwareEvents
+0x193D : WevtUtil g᤽li HardwareEvents
+0x193E : WevtUtil g᤾li HardwareEvents
+0x193F : WevtUtil g᤿li HardwareEvents
+0x1941 : WevtUtil g᥁li HardwareEvents
+0x1942 : WevtUtil g᥂li HardwareEvents
+0x1943 : WevtUtil g᥃li HardwareEvents
+0x196E : WevtUtil g᥮li HardwareEvents
+0x196F : WevtUtil g᥯li HardwareEvents
+0x1975 : WevtUtil g᥵li HardwareEvents
+0x1976 : WevtUtil g᥶li HardwareEvents
+0x1977 : WevtUtil g᥷li HardwareEvents
+0x1978 : WevtUtil g᥸li HardwareEvents
+0x1979 : WevtUtil g᥹li HardwareEvents
+0x197A : WevtUtil g᥺li HardwareEvents
+0x197B : WevtUtil g᥻li HardwareEvents
+0x197C : WevtUtil g᥼li HardwareEvents
+0x197D : WevtUtil g᥽li HardwareEvents
+0x197E : WevtUtil g᥾li HardwareEvents
+0x197F : WevtUtil g᥿li HardwareEvents
+0x19AC : WevtUtil g᦬li HardwareEvents
+0x19AD : WevtUtil g᦭li HardwareEvents
+0x19AE : WevtUtil g᦮li HardwareEvents
+0x19AF : WevtUtil g᦯li HardwareEvents
+0x19CA : WevtUtil g᧊li HardwareEvents
+0x19CB : WevtUtil g᧋li HardwareEvents
+0x19CC : WevtUtil g᧌li HardwareEvents
+0x19CD : WevtUtil g᧍li HardwareEvents
+0x19CE : WevtUtil g᧎li HardwareEvents
+0x19CF : WevtUtil g᧏li HardwareEvents
+0x19DB : WevtUtil g᧛li HardwareEvents
+0x19DC : WevtUtil g᧜li HardwareEvents
+0x19DD : WevtUtil g᧝li HardwareEvents
+0x1A1C : WevtUtil g᨜li HardwareEvents
+0x1A1D : WevtUtil g᨝li HardwareEvents
+0x1A5F : WevtUtil g᩟li HardwareEvents
+0x1A7D : WevtUtil g᩽li HardwareEvents
+0x1A7E : WevtUtil g᩾li HardwareEvents
+0x1A8A : WevtUtil g᪊li HardwareEvents
+0x1A8B : WevtUtil g᪋li HardwareEvents
+0x1A8C : WevtUtil g᪌li HardwareEvents
+0x1A8D : WevtUtil g᪍li HardwareEvents
+0x1A8E : WevtUtil g᪎li HardwareEvents
+0x1A8F : WevtUtil g᪏li HardwareEvents
+0x1A9A : WevtUtil g᪚li HardwareEvents
+0x1A9B : WevtUtil g᪛li HardwareEvents
+0x1A9C : WevtUtil g᪜li HardwareEvents
+0x1A9D : WevtUtil g᪝li HardwareEvents
+0x1A9E : WevtUtil g᪞li HardwareEvents
+0x1A9F : WevtUtil g᪟li HardwareEvents
+0x1AAE : WevtUtil g᪮li HardwareEvents
+0x1AAF : WevtUtil g᪯li HardwareEvents
+0x1AB0 : WevtUtil g᪰li HardwareEvents
+0x1AB1 : WevtUtil g᪱li HardwareEvents
+0x1AB2 : WevtUtil g᪲li HardwareEvents
+0x1AB3 : WevtUtil g᪳li HardwareEvents
+0x1AB4 : WevtUtil g᪴li HardwareEvents
+0x1AB5 : WevtUtil g᪵li HardwareEvents
+0x1AB6 : WevtUtil g᪶li HardwareEvents
+0x1AB7 : WevtUtil g᪷li HardwareEvents
+0x1AB8 : WevtUtil g᪸li HardwareEvents
+0x1AB9 : WevtUtil g᪹li HardwareEvents
+0x1ABA : WevtUtil g᪺li HardwareEvents
+0x1ABB : WevtUtil g᪻li HardwareEvents
+0x1ABC : WevtUtil g᪼li HardwareEvents
+0x1ABD : WevtUtil g᪽li HardwareEvents
+0x1ABE : WevtUtil g᪾li HardwareEvents
+0x1ABF : WevtUtil gᪿli HardwareEvents
+0x1AC0 : WevtUtil gᫀli HardwareEvents
+0x1AC1 : WevtUtil g᫁li HardwareEvents
+0x1AC2 : WevtUtil g᫂li HardwareEvents
+0x1AC3 : WevtUtil g᫃li HardwareEvents
+0x1AC4 : WevtUtil g᫄li HardwareEvents
+0x1AC5 : WevtUtil g᫅li HardwareEvents
+0x1AC6 : WevtUtil g᫆li HardwareEvents
+0x1AC7 : WevtUtil g᫇li HardwareEvents
+0x1AC8 : WevtUtil g᫈li HardwareEvents
+0x1AC9 : WevtUtil g᫉li HardwareEvents
+0x1ACA : WevtUtil g᫊li HardwareEvents
+0x1ACB : WevtUtil g᫋li HardwareEvents
+0x1ACC : WevtUtil gᫌli HardwareEvents
+0x1ACD : WevtUtil gᫍli HardwareEvents
+0x1ACE : WevtUtil gᫎli HardwareEvents
+0x1ACF : WevtUtil g᫏li HardwareEvents
+0x1AD0 : WevtUtil g᫐li HardwareEvents
+0x1AD1 : WevtUtil g᫑li HardwareEvents
+0x1AD2 : WevtUtil g᫒li HardwareEvents
+0x1AD3 : WevtUtil g᫓li HardwareEvents
+0x1AD4 : WevtUtil g᫔li HardwareEvents
+0x1AD5 : WevtUtil g᫕li HardwareEvents
+0x1AD6 : WevtUtil g᫖li HardwareEvents
+0x1AD7 : WevtUtil g᫗li HardwareEvents
+0x1AD8 : WevtUtil g᫘li HardwareEvents
+0x1AD9 : WevtUtil g᫙li HardwareEvents
+0x1ADA : WevtUtil g᫚li HardwareEvents
+0x1ADB : WevtUtil g᫛li HardwareEvents
+0x1ADC : WevtUtil g᫜li HardwareEvents
+0x1ADD : WevtUtil g᫝li HardwareEvents
+0x1ADE : WevtUtil g᫞li HardwareEvents
+0x1ADF : WevtUtil g᫟li HardwareEvents
+0x1AE0 : WevtUtil g᫠li HardwareEvents
+0x1AE1 : WevtUtil g᫡li HardwareEvents
+0x1AE2 : WevtUtil g᫢li HardwareEvents
+0x1AE3 : WevtUtil g᫣li HardwareEvents
+0x1AE4 : WevtUtil g᫤li HardwareEvents
+0x1AE5 : WevtUtil g᫥li HardwareEvents
+0x1AE6 : WevtUtil g᫦li HardwareEvents
+0x1AE7 : WevtUtil g᫧li HardwareEvents
+0x1AE8 : WevtUtil g᫨li HardwareEvents
+0x1AE9 : WevtUtil g᫩li HardwareEvents
+0x1AEA : WevtUtil g᫪li HardwareEvents
+0x1AEB : WevtUtil g᫫li HardwareEvents
+0x1AEC : WevtUtil g᫬li HardwareEvents
+0x1AED : WevtUtil g᫭li HardwareEvents
+0x1AEE : WevtUtil g᫮li HardwareEvents
+0x1AEF : WevtUtil g᫯li HardwareEvents
+0x1AF0 : WevtUtil g᫰li HardwareEvents
+0x1AF1 : WevtUtil g᫱li HardwareEvents
+0x1AF2 : WevtUtil g᫲li HardwareEvents
+0x1AF3 : WevtUtil g᫳li HardwareEvents
+0x1AF4 : WevtUtil g᫴li HardwareEvents
+0x1AF5 : WevtUtil g᫵li HardwareEvents
+0x1AF6 : WevtUtil g᫶li HardwareEvents
+0x1AF7 : WevtUtil g᫷li HardwareEvents
+0x1AF8 : WevtUtil g᫸li HardwareEvents
+0x1AF9 : WevtUtil g᫹li HardwareEvents
+0x1AFA : WevtUtil g᫺li HardwareEvents
+0x1AFB : WevtUtil g᫻li HardwareEvents
+0x1AFC : WevtUtil g᫼li HardwareEvents
+0x1AFD : WevtUtil g᫽li HardwareEvents
+0x1AFE : WevtUtil g᫾li HardwareEvents
+0x1AFF : WevtUtil g᫿li HardwareEvents
+0x1B4C : WevtUtil gᭌli HardwareEvents
+0x1B4D : WevtUtil g᭍li HardwareEvents
+0x1B4E : WevtUtil g᭎li HardwareEvents
+0x1B4F : WevtUtil g᭏li HardwareEvents
+0x1B7D : WevtUtil g᭽li HardwareEvents
+0x1B7E : WevtUtil g᭾li HardwareEvents
+0x1B7F : WevtUtil g᭿li HardwareEvents
+0x1BAB : WevtUtil g᮫li HardwareEvents
+0x1BAC : WevtUtil gᮬli HardwareEvents
+0x1BAD : WevtUtil gᮭli HardwareEvents
+0x1BBA : WevtUtil gᮺli HardwareEvents
+0x1BBB : WevtUtil gᮻli HardwareEvents
+0x1BBC : WevtUtil gᮼli HardwareEvents
+0x1BBD : WevtUtil gᮽli HardwareEvents
+0x1BBE : WevtUtil gᮾli HardwareEvents
+0x1BBF : WevtUtil gᮿli HardwareEvents
+0x1BF4 : WevtUtil g᯴li HardwareEvents
+0x1BF5 : WevtUtil g᯵li HardwareEvents
+0x1BF6 : WevtUtil g᯶li HardwareEvents
+0x1BF7 : WevtUtil g᯷li HardwareEvents
+0x1BF8 : WevtUtil g᯸li HardwareEvents
+0x1BF9 : WevtUtil g᯹li HardwareEvents
+0x1BFA : WevtUtil g᯺li HardwareEvents
+0x1BFB : WevtUtil g᯻li HardwareEvents
+0x1C38 : WevtUtil g᰸li HardwareEvents
+0x1C39 : WevtUtil g᰹li HardwareEvents
+0x1C3A : WevtUtil g᰺li HardwareEvents
+0x1C4A : WevtUtil g᱊li HardwareEvents
+0x1C4B : WevtUtil g᱋li HardwareEvents
+0x1C4C : WevtUtil g᱌li HardwareEvents
+0x1C80 : WevtUtil gᲀli HardwareEvents
+0x1C81 : WevtUtil gᲁli HardwareEvents
+0x1C82 : WevtUtil gᲂli HardwareEvents
+0x1C83 : WevtUtil gᲃli HardwareEvents
+0x1C84 : WevtUtil gᲄli HardwareEvents
+0x1C85 : WevtUtil gᲅli HardwareEvents
+0x1C86 : WevtUtil gᲆli HardwareEvents
+0x1C87 : WevtUtil gᲇli HardwareEvents
+0x1C88 : WevtUtil gᲈli HardwareEvents
+0x1C89 : WevtUtil gᲉli HardwareEvents
+0x1C8A : WevtUtil gᲊli HardwareEvents
+0x1C8B : WevtUtil g᲋li HardwareEvents
+0x1C8C : WevtUtil g᲌li HardwareEvents
+0x1C8D : WevtUtil g᲍li HardwareEvents
+0x1C8E : WevtUtil g᲎li HardwareEvents
+0x1C8F : WevtUtil g᲏li HardwareEvents
+0x1C90 : WevtUtil gᲐli HardwareEvents
+0x1C91 : WevtUtil gᲑli HardwareEvents
+0x1C92 : WevtUtil gᲒli HardwareEvents
+0x1C93 : WevtUtil gᲓli HardwareEvents
+0x1C94 : WevtUtil gᲔli HardwareEvents
+0x1C95 : WevtUtil gᲕli HardwareEvents
+0x1C96 : WevtUtil gᲖli HardwareEvents
+0x1C97 : WevtUtil gᲗli HardwareEvents
+0x1C98 : WevtUtil gᲘli HardwareEvents
+0x1C99 : WevtUtil gᲙli HardwareEvents
+0x1C9A : WevtUtil gᲚli HardwareEvents
+0x1C9B : WevtUtil gᲛli HardwareEvents
+0x1C9C : WevtUtil gᲜli HardwareEvents
+0x1C9D : WevtUtil gᲝli HardwareEvents
+0x1C9E : WevtUtil gᲞli HardwareEvents
+0x1C9F : WevtUtil gᲟli HardwareEvents
+0x1CA0 : WevtUtil gᲠli HardwareEvents
+0x1CA1 : WevtUtil gᲡli HardwareEvents
+0x1CA2 : WevtUtil gᲢli HardwareEvents
+0x1CA3 : WevtUtil gᲣli HardwareEvents
+0x1CA4 : WevtUtil gᲤli HardwareEvents
+0x1CA5 : WevtUtil gᲥli HardwareEvents
+0x1CA6 : WevtUtil gᲦli HardwareEvents
+0x1CA7 : WevtUtil gᲧli HardwareEvents
+0x1CA8 : WevtUtil gᲨli HardwareEvents
+0x1CA9 : WevtUtil gᲩli HardwareEvents
+0x1CAA : WevtUtil gᲪli HardwareEvents
+0x1CAB : WevtUtil gᲫli HardwareEvents
+0x1CAC : WevtUtil gᲬli HardwareEvents
+0x1CAD : WevtUtil gᲭli HardwareEvents
+0x1CAE : WevtUtil gᲮli HardwareEvents
+0x1CAF : WevtUtil gᲯli HardwareEvents
+0x1CB0 : WevtUtil gᲰli HardwareEvents
+0x1CB1 : WevtUtil gᲱli HardwareEvents
+0x1CB2 : WevtUtil gᲲli HardwareEvents
+0x1CB3 : WevtUtil gᲳli HardwareEvents
+0x1CB4 : WevtUtil gᲴli HardwareEvents
+0x1CB5 : WevtUtil gᲵli HardwareEvents
+0x1CB6 : WevtUtil gᲶli HardwareEvents
+0x1CB7 : WevtUtil gᲷli HardwareEvents
+0x1CB8 : WevtUtil gᲸli HardwareEvents
+0x1CB9 : WevtUtil gᲹli HardwareEvents
+0x1CBA : WevtUtil gᲺli HardwareEvents
+0x1CBB : WevtUtil g᲻li HardwareEvents
+0x1CBC : WevtUtil g᲼li HardwareEvents
+0x1CBD : WevtUtil gᲽli HardwareEvents
+0x1CBE : WevtUtil gᲾli HardwareEvents
+0x1CBF : WevtUtil gᲿli HardwareEvents
+0x1CC0 : WevtUtil g᳀li HardwareEvents
+0x1CC1 : WevtUtil g᳁li HardwareEvents
+0x1CC2 : WevtUtil g᳂li HardwareEvents
+0x1CC3 : WevtUtil g᳃li HardwareEvents
+0x1CC4 : WevtUtil g᳄li HardwareEvents
+0x1CC5 : WevtUtil g᳅li HardwareEvents
+0x1CC6 : WevtUtil g᳆li HardwareEvents
+0x1CC7 : WevtUtil g᳇li HardwareEvents
+0x1CC8 : WevtUtil g᳈li HardwareEvents
+0x1CC9 : WevtUtil g᳉li HardwareEvents
+0x1CCA : WevtUtil g᳊li HardwareEvents
+0x1CCB : WevtUtil g᳋li HardwareEvents
+0x1CCC : WevtUtil g᳌li HardwareEvents
+0x1CCD : WevtUtil g᳍li HardwareEvents
+0x1CCE : WevtUtil g᳎li HardwareEvents
+0x1CCF : WevtUtil g᳏li HardwareEvents
+0x1CF3 : WevtUtil gᳳli HardwareEvents
+0x1CF4 : WevtUtil g᳴li HardwareEvents
+0x1CF5 : WevtUtil gᳵli HardwareEvents
+0x1CF6 : WevtUtil gᳶli HardwareEvents
+0x1CF7 : WevtUtil g᳷li HardwareEvents
+0x1CF8 : WevtUtil g᳸li HardwareEvents
+0x1CF9 : WevtUtil g᳹li HardwareEvents
+0x1CFA : WevtUtil gᳺli HardwareEvents
+0x1CFB : WevtUtil g᳻li HardwareEvents
+0x1CFC : WevtUtil g᳼li HardwareEvents
+0x1CFD : WevtUtil g᳽li HardwareEvents
+0x1CFE : WevtUtil g᳾li HardwareEvents
+0x1CFF : WevtUtil g᳿li HardwareEvents
+0x1DE7 : WevtUtil gᷧli HardwareEvents
+0x1DE8 : WevtUtil gᷨli HardwareEvents
+0x1DE9 : WevtUtil gᷩli HardwareEvents
+0x1DEA : WevtUtil gᷪli HardwareEvents
+0x1DEB : WevtUtil gᷫli HardwareEvents
+0x1DEC : WevtUtil gᷬli HardwareEvents
+0x1DED : WevtUtil gᷭli HardwareEvents
+0x1DEE : WevtUtil gᷮli HardwareEvents
+0x1DEF : WevtUtil gᷯli HardwareEvents
+0x1DF0 : WevtUtil gᷰli HardwareEvents
+0x1DF1 : WevtUtil gᷱli HardwareEvents
+0x1DF2 : WevtUtil gᷲli HardwareEvents
+0x1DF3 : WevtUtil gᷳli HardwareEvents
+0x1DF4 : WevtUtil gᷴli HardwareEvents
+0x1DF5 : WevtUtil g᷵li HardwareEvents
+0x1DF6 : WevtUtil g᷶li HardwareEvents
+0x1DF7 : WevtUtil g᷷li HardwareEvents
+0x1DF8 : WevtUtil g᷸li HardwareEvents
+0x1DF9 : WevtUtil g᷹li HardwareEvents
+0x1DFA : WevtUtil g᷺li HardwareEvents
+0x1DFB : WevtUtil g᷻li HardwareEvents
+0x1F16 : WevtUtil g἖li HardwareEvents
+0x1F17 : WevtUtil g἗li HardwareEvents
+0x1F1E : WevtUtil g἞li HardwareEvents
+0x1F1F : WevtUtil g἟li HardwareEvents
+0x1F46 : WevtUtil g὆li HardwareEvents
+0x1F47 : WevtUtil g὇li HardwareEvents
+0x1F4E : WevtUtil g὎li HardwareEvents
+0x1F4F : WevtUtil g὏li HardwareEvents
+0x1F58 : WevtUtil g὘li HardwareEvents
+0x1F5A : WevtUtil g὚li HardwareEvents
+0x1F5C : WevtUtil g὜li HardwareEvents
+0x1F5E : WevtUtil g὞li HardwareEvents
+0x1F7E : WevtUtil g὾li HardwareEvents
+0x1F7F : WevtUtil g὿li HardwareEvents
+0x1FB5 : WevtUtil g᾵li HardwareEvents
+0x1FC5 : WevtUtil g῅li HardwareEvents
+0x1FD4 : WevtUtil g῔li HardwareEvents
+0x1FD5 : WevtUtil g῕li HardwareEvents
+0x1FDC : WevtUtil g῜li HardwareEvents
+0x1FF0 : WevtUtil g῰li HardwareEvents
+0x1FF1 : WevtUtil g῱li HardwareEvents
+0x1FF5 : WevtUtil g῵li HardwareEvents
+0x1FFF : WevtUtil g῿li HardwareEvents
+0x200C : WevtUtil g‌li HardwareEvents
+0x200D : WevtUtil g‍li HardwareEvents
+0x200E : WevtUtil g‎li HardwareEvents
+0x200F : WevtUtil g‏li HardwareEvents
+0x202A : WevtUtil g‪li HardwareEvents
+0x202B : WevtUtil g‫li HardwareEvents
+0x202C : WevtUtil g‬li HardwareEvents
+0x202D : WevtUtil g‭li HardwareEvents
+0x202E : WevtUtil g‮li HardwareEvents
+0x2060 : WevtUtil g⁠li HardwareEvents
+0x2061 : WevtUtil g⁡li HardwareEvents
+0x2062 : WevtUtil g⁢li HardwareEvents
+0x2063 : WevtUtil g⁣li HardwareEvents
+0x2064 : WevtUtil g⁤li HardwareEvents
+0x2065 : WevtUtil g⁥li HardwareEvents
+0x2066 : WevtUtil g⁦li HardwareEvents
+0x2067 : WevtUtil g⁧li HardwareEvents
+0x2068 : WevtUtil g⁨li HardwareEvents
+0x2069 : WevtUtil g⁩li HardwareEvents
+0x206A : WevtUtil g⁪li HardwareEvents
+0x206B : WevtUtil g⁫li HardwareEvents
+0x206C : WevtUtil g⁬li HardwareEvents
+0x206D : WevtUtil g⁭li HardwareEvents
+0x206E : WevtUtil g⁮li HardwareEvents
+0x206F : WevtUtil g⁯li HardwareEvents
+0x2072 : WevtUtil g⁲li HardwareEvents
+0x2073 : WevtUtil g⁳li HardwareEvents
+0x208F : WevtUtil g₏li HardwareEvents
+0x209D : WevtUtil g₝li HardwareEvents
+0x209E : WevtUtil g₞li HardwareEvents
+0x209F : WevtUtil g₟li HardwareEvents
+0x20B6 : WevtUtil g₶li HardwareEvents
+0x20B7 : WevtUtil g₷li HardwareEvents
+0x20B8 : WevtUtil g₸li HardwareEvents
+0x20BB : WevtUtil g₻li HardwareEvents
+0x20BC : WevtUtil g₼li HardwareEvents
+0x20BD : WevtUtil g₽li HardwareEvents
+0x20BE : WevtUtil g₾li HardwareEvents
+0x20BF : WevtUtil g₿li HardwareEvents
+0x20C0 : WevtUtil g⃀li HardwareEvents
+0x20C1 : WevtUtil g⃁li HardwareEvents
+0x20C2 : WevtUtil g⃂li HardwareEvents
+0x20C3 : WevtUtil g⃃li HardwareEvents
+0x20C4 : WevtUtil g⃄li HardwareEvents
+0x20C5 : WevtUtil g⃅li HardwareEvents
+0x20C6 : WevtUtil g⃆li HardwareEvents
+0x20C7 : WevtUtil g⃇li HardwareEvents
+0x20C8 : WevtUtil g⃈li HardwareEvents
+0x20C9 : WevtUtil g⃉li HardwareEvents
+0x20CA : WevtUtil g⃊li HardwareEvents
+0x20CB : WevtUtil g⃋li HardwareEvents
+0x20CC : WevtUtil g⃌li HardwareEvents
+0x20CD : WevtUtil g⃍li HardwareEvents
+0x20CE : WevtUtil g⃎li HardwareEvents
+0x20CF : WevtUtil g⃏li HardwareEvents
+0x20F1 : WevtUtil g⃱li HardwareEvents
+0x20F2 : WevtUtil g⃲li HardwareEvents
+0x20F3 : WevtUtil g⃳li HardwareEvents
+0x20F4 : WevtUtil g⃴li HardwareEvents
+0x20F5 : WevtUtil g⃵li HardwareEvents
+0x20F6 : WevtUtil g⃶li HardwareEvents
+0x20F7 : WevtUtil g⃷li HardwareEvents
+0x20F8 : WevtUtil g⃸li HardwareEvents
+0x20F9 : WevtUtil g⃹li HardwareEvents
+0x20FA : WevtUtil g⃺li HardwareEvents
+0x20FB : WevtUtil g⃻li HardwareEvents
+0x20FC : WevtUtil g⃼li HardwareEvents
+0x20FD : WevtUtil g⃽li HardwareEvents
+0x20FE : WevtUtil g⃾li HardwareEvents
+0x20FF : WevtUtil g⃿li HardwareEvents
+0x218A : WevtUtil g↊li HardwareEvents
+0x218B : WevtUtil g↋li HardwareEvents
+0x218C : WevtUtil g↌li HardwareEvents
+0x218D : WevtUtil g↍li HardwareEvents
+0x218E : WevtUtil g↎li HardwareEvents
+0x218F : WevtUtil g↏li HardwareEvents
+0x23F4 : WevtUtil g⏴li HardwareEvents
+0x23F5 : WevtUtil g⏵li HardwareEvents
+0x23F6 : WevtUtil g⏶li HardwareEvents
+0x23F7 : WevtUtil g⏷li HardwareEvents
+0x23F8 : WevtUtil g⏸li HardwareEvents
+0x23F9 : WevtUtil g⏹li HardwareEvents
+0x23FA : WevtUtil g⏺li HardwareEvents
+0x23FB : WevtUtil g⏻li HardwareEvents
+0x23FC : WevtUtil g⏼li HardwareEvents
+0x23FD : WevtUtil g⏽li HardwareEvents
+0x23FE : WevtUtil g⏾li HardwareEvents
+0x23FF : WevtUtil g⏿li HardwareEvents
+0x2427 : WevtUtil g␧li HardwareEvents
+0x2428 : WevtUtil g␨li HardwareEvents
+0x2429 : WevtUtil g␩li HardwareEvents
+0x242A : WevtUtil g␪li HardwareEvents
+0x242B : WevtUtil g␫li HardwareEvents
+0x242C : WevtUtil g␬li HardwareEvents
+0x242D : WevtUtil g␭li HardwareEvents
+0x242E : WevtUtil g␮li HardwareEvents
+0x242F : WevtUtil g␯li HardwareEvents
+0x2430 : WevtUtil g␰li HardwareEvents
+0x2431 : WevtUtil g␱li HardwareEvents
+0x2432 : WevtUtil g␲li HardwareEvents
+0x2433 : WevtUtil g␳li HardwareEvents
+0x2434 : WevtUtil g␴li HardwareEvents
+0x2435 : WevtUtil g␵li HardwareEvents
+0x2436 : WevtUtil g␶li HardwareEvents
+0x2437 : WevtUtil g␷li HardwareEvents
+0x2438 : WevtUtil g␸li HardwareEvents
+0x2439 : WevtUtil g␹li HardwareEvents
+0x243A : WevtUtil g␺li HardwareEvents
+0x243B : WevtUtil g␻li HardwareEvents
+0x243C : WevtUtil g␼li HardwareEvents
+0x243D : WevtUtil g␽li HardwareEvents
+0x243E : WevtUtil g␾li HardwareEvents
+0x243F : WevtUtil g␿li HardwareEvents
+0x244B : WevtUtil g⑋li HardwareEvents
+0x244C : WevtUtil g⑌li HardwareEvents
+0x244D : WevtUtil g⑍li HardwareEvents
+0x244E : WevtUtil g⑎li HardwareEvents
+0x244F : WevtUtil g⑏li HardwareEvents
+0x2450 : WevtUtil g⑐li HardwareEvents
+0x2451 : WevtUtil g⑑li HardwareEvents
+0x2452 : WevtUtil g⑒li HardwareEvents
+0x2453 : WevtUtil g⑓li HardwareEvents
+0x2454 : WevtUtil g⑔li HardwareEvents
+0x2455 : WevtUtil g⑕li HardwareEvents
+0x2456 : WevtUtil g⑖li HardwareEvents
+0x2457 : WevtUtil g⑗li HardwareEvents
+0x2458 : WevtUtil g⑘li HardwareEvents
+0x2459 : WevtUtil g⑙li HardwareEvents
+0x245A : WevtUtil g⑚li HardwareEvents
+0x245B : WevtUtil g⑛li HardwareEvents
+0x245C : WevtUtil g⑜li HardwareEvents
+0x245D : WevtUtil g⑝li HardwareEvents
+0x245E : WevtUtil g⑞li HardwareEvents
+0x245F : WevtUtil g⑟li HardwareEvents
+0x26BD : WevtUtil g⚽li HardwareEvents
+0x26BE : WevtUtil g⚾li HardwareEvents
+0x26BF : WevtUtil g⚿li HardwareEvents
+0x2700 : WevtUtil g✀li HardwareEvents
+0x2795 : WevtUtil g➕li HardwareEvents
+0x2796 : WevtUtil g➖li HardwareEvents
+0x2797 : WevtUtil g➗li HardwareEvents
+0x27B0 : WevtUtil g➰li HardwareEvents
+0x27BF : WevtUtil g➿li HardwareEvents
+0x27CB : WevtUtil g⟋li HardwareEvents
+0x27CD : WevtUtil g⟍li HardwareEvents
+0x2B4D : WevtUtil g⭍li HardwareEvents
+0x2B4E : WevtUtil g⭎li HardwareEvents
+0x2B4F : WevtUtil g⭏li HardwareEvents
+0x2B5A : WevtUtil g⭚li HardwareEvents
+0x2B5B : WevtUtil g⭛li HardwareEvents
+0x2B5C : WevtUtil g⭜li HardwareEvents
+0x2B5D : WevtUtil g⭝li HardwareEvents
+0x2B5E : WevtUtil g⭞li HardwareEvents
+0x2B5F : WevtUtil g⭟li HardwareEvents
+0x2B60 : WevtUtil g⭠li HardwareEvents
+0x2B61 : WevtUtil g⭡li HardwareEvents
+0x2B62 : WevtUtil g⭢li HardwareEvents
+0x2B63 : WevtUtil g⭣li HardwareEvents
+0x2B64 : WevtUtil g⭤li HardwareEvents
+0x2B65 : WevtUtil g⭥li HardwareEvents
+0x2B66 : WevtUtil g⭦li HardwareEvents
+0x2B67 : WevtUtil g⭧li HardwareEvents
+0x2B68 : WevtUtil g⭨li HardwareEvents
+0x2B69 : WevtUtil g⭩li HardwareEvents
+0x2B6A : WevtUtil g⭪li HardwareEvents
+0x2B6B : WevtUtil g⭫li HardwareEvents
+0x2B6C : WevtUtil g⭬li HardwareEvents
+0x2B6D : WevtUtil g⭭li HardwareEvents
+0x2B6E : WevtUtil g⭮li HardwareEvents
+0x2B6F : WevtUtil g⭯li HardwareEvents
+0x2B70 : WevtUtil g⭰li HardwareEvents
+0x2B71 : WevtUtil g⭱li HardwareEvents
+0x2B72 : WevtUtil g⭲li HardwareEvents
+0x2B73 : WevtUtil g⭳li HardwareEvents
+0x2B74 : WevtUtil g⭴li HardwareEvents
+0x2B75 : WevtUtil g⭵li HardwareEvents
+0x2B76 : WevtUtil g⭶li HardwareEvents
+0x2B77 : WevtUtil g⭷li HardwareEvents
+0x2B78 : WevtUtil g⭸li HardwareEvents
+0x2B79 : WevtUtil g⭹li HardwareEvents
+0x2B7A : WevtUtil g⭺li HardwareEvents
+0x2B7B : WevtUtil g⭻li HardwareEvents
+0x2B7C : WevtUtil g⭼li HardwareEvents
+0x2B7D : WevtUtil g⭽li HardwareEvents
+0x2B7E : WevtUtil g⭾li HardwareEvents
+0x2B7F : WevtUtil g⭿li HardwareEvents
+0x2B80 : WevtUtil g⮀li HardwareEvents
+0x2B81 : WevtUtil g⮁li HardwareEvents
+0x2B82 : WevtUtil g⮂li HardwareEvents
+0x2B83 : WevtUtil g⮃li HardwareEvents
+0x2B84 : WevtUtil g⮄li HardwareEvents
+0x2B85 : WevtUtil g⮅li HardwareEvents
+0x2B86 : WevtUtil g⮆li HardwareEvents
+0x2B87 : WevtUtil g⮇li HardwareEvents
+0x2B88 : WevtUtil g⮈li HardwareEvents
+0x2B89 : WevtUtil g⮉li HardwareEvents
+0x2B8A : WevtUtil g⮊li HardwareEvents
+0x2B8B : WevtUtil g⮋li HardwareEvents
+0x2B8C : WevtUtil g⮌li HardwareEvents
+0x2B8D : WevtUtil g⮍li HardwareEvents
+0x2B8E : WevtUtil g⮎li HardwareEvents
+0x2B8F : WevtUtil g⮏li HardwareEvents
+0x2B90 : WevtUtil g⮐li HardwareEvents
+0x2B91 : WevtUtil g⮑li HardwareEvents
+0x2B92 : WevtUtil g⮒li HardwareEvents
+0x2B93 : WevtUtil g⮓li HardwareEvents
+0x2B94 : WevtUtil g⮔li HardwareEvents
+0x2B95 : WevtUtil g⮕li HardwareEvents
+0x2B96 : WevtUtil g⮖li HardwareEvents
+0x2B97 : WevtUtil g⮗li HardwareEvents
+0x2B98 : WevtUtil g⮘li HardwareEvents
+0x2B99 : WevtUtil g⮙li HardwareEvents
+0x2B9A : WevtUtil g⮚li HardwareEvents
+0x2B9B : WevtUtil g⮛li HardwareEvents
+0x2B9C : WevtUtil g⮜li HardwareEvents
+0x2B9D : WevtUtil g⮝li HardwareEvents
+0x2B9E : WevtUtil g⮞li HardwareEvents
+0x2B9F : WevtUtil g⮟li HardwareEvents
+0x2BA0 : WevtUtil g⮠li HardwareEvents
+0x2BA1 : WevtUtil g⮡li HardwareEvents
+0x2BA2 : WevtUtil g⮢li HardwareEvents
+0x2BA3 : WevtUtil g⮣li HardwareEvents
+0x2BA4 : WevtUtil g⮤li HardwareEvents
+0x2BA5 : WevtUtil g⮥li HardwareEvents
+0x2BA6 : WevtUtil g⮦li HardwareEvents
+0x2BA7 : WevtUtil g⮧li HardwareEvents
+0x2BA8 : WevtUtil g⮨li HardwareEvents
+0x2BA9 : WevtUtil g⮩li HardwareEvents
+0x2BAA : WevtUtil g⮪li HardwareEvents
+0x2BAB : WevtUtil g⮫li HardwareEvents
+0x2BAC : WevtUtil g⮬li HardwareEvents
+0x2BAD : WevtUtil g⮭li HardwareEvents
+0x2BAE : WevtUtil g⮮li HardwareEvents
+0x2BAF : WevtUtil g⮯li HardwareEvents
+0x2BB0 : WevtUtil g⮰li HardwareEvents
+0x2BB1 : WevtUtil g⮱li HardwareEvents
+0x2BB2 : WevtUtil g⮲li HardwareEvents
+0x2BB3 : WevtUtil g⮳li HardwareEvents
+0x2BB4 : WevtUtil g⮴li HardwareEvents
+0x2BB5 : WevtUtil g⮵li HardwareEvents
+0x2BB6 : WevtUtil g⮶li HardwareEvents
+0x2BB7 : WevtUtil g⮷li HardwareEvents
+0x2BB8 : WevtUtil g⮸li HardwareEvents
+0x2BB9 : WevtUtil g⮹li HardwareEvents
+0x2BBA : WevtUtil g⮺li HardwareEvents
+0x2BBB : WevtUtil g⮻li HardwareEvents
+0x2BBC : WevtUtil g⮼li HardwareEvents
+0x2BBD : WevtUtil g⮽li HardwareEvents
+0x2BBE : WevtUtil g⮾li HardwareEvents
+0x2BBF : WevtUtil g⮿li HardwareEvents
+0x2BC0 : WevtUtil g⯀li HardwareEvents
+0x2BC1 : WevtUtil g⯁li HardwareEvents
+0x2BC2 : WevtUtil g⯂li HardwareEvents
+0x2BC3 : WevtUtil g⯃li HardwareEvents
+0x2BC4 : WevtUtil g⯄li HardwareEvents
+0x2BC5 : WevtUtil g⯅li HardwareEvents
+0x2BC6 : WevtUtil g⯆li HardwareEvents
+0x2BC7 : WevtUtil g⯇li HardwareEvents
+0x2BC8 : WevtUtil g⯈li HardwareEvents
+0x2BC9 : WevtUtil g⯉li HardwareEvents
+0x2BCA : WevtUtil g⯊li HardwareEvents
+0x2BCB : WevtUtil g⯋li HardwareEvents
+0x2BCC : WevtUtil g⯌li HardwareEvents
+0x2BCD : WevtUtil g⯍li HardwareEvents
+0x2BCE : WevtUtil g⯎li HardwareEvents
+0x2BCF : WevtUtil g⯏li HardwareEvents
+0x2BD0 : WevtUtil g⯐li HardwareEvents
+0x2BD1 : WevtUtil g⯑li HardwareEvents
+0x2BD2 : WevtUtil g⯒li HardwareEvents
+0x2BD3 : WevtUtil g⯓li HardwareEvents
+0x2BD4 : WevtUtil g⯔li HardwareEvents
+0x2BD5 : WevtUtil g⯕li HardwareEvents
+0x2BD6 : WevtUtil g⯖li HardwareEvents
+0x2BD7 : WevtUtil g⯗li HardwareEvents
+0x2BD8 : WevtUtil g⯘li HardwareEvents
+0x2BD9 : WevtUtil g⯙li HardwareEvents
+0x2BDA : WevtUtil g⯚li HardwareEvents
+0x2BDB : WevtUtil g⯛li HardwareEvents
+0x2BDC : WevtUtil g⯜li HardwareEvents
+0x2BDD : WevtUtil g⯝li HardwareEvents
+0x2BDE : WevtUtil g⯞li HardwareEvents
+0x2BDF : WevtUtil g⯟li HardwareEvents
+0x2BE0 : WevtUtil g⯠li HardwareEvents
+0x2BE1 : WevtUtil g⯡li HardwareEvents
+0x2BE2 : WevtUtil g⯢li HardwareEvents
+0x2BE3 : WevtUtil g⯣li HardwareEvents
+0x2BE4 : WevtUtil g⯤li HardwareEvents
+0x2BE5 : WevtUtil g⯥li HardwareEvents
+0x2BE6 : WevtUtil g⯦li HardwareEvents
+0x2BE7 : WevtUtil g⯧li HardwareEvents
+0x2BE8 : WevtUtil g⯨li HardwareEvents
+0x2BE9 : WevtUtil g⯩li HardwareEvents
+0x2BEA : WevtUtil g⯪li HardwareEvents
+0x2BEB : WevtUtil g⯫li HardwareEvents
+0x2BEC : WevtUtil g⯬li HardwareEvents
+0x2BED : WevtUtil g⯭li HardwareEvents
+0x2BEE : WevtUtil g⯮li HardwareEvents
+0x2BEF : WevtUtil g⯯li HardwareEvents
+0x2BF0 : WevtUtil g⯰li HardwareEvents
+0x2BF1 : WevtUtil g⯱li HardwareEvents
+0x2BF2 : WevtUtil g⯲li HardwareEvents
+0x2BF3 : WevtUtil g⯳li HardwareEvents
+0x2BF4 : WevtUtil g⯴li HardwareEvents
+0x2BF5 : WevtUtil g⯵li HardwareEvents
+0x2BF6 : WevtUtil g⯶li HardwareEvents
+0x2BF7 : WevtUtil g⯷li HardwareEvents
+0x2BF8 : WevtUtil g⯸li HardwareEvents
+0x2BF9 : WevtUtil g⯹li HardwareEvents
+0x2BFA : WevtUtil g⯺li HardwareEvents
+0x2BFB : WevtUtil g⯻li HardwareEvents
+0x2BFC : WevtUtil g⯼li HardwareEvents
+0x2BFD : WevtUtil g⯽li HardwareEvents
+0x2BFE : WevtUtil g⯾li HardwareEvents
+0x2BFF : WevtUtil g⯿li HardwareEvents
+0x2C2F : WevtUtil gⰯli HardwareEvents
+0x2C5F : WevtUtil gⱟli HardwareEvents
+0x2CF2 : WevtUtil gⳲli HardwareEvents
+0x2CF3 : WevtUtil gⳳli HardwareEvents
+0x2CF4 : WevtUtil g⳴li HardwareEvents
+0x2CF5 : WevtUtil g⳵li HardwareEvents
+0x2CF6 : WevtUtil g⳶li HardwareEvents
+0x2CF7 : WevtUtil g⳷li HardwareEvents
+0x2CF8 : WevtUtil g⳸li HardwareEvents
+0x2D26 : WevtUtil g⴦li HardwareEvents
+0x2D27 : WevtUtil gⴧli HardwareEvents
+0x2D28 : WevtUtil g⴨li HardwareEvents
+0x2D29 : WevtUtil g⴩li HardwareEvents
+0x2D2A : WevtUtil g⴪li HardwareEvents
+0x2D2B : WevtUtil g⴫li HardwareEvents
+0x2D2C : WevtUtil g⴬li HardwareEvents
+0x2D2D : WevtUtil gⴭli HardwareEvents
+0x2D2E : WevtUtil g⴮li HardwareEvents
+0x2D2F : WevtUtil g⴯li HardwareEvents
+0x2D66 : WevtUtil gⵦli HardwareEvents
+0x2D67 : WevtUtil gⵧli HardwareEvents
+0x2D68 : WevtUtil g⵨li HardwareEvents
+0x2D69 : WevtUtil g⵩li HardwareEvents
+0x2D6A : WevtUtil g⵪li HardwareEvents
+0x2D6B : WevtUtil g⵫li HardwareEvents
+0x2D6C : WevtUtil g⵬li HardwareEvents
+0x2D6D : WevtUtil g⵭li HardwareEvents
+0x2D6E : WevtUtil g⵮li HardwareEvents
+0x2D71 : WevtUtil g⵱li HardwareEvents
+0x2D72 : WevtUtil g⵲li HardwareEvents
+0x2D73 : WevtUtil g⵳li HardwareEvents
+0x2D74 : WevtUtil g⵴li HardwareEvents
+0x2D75 : WevtUtil g⵵li HardwareEvents
+0x2D76 : WevtUtil g⵶li HardwareEvents
+0x2D77 : WevtUtil g⵷li HardwareEvents
+0x2D78 : WevtUtil g⵸li HardwareEvents
+0x2D79 : WevtUtil g⵹li HardwareEvents
+0x2D7A : WevtUtil g⵺li HardwareEvents
+0x2D7B : WevtUtil g⵻li HardwareEvents
+0x2D7C : WevtUtil g⵼li HardwareEvents
+0x2D7D : WevtUtil g⵽li HardwareEvents
+0x2D7E : WevtUtil g⵾li HardwareEvents
+0x2D97 : WevtUtil g⶗li HardwareEvents
+0x2D98 : WevtUtil g⶘li HardwareEvents
+0x2D99 : WevtUtil g⶙li HardwareEvents
+0x2D9A : WevtUtil g⶚li HardwareEvents
+0x2D9B : WevtUtil g⶛li HardwareEvents
+0x2D9C : WevtUtil g⶜li HardwareEvents
+0x2D9D : WevtUtil g⶝li HardwareEvents
+0x2D9E : WevtUtil g⶞li HardwareEvents
+0x2D9F : WevtUtil g⶟li HardwareEvents
+0x2DA7 : WevtUtil g⶧li HardwareEvents
+0x2DAF : WevtUtil g⶯li HardwareEvents
+0x2DB7 : WevtUtil g⶷li HardwareEvents
+0x2DBF : WevtUtil g⶿li HardwareEvents
+0x2DC7 : WevtUtil g⷇li HardwareEvents
+0x2DCF : WevtUtil g⷏li HardwareEvents
+0x2DD7 : WevtUtil g⷗li HardwareEvents
+0x2DDF : WevtUtil g⷟li HardwareEvents
+0x2E32 : WevtUtil g⸲li HardwareEvents
+0x2E33 : WevtUtil g⸳li HardwareEvents
+0x2E34 : WevtUtil g⸴li HardwareEvents
+0x2E35 : WevtUtil g⸵li HardwareEvents
+0x2E36 : WevtUtil g⸶li HardwareEvents
+0x2E37 : WevtUtil g⸷li HardwareEvents
+0x2E38 : WevtUtil g⸸li HardwareEvents
+0x2E39 : WevtUtil g⸹li HardwareEvents
+0x2E3A : WevtUtil g⸺li HardwareEvents
+0x2E3B : WevtUtil g⸻li HardwareEvents
+0x2E3C : WevtUtil g⸼li HardwareEvents
+0x2E3D : WevtUtil g⸽li HardwareEvents
+0x2E3E : WevtUtil g⸾li HardwareEvents
+0x2E3F : WevtUtil g⸿li HardwareEvents
+0x2E40 : WevtUtil g⹀li HardwareEvents
+0x2E41 : WevtUtil g⹁li HardwareEvents
+0x2E42 : WevtUtil g⹂li HardwareEvents
+0x2E43 : WevtUtil g⹃li HardwareEvents
+0x2E44 : WevtUtil g⹄li HardwareEvents
+0x2E45 : WevtUtil g⹅li HardwareEvents
+0x2E46 : WevtUtil g⹆li HardwareEvents
+0x2E47 : WevtUtil g⹇li HardwareEvents
+0x2E48 : WevtUtil g⹈li HardwareEvents
+0x2E49 : WevtUtil g⹉li HardwareEvents
+0x2E4A : WevtUtil g⹊li HardwareEvents
+0x2E4B : WevtUtil g⹋li HardwareEvents
+0x2E4C : WevtUtil g⹌li HardwareEvents
+0x2E4D : WevtUtil g⹍li HardwareEvents
+0x2E4E : WevtUtil g⹎li HardwareEvents
+0x2E4F : WevtUtil g⹏li HardwareEvents
+0x2E50 : WevtUtil g⹐li HardwareEvents
+0x2E51 : WevtUtil g⹑li HardwareEvents
+0x2E52 : WevtUtil g⹒li HardwareEvents
+0x2E53 : WevtUtil g⹓li HardwareEvents
+0x2E54 : WevtUtil g⹔li HardwareEvents
+0x2E55 : WevtUtil g⹕li HardwareEvents
+0x2E56 : WevtUtil g⹖li HardwareEvents
+0x2E57 : WevtUtil g⹗li HardwareEvents
+0x2E58 : WevtUtil g⹘li HardwareEvents
+0x2E59 : WevtUtil g⹙li HardwareEvents
+0x2E5A : WevtUtil g⹚li HardwareEvents
+0x2E5B : WevtUtil g⹛li HardwareEvents
+0x2E5C : WevtUtil g⹜li HardwareEvents
+0x2E5D : WevtUtil g⹝li HardwareEvents
+0x2E5E : WevtUtil g⹞li HardwareEvents
+0x2E5F : WevtUtil g⹟li HardwareEvents
+0x2E60 : WevtUtil g⹠li HardwareEvents
+0x2E61 : WevtUtil g⹡li HardwareEvents
+0x2E62 : WevtUtil g⹢li HardwareEvents
+0x2E63 : WevtUtil g⹣li HardwareEvents
+0x2E64 : WevtUtil g⹤li HardwareEvents
+0x2E65 : WevtUtil g⹥li HardwareEvents
+0x2E66 : WevtUtil g⹦li HardwareEvents
+0x2E67 : WevtUtil g⹧li HardwareEvents
+0x2E68 : WevtUtil g⹨li HardwareEvents
+0x2E69 : WevtUtil g⹩li HardwareEvents
+0x2E6A : WevtUtil g⹪li HardwareEvents
+0x2E6B : WevtUtil g⹫li HardwareEvents
+0x2E6C : WevtUtil g⹬li HardwareEvents
+0x2E6D : WevtUtil g⹭li HardwareEvents
+0x2E6E : WevtUtil g⹮li HardwareEvents
+0x2E6F : WevtUtil g⹯li HardwareEvents
+0x2E70 : WevtUtil g⹰li HardwareEvents
+0x2E71 : WevtUtil g⹱li HardwareEvents
+0x2E72 : WevtUtil g⹲li HardwareEvents
+0x2E73 : WevtUtil g⹳li HardwareEvents
+0x2E74 : WevtUtil g⹴li HardwareEvents
+0x2E75 : WevtUtil g⹵li HardwareEvents
+0x2E76 : WevtUtil g⹶li HardwareEvents
+0x2E77 : WevtUtil g⹷li HardwareEvents
+0x2E78 : WevtUtil g⹸li HardwareEvents
+0x2E79 : WevtUtil g⹹li HardwareEvents
+0x2E7A : WevtUtil g⹺li HardwareEvents
+0x2E7B : WevtUtil g⹻li HardwareEvents
+0x2E7C : WevtUtil g⹼li HardwareEvents
+0x2E7D : WevtUtil g⹽li HardwareEvents
+0x2E7E : WevtUtil g⹾li HardwareEvents
+0x2E7F : WevtUtil g⹿li HardwareEvents
+0x2E9A : WevtUtil g⺚li HardwareEvents
+0x2EF4 : WevtUtil g⻴li HardwareEvents
+0x2EF5 : WevtUtil g⻵li HardwareEvents
+0x2EF6 : WevtUtil g⻶li HardwareEvents
+0x2EF7 : WevtUtil g⻷li HardwareEvents
+0x2EF8 : WevtUtil g⻸li HardwareEvents
+0x2EF9 : WevtUtil g⻹li HardwareEvents
+0x2EFA : WevtUtil g⻺li HardwareEvents
+0x2EFB : WevtUtil g⻻li HardwareEvents
+0x2EFC : WevtUtil g⻼li HardwareEvents
+0x2EFD : WevtUtil g⻽li HardwareEvents
+0x2EFE : WevtUtil g⻾li HardwareEvents
+0x2EFF : WevtUtil g⻿li HardwareEvents
+0x2FD6 : WevtUtil g⿖li HardwareEvents
+0x2FD7 : WevtUtil g⿗li HardwareEvents
+0x2FD8 : WevtUtil g⿘li HardwareEvents
+0x2FD9 : WevtUtil g⿙li HardwareEvents
+0x2FDA : WevtUtil g⿚li HardwareEvents
+0x2FDB : WevtUtil g⿛li HardwareEvents
+0x2FDC : WevtUtil g⿜li HardwareEvents
+0x2FDD : WevtUtil g⿝li HardwareEvents
+0x2FDE : WevtUtil g⿞li HardwareEvents
+0x2FDF : WevtUtil g⿟li HardwareEvents
+0x2FE0 : WevtUtil g⿠li HardwareEvents
+0x2FE1 : WevtUtil g⿡li HardwareEvents
+0x2FE2 : WevtUtil g⿢li HardwareEvents
+0x2FE3 : WevtUtil g⿣li HardwareEvents
+0x2FE4 : WevtUtil g⿤li HardwareEvents
+0x2FE5 : WevtUtil g⿥li HardwareEvents
+0x2FE6 : WevtUtil g⿦li HardwareEvents
+0x2FE7 : WevtUtil g⿧li HardwareEvents
+0x2FE8 : WevtUtil g⿨li HardwareEvents
+0x2FE9 : WevtUtil g⿩li HardwareEvents
+0x2FEA : WevtUtil g⿪li HardwareEvents
+0x2FEB : WevtUtil g⿫li HardwareEvents
+0x2FEC : WevtUtil g⿬li HardwareEvents
+0x2FED : WevtUtil g⿭li HardwareEvents
+0x2FEE : WevtUtil g⿮li HardwareEvents
+0x2FEF : WevtUtil g⿯li HardwareEvents
+0x2FFC : WevtUtil g⿼li HardwareEvents
+0x2FFD : WevtUtil g⿽li HardwareEvents
+0x2FFE : WevtUtil g⿾li HardwareEvents
+0x2FFF : WevtUtil g⿿li HardwareEvents
+0x3040 : WevtUtil g぀li HardwareEvents
+0x3097 : WevtUtil g゗li HardwareEvents
+0x3098 : WevtUtil g゘li HardwareEvents
+0x3100 : WevtUtil g㄀li HardwareEvents
+0x3101 : WevtUtil g㄁li HardwareEvents
+0x3102 : WevtUtil g㄂li HardwareEvents
+0x3103 : WevtUtil g㄃li HardwareEvents
+0x3104 : WevtUtil g㄄li HardwareEvents
+0x312E : WevtUtil gㄮli HardwareEvents
+0x312F : WevtUtil gㄯli HardwareEvents
+0x3130 : WevtUtil g㄰li HardwareEvents
+0x318F : WevtUtil g㆏li HardwareEvents
+0x3190 : WevtUtil g㆐li HardwareEvents
+0x3191 : WevtUtil g㆑li HardwareEvents
+0x31BB : WevtUtil gㆻli HardwareEvents
+0x31BC : WevtUtil gㆼli HardwareEvents
+0x31BD : WevtUtil gㆽli HardwareEvents
+0x31BE : WevtUtil gㆾli HardwareEvents
+0x31BF : WevtUtil gㆿli HardwareEvents
+0x31E4 : WevtUtil g㇤li HardwareEvents
+0x31E5 : WevtUtil g㇥li HardwareEvents
+0x31E6 : WevtUtil g㇦li HardwareEvents
+0x31E7 : WevtUtil g㇧li HardwareEvents
+0x31E8 : WevtUtil g㇨li HardwareEvents
+0x31E9 : WevtUtil g㇩li HardwareEvents
+0x31EA : WevtUtil g㇪li HardwareEvents
+0x31EB : WevtUtil g㇫li HardwareEvents
+0x31EC : WevtUtil g㇬li HardwareEvents
+0x31ED : WevtUtil g㇭li HardwareEvents
+0x31EE : WevtUtil g㇮li HardwareEvents
+0x31EF : WevtUtil g㇯li HardwareEvents
+0x321F : WevtUtil g㈟li HardwareEvents
+0x32FF : WevtUtil g㋿li HardwareEvents
+0x4DB6 : WevtUtil g䶶li HardwareEvents
+0x4DB7 : WevtUtil g䶷li HardwareEvents
+0x4DB8 : WevtUtil g䶸li HardwareEvents
+0x4DB9 : WevtUtil g䶹li HardwareEvents
+0x4DBA : WevtUtil g䶺li HardwareEvents
+0x4DBB : WevtUtil g䶻li HardwareEvents
+0x4DBC : WevtUtil g䶼li HardwareEvents
+0x4DBD : WevtUtil g䶽li HardwareEvents
+0x4DBE : WevtUtil g䶾li HardwareEvents
+0x4DBF : WevtUtil g䶿li HardwareEvents
+0x9FCC : WevtUtil g鿌li HardwareEvents
+0x9FCD : WevtUtil g鿍li HardwareEvents
+0x9FCE : WevtUtil g鿎li HardwareEvents
+0x9FCF : WevtUtil g鿏li HardwareEvents
+0x9FD0 : WevtUtil g鿐li HardwareEvents
+0x9FD1 : WevtUtil g鿑li HardwareEvents
+0x9FD2 : WevtUtil g鿒li HardwareEvents
+0x9FD3 : WevtUtil g鿓li HardwareEvents
+0x9FD4 : WevtUtil g鿔li HardwareEvents
+0x9FD5 : WevtUtil g鿕li HardwareEvents
+0x9FD6 : WevtUtil g鿖li HardwareEvents
+0x9FD7 : WevtUtil g鿗li HardwareEvents
+0x9FD8 : WevtUtil g鿘li HardwareEvents
+0x9FD9 : WevtUtil g鿙li HardwareEvents
+0x9FDA : WevtUtil g鿚li HardwareEvents
+0x9FDB : WevtUtil g鿛li HardwareEvents
+0x9FDC : WevtUtil g鿜li HardwareEvents
+0x9FDD : WevtUtil g鿝li HardwareEvents
+0x9FDE : WevtUtil g鿞li HardwareEvents
+0x9FDF : WevtUtil g鿟li HardwareEvents
+0x9FE0 : WevtUtil g鿠li HardwareEvents
+0x9FE1 : WevtUtil g鿡li HardwareEvents
+0x9FE2 : WevtUtil g鿢li HardwareEvents
+0x9FE3 : WevtUtil g鿣li HardwareEvents
+0x9FE4 : WevtUtil g鿤li HardwareEvents
+0x9FE5 : WevtUtil g鿥li HardwareEvents
+0x9FE6 : WevtUtil g鿦li HardwareEvents
+0x9FE7 : WevtUtil g鿧li HardwareEvents
+0x9FE8 : WevtUtil g鿨li HardwareEvents
+0x9FE9 : WevtUtil g鿩li HardwareEvents
+0x9FEA : WevtUtil g鿪li HardwareEvents
+0x9FEB : WevtUtil g鿫li HardwareEvents
+0x9FEC : WevtUtil g鿬li HardwareEvents
+0x9FED : WevtUtil g鿭li HardwareEvents
+0x9FEE : WevtUtil g鿮li HardwareEvents
+0x9FEF : WevtUtil g鿯li HardwareEvents
+0x9FF0 : WevtUtil g鿰li HardwareEvents
+0x9FF1 : WevtUtil g鿱li HardwareEvents
+0x9FF2 : WevtUtil g鿲li HardwareEvents
+0x9FF3 : WevtUtil g鿳li HardwareEvents
+0x9FF4 : WevtUtil g鿴li HardwareEvents
+0x9FF5 : WevtUtil g鿵li HardwareEvents
+0x9FF6 : WevtUtil g鿶li HardwareEvents
+0x9FF7 : WevtUtil g鿷li HardwareEvents
+0x9FF8 : WevtUtil g鿸li HardwareEvents
+0x9FF9 : WevtUtil g鿹li HardwareEvents
+0x9FFA : WevtUtil g鿺li HardwareEvents
+0x9FFB : WevtUtil g鿻li HardwareEvents
+0x9FFC : WevtUtil g鿼li HardwareEvents
+0x9FFD : WevtUtil g鿽li HardwareEvents
+0x9FFE : WevtUtil g鿾li HardwareEvents
+0x9FFF : WevtUtil g鿿li HardwareEvents
+0xA48D : WevtUtil g꒍li HardwareEvents
+0xA48E : WevtUtil g꒎li HardwareEvents
+0xA48F : WevtUtil g꒏li HardwareEvents
+0xA4C7 : WevtUtil g꓇li HardwareEvents
+0xA4C8 : WevtUtil g꓈li HardwareEvents
+0xA4C9 : WevtUtil g꓉li HardwareEvents
+0xA4CA : WevtUtil g꓊li HardwareEvents
+0xA4CB : WevtUtil g꓋li HardwareEvents
+0xA4CC : WevtUtil g꓌li HardwareEvents
+0xA4CD : WevtUtil g꓍li HardwareEvents
+0xA4CE : WevtUtil g꓎li HardwareEvents
+0xA4CF : WevtUtil g꓏li HardwareEvents
+0xA62C : WevtUtil g꘬li HardwareEvents
+0xA62D : WevtUtil g꘭li HardwareEvents
+0xA62E : WevtUtil g꘮li HardwareEvents
+0xA62F : WevtUtil g꘯li HardwareEvents
+0xA630 : WevtUtil g꘰li HardwareEvents
+0xA631 : WevtUtil g꘱li HardwareEvents
+0xA632 : WevtUtil g꘲li HardwareEvents
+0xA633 : WevtUtil g꘳li HardwareEvents
+0xA634 : WevtUtil g꘴li HardwareEvents
+0xA635 : WevtUtil g꘵li HardwareEvents
+0xA636 : WevtUtil g꘶li HardwareEvents
+0xA637 : WevtUtil g꘷li HardwareEvents
+0xA638 : WevtUtil g꘸li HardwareEvents
+0xA639 : WevtUtil g꘹li HardwareEvents
+0xA63A : WevtUtil g꘺li HardwareEvents
+0xA63B : WevtUtil g꘻li HardwareEvents
+0xA63C : WevtUtil g꘼li HardwareEvents
+0xA63D : WevtUtil g꘽li HardwareEvents
+0xA63E : WevtUtil g꘾li HardwareEvents
+0xA63F : WevtUtil g꘿li HardwareEvents
+0xA660 : WevtUtil gꙠli HardwareEvents
+0xA661 : WevtUtil gꙡli HardwareEvents
+0xA674 : WevtUtil gꙴli HardwareEvents
+0xA675 : WevtUtil gꙵli HardwareEvents
+0xA676 : WevtUtil gꙶli HardwareEvents
+0xA677 : WevtUtil gꙷli HardwareEvents
+0xA678 : WevtUtil gꙸli HardwareEvents
+0xA679 : WevtUtil gꙹli HardwareEvents
+0xA67A : WevtUtil gꙺli HardwareEvents
+0xA67B : WevtUtil gꙻli HardwareEvents
+0xA698 : WevtUtil gꚘli HardwareEvents
+0xA699 : WevtUtil gꚙli HardwareEvents
+0xA69A : WevtUtil gꚚli HardwareEvents
+0xA69B : WevtUtil gꚛli HardwareEvents
+0xA69C : WevtUtil gꚜli HardwareEvents
+0xA69D : WevtUtil gꚝli HardwareEvents
+0xA69E : WevtUtil gꚞli HardwareEvents
+0xA69F : WevtUtil gꚟli HardwareEvents
+0xA6F8 : WevtUtil g꛸li HardwareEvents
+0xA6F9 : WevtUtil g꛹li HardwareEvents
+0xA6FA : WevtUtil g꛺li HardwareEvents
+0xA6FB : WevtUtil g꛻li HardwareEvents
+0xA6FC : WevtUtil g꛼li HardwareEvents
+0xA6FD : WevtUtil g꛽li HardwareEvents
+0xA6FE : WevtUtil g꛾li HardwareEvents
+0xA6FF : WevtUtil g꛿li HardwareEvents
+0xA78F : WevtUtil gꞏli HardwareEvents
+0xA792 : WevtUtil gꞒli HardwareEvents
+0xA793 : WevtUtil gꞓli HardwareEvents
+0xA794 : WevtUtil gꞔli HardwareEvents
+0xA795 : WevtUtil gꞕli HardwareEvents
+0xA796 : WevtUtil gꞖli HardwareEvents
+0xA797 : WevtUtil gꞗli HardwareEvents
+0xA798 : WevtUtil gꞘli HardwareEvents
+0xA799 : WevtUtil gꞙli HardwareEvents
+0xA79A : WevtUtil gꞚli HardwareEvents
+0xA79B : WevtUtil gꞛli HardwareEvents
+0xA79C : WevtUtil gꞜli HardwareEvents
+0xA79D : WevtUtil gꞝli HardwareEvents
+0xA79E : WevtUtil gꞞli HardwareEvents
+0xA79F : WevtUtil gꞟli HardwareEvents
+0xA7AA : WevtUtil gꞪli HardwareEvents
+0xA7AB : WevtUtil gꞫli HardwareEvents
+0xA7AC : WevtUtil gꞬli HardwareEvents
+0xA7AD : WevtUtil gꞭli HardwareEvents
+0xA7AE : WevtUtil gꞮli HardwareEvents
+0xA7AF : WevtUtil gꞯli HardwareEvents
+0xA7B0 : WevtUtil gꞰli HardwareEvents
+0xA7B1 : WevtUtil gꞱli HardwareEvents
+0xA7B2 : WevtUtil gꞲli HardwareEvents
+0xA7B3 : WevtUtil gꞳli HardwareEvents
+0xA7B4 : WevtUtil gꞴli HardwareEvents
+0xA7B5 : WevtUtil gꞵli HardwareEvents
+0xA7B6 : WevtUtil gꞶli HardwareEvents
+0xA7B7 : WevtUtil gꞷli HardwareEvents
+0xA7B8 : WevtUtil gꞸli HardwareEvents
+0xA7B9 : WevtUtil gꞹli HardwareEvents
+0xA7BA : WevtUtil gꞺli HardwareEvents
+0xA7BB : WevtUtil gꞻli HardwareEvents
+0xA7BC : WevtUtil gꞼli HardwareEvents
+0xA7BD : WevtUtil gꞽli HardwareEvents
+0xA7BE : WevtUtil gꞾli HardwareEvents
+0xA7BF : WevtUtil gꞿli HardwareEvents
+0xA7C0 : WevtUtil gꟀli HardwareEvents
+0xA7C1 : WevtUtil gꟁli HardwareEvents
+0xA7C2 : WevtUtil gꟂli HardwareEvents
+0xA7C3 : WevtUtil gꟃli HardwareEvents
+0xA7C4 : WevtUtil gꟄli HardwareEvents
+0xA7C5 : WevtUtil gꟅli HardwareEvents
+0xA7C6 : WevtUtil gꟆli HardwareEvents
+0xA7C7 : WevtUtil gꟇli HardwareEvents
+0xA7C8 : WevtUtil gꟈli HardwareEvents
+0xA7C9 : WevtUtil gꟉli HardwareEvents
+0xA7CA : WevtUtil gꟊli HardwareEvents
+0xA7CB : WevtUtil gꟋli HardwareEvents
+0xA7CC : WevtUtil gꟌli HardwareEvents
+0xA7CD : WevtUtil gꟍli HardwareEvents
+0xA7CE : WevtUtil g꟎li HardwareEvents
+0xA7CF : WevtUtil g꟏li HardwareEvents
+0xA7D0 : WevtUtil gꟐli HardwareEvents
+0xA7D1 : WevtUtil gꟑli HardwareEvents
+0xA7D2 : WevtUtil g꟒li HardwareEvents
+0xA7D3 : WevtUtil gꟓli HardwareEvents
+0xA7D4 : WevtUtil g꟔li HardwareEvents
+0xA7D5 : WevtUtil gꟕli HardwareEvents
+0xA7D6 : WevtUtil gꟖli HardwareEvents
+0xA7D7 : WevtUtil gꟗli HardwareEvents
+0xA7D8 : WevtUtil gꟘli HardwareEvents
+0xA7D9 : WevtUtil gꟙli HardwareEvents
+0xA7DA : WevtUtil gꟚli HardwareEvents
+0xA7DB : WevtUtil gꟛli HardwareEvents
+0xA7DC : WevtUtil gꟜli HardwareEvents
+0xA7DD : WevtUtil g꟝li HardwareEvents
+0xA7DE : WevtUtil g꟞li HardwareEvents
+0xA7DF : WevtUtil g꟟li HardwareEvents
+0xA7E0 : WevtUtil g꟠li HardwareEvents
+0xA7E1 : WevtUtil g꟡li HardwareEvents
+0xA7E2 : WevtUtil g꟢li HardwareEvents
+0xA7E3 : WevtUtil g꟣li HardwareEvents
+0xA7E4 : WevtUtil g꟤li HardwareEvents
+0xA7E5 : WevtUtil g꟥li HardwareEvents
+0xA7E6 : WevtUtil g꟦li HardwareEvents
+0xA7E7 : WevtUtil g꟧li HardwareEvents
+0xA7E8 : WevtUtil g꟨li HardwareEvents
+0xA7E9 : WevtUtil g꟩li HardwareEvents
+0xA7EA : WevtUtil g꟪li HardwareEvents
+0xA7EB : WevtUtil g꟫li HardwareEvents
+0xA7EC : WevtUtil g꟬li HardwareEvents
+0xA7ED : WevtUtil g꟭li HardwareEvents
+0xA7EE : WevtUtil g꟮li HardwareEvents
+0xA7EF : WevtUtil g꟯li HardwareEvents
+0xA7F0 : WevtUtil g꟰li HardwareEvents
+0xA7F1 : WevtUtil g꟱li HardwareEvents
+0xA7F2 : WevtUtil gꟲli HardwareEvents
+0xA7F3 : WevtUtil gꟳli HardwareEvents
+0xA7F4 : WevtUtil gꟴli HardwareEvents
+0xA7F5 : WevtUtil gꟵli HardwareEvents
+0xA7F6 : WevtUtil gꟶli HardwareEvents
+0xA7F7 : WevtUtil gꟷli HardwareEvents
+0xA7F8 : WevtUtil gꟸli HardwareEvents
+0xA7F9 : WevtUtil gꟹli HardwareEvents
+0xA82C : WevtUtil g꠬li HardwareEvents
+0xA82D : WevtUtil g꠭li HardwareEvents
+0xA82E : WevtUtil g꠮li HardwareEvents
+0xA82F : WevtUtil g꠯li HardwareEvents
+0xA836 : WevtUtil g꠶li HardwareEvents
+0xA837 : WevtUtil g꠷li HardwareEvents
+0xA838 : WevtUtil g꠸li HardwareEvents
+0xA839 : WevtUtil g꠹li HardwareEvents
+0xA83A : WevtUtil g꠺li HardwareEvents
+0xA83B : WevtUtil g꠻li HardwareEvents
+0xA83C : WevtUtil g꠼li HardwareEvents
+0xA83D : WevtUtil g꠽li HardwareEvents
+0xA83E : WevtUtil g꠾li HardwareEvents
+0xA83F : WevtUtil g꠿li HardwareEvents
+0xA878 : WevtUtil g꡸li HardwareEvents
+0xA879 : WevtUtil g꡹li HardwareEvents
+0xA87A : WevtUtil g꡺li HardwareEvents
+0xA87B : WevtUtil g꡻li HardwareEvents
+0xA87C : WevtUtil g꡼li HardwareEvents
+0xA87D : WevtUtil g꡽li HardwareEvents
+0xA87E : WevtUtil g꡾li HardwareEvents
+0xA87F : WevtUtil g꡿li HardwareEvents
+0xA8C5 : WevtUtil gꣅli HardwareEvents
+0xA8C6 : WevtUtil g꣆li HardwareEvents
+0xA8C7 : WevtUtil g꣇li HardwareEvents
+0xA8C8 : WevtUtil g꣈li HardwareEvents
+0xA8C9 : WevtUtil g꣉li HardwareEvents
+0xA8CA : WevtUtil g꣊li HardwareEvents
+0xA8CB : WevtUtil g꣋li HardwareEvents
+0xA8CC : WevtUtil g꣌li HardwareEvents
+0xA8CD : WevtUtil g꣍li HardwareEvents
+0xA8DA : WevtUtil g꣚li HardwareEvents
+0xA8DB : WevtUtil g꣛li HardwareEvents
+0xA8DC : WevtUtil g꣜li HardwareEvents
+0xA8DD : WevtUtil g꣝li HardwareEvents
+0xA8DE : WevtUtil g꣞li HardwareEvents
+0xA8DF : WevtUtil g꣟li HardwareEvents
+0xA8E0 : WevtUtil g꣠li HardwareEvents
+0xA8E1 : WevtUtil g꣡li HardwareEvents
+0xA8E2 : WevtUtil g꣢li HardwareEvents
+0xA8E3 : WevtUtil g꣣li HardwareEvents
+0xA8E4 : WevtUtil g꣤li HardwareEvents
+0xA8E5 : WevtUtil g꣥li HardwareEvents
+0xA8E6 : WevtUtil g꣦li HardwareEvents
+0xA8E7 : WevtUtil g꣧li HardwareEvents
+0xA8E8 : WevtUtil g꣨li HardwareEvents
+0xA8E9 : WevtUtil g꣩li HardwareEvents
+0xA8EA : WevtUtil g꣪li HardwareEvents
+0xA8EB : WevtUtil g꣫li HardwareEvents
+0xA8EC : WevtUtil g꣬li HardwareEvents
+0xA8ED : WevtUtil g꣭li HardwareEvents
+0xA8EE : WevtUtil g꣮li HardwareEvents
+0xA8EF : WevtUtil g꣯li HardwareEvents
+0xA8F0 : WevtUtil g꣰li HardwareEvents
+0xA8F1 : WevtUtil g꣱li HardwareEvents
+0xA8F8 : WevtUtil g꣸li HardwareEvents
+0xA8F9 : WevtUtil g꣹li HardwareEvents
+0xA8FA : WevtUtil g꣺li HardwareEvents
+0xA8FC : WevtUtil g꣼li HardwareEvents
+0xA8FD : WevtUtil gꣽli HardwareEvents
+0xA8FE : WevtUtil gꣾli HardwareEvents
+0xA8FF : WevtUtil gꣿli HardwareEvents
+0xA954 : WevtUtil g꥔li HardwareEvents
+0xA955 : WevtUtil g꥕li HardwareEvents
+0xA956 : WevtUtil g꥖li HardwareEvents
+0xA957 : WevtUtil g꥗li HardwareEvents
+0xA958 : WevtUtil g꥘li HardwareEvents
+0xA959 : WevtUtil g꥙li HardwareEvents
+0xA95A : WevtUtil g꥚li HardwareEvents
+0xA95B : WevtUtil g꥛li HardwareEvents
+0xA95C : WevtUtil g꥜li HardwareEvents
+0xA95D : WevtUtil g꥝li HardwareEvents
+0xA95E : WevtUtil g꥞li HardwareEvents
+0xA97D : WevtUtil g꥽li HardwareEvents
+0xA97E : WevtUtil g꥾li HardwareEvents
+0xA97F : WevtUtil g꥿li HardwareEvents
+0xA9CE : WevtUtil g꧎li HardwareEvents
+0xA9DA : WevtUtil g꧚li HardwareEvents
+0xA9DB : WevtUtil g꧛li HardwareEvents
+0xA9DC : WevtUtil g꧜li HardwareEvents
+0xA9DD : WevtUtil g꧝li HardwareEvents
+0xA9E0 : WevtUtil gꧠli HardwareEvents
+0xA9E1 : WevtUtil gꧡli HardwareEvents
+0xA9E2 : WevtUtil gꧢli HardwareEvents
+0xA9E3 : WevtUtil gꧣli HardwareEvents
+0xA9E4 : WevtUtil gꧤli HardwareEvents
+0xA9E5 : WevtUtil gꧥli HardwareEvents
+0xA9E6 : WevtUtil gꧦli HardwareEvents
+0xA9E7 : WevtUtil gꧧli HardwareEvents
+0xA9E8 : WevtUtil gꧨli HardwareEvents
+0xA9E9 : WevtUtil gꧩli HardwareEvents
+0xA9EA : WevtUtil gꧪli HardwareEvents
+0xA9EB : WevtUtil gꧫli HardwareEvents
+0xA9EC : WevtUtil gꧬli HardwareEvents
+0xA9ED : WevtUtil gꧭli HardwareEvents
+0xA9EE : WevtUtil gꧮli HardwareEvents
+0xA9EF : WevtUtil gꧯli HardwareEvents
+0xA9F0 : WevtUtil g꧰li HardwareEvents
+0xA9F1 : WevtUtil g꧱li HardwareEvents
+0xA9F2 : WevtUtil g꧲li HardwareEvents
+0xA9F3 : WevtUtil g꧳li HardwareEvents
+0xA9F4 : WevtUtil g꧴li HardwareEvents
+0xA9F5 : WevtUtil g꧵li HardwareEvents
+0xA9F6 : WevtUtil g꧶li HardwareEvents
+0xA9F7 : WevtUtil g꧷li HardwareEvents
+0xA9F8 : WevtUtil g꧸li HardwareEvents
+0xA9F9 : WevtUtil g꧹li HardwareEvents
+0xA9FA : WevtUtil gꧺli HardwareEvents
+0xA9FB : WevtUtil gꧻli HardwareEvents
+0xA9FC : WevtUtil gꧼli HardwareEvents
+0xA9FD : WevtUtil gꧽli HardwareEvents
+0xA9FE : WevtUtil gꧾli HardwareEvents
+0xA9FF : WevtUtil g꧿li HardwareEvents
+0xAA37 : WevtUtil g꨷li HardwareEvents
+0xAA38 : WevtUtil g꨸li HardwareEvents
+0xAA39 : WevtUtil g꨹li HardwareEvents
+0xAA3A : WevtUtil g꨺li HardwareEvents
+0xAA3B : WevtUtil g꨻li HardwareEvents
+0xAA3C : WevtUtil g꨼li HardwareEvents
+0xAA3D : WevtUtil g꨽li HardwareEvents
+0xAA3E : WevtUtil g꨾li HardwareEvents
+0xAA3F : WevtUtil g꨿li HardwareEvents
+0xAA4E : WevtUtil g꩎li HardwareEvents
+0xAA4F : WevtUtil g꩏li HardwareEvents
+0xAA5A : WevtUtil g꩚li HardwareEvents
+0xAA5B : WevtUtil g꩛li HardwareEvents
+0xAA7C : WevtUtil gꩼli HardwareEvents
+0xAA7D : WevtUtil gꩽli HardwareEvents
+0xAA7E : WevtUtil gꩾli HardwareEvents
+0xAA7F : WevtUtil gꩿli HardwareEvents
+0xAAC3 : WevtUtil g꫃li HardwareEvents
+0xAAC4 : WevtUtil g꫄li HardwareEvents
+0xAAC5 : WevtUtil g꫅li HardwareEvents
+0xAAC6 : WevtUtil g꫆li HardwareEvents
+0xAAC7 : WevtUtil g꫇li HardwareEvents
+0xAAC8 : WevtUtil g꫈li HardwareEvents
+0xAAC9 : WevtUtil g꫉li HardwareEvents
+0xAACA : WevtUtil g꫊li HardwareEvents
+0xAACB : WevtUtil g꫋li HardwareEvents
+0xAACC : WevtUtil g꫌li HardwareEvents
+0xAACD : WevtUtil g꫍li HardwareEvents
+0xAACE : WevtUtil g꫎li HardwareEvents
+0xAACF : WevtUtil g꫏li HardwareEvents
+0xAAD0 : WevtUtil g꫐li HardwareEvents
+0xAAD1 : WevtUtil g꫑li HardwareEvents
+0xAAD2 : WevtUtil g꫒li HardwareEvents
+0xAAD3 : WevtUtil g꫓li HardwareEvents
+0xAAD4 : WevtUtil g꫔li HardwareEvents
+0xAAD5 : WevtUtil g꫕li HardwareEvents
+0xAAD6 : WevtUtil g꫖li HardwareEvents
+0xAAD7 : WevtUtil g꫗li HardwareEvents
+0xAAD8 : WevtUtil g꫘li HardwareEvents
+0xAAD9 : WevtUtil g꫙li HardwareEvents
+0xAADA : WevtUtil g꫚li HardwareEvents
+0xAAE0 : WevtUtil gꫠli HardwareEvents
+0xAAE1 : WevtUtil gꫡli HardwareEvents
+0xAAE2 : WevtUtil gꫢli HardwareEvents
+0xAAE3 : WevtUtil gꫣli HardwareEvents
+0xAAE4 : WevtUtil gꫤli HardwareEvents
+0xAAE5 : WevtUtil gꫥli HardwareEvents
+0xAAE6 : WevtUtil gꫦli HardwareEvents
+0xAAE7 : WevtUtil gꫧli HardwareEvents
+0xAAE8 : WevtUtil gꫨli HardwareEvents
+0xAAE9 : WevtUtil gꫩli HardwareEvents
+0xAAEA : WevtUtil gꫪli HardwareEvents
+0xAAEB : WevtUtil gꫫli HardwareEvents
+0xAAEC : WevtUtil gꫬli HardwareEvents
+0xAAED : WevtUtil gꫭli HardwareEvents
+0xAAEE : WevtUtil gꫮli HardwareEvents
+0xAAEF : WevtUtil gꫯli HardwareEvents
+0xAAF0 : WevtUtil g꫰li HardwareEvents
+0xAAF1 : WevtUtil g꫱li HardwareEvents
+0xAAF2 : WevtUtil gꫲli HardwareEvents
+0xAAF3 : WevtUtil gꫳli HardwareEvents
+0xAAF4 : WevtUtil gꫴli HardwareEvents
+0xAAF5 : WevtUtil gꫵli HardwareEvents
+0xAAF6 : WevtUtil g꫶li HardwareEvents
+0xAAF7 : WevtUtil g꫷li HardwareEvents
+0xAAF8 : WevtUtil g꫸li HardwareEvents
+0xAAF9 : WevtUtil g꫹li HardwareEvents
+0xAAFA : WevtUtil g꫺li HardwareEvents
+0xAAFB : WevtUtil g꫻li HardwareEvents
+0xAAFC : WevtUtil g꫼li HardwareEvents
+0xAAFD : WevtUtil g꫽li HardwareEvents
+0xAAFE : WevtUtil g꫾li HardwareEvents
+0xAAFF : WevtUtil g꫿li HardwareEvents
+0xAB00 : WevtUtil g꬀li HardwareEvents
+0xAB07 : WevtUtil g꬇li HardwareEvents
+0xAB08 : WevtUtil g꬈li HardwareEvents
+0xAB0F : WevtUtil g꬏li HardwareEvents
+0xAB10 : WevtUtil g꬐li HardwareEvents
+0xAB17 : WevtUtil g꬗li HardwareEvents
+0xAB18 : WevtUtil g꬘li HardwareEvents
+0xAB19 : WevtUtil g꬙li HardwareEvents
+0xAB1A : WevtUtil g꬚li HardwareEvents
+0xAB1B : WevtUtil g꬛li HardwareEvents
+0xAB1C : WevtUtil g꬜li HardwareEvents
+0xAB1D : WevtUtil g꬝li HardwareEvents
+0xAB1E : WevtUtil g꬞li HardwareEvents
+0xAB1F : WevtUtil g꬟li HardwareEvents
+0xAB27 : WevtUtil g꬧li HardwareEvents
+0xAB2F : WevtUtil g꬯li HardwareEvents
+0xAB30 : WevtUtil gꬰli HardwareEvents
+0xAB31 : WevtUtil gꬱli HardwareEvents
+0xAB32 : WevtUtil gꬲli HardwareEvents
+0xAB33 : WevtUtil gꬳli HardwareEvents
+0xAB34 : WevtUtil gꬴli HardwareEvents
+0xAB35 : WevtUtil gꬵli HardwareEvents
+0xAB36 : WevtUtil gꬶli HardwareEvents
+0xAB37 : WevtUtil gꬷli HardwareEvents
+0xAB38 : WevtUtil gꬸli HardwareEvents
+0xAB39 : WevtUtil gꬹli HardwareEvents
+0xAB3A : WevtUtil gꬺli HardwareEvents
+0xAB3B : WevtUtil gꬻli HardwareEvents
+0xAB3C : WevtUtil gꬼli HardwareEvents
+0xAB3D : WevtUtil gꬽli HardwareEvents
+0xAB3E : WevtUtil gꬾli HardwareEvents
+0xAB3F : WevtUtil gꬿli HardwareEvents
+0xAB40 : WevtUtil gꭀli HardwareEvents
+0xAB41 : WevtUtil gꭁli HardwareEvents
+0xAB42 : WevtUtil gꭂli HardwareEvents
+0xAB43 : WevtUtil gꭃli HardwareEvents
+0xAB44 : WevtUtil gꭄli HardwareEvents
+0xAB45 : WevtUtil gꭅli HardwareEvents
+0xAB46 : WevtUtil gꭆli HardwareEvents
+0xAB47 : WevtUtil gꭇli HardwareEvents
+0xAB48 : WevtUtil gꭈli HardwareEvents
+0xAB49 : WevtUtil gꭉli HardwareEvents
+0xAB4A : WevtUtil gꭊli HardwareEvents
+0xAB4B : WevtUtil gꭋli HardwareEvents
+0xAB4C : WevtUtil gꭌli HardwareEvents
+0xAB4D : WevtUtil gꭍli HardwareEvents
+0xAB4E : WevtUtil gꭎli HardwareEvents
+0xAB4F : WevtUtil gꭏli HardwareEvents
+0xAB50 : WevtUtil gꭐli HardwareEvents
+0xAB51 : WevtUtil gꭑli HardwareEvents
+0xAB52 : WevtUtil gꭒli HardwareEvents
+0xAB53 : WevtUtil gꭓli HardwareEvents
+0xAB54 : WevtUtil gꭔli HardwareEvents
+0xAB55 : WevtUtil gꭕli HardwareEvents
+0xAB56 : WevtUtil gꭖli HardwareEvents
+0xAB57 : WevtUtil gꭗli HardwareEvents
+0xAB58 : WevtUtil gꭘli HardwareEvents
+0xAB59 : WevtUtil gꭙli HardwareEvents
+0xAB5A : WevtUtil gꭚli HardwareEvents
+0xAB5B : WevtUtil g꭛li HardwareEvents
+0xAB5C : WevtUtil gꭜli HardwareEvents
+0xAB5D : WevtUtil gꭝli HardwareEvents
+0xAB5E : WevtUtil gꭞli HardwareEvents
+0xAB5F : WevtUtil gꭟli HardwareEvents
+0xAB60 : WevtUtil gꭠli HardwareEvents
+0xAB61 : WevtUtil gꭡli HardwareEvents
+0xAB62 : WevtUtil gꭢli HardwareEvents
+0xAB63 : WevtUtil gꭣli HardwareEvents
+0xAB64 : WevtUtil gꭤli HardwareEvents
+0xAB65 : WevtUtil gꭥli HardwareEvents
+0xAB66 : WevtUtil gꭦli HardwareEvents
+0xAB67 : WevtUtil gꭧli HardwareEvents
+0xAB68 : WevtUtil gꭨli HardwareEvents
+0xAB69 : WevtUtil gꭩli HardwareEvents
+0xAB6A : WevtUtil g꭪li HardwareEvents
+0xAB6B : WevtUtil g꭫li HardwareEvents
+0xAB6C : WevtUtil g꭬li HardwareEvents
+0xAB6D : WevtUtil g꭭li HardwareEvents
+0xAB6E : WevtUtil g꭮li HardwareEvents
+0xAB6F : WevtUtil g꭯li HardwareEvents
+0xAB70 : WevtUtil gꭰli HardwareEvents
+0xAB71 : WevtUtil gꭱli HardwareEvents
+0xAB72 : WevtUtil gꭲli HardwareEvents
+0xAB73 : WevtUtil gꭳli HardwareEvents
+0xAB74 : WevtUtil gꭴli HardwareEvents
+0xAB75 : WevtUtil gꭵli HardwareEvents
+0xAB76 : WevtUtil gꭶli HardwareEvents
+0xAB77 : WevtUtil gꭷli HardwareEvents
+0xAB78 : WevtUtil gꭸli HardwareEvents
+0xAB79 : WevtUtil gꭹli HardwareEvents
+0xAB7A : WevtUtil gꭺli HardwareEvents
+0xAB7B : WevtUtil gꭻli HardwareEvents
+0xAB7C : WevtUtil gꭼli HardwareEvents
+0xAB7D : WevtUtil gꭽli HardwareEvents
+0xAB7E : WevtUtil gꭾli HardwareEvents
+0xAB7F : WevtUtil gꭿli HardwareEvents
+0xAB80 : WevtUtil gꮀli HardwareEvents
+0xAB81 : WevtUtil gꮁli HardwareEvents
+0xAB82 : WevtUtil gꮂli HardwareEvents
+0xAB83 : WevtUtil gꮃli HardwareEvents
+0xAB84 : WevtUtil gꮄli HardwareEvents
+0xAB85 : WevtUtil gꮅli HardwareEvents
+0xAB86 : WevtUtil gꮆli HardwareEvents
+0xAB87 : WevtUtil gꮇli HardwareEvents
+0xAB88 : WevtUtil gꮈli HardwareEvents
+0xAB89 : WevtUtil gꮉli HardwareEvents
+0xAB8A : WevtUtil gꮊli HardwareEvents
+0xAB8B : WevtUtil gꮋli HardwareEvents
+0xAB8C : WevtUtil gꮌli HardwareEvents
+0xAB8D : WevtUtil gꮍli HardwareEvents
+0xAB8E : WevtUtil gꮎli HardwareEvents
+0xAB8F : WevtUtil gꮏli HardwareEvents
+0xAB90 : WevtUtil gꮐli HardwareEvents
+0xAB91 : WevtUtil gꮑli HardwareEvents
+0xAB92 : WevtUtil gꮒli HardwareEvents
+0xAB93 : WevtUtil gꮓli HardwareEvents
+0xAB94 : WevtUtil gꮔli HardwareEvents
+0xAB95 : WevtUtil gꮕli HardwareEvents
+0xAB96 : WevtUtil gꮖli HardwareEvents
+0xAB97 : WevtUtil gꮗli HardwareEvents
+0xAB98 : WevtUtil gꮘli HardwareEvents
+0xAB99 : WevtUtil gꮙli HardwareEvents
+0xAB9A : WevtUtil gꮚli HardwareEvents
+0xAB9B : WevtUtil gꮛli HardwareEvents
+0xAB9C : WevtUtil gꮜli HardwareEvents
+0xAB9D : WevtUtil gꮝli HardwareEvents
+0xAB9E : WevtUtil gꮞli HardwareEvents
+0xAB9F : WevtUtil gꮟli HardwareEvents
+0xABA0 : WevtUtil gꮠli HardwareEvents
+0xABA1 : WevtUtil gꮡli HardwareEvents
+0xABA2 : WevtUtil gꮢli HardwareEvents
+0xABA3 : WevtUtil gꮣli HardwareEvents
+0xABA4 : WevtUtil gꮤli HardwareEvents
+0xABA5 : WevtUtil gꮥli HardwareEvents
+0xABA6 : WevtUtil gꮦli HardwareEvents
+0xABA7 : WevtUtil gꮧli HardwareEvents
+0xABA8 : WevtUtil gꮨli HardwareEvents
+0xABA9 : WevtUtil gꮩli HardwareEvents
+0xABAA : WevtUtil gꮪli HardwareEvents
+0xABAB : WevtUtil gꮫli HardwareEvents
+0xABAC : WevtUtil gꮬli HardwareEvents
+0xABAD : WevtUtil gꮭli HardwareEvents
+0xABAE : WevtUtil gꮮli HardwareEvents
+0xABAF : WevtUtil gꮯli HardwareEvents
+0xABB0 : WevtUtil gꮰli HardwareEvents
+0xABB1 : WevtUtil gꮱli HardwareEvents
+0xABB2 : WevtUtil gꮲli HardwareEvents
+0xABB3 : WevtUtil gꮳli HardwareEvents
+0xABB4 : WevtUtil gꮴli HardwareEvents
+0xABB5 : WevtUtil gꮵli HardwareEvents
+0xABB6 : WevtUtil gꮶli HardwareEvents
+0xABB7 : WevtUtil gꮷli HardwareEvents
+0xABB8 : WevtUtil gꮸli HardwareEvents
+0xABB9 : WevtUtil gꮹli HardwareEvents
+0xABBA : WevtUtil gꮺli HardwareEvents
+0xABBB : WevtUtil gꮻli HardwareEvents
+0xABBC : WevtUtil gꮼli HardwareEvents
+0xABBD : WevtUtil gꮽli HardwareEvents
+0xABBE : WevtUtil gꮾli HardwareEvents
+0xABBF : WevtUtil gꮿli HardwareEvents
+0xABEE : WevtUtil g꯮li HardwareEvents
+0xABEF : WevtUtil g꯯li HardwareEvents
+0xABFA : WevtUtil g꯺li HardwareEvents
+0xABFB : WevtUtil g꯻li HardwareEvents
+0xABFC : WevtUtil g꯼li HardwareEvents
+0xABFD : WevtUtil g꯽li HardwareEvents
+0xABFE : WevtUtil g꯾li HardwareEvents
+0xABFF : WevtUtil g꯿li HardwareEvents
+0xD7A4 : WevtUtil g힤li HardwareEvents
+0xD7A5 : WevtUtil g힥li HardwareEvents
+0xD7A6 : WevtUtil g힦li HardwareEvents
+0xD7A7 : WevtUtil g힧li HardwareEvents
+0xD7A8 : WevtUtil g힨li HardwareEvents
+0xD7A9 : WevtUtil g힩li HardwareEvents
+0xD7AA : WevtUtil g힪li HardwareEvents
+0xD7AB : WevtUtil g힫li HardwareEvents
+0xD7AC : WevtUtil g힬li HardwareEvents
+0xD7AD : WevtUtil g힭li HardwareEvents
+0xD7AE : WevtUtil g힮li HardwareEvents
+0xD7AF : WevtUtil g힯li HardwareEvents
+0xD7C7 : WevtUtil g퟇li HardwareEvents
+0xD7C8 : WevtUtil g퟈li HardwareEvents
+0xD7C9 : WevtUtil g퟉li HardwareEvents
+0xD7CA : WevtUtil g퟊li HardwareEvents
+0xD7FC : WevtUtil g퟼li HardwareEvents
+0xD7FD : WevtUtil g퟽li HardwareEvents
+0xD7FE : WevtUtil g퟾li HardwareEvents
+0xD7FF : WevtUtil g퟿li HardwareEvents
+0xD880 : (character can not be printed)
+0xD881 : (character can not be printed)
+0xD882 : (character can not be printed)
+0xD883 : (character can not be printed)
+0xD884 : (character can not be printed)
+0xD885 : (character can not be printed)
+0xD886 : (character can not be printed)
+0xD887 : (character can not be printed)
+0xD888 : (character can not be printed)
+0xD889 : (character can not be printed)
+0xD88A : (character can not be printed)
+0xD88B : (character can not be printed)
+0xD88C : (character can not be printed)
+0xD88D : (character can not be printed)
+0xD88E : (character can not be printed)
+0xD88F : (character can not be printed)
+0xD890 : (character can not be printed)
+0xD891 : (character can not be printed)
+0xD892 : (character can not be printed)
+0xD893 : (character can not be printed)
+0xD894 : (character can not be printed)
+0xD895 : (character can not be printed)
+0xD896 : (character can not be printed)
+0xD897 : (character can not be printed)
+0xD898 : (character can not be printed)
+0xD899 : (character can not be printed)
+0xD89A : (character can not be printed)
+0xD89B : (character can not be printed)
+0xD89C : (character can not be printed)
+0xD89D : (character can not be printed)
+0xD89E : (character can not be printed)
+0xD89F : (character can not be printed)
+0xD8A0 : (character can not be printed)
+0xD8A1 : (character can not be printed)
+0xD8A2 : (character can not be printed)
+0xD8A3 : (character can not be printed)
+0xD8A4 : (character can not be printed)
+0xD8A5 : (character can not be printed)
+0xD8A6 : (character can not be printed)
+0xD8A7 : (character can not be printed)
+0xD8A8 : (character can not be printed)
+0xD8A9 : (character can not be printed)
+0xD8AA : (character can not be printed)
+0xD8AB : (character can not be printed)
+0xD8AC : (character can not be printed)
+0xD8AD : (character can not be printed)
+0xD8AE : (character can not be printed)
+0xD8AF : (character can not be printed)
+0xD8B0 : (character can not be printed)
+0xD8B1 : (character can not be printed)
+0xD8B2 : (character can not be printed)
+0xD8B3 : (character can not be printed)
+0xD8B4 : (character can not be printed)
+0xD8B5 : (character can not be printed)
+0xD8B6 : (character can not be printed)
+0xD8B7 : (character can not be printed)
+0xD8B8 : (character can not be printed)
+0xD8B9 : (character can not be printed)
+0xD8BA : (character can not be printed)
+0xD8BB : (character can not be printed)
+0xD8BC : (character can not be printed)
+0xD8BD : (character can not be printed)
+0xD8BE : (character can not be printed)
+0xD8BF : (character can not be printed)
+0xD8C0 : (character can not be printed)
+0xD8C1 : (character can not be printed)
+0xD8C2 : (character can not be printed)
+0xD8C3 : (character can not be printed)
+0xD8C4 : (character can not be printed)
+0xD8C5 : (character can not be printed)
+0xD8C6 : (character can not be printed)
+0xD8C7 : (character can not be printed)
+0xD8C8 : (character can not be printed)
+0xD8C9 : (character can not be printed)
+0xD8CA : (character can not be printed)
+0xD8CB : (character can not be printed)
+0xD8CC : (character can not be printed)
+0xD8CD : (character can not be printed)
+0xD8CE : (character can not be printed)
+0xD8CF : (character can not be printed)
+0xD8D0 : (character can not be printed)
+0xD8D1 : (character can not be printed)
+0xD8D2 : (character can not be printed)
+0xD8D3 : (character can not be printed)
+0xD8D4 : (character can not be printed)
+0xD8D5 : (character can not be printed)
+0xD8D6 : (character can not be printed)
+0xD8D7 : (character can not be printed)
+0xD8D8 : (character can not be printed)
+0xD8D9 : (character can not be printed)
+0xD8DA : (character can not be printed)
+0xD8DB : (character can not be printed)
+0xD8DC : (character can not be printed)
+0xD8DD : (character can not be printed)
+0xD8DE : (character can not be printed)
+0xD8DF : (character can not be printed)
+0xD8E0 : (character can not be printed)
+0xD8E1 : (character can not be printed)
+0xD8E2 : (character can not be printed)
+0xD8E3 : (character can not be printed)
+0xD8E4 : (character can not be printed)
+0xD8E5 : (character can not be printed)
+0xD8E6 : (character can not be printed)
+0xD8E7 : (character can not be printed)
+0xD8E8 : (character can not be printed)
+0xD8E9 : (character can not be printed)
+0xD8EA : (character can not be printed)
+0xD8EB : (character can not be printed)
+0xD8EC : (character can not be printed)
+0xD8ED : (character can not be printed)
+0xD8EE : (character can not be printed)
+0xD8EF : (character can not be printed)
+0xD8F0 : (character can not be printed)
+0xD8F1 : (character can not be printed)
+0xD8F2 : (character can not be printed)
+0xD8F3 : (character can not be printed)
+0xD8F4 : (character can not be printed)
+0xD8F5 : (character can not be printed)
+0xD8F6 : (character can not be printed)
+0xD8F7 : (character can not be printed)
+0xD8F8 : (character can not be printed)
+0xD8F9 : (character can not be printed)
+0xD8FA : (character can not be printed)
+0xD8FB : (character can not be printed)
+0xD8FC : (character can not be printed)
+0xD8FD : (character can not be printed)
+0xD8FE : (character can not be printed)
+0xD8FF : (character can not be printed)
+0xD900 : (character can not be printed)
+0xD901 : (character can not be printed)
+0xD902 : (character can not be printed)
+0xD903 : (character can not be printed)
+0xD904 : (character can not be printed)
+0xD905 : (character can not be printed)
+0xD906 : (character can not be printed)
+0xD907 : (character can not be printed)
+0xD908 : (character can not be printed)
+0xD909 : (character can not be printed)
+0xD90A : (character can not be printed)
+0xD90B : (character can not be printed)
+0xD90C : (character can not be printed)
+0xD90D : (character can not be printed)
+0xD90E : (character can not be printed)
+0xD90F : (character can not be printed)
+0xD910 : (character can not be printed)
+0xD911 : (character can not be printed)
+0xD912 : (character can not be printed)
+0xD913 : (character can not be printed)
+0xD914 : (character can not be printed)
+0xD915 : (character can not be printed)
+0xD916 : (character can not be printed)
+0xD917 : (character can not be printed)
+0xD918 : (character can not be printed)
+0xD919 : (character can not be printed)
+0xD91A : (character can not be printed)
+0xD91B : (character can not be printed)
+0xD91C : (character can not be printed)
+0xD91D : (character can not be printed)
+0xD91E : (character can not be printed)
+0xD91F : (character can not be printed)
+0xD920 : (character can not be printed)
+0xD921 : (character can not be printed)
+0xD922 : (character can not be printed)
+0xD923 : (character can not be printed)
+0xD924 : (character can not be printed)
+0xD925 : (character can not be printed)
+0xD926 : (character can not be printed)
+0xD927 : (character can not be printed)
+0xD928 : (character can not be printed)
+0xD929 : (character can not be printed)
+0xD92A : (character can not be printed)
+0xD92B : (character can not be printed)
+0xD92C : (character can not be printed)
+0xD92D : (character can not be printed)
+0xD92E : (character can not be printed)
+0xD92F : (character can not be printed)
+0xD930 : (character can not be printed)
+0xD931 : (character can not be printed)
+0xD932 : (character can not be printed)
+0xD933 : (character can not be printed)
+0xD934 : (character can not be printed)
+0xD935 : (character can not be printed)
+0xD936 : (character can not be printed)
+0xD937 : (character can not be printed)
+0xD938 : (character can not be printed)
+0xD939 : (character can not be printed)
+0xD93A : (character can not be printed)
+0xD93B : (character can not be printed)
+0xD93C : (character can not be printed)
+0xD93D : (character can not be printed)
+0xD93E : (character can not be printed)
+0xD93F : (character can not be printed)
+0xD940 : (character can not be printed)
+0xD941 : (character can not be printed)
+0xD942 : (character can not be printed)
+0xD943 : (character can not be printed)
+0xD944 : (character can not be printed)
+0xD945 : (character can not be printed)
+0xD946 : (character can not be printed)
+0xD947 : (character can not be printed)
+0xD948 : (character can not be printed)
+0xD949 : (character can not be printed)
+0xD94A : (character can not be printed)
+0xD94B : (character can not be printed)
+0xD94C : (character can not be printed)
+0xD94D : (character can not be printed)
+0xD94E : (character can not be printed)
+0xD94F : (character can not be printed)
+0xD950 : (character can not be printed)
+0xD951 : (character can not be printed)
+0xD952 : (character can not be printed)
+0xD953 : (character can not be printed)
+0xD954 : (character can not be printed)
+0xD955 : (character can not be printed)
+0xD956 : (character can not be printed)
+0xD957 : (character can not be printed)
+0xD958 : (character can not be printed)
+0xD959 : (character can not be printed)
+0xD95A : (character can not be printed)
+0xD95B : (character can not be printed)
+0xD95C : (character can not be printed)
+0xD95D : (character can not be printed)
+0xD95E : (character can not be printed)
+0xD95F : (character can not be printed)
+0xD960 : (character can not be printed)
+0xD961 : (character can not be printed)
+0xD962 : (character can not be printed)
+0xD963 : (character can not be printed)
+0xD964 : (character can not be printed)
+0xD965 : (character can not be printed)
+0xD966 : (character can not be printed)
+0xD967 : (character can not be printed)
+0xD968 : (character can not be printed)
+0xD969 : (character can not be printed)
+0xD96A : (character can not be printed)
+0xD96B : (character can not be printed)
+0xD96C : (character can not be printed)
+0xD96D : (character can not be printed)
+0xD96E : (character can not be printed)
+0xD96F : (character can not be printed)
+0xD970 : (character can not be printed)
+0xD971 : (character can not be printed)
+0xD972 : (character can not be printed)
+0xD973 : (character can not be printed)
+0xD974 : (character can not be printed)
+0xD975 : (character can not be printed)
+0xD976 : (character can not be printed)
+0xD977 : (character can not be printed)
+0xD978 : (character can not be printed)
+0xD979 : (character can not be printed)
+0xD97A : (character can not be printed)
+0xD97B : (character can not be printed)
+0xD97C : (character can not be printed)
+0xD97D : (character can not be printed)
+0xD97E : (character can not be printed)
+0xD97F : (character can not be printed)
+0xD980 : (character can not be printed)
+0xD981 : (character can not be printed)
+0xD982 : (character can not be printed)
+0xD983 : (character can not be printed)
+0xD984 : (character can not be printed)
+0xD985 : (character can not be printed)
+0xD986 : (character can not be printed)
+0xD987 : (character can not be printed)
+0xD988 : (character can not be printed)
+0xD989 : (character can not be printed)
+0xD98A : (character can not be printed)
+0xD98B : (character can not be printed)
+0xD98C : (character can not be printed)
+0xD98D : (character can not be printed)
+0xD98E : (character can not be printed)
+0xD98F : (character can not be printed)
+0xD990 : (character can not be printed)
+0xD991 : (character can not be printed)
+0xD992 : (character can not be printed)
+0xD993 : (character can not be printed)
+0xD994 : (character can not be printed)
+0xD995 : (character can not be printed)
+0xD996 : (character can not be printed)
+0xD997 : (character can not be printed)
+0xD998 : (character can not be printed)
+0xD999 : (character can not be printed)
+0xD99A : (character can not be printed)
+0xD99B : (character can not be printed)
+0xD99C : (character can not be printed)
+0xD99D : (character can not be printed)
+0xD99E : (character can not be printed)
+0xD99F : (character can not be printed)
+0xD9A0 : (character can not be printed)
+0xD9A1 : (character can not be printed)
+0xD9A2 : (character can not be printed)
+0xD9A3 : (character can not be printed)
+0xD9A4 : (character can not be printed)
+0xD9A5 : (character can not be printed)
+0xD9A6 : (character can not be printed)
+0xD9A7 : (character can not be printed)
+0xD9A8 : (character can not be printed)
+0xD9A9 : (character can not be printed)
+0xD9AA : (character can not be printed)
+0xD9AB : (character can not be printed)
+0xD9AC : (character can not be printed)
+0xD9AD : (character can not be printed)
+0xD9AE : (character can not be printed)
+0xD9AF : (character can not be printed)
+0xD9B0 : (character can not be printed)
+0xD9B1 : (character can not be printed)
+0xD9B2 : (character can not be printed)
+0xD9B3 : (character can not be printed)
+0xD9B4 : (character can not be printed)
+0xD9B5 : (character can not be printed)
+0xD9B6 : (character can not be printed)
+0xD9B7 : (character can not be printed)
+0xD9B8 : (character can not be printed)
+0xD9B9 : (character can not be printed)
+0xD9BA : (character can not be printed)
+0xD9BB : (character can not be printed)
+0xD9BC : (character can not be printed)
+0xD9BD : (character can not be printed)
+0xD9BE : (character can not be printed)
+0xD9BF : (character can not be printed)
+0xD9C0 : (character can not be printed)
+0xD9C1 : (character can not be printed)
+0xD9C2 : (character can not be printed)
+0xD9C3 : (character can not be printed)
+0xD9C4 : (character can not be printed)
+0xD9C5 : (character can not be printed)
+0xD9C6 : (character can not be printed)
+0xD9C7 : (character can not be printed)
+0xD9C8 : (character can not be printed)
+0xD9C9 : (character can not be printed)
+0xD9CA : (character can not be printed)
+0xD9CB : (character can not be printed)
+0xD9CC : (character can not be printed)
+0xD9CD : (character can not be printed)
+0xD9CE : (character can not be printed)
+0xD9CF : (character can not be printed)
+0xD9D0 : (character can not be printed)
+0xD9D1 : (character can not be printed)
+0xD9D2 : (character can not be printed)
+0xD9D3 : (character can not be printed)
+0xD9D4 : (character can not be printed)
+0xD9D5 : (character can not be printed)
+0xD9D6 : (character can not be printed)
+0xD9D7 : (character can not be printed)
+0xD9D8 : (character can not be printed)
+0xD9D9 : (character can not be printed)
+0xD9DA : (character can not be printed)
+0xD9DB : (character can not be printed)
+0xD9DC : (character can not be printed)
+0xD9DD : (character can not be printed)
+0xD9DE : (character can not be printed)
+0xD9DF : (character can not be printed)
+0xD9E0 : (character can not be printed)
+0xD9E1 : (character can not be printed)
+0xD9E2 : (character can not be printed)
+0xD9E3 : (character can not be printed)
+0xD9E4 : (character can not be printed)
+0xD9E5 : (character can not be printed)
+0xD9E6 : (character can not be printed)
+0xD9E7 : (character can not be printed)
+0xD9E8 : (character can not be printed)
+0xD9E9 : (character can not be printed)
+0xD9EA : (character can not be printed)
+0xD9EB : (character can not be printed)
+0xD9EC : (character can not be printed)
+0xD9ED : (character can not be printed)
+0xD9EE : (character can not be printed)
+0xD9EF : (character can not be printed)
+0xD9F0 : (character can not be printed)
+0xD9F1 : (character can not be printed)
+0xD9F2 : (character can not be printed)
+0xD9F3 : (character can not be printed)
+0xD9F4 : (character can not be printed)
+0xD9F5 : (character can not be printed)
+0xD9F6 : (character can not be printed)
+0xD9F7 : (character can not be printed)
+0xD9F8 : (character can not be printed)
+0xD9F9 : (character can not be printed)
+0xD9FA : (character can not be printed)
+0xD9FB : (character can not be printed)
+0xD9FC : (character can not be printed)
+0xD9FD : (character can not be printed)
+0xD9FE : (character can not be printed)
+0xD9FF : (character can not be printed)
+0xDA00 : (character can not be printed)
+0xDA01 : (character can not be printed)
+0xDA02 : (character can not be printed)
+0xDA03 : (character can not be printed)
+0xDA04 : (character can not be printed)
+0xDA05 : (character can not be printed)
+0xDA06 : (character can not be printed)
+0xDA07 : (character can not be printed)
+0xDA08 : (character can not be printed)
+0xDA09 : (character can not be printed)
+0xDA0A : (character can not be printed)
+0xDA0B : (character can not be printed)
+0xDA0C : (character can not be printed)
+0xDA0D : (character can not be printed)
+0xDA0E : (character can not be printed)
+0xDA0F : (character can not be printed)
+0xDA10 : (character can not be printed)
+0xDA11 : (character can not be printed)
+0xDA12 : (character can not be printed)
+0xDA13 : (character can not be printed)
+0xDA14 : (character can not be printed)
+0xDA15 : (character can not be printed)
+0xDA16 : (character can not be printed)
+0xDA17 : (character can not be printed)
+0xDA18 : (character can not be printed)
+0xDA19 : (character can not be printed)
+0xDA1A : (character can not be printed)
+0xDA1B : (character can not be printed)
+0xDA1C : (character can not be printed)
+0xDA1D : (character can not be printed)
+0xDA1E : (character can not be printed)
+0xDA1F : (character can not be printed)
+0xDA20 : (character can not be printed)
+0xDA21 : (character can not be printed)
+0xDA22 : (character can not be printed)
+0xDA23 : (character can not be printed)
+0xDA24 : (character can not be printed)
+0xDA25 : (character can not be printed)
+0xDA26 : (character can not be printed)
+0xDA27 : (character can not be printed)
+0xDA28 : (character can not be printed)
+0xDA29 : (character can not be printed)
+0xDA2A : (character can not be printed)
+0xDA2B : (character can not be printed)
+0xDA2C : (character can not be printed)
+0xDA2D : (character can not be printed)
+0xDA2E : (character can not be printed)
+0xDA2F : (character can not be printed)
+0xDA30 : (character can not be printed)
+0xDA31 : (character can not be printed)
+0xDA32 : (character can not be printed)
+0xDA33 : (character can not be printed)
+0xDA34 : (character can not be printed)
+0xDA35 : (character can not be printed)
+0xDA36 : (character can not be printed)
+0xDA37 : (character can not be printed)
+0xDA38 : (character can not be printed)
+0xDA39 : (character can not be printed)
+0xDA3A : (character can not be printed)
+0xDA3B : (character can not be printed)
+0xDA3C : (character can not be printed)
+0xDA3D : (character can not be printed)
+0xDA3E : (character can not be printed)
+0xDA3F : (character can not be printed)
+0xDA40 : (character can not be printed)
+0xDA41 : (character can not be printed)
+0xDA42 : (character can not be printed)
+0xDA43 : (character can not be printed)
+0xDA44 : (character can not be printed)
+0xDA45 : (character can not be printed)
+0xDA46 : (character can not be printed)
+0xDA47 : (character can not be printed)
+0xDA48 : (character can not be printed)
+0xDA49 : (character can not be printed)
+0xDA4A : (character can not be printed)
+0xDA4B : (character can not be printed)
+0xDA4C : (character can not be printed)
+0xDA4D : (character can not be printed)
+0xDA4E : (character can not be printed)
+0xDA4F : (character can not be printed)
+0xDA50 : (character can not be printed)
+0xDA51 : (character can not be printed)
+0xDA52 : (character can not be printed)
+0xDA53 : (character can not be printed)
+0xDA54 : (character can not be printed)
+0xDA55 : (character can not be printed)
+0xDA56 : (character can not be printed)
+0xDA57 : (character can not be printed)
+0xDA58 : (character can not be printed)
+0xDA59 : (character can not be printed)
+0xDA5A : (character can not be printed)
+0xDA5B : (character can not be printed)
+0xDA5C : (character can not be printed)
+0xDA5D : (character can not be printed)
+0xDA5E : (character can not be printed)
+0xDA5F : (character can not be printed)
+0xDA60 : (character can not be printed)
+0xDA61 : (character can not be printed)
+0xDA62 : (character can not be printed)
+0xDA63 : (character can not be printed)
+0xDA64 : (character can not be printed)
+0xDA65 : (character can not be printed)
+0xDA66 : (character can not be printed)
+0xDA67 : (character can not be printed)
+0xDA68 : (character can not be printed)
+0xDA69 : (character can not be printed)
+0xDA6A : (character can not be printed)
+0xDA6B : (character can not be printed)
+0xDA6C : (character can not be printed)
+0xDA6D : (character can not be printed)
+0xDA6E : (character can not be printed)
+0xDA6F : (character can not be printed)
+0xDA70 : (character can not be printed)
+0xDA71 : (character can not be printed)
+0xDA72 : (character can not be printed)
+0xDA73 : (character can not be printed)
+0xDA74 : (character can not be printed)
+0xDA75 : (character can not be printed)
+0xDA76 : (character can not be printed)
+0xDA77 : (character can not be printed)
+0xDA78 : (character can not be printed)
+0xDA79 : (character can not be printed)
+0xDA7A : (character can not be printed)
+0xDA7B : (character can not be printed)
+0xDA7C : (character can not be printed)
+0xDA7D : (character can not be printed)
+0xDA7E : (character can not be printed)
+0xDA7F : (character can not be printed)
+0xDA80 : (character can not be printed)
+0xDA81 : (character can not be printed)
+0xDA82 : (character can not be printed)
+0xDA83 : (character can not be printed)
+0xDA84 : (character can not be printed)
+0xDA85 : (character can not be printed)
+0xDA86 : (character can not be printed)
+0xDA87 : (character can not be printed)
+0xDA88 : (character can not be printed)
+0xDA89 : (character can not be printed)
+0xDA8A : (character can not be printed)
+0xDA8B : (character can not be printed)
+0xDA8C : (character can not be printed)
+0xDA8D : (character can not be printed)
+0xDA8E : (character can not be printed)
+0xDA8F : (character can not be printed)
+0xDA90 : (character can not be printed)
+0xDA91 : (character can not be printed)
+0xDA92 : (character can not be printed)
+0xDA93 : (character can not be printed)
+0xDA94 : (character can not be printed)
+0xDA95 : (character can not be printed)
+0xDA96 : (character can not be printed)
+0xDA97 : (character can not be printed)
+0xDA98 : (character can not be printed)
+0xDA99 : (character can not be printed)
+0xDA9A : (character can not be printed)
+0xDA9B : (character can not be printed)
+0xDA9C : (character can not be printed)
+0xDA9D : (character can not be printed)
+0xDA9E : (character can not be printed)
+0xDA9F : (character can not be printed)
+0xDAA0 : (character can not be printed)
+0xDAA1 : (character can not be printed)
+0xDAA2 : (character can not be printed)
+0xDAA3 : (character can not be printed)
+0xDAA4 : (character can not be printed)
+0xDAA5 : (character can not be printed)
+0xDAA6 : (character can not be printed)
+0xDAA7 : (character can not be printed)
+0xDAA8 : (character can not be printed)
+0xDAA9 : (character can not be printed)
+0xDAAA : (character can not be printed)
+0xDAAB : (character can not be printed)
+0xDAAC : (character can not be printed)
+0xDAAD : (character can not be printed)
+0xDAAE : (character can not be printed)
+0xDAAF : (character can not be printed)
+0xDAB0 : (character can not be printed)
+0xDAB1 : (character can not be printed)
+0xDAB2 : (character can not be printed)
+0xDAB3 : (character can not be printed)
+0xDAB4 : (character can not be printed)
+0xDAB5 : (character can not be printed)
+0xDAB6 : (character can not be printed)
+0xDAB7 : (character can not be printed)
+0xDAB8 : (character can not be printed)
+0xDAB9 : (character can not be printed)
+0xDABA : (character can not be printed)
+0xDABB : (character can not be printed)
+0xDABC : (character can not be printed)
+0xDABD : (character can not be printed)
+0xDABE : (character can not be printed)
+0xDABF : (character can not be printed)
+0xDAC0 : (character can not be printed)
+0xDAC1 : (character can not be printed)
+0xDAC2 : (character can not be printed)
+0xDAC3 : (character can not be printed)
+0xDAC4 : (character can not be printed)
+0xDAC5 : (character can not be printed)
+0xDAC6 : (character can not be printed)
+0xDAC7 : (character can not be printed)
+0xDAC8 : (character can not be printed)
+0xDAC9 : (character can not be printed)
+0xDACA : (character can not be printed)
+0xDACB : (character can not be printed)
+0xDACC : (character can not be printed)
+0xDACD : (character can not be printed)
+0xDACE : (character can not be printed)
+0xDACF : (character can not be printed)
+0xDAD0 : (character can not be printed)
+0xDAD1 : (character can not be printed)
+0xDAD2 : (character can not be printed)
+0xDAD3 : (character can not be printed)
+0xDAD4 : (character can not be printed)
+0xDAD5 : (character can not be printed)
+0xDAD6 : (character can not be printed)
+0xDAD7 : (character can not be printed)
+0xDAD8 : (character can not be printed)
+0xDAD9 : (character can not be printed)
+0xDADA : (character can not be printed)
+0xDADB : (character can not be printed)
+0xDADC : (character can not be printed)
+0xDADD : (character can not be printed)
+0xDADE : (character can not be printed)
+0xDADF : (character can not be printed)
+0xDAE0 : (character can not be printed)
+0xDAE1 : (character can not be printed)
+0xDAE2 : (character can not be printed)
+0xDAE3 : (character can not be printed)
+0xDAE4 : (character can not be printed)
+0xDAE5 : (character can not be printed)
+0xDAE6 : (character can not be printed)
+0xDAE7 : (character can not be printed)
+0xDAE8 : (character can not be printed)
+0xDAE9 : (character can not be printed)
+0xDAEA : (character can not be printed)
+0xDAEB : (character can not be printed)
+0xDAEC : (character can not be printed)
+0xDAED : (character can not be printed)
+0xDAEE : (character can not be printed)
+0xDAEF : (character can not be printed)
+0xDAF0 : (character can not be printed)
+0xDAF1 : (character can not be printed)
+0xDAF2 : (character can not be printed)
+0xDAF3 : (character can not be printed)
+0xDAF4 : (character can not be printed)
+0xDAF5 : (character can not be printed)
+0xDAF6 : (character can not be printed)
+0xDAF7 : (character can not be printed)
+0xDAF8 : (character can not be printed)
+0xDAF9 : (character can not be printed)
+0xDAFA : (character can not be printed)
+0xDAFB : (character can not be printed)
+0xDAFC : (character can not be printed)
+0xDAFD : (character can not be printed)
+0xDAFE : (character can not be printed)
+0xDAFF : (character can not be printed)
+0xDB00 : (character can not be printed)
+0xDB01 : (character can not be printed)
+0xDB02 : (character can not be printed)
+0xDB03 : (character can not be printed)
+0xDB04 : (character can not be printed)
+0xDB05 : (character can not be printed)
+0xDB06 : (character can not be printed)
+0xDB07 : (character can not be printed)
+0xDB08 : (character can not be printed)
+0xDB09 : (character can not be printed)
+0xDB0A : (character can not be printed)
+0xDB0B : (character can not be printed)
+0xDB0C : (character can not be printed)
+0xDB0D : (character can not be printed)
+0xDB0E : (character can not be printed)
+0xDB0F : (character can not be printed)
+0xDB10 : (character can not be printed)
+0xDB11 : (character can not be printed)
+0xDB12 : (character can not be printed)
+0xDB13 : (character can not be printed)
+0xDB14 : (character can not be printed)
+0xDB15 : (character can not be printed)
+0xDB16 : (character can not be printed)
+0xDB17 : (character can not be printed)
+0xDB18 : (character can not be printed)
+0xDB19 : (character can not be printed)
+0xDB1A : (character can not be printed)
+0xDB1B : (character can not be printed)
+0xDB1C : (character can not be printed)
+0xDB1D : (character can not be printed)
+0xDB1E : (character can not be printed)
+0xDB1F : (character can not be printed)
+0xDB20 : (character can not be printed)
+0xDB21 : (character can not be printed)
+0xDB22 : (character can not be printed)
+0xDB23 : (character can not be printed)
+0xDB24 : (character can not be printed)
+0xDB25 : (character can not be printed)
+0xDB26 : (character can not be printed)
+0xDB27 : (character can not be printed)
+0xDB28 : (character can not be printed)
+0xDB29 : (character can not be printed)
+0xDB2A : (character can not be printed)
+0xDB2B : (character can not be printed)
+0xDB2C : (character can not be printed)
+0xDB2D : (character can not be printed)
+0xDB2E : (character can not be printed)
+0xDB2F : (character can not be printed)
+0xDB30 : (character can not be printed)
+0xDB31 : (character can not be printed)
+0xDB32 : (character can not be printed)
+0xDB33 : (character can not be printed)
+0xDB34 : (character can not be printed)
+0xDB35 : (character can not be printed)
+0xDB36 : (character can not be printed)
+0xDB37 : (character can not be printed)
+0xDB38 : (character can not be printed)
+0xDB39 : (character can not be printed)
+0xDB3A : (character can not be printed)
+0xDB3B : (character can not be printed)
+0xDB3C : (character can not be printed)
+0xDB3D : (character can not be printed)
+0xDB3E : (character can not be printed)
+0xDB3F : (character can not be printed)
+0xDB40 : (character can not be printed)
+0xDB41 : (character can not be printed)
+0xDB42 : (character can not be printed)
+0xDB43 : (character can not be printed)
+0xDB44 : (character can not be printed)
+0xDB45 : (character can not be printed)
+0xDB46 : (character can not be printed)
+0xDB47 : (character can not be printed)
+0xDB48 : (character can not be printed)
+0xDB49 : (character can not be printed)
+0xDB4A : (character can not be printed)
+0xDB4B : (character can not be printed)
+0xDB4C : (character can not be printed)
+0xDB4D : (character can not be printed)
+0xDB4E : (character can not be printed)
+0xDB4F : (character can not be printed)
+0xDB50 : (character can not be printed)
+0xDB51 : (character can not be printed)
+0xDB52 : (character can not be printed)
+0xDB53 : (character can not be printed)
+0xDB54 : (character can not be printed)
+0xDB55 : (character can not be printed)
+0xDB56 : (character can not be printed)
+0xDB57 : (character can not be printed)
+0xDB58 : (character can not be printed)
+0xDB59 : (character can not be printed)
+0xDB5A : (character can not be printed)
+0xDB5B : (character can not be printed)
+0xDB5C : (character can not be printed)
+0xDB5D : (character can not be printed)
+0xDB5E : (character can not be printed)
+0xDB5F : (character can not be printed)
+0xDB60 : (character can not be printed)
+0xDB61 : (character can not be printed)
+0xDB62 : (character can not be printed)
+0xDB63 : (character can not be printed)
+0xDB64 : (character can not be printed)
+0xDB65 : (character can not be printed)
+0xDB66 : (character can not be printed)
+0xDB67 : (character can not be printed)
+0xDB68 : (character can not be printed)
+0xDB69 : (character can not be printed)
+0xDB6A : (character can not be printed)
+0xDB6B : (character can not be printed)
+0xDB6C : (character can not be printed)
+0xDB6D : (character can not be printed)
+0xDB6E : (character can not be printed)
+0xDB6F : (character can not be printed)
+0xDB70 : (character can not be printed)
+0xDB71 : (character can not be printed)
+0xDB72 : (character can not be printed)
+0xDB73 : (character can not be printed)
+0xDB74 : (character can not be printed)
+0xDB75 : (character can not be printed)
+0xDB76 : (character can not be printed)
+0xDB77 : (character can not be printed)
+0xDB78 : (character can not be printed)
+0xDB79 : (character can not be printed)
+0xDB7A : (character can not be printed)
+0xDB7B : (character can not be printed)
+0xDB7C : (character can not be printed)
+0xDB7D : (character can not be printed)
+0xDB7E : (character can not be printed)
+0xDB7F : (character can not be printed)
+0xFA2E : WevtUtil g郞li HardwareEvents
+0xFA2F : WevtUtil g隷li HardwareEvents
+0xFA6E : WevtUtil g﩮li HardwareEvents
+0xFA6F : WevtUtil g﩯li HardwareEvents
+0xFADA : WevtUtil g﫚li HardwareEvents
+0xFADB : WevtUtil g﫛li HardwareEvents
+0xFADC : WevtUtil g﫜li HardwareEvents
+0xFADD : WevtUtil g﫝li HardwareEvents
+0xFADE : WevtUtil g﫞li HardwareEvents
+0xFADF : WevtUtil g﫟li HardwareEvents
+0xFAE0 : WevtUtil g﫠li HardwareEvents
+0xFAE1 : WevtUtil g﫡li HardwareEvents
+0xFAE2 : WevtUtil g﫢li HardwareEvents
+0xFAE3 : WevtUtil g﫣li HardwareEvents
+0xFAE4 : WevtUtil g﫤li HardwareEvents
+0xFAE5 : WevtUtil g﫥li HardwareEvents
+0xFAE6 : WevtUtil g﫦li HardwareEvents
+0xFAE7 : WevtUtil g﫧li HardwareEvents
+0xFAE8 : WevtUtil g﫨li HardwareEvents
+0xFAE9 : WevtUtil g﫩li HardwareEvents
+0xFAEA : WevtUtil g﫪li HardwareEvents
+0xFAEB : WevtUtil g﫫li HardwareEvents
+0xFAEC : WevtUtil g﫬li HardwareEvents
+0xFAED : WevtUtil g﫭li HardwareEvents
+0xFAEE : WevtUtil g﫮li HardwareEvents
+0xFAEF : WevtUtil g﫯li HardwareEvents
+0xFAF0 : WevtUtil g﫰li HardwareEvents
+0xFAF1 : WevtUtil g﫱li HardwareEvents
+0xFAF2 : WevtUtil g﫲li HardwareEvents
+0xFAF3 : WevtUtil g﫳li HardwareEvents
+0xFAF4 : WevtUtil g﫴li HardwareEvents
+0xFAF5 : WevtUtil g﫵li HardwareEvents
+0xFAF6 : WevtUtil g﫶li HardwareEvents
+0xFAF7 : WevtUtil g﫷li HardwareEvents
+0xFAF8 : WevtUtil g﫸li HardwareEvents
+0xFAF9 : WevtUtil g﫹li HardwareEvents
+0xFAFA : WevtUtil g﫺li HardwareEvents
+0xFAFB : WevtUtil g﫻li HardwareEvents
+0xFAFC : WevtUtil g﫼li HardwareEvents
+0xFAFD : WevtUtil g﫽li HardwareEvents
+0xFAFE : WevtUtil g﫾li HardwareEvents
+0xFAFF : WevtUtil g﫿li HardwareEvents
+0xFB07 : WevtUtil g﬇li HardwareEvents
+0xFB08 : WevtUtil g﬈li HardwareEvents
+0xFB09 : WevtUtil g﬉li HardwareEvents
+0xFB0A : WevtUtil g﬊li HardwareEvents
+0xFB0B : WevtUtil g﬋li HardwareEvents
+0xFB0C : WevtUtil g﬌li HardwareEvents
+0xFB0D : WevtUtil g﬍li HardwareEvents
+0xFB0E : WevtUtil g﬎li HardwareEvents
+0xFB0F : WevtUtil g﬏li HardwareEvents
+0xFB10 : WevtUtil g﬐li HardwareEvents
+0xFB11 : WevtUtil g﬑li HardwareEvents
+0xFB12 : WevtUtil g﬒li HardwareEvents
+0xFB18 : WevtUtil g﬘li HardwareEvents
+0xFB19 : WevtUtil g﬙li HardwareEvents
+0xFB1A : WevtUtil g﬚li HardwareEvents
+0xFB1B : WevtUtil g﬛li HardwareEvents
+0xFB1C : WevtUtil g﬜li HardwareEvents
+0xFB37 : WevtUtil g﬷li HardwareEvents
+0xFB3D : WevtUtil g﬽li HardwareEvents
+0xFB3F : WevtUtil g﬿li HardwareEvents
+0xFB42 : WevtUtil g﭂li HardwareEvents
+0xFB45 : WevtUtil g﭅li HardwareEvents
+0xFBB2 : WevtUtil g﮲li HardwareEvents
+0xFBB3 : WevtUtil g﮳li HardwareEvents
+0xFBB4 : WevtUtil g﮴li HardwareEvents
+0xFBB5 : WevtUtil g﮵li HardwareEvents
+0xFBB6 : WevtUtil g﮶li HardwareEvents
+0xFBB7 : WevtUtil g﮷li HardwareEvents
+0xFBB8 : WevtUtil g﮸li HardwareEvents
+0xFBB9 : WevtUtil g﮹li HardwareEvents
+0xFBBA : WevtUtil g﮺li HardwareEvents
+0xFBBB : WevtUtil g﮻li HardwareEvents
+0xFBBC : WevtUtil g﮼li HardwareEvents
+0xFBBD : WevtUtil g﮽li HardwareEvents
+0xFBBE : WevtUtil g﮾li HardwareEvents
+0xFBBF : WevtUtil g﮿li HardwareEvents
+0xFBC0 : WevtUtil g﯀li HardwareEvents
+0xFBC1 : WevtUtil g﯁li HardwareEvents
+0xFBC2 : WevtUtil g﯂li HardwareEvents
+0xFBC3 : WevtUtil g﯃li HardwareEvents
+0xFBC4 : WevtUtil g﯄li HardwareEvents
+0xFBC5 : WevtUtil g﯅li HardwareEvents
+0xFBC6 : WevtUtil g﯆li HardwareEvents
+0xFBC7 : WevtUtil g﯇li HardwareEvents
+0xFBC8 : WevtUtil g﯈li HardwareEvents
+0xFBC9 : WevtUtil g﯉li HardwareEvents
+0xFBCA : WevtUtil g﯊li HardwareEvents
+0xFBCB : WevtUtil g﯋li HardwareEvents
+0xFBCC : WevtUtil g﯌li HardwareEvents
+0xFBCD : WevtUtil g﯍li HardwareEvents
+0xFBCE : WevtUtil g﯎li HardwareEvents
+0xFBCF : WevtUtil g﯏li HardwareEvents
+0xFBD0 : WevtUtil g﯐li HardwareEvents
+0xFBD1 : WevtUtil g﯑li HardwareEvents
+0xFBD2 : WevtUtil g﯒li HardwareEvents
+0xFD40 : WevtUtil g﵀li HardwareEvents
+0xFD41 : WevtUtil g﵁li HardwareEvents
+0xFD42 : WevtUtil g﵂li HardwareEvents
+0xFD43 : WevtUtil g﵃li HardwareEvents
+0xFD44 : WevtUtil g﵄li HardwareEvents
+0xFD45 : WevtUtil g﵅li HardwareEvents
+0xFD46 : WevtUtil g﵆li HardwareEvents
+0xFD47 : WevtUtil g﵇li HardwareEvents
+0xFD48 : WevtUtil g﵈li HardwareEvents
+0xFD49 : WevtUtil g﵉li HardwareEvents
+0xFD4A : WevtUtil g﵊li HardwareEvents
+0xFD4B : WevtUtil g﵋li HardwareEvents
+0xFD4C : WevtUtil g﵌li HardwareEvents
+0xFD4D : WevtUtil g﵍li HardwareEvents
+0xFD4E : WevtUtil g﵎li HardwareEvents
+0xFD4F : WevtUtil g﵏li HardwareEvents
+0xFD90 : WevtUtil g﶐li HardwareEvents
+0xFD91 : WevtUtil g﶑li HardwareEvents
+0xFDC8 : WevtUtil g﷈li HardwareEvents
+0xFDC9 : WevtUtil g﷉li HardwareEvents
+0xFDCA : WevtUtil g﷊li HardwareEvents
+0xFDCB : WevtUtil g﷋li HardwareEvents
+0xFDCC : WevtUtil g﷌li HardwareEvents
+0xFDCD : WevtUtil g﷍li HardwareEvents
+0xFDCE : WevtUtil g﷎li HardwareEvents
+0xFDCF : WevtUtil g﷏li HardwareEvents
+0xFDD0 : WevtUtil g﷐li HardwareEvents
+0xFDD1 : WevtUtil g﷑li HardwareEvents
+0xFDD2 : WevtUtil g﷒li HardwareEvents
+0xFDD3 : WevtUtil g﷓li HardwareEvents
+0xFDD4 : WevtUtil g﷔li HardwareEvents
+0xFDD5 : WevtUtil g﷕li HardwareEvents
+0xFDD6 : WevtUtil g﷖li HardwareEvents
+0xFDD7 : WevtUtil g﷗li HardwareEvents
+0xFDD8 : WevtUtil g﷘li HardwareEvents
+0xFDD9 : WevtUtil g﷙li HardwareEvents
+0xFDDA : WevtUtil g﷚li HardwareEvents
+0xFDDB : WevtUtil g﷛li HardwareEvents
+0xFDDC : WevtUtil g﷜li HardwareEvents
+0xFDDD : WevtUtil g﷝li HardwareEvents
+0xFDDE : WevtUtil g﷞li HardwareEvents
+0xFDDF : WevtUtil g﷟li HardwareEvents
+0xFDE0 : WevtUtil g﷠li HardwareEvents
+0xFDE1 : WevtUtil g﷡li HardwareEvents
+0xFDE2 : WevtUtil g﷢li HardwareEvents
+0xFDE3 : WevtUtil g﷣li HardwareEvents
+0xFDE4 : WevtUtil g﷤li HardwareEvents
+0xFDE5 : WevtUtil g﷥li HardwareEvents
+0xFDE6 : WevtUtil g﷦li HardwareEvents
+0xFDE7 : WevtUtil g﷧li HardwareEvents
+0xFDE8 : WevtUtil g﷨li HardwareEvents
+0xFDE9 : WevtUtil g﷩li HardwareEvents
+0xFDEA : WevtUtil g﷪li HardwareEvents
+0xFDEB : WevtUtil g﷫li HardwareEvents
+0xFDEC : WevtUtil g﷬li HardwareEvents
+0xFDED : WevtUtil g﷭li HardwareEvents
+0xFDEE : WevtUtil g﷮li HardwareEvents
+0xFDEF : WevtUtil g﷯li HardwareEvents
+0xFDFE : WevtUtil g﷾li HardwareEvents
+0xFDFF : WevtUtil g﷿li HardwareEvents
+0xFE00 : WevtUtil g︀li HardwareEvents
+0xFE01 : WevtUtil g︁li HardwareEvents
+0xFE02 : WevtUtil g︂li HardwareEvents
+0xFE03 : WevtUtil g︃li HardwareEvents
+0xFE04 : WevtUtil g︄li HardwareEvents
+0xFE05 : WevtUtil g︅li HardwareEvents
+0xFE06 : WevtUtil g︆li HardwareEvents
+0xFE07 : WevtUtil g︇li HardwareEvents
+0xFE08 : WevtUtil g︈li HardwareEvents
+0xFE09 : WevtUtil g︉li HardwareEvents
+0xFE0A : WevtUtil g︊li HardwareEvents
+0xFE0B : WevtUtil g︋li HardwareEvents
+0xFE0C : WevtUtil g︌li HardwareEvents
+0xFE0D : WevtUtil g︍li HardwareEvents
+0xFE0E : WevtUtil g︎li HardwareEvents
+0xFE0F : WevtUtil g️li HardwareEvents
+0xFE1A : WevtUtil g︚li HardwareEvents
+0xFE1B : WevtUtil g︛li HardwareEvents
+0xFE1C : WevtUtil g︜li HardwareEvents
+0xFE1D : WevtUtil g︝li HardwareEvents
+0xFE1E : WevtUtil g︞li HardwareEvents
+0xFE1F : WevtUtil g︟li HardwareEvents
+0xFE27 : WevtUtil g︧li HardwareEvents
+0xFE28 : WevtUtil g︨li HardwareEvents
+0xFE29 : WevtUtil g︩li HardwareEvents
+0xFE2A : WevtUtil g︪li HardwareEvents
+0xFE2B : WevtUtil g︫li HardwareEvents
+0xFE2C : WevtUtil g︬li HardwareEvents
+0xFE2D : WevtUtil g︭li HardwareEvents
+0xFE2E : WevtUtil g︮li HardwareEvents
+0xFE2F : WevtUtil g︯li HardwareEvents
+0xFE53 : WevtUtil g﹓li HardwareEvents
+0xFE67 : WevtUtil g﹧li HardwareEvents
+0xFE6C : WevtUtil g﹬li HardwareEvents
+0xFE6D : WevtUtil g﹭li HardwareEvents
+0xFE6E : WevtUtil g﹮li HardwareEvents
+0xFE6F : WevtUtil g﹯li HardwareEvents
+0xFE75 : WevtUtil g﹵li HardwareEvents
+0xFEFD : WevtUtil g﻽li HardwareEvents
+0xFEFE : WevtUtil g﻾li HardwareEvents
+0xFEFF : WevtUtil g﻿li HardwareEvents
+0xFF00 : WevtUtil g＀li HardwareEvents
+0xFFBF : WevtUtil g﾿li HardwareEvents
+0xFFC0 : WevtUtil g￀li HardwareEvents
+0xFFC1 : WevtUtil g￁li HardwareEvents
+0xFFC8 : WevtUtil g￈li HardwareEvents
+0xFFC9 : WevtUtil g￉li HardwareEvents
+0xFFD0 : WevtUtil g￐li HardwareEvents
+0xFFD1 : WevtUtil g￑li HardwareEvents
+0xFFD8 : WevtUtil g￘li HardwareEvents
+0xFFD9 : WevtUtil g￙li HardwareEvents
+0xFFDD : WevtUtil g￝li HardwareEvents
+0xFFDE : WevtUtil g￞li HardwareEvents
+0xFFDF : WevtUtil g￟li HardwareEvents
+0xFFE7 : WevtUtil g￧li HardwareEvents
+0xFFEF : WevtUtil g￯li HardwareEvents
+0xFFF0 : WevtUtil g￰li HardwareEvents
+0xFFF1 : WevtUtil g￱li HardwareEvents
+0xFFF2 : WevtUtil g￲li HardwareEvents
+0xFFF3 : WevtUtil g￳li HardwareEvents
+0xFFF4 : WevtUtil g￴li HardwareEvents
+0xFFF5 : WevtUtil g￵li HardwareEvents
+0xFFF6 : WevtUtil g￶li HardwareEvents
+0xFFF7 : WevtUtil g￷li HardwareEvents
+0xFFF8 : WevtUtil g￸li HardwareEvents
+0xFFF9 : WevtUtil g￹li HardwareEvents
+0xFFFA : WevtUtil g￺li HardwareEvents
+0xFFFB : WevtUtil g￻li HardwareEvents
+0xFFFC : WevtUtil g￼li HardwareEvents
+0xFFFD : WevtUtil g�li HardwareEvents
+0xFFFE : WevtUtil g￾li HardwareEvents
+
+:: Character Replacement
+The following commands were found to be working:
+0x02E1 : WevtUtil gˡi HardwareEvents
+0x1D38 : WevtUtil gᴸi HardwareEvents
+
+:: Quote Insertion
+Inserting quotes in the first argument did work, such as:
+WevtUtil g"l"i HardwareEvents
+
+:: Shortened Commands
+No alternative commands were found.

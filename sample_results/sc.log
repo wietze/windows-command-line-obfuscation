@@ -1,0 +1,21 @@
+PROCESS OBFUSCATION REPORT FOR sc
+- Generated on 2020-11-29T03:08:00.958477
+- Command used      : sc query eventlog
+- Insertion position:       ^
+- Char ranges scanned: 0x0001..0xFFFE
+
+:: Different dash/hyphens
+The command does not contain any arguments starting with a slash or dash.
+
+:: Character Insertion
+No alternative commands were found.
+
+:: Character Replacement
+No alternative commands were found.
+
+:: Quote Insertion
+Inserting quotes in the first argument did work, such as:
+sc q"u"ery eventlog
+
+:: Shortened Commands
+No alternative commands were found.

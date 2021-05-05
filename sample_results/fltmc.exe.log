@@ -1,0 +1,22 @@
+PROCESS OBFUSCATION REPORT FOR fltmc.exe
+- Generated on 2020-11-30T14:21:00.481512
+- Command used      : fltmc.exe filters
+- Insertion position:             ^
+- Char ranges scanned: 0x0001..0xFFFE
+
+:: Different dash/hyphens
+The command does not contain any arguments starting with a slash or dash.
+
+:: Character Insertion
+The following 1 commands were found to be working:
+0x0022 : fltmc.exe fi"lters
+
+:: Character Replacement
+No alternative commands were found.
+
+:: Quote Insertion
+Inserting quotes in the first argument did work, such as:
+fltmc.exe f"i"lters
+
+:: Shortened Commands
+No alternative commands were found.

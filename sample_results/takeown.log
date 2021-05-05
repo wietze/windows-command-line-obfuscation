@@ -1,0 +1,26 @@
+PROCESS OBFUSCATION REPORT FOR takeown
+- Generated on 2021-01-02T21:21:32.881566
+- Command used      : takeown /F config.json
+- Insertion position:          ^
+- Char ranges scanned: 0x0001..0xFFFE
+
+:: Option Char Substitution
+The following 2 commands were found to be working:
+0x002D : takeown -F config.json
+0xFE63 : takeown ﹣F config.json
+
+:: Character Insertion
+The following 2 commands were found to be working:
+0x0009 : takeown /F	 config.json
+0x0020 : takeown /F  config.json
+
+:: Character Substitution
+The following commands were found to be working:
+0x1DA0 : takeown /ᶠ config.json
+
+:: Quote Insertion
+Inserting quotes in the first argument did work, such as:
+takeown /"F" config.json
+
+:: Shorthand Commands
+No alternative commands were found.

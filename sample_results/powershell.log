@@ -1,0 +1,37 @@
+PROCESS OBFUSCATION REPORT FOR powershell
+- Generated on 2020-11-29T10:12:00.012891
+- Command used      : powershell /encodedcommand ZQBjAGgAbwAgACIAQAB3AGkAZQB0AHoAZQAiAA==
+- Insertion position:             ^
+- Char ranges scanned: 0x0001..0x00FE 0x02B0..0x02FE 0x2070..0x209E
+
+:: Different dash/hyphens
+The following 4 commands were found to be working:
+0x002D : powershell -encodedcommand ZQBjAGgAbwAgACIAQAB3AGkAZQB0AHoAZQAiAA==
+0x2013 : powershell –encodedcommand ZQBjAGgAbwAgACIAQAB3AGkAZQB0AHoAZQAiAA==
+0x2014 : powershell —encodedcommand ZQBjAGgAbwAgACIAQAB3AGkAZQB0AHoAZQAiAA==
+0x2015 : powershell ―encodedcommand ZQBjAGgAbwAgACIAQAB3AGkAZQB0AHoAZQAiAA==
+
+:: Character Insertion
+No alternative commands were found.
+
+:: Character Replacement
+No alternative commands were found.
+
+:: Quote Insertion
+Inserting quotes in the first argument did work, such as:
+powershell /"e"ncodedcommand ZQBjAGgAbwAgACIAQAB3AGkAZQB0AHoAZQAiAA==
+
+:: Shortened Commands
+The following 12 commands were found to be working:
+powershell /e ZQBjAGgAbwAgACIAQAB3AGkAZQB0AHoAZQAiAA==
+powershell /en ZQBjAGgAbwAgACIAQAB3AGkAZQB0AHoAZQAiAA==
+powershell /enc ZQBjAGgAbwAgACIAQAB3AGkAZQB0AHoAZQAiAA==
+powershell /enco ZQBjAGgAbwAgACIAQAB3AGkAZQB0AHoAZQAiAA==
+powershell /encod ZQBjAGgAbwAgACIAQAB3AGkAZQB0AHoAZQAiAA==
+powershell /encode ZQBjAGgAbwAgACIAQAB3AGkAZQB0AHoAZQAiAA==
+powershell /encoded ZQBjAGgAbwAgACIAQAB3AGkAZQB0AHoAZQAiAA==
+powershell /encodedc ZQBjAGgAbwAgACIAQAB3AGkAZQB0AHoAZQAiAA==
+powershell /encodedco ZQBjAGgAbwAgACIAQAB3AGkAZQB0AHoAZQAiAA==
+powershell /encodedcom ZQBjAGgAbwAgACIAQAB3AGkAZQB0AHoAZQAiAA==
+powershell /encodedcomm ZQBjAGgAbwAgACIAQAB3AGkAZQB0AHoAZQAiAA==
+powershell /encodedcomma ZQBjAGgAbwAgACIAQAB3AGkAZQB0AHoAZQAiAA==

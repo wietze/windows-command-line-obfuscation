@@ -1,0 +1,20 @@
+PROCESS OBFUSCATION REPORT FOR wmic
+- Generated on 2020-11-29T02:56:59.426171
+- Command used      : wmic os get BuildNumber
+- Insertion position:       ^
+- Char ranges scanned: 0x0001..0xFFFE
+
+:: Different dash/hyphens
+The command does not contain any arguments starting with a slash or dash.
+
+:: Character Insertion
+No alternative commands were found.
+
+:: Character Replacement
+No alternative commands were found.
+
+:: Quote Insertion
+Inserting quotes in the first argument did not appear to be working.
+
+:: Shortened Commands
+No alternative commands were found.

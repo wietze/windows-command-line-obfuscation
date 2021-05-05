@@ -1,0 +1,68 @@
+PROCESS OBFUSCATION REPORT FOR netstat
+- Generated on 2021-01-02T14:24:28.627896
+- Command used      : netstat -p UDPv6
+- Insertion position:          ^
+- Char ranges scanned: 0x0001..0xFFFE
+
+:: Option Char Substitution
+The following 8 commands were found to be working:
+0x002F : netstat /p UDPv6
+0x2010 : netstat ‐p UDPv6
+0x2012 : netstat ‒p UDPv6
+0x2015 : netstat ―p UDPv6
+0x2044 : netstat ⁄p UDPv6
+0x2212 : netstat −p UDPv6
+0x2215 : netstat ∕p UDPv6
+0xFF0D : netstat －p UDPv6
+
+:: Character Insertion
+The following 33 commands were found to be working:
+0x0046 : netstat -Fp UDPv6
+0x004E : netstat -Np UDPv6
+0x0050 : netstat -Pp UDPv6
+0x0056 : netstat -Vp UDPv6
+0x0066 : netstat -fp UDPv6
+0x006E : netstat -np UDPv6
+0x0070 : netstat -pp UDPv6
+0x0076 : netstat -vp UDPv6
+0x0143 : netstat -Ńp UDPv6
+0x0144 : netstat -ńp UDPv6
+0x0145 : netstat -Ņp UDPv6
+0x0146 : netstat -ņp UDPv6
+0x0147 : netstat -Ňp UDPv6
+0x0148 : netstat -ňp UDPv6
+0x03A6 : netstat -Φp UDPv6
+0x03C0 : netstat -πp UDPv6
+0x03C6 : netstat -φp UDPv6
+0x207F : netstat -ⁿp UDPv6
+0x20A7 : netstat -₧p UDPv6
+0x2115 : netstat -ℕp UDPv6
+0x2118 : netstat -℘p UDPv6
+0x2119 : netstat -ℙp UDPv6
+0x2131 : netstat -ℱp UDPv6
+0x221A : netstat -√p UDPv6
+0x2229 : netstat -∩p UDPv6
+0xFF26 : netstat -Ｆp UDPv6
+0xFF2E : netstat -Ｎp UDPv6
+0xFF30 : netstat -Ｐp UDPv6
+0xFF36 : netstat -Ｖp UDPv6
+0xFF46 : netstat -ｆp UDPv6
+0xFF4E : netstat -ｎp UDPv6
+0xFF50 : netstat -ｐp UDPv6
+0xFF56 : netstat -ｖp UDPv6
+
+:: Character Substitution
+The following commands were found to be working:
+0x03C0 : netstat -π UDPv6
+0x20A7 : netstat -₧ UDPv6
+0x2118 : netstat -℘ UDPv6
+0x2119 : netstat -ℙ UDPv6
+0xFF30 : netstat -Ｐ UDPv6
+0xFF50 : netstat -ｐ UDPv6
+
+:: Quote Insertion
+Inserting quotes in the first argument did work, such as:
+netstat -"p" UDPv6
+
+:: Shorthand Commands
+No alternative commands were found.

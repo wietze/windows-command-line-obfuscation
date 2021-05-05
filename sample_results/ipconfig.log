@@ -1,0 +1,3397 @@
+PROCESS OBFUSCATION REPORT FOR ipconfig
+- Generated on 2021-01-02T13:53:58.314796
+- Command used      : ipconfig /displaydns
+- Insertion position:             ^
+- Char ranges scanned: 0x0001..0xFFFE
+
+:: Option Char Substitution
+The following 1 commands were found to be working:
+0x002D : ipconfig -displaydns
+
+:: Character Insertion
+The following 3370 commands were found to be working:
+0x0022 : ipconfig /di"splaydns
+0x00AD : ipconfig /di­splaydns
+0x034F : ipconfig /di͏splaydns
+0x0378 : ipconfig /di͸splaydns
+0x0379 : ipconfig /di͹splaydns
+0x037F : ipconfig /diͿsplaydns
+0x0380 : ipconfig /di΀splaydns
+0x0381 : ipconfig /di΁splaydns
+0x0382 : ipconfig /di΂splaydns
+0x0383 : ipconfig /di΃splaydns
+0x038B : ipconfig /di΋splaydns
+0x038D : ipconfig /di΍splaydns
+0x03A2 : ipconfig /di΢splaydns
+0x0524 : ipconfig /diԤsplaydns
+0x0525 : ipconfig /diԥsplaydns
+0x0528 : ipconfig /diԨsplaydns
+0x0529 : ipconfig /diԩsplaydns
+0x052A : ipconfig /diԪsplaydns
+0x052B : ipconfig /diԫsplaydns
+0x052C : ipconfig /diԬsplaydns
+0x052D : ipconfig /diԭsplaydns
+0x052E : ipconfig /diԮsplaydns
+0x052F : ipconfig /diԯsplaydns
+0x0530 : ipconfig /di԰splaydns
+0x0557 : ipconfig /di՗splaydns
+0x0558 : ipconfig /di՘splaydns
+0x0560 : ipconfig /diՠsplaydns
+0x0588 : ipconfig /diֈsplaydns
+0x058B : ipconfig /di֋splaydns
+0x058C : ipconfig /di֌splaydns
+0x058D : ipconfig /di֍splaydns
+0x058E : ipconfig /di֎splaydns
+0x058F : ipconfig /di֏splaydns
+0x0590 : ipconfig /di֐splaydns
+0x05C8 : ipconfig /di׈splaydns
+0x05C9 : ipconfig /di׉splaydns
+0x05CA : ipconfig /di׊splaydns
+0x05CB : ipconfig /di׋splaydns
+0x05CC : ipconfig /di׌splaydns
+0x05CD : ipconfig /di׍splaydns
+0x05CE : ipconfig /di׎splaydns
+0x05CF : ipconfig /di׏splaydns
+0x05EB : ipconfig /di׫splaydns
+0x05EC : ipconfig /di׬splaydns
+0x05ED : ipconfig /di׭splaydns
+0x05EE : ipconfig /di׮splaydns
+0x05EF : ipconfig /diׯsplaydns
+0x05F5 : ipconfig /di׵splaydns
+0x05F6 : ipconfig /di׶splaydns
+0x05F7 : ipconfig /di׷splaydns
+0x05F8 : ipconfig /di׸splaydns
+0x05F9 : ipconfig /di׹splaydns
+0x05FA : ipconfig /di׺splaydns
+0x05FB : ipconfig /di׻splaydns
+0x05FC : ipconfig /di׼splaydns
+0x05FD : ipconfig /di׽splaydns
+0x05FE : ipconfig /di׾splaydns
+0x05FF : ipconfig /di׿splaydns
+0x0604 : ipconfig /di؄splaydns
+0x0605 : ipconfig /di؅splaydns
+0x061C : ipconfig /di؜splaydns
+0x061D : ipconfig /di؝splaydns
+0x0640 : ipconfig /diـsplaydns
+0x070E : ipconfig /di܎splaydns
+0x074B : ipconfig /di݋splaydns
+0x074C : ipconfig /di݌splaydns
+0x07B2 : ipconfig /di޲splaydns
+0x07B3 : ipconfig /di޳splaydns
+0x07B4 : ipconfig /di޴splaydns
+0x07B5 : ipconfig /di޵splaydns
+0x07B6 : ipconfig /di޶splaydns
+0x07B7 : ipconfig /di޷splaydns
+0x07B8 : ipconfig /di޸splaydns
+0x07B9 : ipconfig /di޹splaydns
+0x07BA : ipconfig /di޺splaydns
+0x07BB : ipconfig /di޻splaydns
+0x07BC : ipconfig /di޼splaydns
+0x07BD : ipconfig /di޽splaydns
+0x07BE : ipconfig /di޾splaydns
+0x07BF : ipconfig /di޿splaydns
+0x07FB : ipconfig /di߻splaydns
+0x07FC : ipconfig /di߼splaydns
+0x07FD : ipconfig /di߽splaydns
+0x07FE : ipconfig /di߾splaydns
+0x07FF : ipconfig /di߿splaydns
+0x082E : ipconfig /di࠮splaydns
+0x082F : ipconfig /di࠯splaydns
+0x083F : ipconfig /di࠿splaydns
+0x085C : ipconfig /di࡜splaydns
+0x085D : ipconfig /di࡝splaydns
+0x085F : ipconfig /di࡟splaydns
+0x0860 : ipconfig /diࡠsplaydns
+0x0861 : ipconfig /diࡡsplaydns
+0x0862 : ipconfig /diࡢsplaydns
+0x0863 : ipconfig /diࡣsplaydns
+0x0864 : ipconfig /diࡤsplaydns
+0x0865 : ipconfig /diࡥsplaydns
+0x0866 : ipconfig /diࡦsplaydns
+0x0867 : ipconfig /diࡧsplaydns
+0x0868 : ipconfig /diࡨsplaydns
+0x0869 : ipconfig /diࡩsplaydns
+0x086A : ipconfig /diࡪsplaydns
+0x086B : ipconfig /di࡫splaydns
+0x086C : ipconfig /di࡬splaydns
+0x086D : ipconfig /di࡭splaydns
+0x086E : ipconfig /di࡮splaydns
+0x086F : ipconfig /di࡯splaydns
+0x0870 : ipconfig /diࡰsplaydns
+0x0871 : ipconfig /diࡱsplaydns
+0x0872 : ipconfig /diࡲsplaydns
+0x0873 : ipconfig /diࡳsplaydns
+0x0874 : ipconfig /diࡴsplaydns
+0x0875 : ipconfig /diࡵsplaydns
+0x0876 : ipconfig /diࡶsplaydns
+0x0877 : ipconfig /diࡷsplaydns
+0x0878 : ipconfig /diࡸsplaydns
+0x0879 : ipconfig /diࡹsplaydns
+0x087A : ipconfig /diࡺsplaydns
+0x087B : ipconfig /diࡻsplaydns
+0x087C : ipconfig /diࡼsplaydns
+0x087D : ipconfig /diࡽsplaydns
+0x087E : ipconfig /diࡾsplaydns
+0x087F : ipconfig /diࡿsplaydns
+0x0880 : ipconfig /diࢀsplaydns
+0x0881 : ipconfig /diࢁsplaydns
+0x0882 : ipconfig /diࢂsplaydns
+0x0883 : ipconfig /diࢃsplaydns
+0x0884 : ipconfig /diࢄsplaydns
+0x0885 : ipconfig /diࢅsplaydns
+0x0886 : ipconfig /diࢆsplaydns
+0x0887 : ipconfig /diࢇsplaydns
+0x0888 : ipconfig /di࢈splaydns
+0x0889 : ipconfig /diࢉsplaydns
+0x088A : ipconfig /diࢊsplaydns
+0x088B : ipconfig /diࢋsplaydns
+0x088C : ipconfig /diࢌsplaydns
+0x088D : ipconfig /diࢍsplaydns
+0x088E : ipconfig /diࢎsplaydns
+0x088F : ipconfig /di࢏splaydns
+0x0890 : ipconfig /di࢐splaydns
+0x0891 : ipconfig /di࢑splaydns
+0x0892 : ipconfig /di࢒splaydns
+0x0893 : ipconfig /di࢓splaydns
+0x0894 : ipconfig /di࢔splaydns
+0x0895 : ipconfig /di࢕splaydns
+0x0896 : ipconfig /di࢖splaydns
+0x0897 : ipconfig /diࢗsplaydns
+0x0898 : ipconfig /di࢘splaydns
+0x0899 : ipconfig /di࢙splaydns
+0x089A : ipconfig /di࢚splaydns
+0x089B : ipconfig /di࢛splaydns
+0x089C : ipconfig /di࢜splaydns
+0x089D : ipconfig /di࢝splaydns
+0x089E : ipconfig /di࢞splaydns
+0x089F : ipconfig /di࢟splaydns
+0x08A0 : ipconfig /diࢠsplaydns
+0x08A1 : ipconfig /diࢡsplaydns
+0x08A2 : ipconfig /diࢢsplaydns
+0x08A3 : ipconfig /diࢣsplaydns
+0x08A4 : ipconfig /diࢤsplaydns
+0x08A5 : ipconfig /diࢥsplaydns
+0x08A6 : ipconfig /diࢦsplaydns
+0x08A7 : ipconfig /diࢧsplaydns
+0x08A8 : ipconfig /diࢨsplaydns
+0x08A9 : ipconfig /diࢩsplaydns
+0x08AA : ipconfig /diࢪsplaydns
+0x08AB : ipconfig /diࢫsplaydns
+0x08AC : ipconfig /diࢬsplaydns
+0x08AD : ipconfig /diࢭsplaydns
+0x08AE : ipconfig /diࢮsplaydns
+0x08AF : ipconfig /diࢯsplaydns
+0x08B0 : ipconfig /diࢰsplaydns
+0x08B1 : ipconfig /diࢱsplaydns
+0x08B2 : ipconfig /diࢲsplaydns
+0x08B3 : ipconfig /diࢳsplaydns
+0x08B4 : ipconfig /diࢴsplaydns
+0x08B5 : ipconfig /diࢵsplaydns
+0x08B6 : ipconfig /diࢶsplaydns
+0x08B7 : ipconfig /diࢷsplaydns
+0x08B8 : ipconfig /diࢸsplaydns
+0x08B9 : ipconfig /diࢹsplaydns
+0x08BA : ipconfig /diࢺsplaydns
+0x08BB : ipconfig /diࢻsplaydns
+0x08BC : ipconfig /diࢼsplaydns
+0x08BD : ipconfig /diࢽsplaydns
+0x08BE : ipconfig /diࢾsplaydns
+0x08BF : ipconfig /diࢿsplaydns
+0x08C0 : ipconfig /diࣀsplaydns
+0x08C1 : ipconfig /diࣁsplaydns
+0x08C2 : ipconfig /diࣂsplaydns
+0x08C3 : ipconfig /diࣃsplaydns
+0x08C4 : ipconfig /diࣄsplaydns
+0x08C5 : ipconfig /diࣅsplaydns
+0x08C6 : ipconfig /diࣆsplaydns
+0x08C7 : ipconfig /diࣇsplaydns
+0x08C8 : ipconfig /diࣈsplaydns
+0x08C9 : ipconfig /diࣉsplaydns
+0x08CA : ipconfig /di࣊splaydns
+0x08CB : ipconfig /di࣋splaydns
+0x08CC : ipconfig /di࣌splaydns
+0x08CD : ipconfig /di࣍splaydns
+0x08CE : ipconfig /di࣎splaydns
+0x08CF : ipconfig /di࣏splaydns
+0x08D0 : ipconfig /di࣐splaydns
+0x08D1 : ipconfig /di࣑splaydns
+0x08D2 : ipconfig /di࣒splaydns
+0x08D3 : ipconfig /di࣓splaydns
+0x08D4 : ipconfig /diࣔsplaydns
+0x08D5 : ipconfig /diࣕsplaydns
+0x08D6 : ipconfig /diࣖsplaydns
+0x08D7 : ipconfig /diࣗsplaydns
+0x08D8 : ipconfig /diࣘsplaydns
+0x08D9 : ipconfig /diࣙsplaydns
+0x08DA : ipconfig /diࣚsplaydns
+0x08DB : ipconfig /diࣛsplaydns
+0x08DC : ipconfig /diࣜsplaydns
+0x08DD : ipconfig /diࣝsplaydns
+0x08DE : ipconfig /diࣞsplaydns
+0x08DF : ipconfig /diࣟsplaydns
+0x08E0 : ipconfig /di࣠splaydns
+0x08E1 : ipconfig /di࣡splaydns
+0x08E2 : ipconfig /di࣢splaydns
+0x08E3 : ipconfig /diࣣsplaydns
+0x08E4 : ipconfig /diࣤsplaydns
+0x08E5 : ipconfig /diࣥsplaydns
+0x08E6 : ipconfig /diࣦsplaydns
+0x08E7 : ipconfig /diࣧsplaydns
+0x08E8 : ipconfig /diࣨsplaydns
+0x08E9 : ipconfig /diࣩsplaydns
+0x08EA : ipconfig /di࣪splaydns
+0x08EB : ipconfig /di࣫splaydns
+0x08EC : ipconfig /di࣬splaydns
+0x08ED : ipconfig /di࣭splaydns
+0x08EE : ipconfig /di࣮splaydns
+0x08EF : ipconfig /di࣯splaydns
+0x08F0 : ipconfig /diࣰsplaydns
+0x08F1 : ipconfig /diࣱsplaydns
+0x08F2 : ipconfig /diࣲsplaydns
+0x08F3 : ipconfig /diࣳsplaydns
+0x08F4 : ipconfig /diࣴsplaydns
+0x08F5 : ipconfig /diࣵsplaydns
+0x08F6 : ipconfig /diࣶsplaydns
+0x08F7 : ipconfig /diࣷsplaydns
+0x08F8 : ipconfig /diࣸsplaydns
+0x08F9 : ipconfig /diࣹsplaydns
+0x08FA : ipconfig /diࣺsplaydns
+0x08FB : ipconfig /diࣻsplaydns
+0x08FC : ipconfig /diࣼsplaydns
+0x08FD : ipconfig /diࣽsplaydns
+0x08FE : ipconfig /diࣾsplaydns
+0x08FF : ipconfig /diࣿsplaydns
+0x0900 : ipconfig /diऀsplaydns
+0x0978 : ipconfig /diॸsplaydns
+0x0980 : ipconfig /diঀsplaydns
+0x0984 : ipconfig /di঄splaydns
+0x098D : ipconfig /di঍splaydns
+0x098E : ipconfig /di঎splaydns
+0x0991 : ipconfig /di঑splaydns
+0x0992 : ipconfig /di঒splaydns
+0x09A9 : ipconfig /di঩splaydns
+0x09B1 : ipconfig /di঱splaydns
+0x09B3 : ipconfig /di঳splaydns
+0x09B4 : ipconfig /di঴splaydns
+0x09B5 : ipconfig /di঵splaydns
+0x09BA : ipconfig /di঺splaydns
+0x09BB : ipconfig /di঻splaydns
+0x09C5 : ipconfig /di৅splaydns
+0x09C6 : ipconfig /di৆splaydns
+0x09C9 : ipconfig /di৉splaydns
+0x09CA : ipconfig /di৊splaydns
+0x09CF : ipconfig /di৏splaydns
+0x09D0 : ipconfig /di৐splaydns
+0x09D1 : ipconfig /di৑splaydns
+0x09D2 : ipconfig /di৒splaydns
+0x09D3 : ipconfig /di৓splaydns
+0x09D4 : ipconfig /di৔splaydns
+0x09D5 : ipconfig /di৕splaydns
+0x09D6 : ipconfig /di৖splaydns
+0x09D8 : ipconfig /di৘splaydns
+0x09D9 : ipconfig /di৙splaydns
+0x09DA : ipconfig /di৚splaydns
+0x09DB : ipconfig /di৛splaydns
+0x09DE : ipconfig /di৞splaydns
+0x09E4 : ipconfig /di৤splaydns
+0x09E5 : ipconfig /di৥splaydns
+0x09FB : ipconfig /di৻splaydns
+0x09FC : ipconfig /diৼsplaydns
+0x09FD : ipconfig /di৽splaydns
+0x09FE : ipconfig /di৾splaydns
+0x09FF : ipconfig /di৿splaydns
+0x0A00 : ipconfig /di਀splaydns
+0x0A04 : ipconfig /di਄splaydns
+0x0A0B : ipconfig /di਋splaydns
+0x0A0C : ipconfig /di਌splaydns
+0x0A0D : ipconfig /di਍splaydns
+0x0A0E : ipconfig /di਎splaydns
+0x0A11 : ipconfig /di਑splaydns
+0x0A12 : ipconfig /di਒splaydns
+0x0A29 : ipconfig /di਩splaydns
+0x0A31 : ipconfig /di਱splaydns
+0x0A34 : ipconfig /di਴splaydns
+0x0A37 : ipconfig /di਷splaydns
+0x0A3A : ipconfig /di਺splaydns
+0x0A3B : ipconfig /di਻splaydns
+0x0A3D : ipconfig /di਽splaydns
+0x0A43 : ipconfig /di੃splaydns
+0x0A44 : ipconfig /di੄splaydns
+0x0A45 : ipconfig /di੅splaydns
+0x0A46 : ipconfig /di੆splaydns
+0x0A49 : ipconfig /di੉splaydns
+0x0A4A : ipconfig /di੊splaydns
+0x0A4E : ipconfig /di੎splaydns
+0x0A4F : ipconfig /di੏splaydns
+0x0A50 : ipconfig /di੐splaydns
+0x0A52 : ipconfig /di੒splaydns
+0x0A53 : ipconfig /di੓splaydns
+0x0A54 : ipconfig /di੔splaydns
+0x0A55 : ipconfig /di੕splaydns
+0x0A56 : ipconfig /di੖splaydns
+0x0A57 : ipconfig /di੗splaydns
+0x0A58 : ipconfig /di੘splaydns
+0x0A5D : ipconfig /di੝splaydns
+0x0A5F : ipconfig /di੟splaydns
+0x0A60 : ipconfig /di੠splaydns
+0x0A61 : ipconfig /di੡splaydns
+0x0A62 : ipconfig /di੢splaydns
+0x0A63 : ipconfig /di੣splaydns
+0x0A64 : ipconfig /di੤splaydns
+0x0A65 : ipconfig /di੥splaydns
+0x0A76 : ipconfig /di੶splaydns
+0x0A77 : ipconfig /di੷splaydns
+0x0A78 : ipconfig /di੸splaydns
+0x0A79 : ipconfig /di੹splaydns
+0x0A7A : ipconfig /di੺splaydns
+0x0A7B : ipconfig /di੻splaydns
+0x0A7C : ipconfig /di੼splaydns
+0x0A7D : ipconfig /di੽splaydns
+0x0A7E : ipconfig /di੾splaydns
+0x0A7F : ipconfig /di੿splaydns
+0x0A80 : ipconfig /di઀splaydns
+0x0A84 : ipconfig /di઄splaydns
+0x0A8E : ipconfig /di઎splaydns
+0x0A92 : ipconfig /di઒splaydns
+0x0AA9 : ipconfig /di઩splaydns
+0x0AB1 : ipconfig /di઱splaydns
+0x0AB4 : ipconfig /di઴splaydns
+0x0ABA : ipconfig /di઺splaydns
+0x0ABB : ipconfig /di઻splaydns
+0x0AC6 : ipconfig /di૆splaydns
+0x0ACA : ipconfig /di૊splaydns
+0x0ACE : ipconfig /di૎splaydns
+0x0ACF : ipconfig /di૏splaydns
+0x0AD1 : ipconfig /di૑splaydns
+0x0AD2 : ipconfig /di૒splaydns
+0x0AD3 : ipconfig /di૓splaydns
+0x0AD4 : ipconfig /di૔splaydns
+0x0AD5 : ipconfig /di૕splaydns
+0x0AD6 : ipconfig /di૖splaydns
+0x0AD7 : ipconfig /di૗splaydns
+0x0AD8 : ipconfig /di૘splaydns
+0x0AD9 : ipconfig /di૙splaydns
+0x0ADA : ipconfig /di૚splaydns
+0x0ADB : ipconfig /di૛splaydns
+0x0ADC : ipconfig /di૜splaydns
+0x0ADD : ipconfig /di૝splaydns
+0x0ADE : ipconfig /di૞splaydns
+0x0ADF : ipconfig /di૟splaydns
+0x0AE4 : ipconfig /di૤splaydns
+0x0AE5 : ipconfig /di૥splaydns
+0x0AF0 : ipconfig /di૰splaydns
+0x0AF2 : ipconfig /di૲splaydns
+0x0AF3 : ipconfig /di૳splaydns
+0x0AF4 : ipconfig /di૴splaydns
+0x0AF5 : ipconfig /di૵splaydns
+0x0AF6 : ipconfig /di૶splaydns
+0x0AF7 : ipconfig /di૷splaydns
+0x0AF8 : ipconfig /di૸splaydns
+0x0AF9 : ipconfig /diૹsplaydns
+0x0AFA : ipconfig /diૺsplaydns
+0x0AFB : ipconfig /diૻsplaydns
+0x0AFC : ipconfig /diૼsplaydns
+0x0AFD : ipconfig /di૽splaydns
+0x0AFE : ipconfig /di૾splaydns
+0x0AFF : ipconfig /di૿splaydns
+0x0B00 : ipconfig /di଀splaydns
+0x0B04 : ipconfig /di଄splaydns
+0x0B0D : ipconfig /di଍splaydns
+0x0B0E : ipconfig /di଎splaydns
+0x0B11 : ipconfig /di଑splaydns
+0x0B12 : ipconfig /di଒splaydns
+0x0B29 : ipconfig /di଩splaydns
+0x0B31 : ipconfig /di଱splaydns
+0x0B34 : ipconfig /di଴splaydns
+0x0B3A : ipconfig /di଺splaydns
+0x0B3B : ipconfig /di଻splaydns
+0x0B45 : ipconfig /di୅splaydns
+0x0B46 : ipconfig /di୆splaydns
+0x0B49 : ipconfig /di୉splaydns
+0x0B4A : ipconfig /di୊splaydns
+0x0B4E : ipconfig /di୎splaydns
+0x0B4F : ipconfig /di୏splaydns
+0x0B50 : ipconfig /di୐splaydns
+0x0B51 : ipconfig /di୑splaydns
+0x0B52 : ipconfig /di୒splaydns
+0x0B53 : ipconfig /di୓splaydns
+0x0B54 : ipconfig /di୔splaydns
+0x0B55 : ipconfig /di୕splaydns
+0x0B58 : ipconfig /di୘splaydns
+0x0B59 : ipconfig /di୙splaydns
+0x0B5A : ipconfig /di୚splaydns
+0x0B5B : ipconfig /di୛splaydns
+0x0B5E : ipconfig /di୞splaydns
+0x0B64 : ipconfig /di୤splaydns
+0x0B65 : ipconfig /di୥splaydns
+0x0B78 : ipconfig /di୸splaydns
+0x0B79 : ipconfig /di୹splaydns
+0x0B7A : ipconfig /di୺splaydns
+0x0B7B : ipconfig /di୻splaydns
+0x0B7C : ipconfig /di୼splaydns
+0x0B7D : ipconfig /di୽splaydns
+0x0B7E : ipconfig /di୾splaydns
+0x0B7F : ipconfig /di୿splaydns
+0x0B80 : ipconfig /di஀splaydns
+0x0B81 : ipconfig /di஁splaydns
+0x0B84 : ipconfig /di஄splaydns
+0x0B8B : ipconfig /di஋splaydns
+0x0B8C : ipconfig /di஌splaydns
+0x0B8D : ipconfig /di஍splaydns
+0x0B91 : ipconfig /di஑splaydns
+0x0B96 : ipconfig /di஖splaydns
+0x0B97 : ipconfig /di஗splaydns
+0x0B98 : ipconfig /di஘splaydns
+0x0B9B : ipconfig /di஛splaydns
+0x0B9D : ipconfig /di஝splaydns
+0x0BA0 : ipconfig /di஠splaydns
+0x0BA1 : ipconfig /di஡splaydns
+0x0BA2 : ipconfig /di஢splaydns
+0x0BA5 : ipconfig /di஥splaydns
+0x0BA6 : ipconfig /di஦splaydns
+0x0BA7 : ipconfig /di஧splaydns
+0x0BAB : ipconfig /di஫splaydns
+0x0BAC : ipconfig /di஬splaydns
+0x0BAD : ipconfig /di஭splaydns
+0x0BBA : ipconfig /di஺splaydns
+0x0BBB : ipconfig /di஻splaydns
+0x0BBC : ipconfig /di஼splaydns
+0x0BBD : ipconfig /di஽splaydns
+0x0BC3 : ipconfig /di௃splaydns
+0x0BC4 : ipconfig /di௄splaydns
+0x0BC5 : ipconfig /di௅splaydns
+0x0BC9 : ipconfig /di௉splaydns
+0x0BCE : ipconfig /di௎splaydns
+0x0BCF : ipconfig /di௏splaydns
+0x0BD1 : ipconfig /di௑splaydns
+0x0BD2 : ipconfig /di௒splaydns
+0x0BD3 : ipconfig /di௓splaydns
+0x0BD4 : ipconfig /di௔splaydns
+0x0BD5 : ipconfig /di௕splaydns
+0x0BD6 : ipconfig /di௖splaydns
+0x0BD8 : ipconfig /di௘splaydns
+0x0BD9 : ipconfig /di௙splaydns
+0x0BDA : ipconfig /di௚splaydns
+0x0BDB : ipconfig /di௛splaydns
+0x0BDC : ipconfig /di௜splaydns
+0x0BDD : ipconfig /di௝splaydns
+0x0BDE : ipconfig /di௞splaydns
+0x0BDF : ipconfig /di௟splaydns
+0x0BE0 : ipconfig /di௠splaydns
+0x0BE1 : ipconfig /di௡splaydns
+0x0BE2 : ipconfig /di௢splaydns
+0x0BE3 : ipconfig /di௣splaydns
+0x0BE4 : ipconfig /di௤splaydns
+0x0BE5 : ipconfig /di௥splaydns
+0x0BFB : ipconfig /di௻splaydns
+0x0BFC : ipconfig /di௼splaydns
+0x0BFD : ipconfig /di௽splaydns
+0x0BFE : ipconfig /di௾splaydns
+0x0BFF : ipconfig /di௿splaydns
+0x0C00 : ipconfig /diఀsplaydns
+0x0C04 : ipconfig /diఄsplaydns
+0x0C0D : ipconfig /di఍splaydns
+0x0C11 : ipconfig /di఑splaydns
+0x0C29 : ipconfig /di఩splaydns
+0x0C34 : ipconfig /diఴsplaydns
+0x0C3A : ipconfig /di఺splaydns
+0x0C3B : ipconfig /di఻splaydns
+0x0C3C : ipconfig /di఼splaydns
+0x0C45 : ipconfig /di౅splaydns
+0x0C49 : ipconfig /di౉splaydns
+0x0C4E : ipconfig /di౎splaydns
+0x0C4F : ipconfig /di౏splaydns
+0x0C50 : ipconfig /di౐splaydns
+0x0C51 : ipconfig /di౑splaydns
+0x0C52 : ipconfig /di౒splaydns
+0x0C53 : ipconfig /di౓splaydns
+0x0C54 : ipconfig /di౔splaydns
+0x0C57 : ipconfig /di౗splaydns
+0x0C5A : ipconfig /diౚsplaydns
+0x0C5B : ipconfig /di౛splaydns
+0x0C5C : ipconfig /di౜splaydns
+0x0C5D : ipconfig /diౝsplaydns
+0x0C5E : ipconfig /di౞splaydns
+0x0C5F : ipconfig /di౟splaydns
+0x0C64 : ipconfig /di౤splaydns
+0x0C65 : ipconfig /di౥splaydns
+0x0C70 : ipconfig /di౰splaydns
+0x0C71 : ipconfig /di౱splaydns
+0x0C72 : ipconfig /di౲splaydns
+0x0C73 : ipconfig /di౳splaydns
+0x0C74 : ipconfig /di౴splaydns
+0x0C75 : ipconfig /di౵splaydns
+0x0C76 : ipconfig /di౶splaydns
+0x0C77 : ipconfig /di౷splaydns
+0x0C80 : ipconfig /diಀsplaydns
+0x0C81 : ipconfig /diಁsplaydns
+0x0C84 : ipconfig /di಄splaydns
+0x0C8D : ipconfig /di಍splaydns
+0x0C91 : ipconfig /di಑splaydns
+0x0CA9 : ipconfig /di಩splaydns
+0x0CB4 : ipconfig /di಴splaydns
+0x0CBA : ipconfig /di಺splaydns
+0x0CBB : ipconfig /di಻splaydns
+0x0CC5 : ipconfig /di೅splaydns
+0x0CC9 : ipconfig /di೉splaydns
+0x0CCE : ipconfig /di೎splaydns
+0x0CCF : ipconfig /di೏splaydns
+0x0CD0 : ipconfig /di೐splaydns
+0x0CD1 : ipconfig /di೑splaydns
+0x0CD2 : ipconfig /di೒splaydns
+0x0CD3 : ipconfig /di೓splaydns
+0x0CD4 : ipconfig /di೔splaydns
+0x0CD7 : ipconfig /di೗splaydns
+0x0CD8 : ipconfig /di೘splaydns
+0x0CD9 : ipconfig /di೙splaydns
+0x0CDA : ipconfig /di೚splaydns
+0x0CDB : ipconfig /di೛splaydns
+0x0CDC : ipconfig /di೜splaydns
+0x0CDD : ipconfig /diೝsplaydns
+0x0CDF : ipconfig /di೟splaydns
+0x0CE4 : ipconfig /di೤splaydns
+0x0CE5 : ipconfig /di೥splaydns
+0x0CF0 : ipconfig /di೰splaydns
+0x0CF3 : ipconfig /diೳsplaydns
+0x0CF4 : ipconfig /di೴splaydns
+0x0CF5 : ipconfig /di೵splaydns
+0x0CF6 : ipconfig /di೶splaydns
+0x0CF7 : ipconfig /di೷splaydns
+0x0CF8 : ipconfig /di೸splaydns
+0x0CF9 : ipconfig /di೹splaydns
+0x0CFA : ipconfig /di೺splaydns
+0x0CFB : ipconfig /di೻splaydns
+0x0CFC : ipconfig /di೼splaydns
+0x0CFD : ipconfig /di೽splaydns
+0x0CFE : ipconfig /di೾splaydns
+0x0CFF : ipconfig /di೿splaydns
+0x0D00 : ipconfig /diഀsplaydns
+0x0D01 : ipconfig /diഁsplaydns
+0x0D04 : ipconfig /diഄsplaydns
+0x0D0D : ipconfig /di഍splaydns
+0x0D11 : ipconfig /di഑splaydns
+0x0D3B : ipconfig /di഻splaydns
+0x0D3C : ipconfig /di഼splaydns
+0x0D45 : ipconfig /di൅splaydns
+0x0D49 : ipconfig /di൉splaydns
+0x0D4F : ipconfig /di൏splaydns
+0x0D50 : ipconfig /di൐splaydns
+0x0D51 : ipconfig /di൑splaydns
+0x0D52 : ipconfig /di൒splaydns
+0x0D53 : ipconfig /di൓splaydns
+0x0D54 : ipconfig /diൔsplaydns
+0x0D55 : ipconfig /diൕsplaydns
+0x0D56 : ipconfig /diൖsplaydns
+0x0D58 : ipconfig /di൘splaydns
+0x0D59 : ipconfig /di൙splaydns
+0x0D5A : ipconfig /di൚splaydns
+0x0D5B : ipconfig /di൛splaydns
+0x0D5C : ipconfig /di൜splaydns
+0x0D5D : ipconfig /di൝splaydns
+0x0D5E : ipconfig /di൞splaydns
+0x0D5F : ipconfig /diൟsplaydns
+0x0D64 : ipconfig /di൤splaydns
+0x0D65 : ipconfig /di൥splaydns
+0x0D76 : ipconfig /di൶splaydns
+0x0D77 : ipconfig /di൷splaydns
+0x0D78 : ipconfig /di൸splaydns
+0x0D80 : ipconfig /di඀splaydns
+0x0D81 : ipconfig /diඁsplaydns
+0x0D84 : ipconfig /di඄splaydns
+0x0D97 : ipconfig /di඗splaydns
+0x0D98 : ipconfig /di඘splaydns
+0x0D99 : ipconfig /di඙splaydns
+0x0DB2 : ipconfig /di඲splaydns
+0x0DBC : ipconfig /di඼splaydns
+0x0DBE : ipconfig /di඾splaydns
+0x0DBF : ipconfig /di඿splaydns
+0x0DC7 : ipconfig /di෇splaydns
+0x0DC8 : ipconfig /di෈splaydns
+0x0DC9 : ipconfig /di෉splaydns
+0x0DCB : ipconfig /di෋splaydns
+0x0DCC : ipconfig /di෌splaydns
+0x0DCD : ipconfig /di෍splaydns
+0x0DCE : ipconfig /di෎splaydns
+0x0DD5 : ipconfig /di෕splaydns
+0x0DD7 : ipconfig /di෗splaydns
+0x0DE0 : ipconfig /di෠splaydns
+0x0DE1 : ipconfig /di෡splaydns
+0x0DE2 : ipconfig /di෢splaydns
+0x0DE3 : ipconfig /di෣splaydns
+0x0DE4 : ipconfig /di෤splaydns
+0x0DE5 : ipconfig /di෥splaydns
+0x0DE6 : ipconfig /di෦splaydns
+0x0DE7 : ipconfig /di෧splaydns
+0x0DE8 : ipconfig /di෨splaydns
+0x0DE9 : ipconfig /di෩splaydns
+0x0DEA : ipconfig /di෪splaydns
+0x0DEB : ipconfig /di෫splaydns
+0x0DEC : ipconfig /di෬splaydns
+0x0DED : ipconfig /di෭splaydns
+0x0DEE : ipconfig /di෮splaydns
+0x0DEF : ipconfig /di෯splaydns
+0x0DF0 : ipconfig /di෰splaydns
+0x0DF1 : ipconfig /di෱splaydns
+0x0DF5 : ipconfig /di෵splaydns
+0x0DF6 : ipconfig /di෶splaydns
+0x0DF7 : ipconfig /di෷splaydns
+0x0DF8 : ipconfig /di෸splaydns
+0x0DF9 : ipconfig /di෹splaydns
+0x0DFA : ipconfig /di෺splaydns
+0x0DFB : ipconfig /di෻splaydns
+0x0DFC : ipconfig /di෼splaydns
+0x0DFD : ipconfig /di෽splaydns
+0x0DFE : ipconfig /di෾splaydns
+0x0DFF : ipconfig /di෿splaydns
+0x0E00 : ipconfig /di฀splaydns
+0x0E3B : ipconfig /di฻splaydns
+0x0E3C : ipconfig /di฼splaydns
+0x0E3D : ipconfig /di฽splaydns
+0x0E3E : ipconfig /di฾splaydns
+0x0E5C : ipconfig /di๜splaydns
+0x0E5D : ipconfig /di๝splaydns
+0x0E5E : ipconfig /di๞splaydns
+0x0E5F : ipconfig /di๟splaydns
+0x0E60 : ipconfig /di๠splaydns
+0x0E61 : ipconfig /di๡splaydns
+0x0E62 : ipconfig /di๢splaydns
+0x0E63 : ipconfig /di๣splaydns
+0x0E64 : ipconfig /di๤splaydns
+0x0E65 : ipconfig /di๥splaydns
+0x0E66 : ipconfig /di๦splaydns
+0x0E67 : ipconfig /di๧splaydns
+0x0E68 : ipconfig /di๨splaydns
+0x0E69 : ipconfig /di๩splaydns
+0x0E6A : ipconfig /di๪splaydns
+0x0E6B : ipconfig /di๫splaydns
+0x0E6C : ipconfig /di๬splaydns
+0x0E6D : ipconfig /di๭splaydns
+0x0E6E : ipconfig /di๮splaydns
+0x0E6F : ipconfig /di๯splaydns
+0x0E70 : ipconfig /di๰splaydns
+0x0E71 : ipconfig /di๱splaydns
+0x0E72 : ipconfig /di๲splaydns
+0x0E73 : ipconfig /di๳splaydns
+0x0E74 : ipconfig /di๴splaydns
+0x0E75 : ipconfig /di๵splaydns
+0x0E76 : ipconfig /di๶splaydns
+0x0E77 : ipconfig /di๷splaydns
+0x0E78 : ipconfig /di๸splaydns
+0x0E79 : ipconfig /di๹splaydns
+0x0E7A : ipconfig /di๺splaydns
+0x0E7B : ipconfig /di๻splaydns
+0x0E7C : ipconfig /di๼splaydns
+0x0E7D : ipconfig /di๽splaydns
+0x0E7E : ipconfig /di๾splaydns
+0x0E7F : ipconfig /di๿splaydns
+0x0E80 : ipconfig /di຀splaydns
+0x0E83 : ipconfig /di຃splaydns
+0x0E85 : ipconfig /di຅splaydns
+0x0E86 : ipconfig /diຆsplaydns
+0x0E89 : ipconfig /diຉsplaydns
+0x0E8B : ipconfig /di຋splaydns
+0x0E8C : ipconfig /diຌsplaydns
+0x0E8E : ipconfig /diຎsplaydns
+0x0E8F : ipconfig /diຏsplaydns
+0x0E90 : ipconfig /diຐsplaydns
+0x0E91 : ipconfig /diຑsplaydns
+0x0E92 : ipconfig /diຒsplaydns
+0x0E93 : ipconfig /diຓsplaydns
+0x0E98 : ipconfig /diຘsplaydns
+0x0EA0 : ipconfig /diຠsplaydns
+0x0EA4 : ipconfig /di຤splaydns
+0x0EA6 : ipconfig /di຦splaydns
+0x0EA8 : ipconfig /diຨsplaydns
+0x0EA9 : ipconfig /diຩsplaydns
+0x0EAC : ipconfig /diຬsplaydns
+0x0EBA : ipconfig /di຺splaydns
+0x0EBE : ipconfig /di຾splaydns
+0x0EBF : ipconfig /di຿splaydns
+0x0EC5 : ipconfig /di໅splaydns
+0x0EC7 : ipconfig /di໇splaydns
+0x0ECC : ipconfig /di໌splaydns
+0x0ECE : ipconfig /di໎splaydns
+0x0ECF : ipconfig /di໏splaydns
+0x0EDA : ipconfig /di໚splaydns
+0x0EDB : ipconfig /di໛splaydns
+0x0EDE : ipconfig /diໞsplaydns
+0x0EDF : ipconfig /diໟsplaydns
+0x0EE0 : ipconfig /di໠splaydns
+0x0EE1 : ipconfig /di໡splaydns
+0x0EE2 : ipconfig /di໢splaydns
+0x0EE3 : ipconfig /di໣splaydns
+0x0EE4 : ipconfig /di໤splaydns
+0x0EE5 : ipconfig /di໥splaydns
+0x0EE6 : ipconfig /di໦splaydns
+0x0EE7 : ipconfig /di໧splaydns
+0x0EE8 : ipconfig /di໨splaydns
+0x0EE9 : ipconfig /di໩splaydns
+0x0EEA : ipconfig /di໪splaydns
+0x0EEB : ipconfig /di໫splaydns
+0x0EEC : ipconfig /di໬splaydns
+0x0EED : ipconfig /di໭splaydns
+0x0EEE : ipconfig /di໮splaydns
+0x0EEF : ipconfig /di໯splaydns
+0x0EF0 : ipconfig /di໰splaydns
+0x0EF1 : ipconfig /di໱splaydns
+0x0EF2 : ipconfig /di໲splaydns
+0x0EF3 : ipconfig /di໳splaydns
+0x0EF4 : ipconfig /di໴splaydns
+0x0EF5 : ipconfig /di໵splaydns
+0x0EF6 : ipconfig /di໶splaydns
+0x0EF7 : ipconfig /di໷splaydns
+0x0EF8 : ipconfig /di໸splaydns
+0x0EF9 : ipconfig /di໹splaydns
+0x0EFA : ipconfig /di໺splaydns
+0x0EFB : ipconfig /di໻splaydns
+0x0EFC : ipconfig /di໼splaydns
+0x0EFD : ipconfig /di໽splaydns
+0x0EFE : ipconfig /di໾splaydns
+0x0EFF : ipconfig /di໿splaydns
+0x0F48 : ipconfig /di཈splaydns
+0x0F6D : ipconfig /di཭splaydns
+0x0F6E : ipconfig /di཮splaydns
+0x0F6F : ipconfig /di཯splaydns
+0x0F70 : ipconfig /di཰splaydns
+0x0F98 : ipconfig /di྘splaydns
+0x0FBD : ipconfig /di྽splaydns
+0x0FCD : ipconfig /di࿍splaydns
+0x0FDB : ipconfig /di࿛splaydns
+0x0FDC : ipconfig /di࿜splaydns
+0x0FDD : ipconfig /di࿝splaydns
+0x0FDE : ipconfig /di࿞splaydns
+0x0FDF : ipconfig /di࿟splaydns
+0x0FE0 : ipconfig /di࿠splaydns
+0x0FE1 : ipconfig /di࿡splaydns
+0x0FE2 : ipconfig /di࿢splaydns
+0x0FE3 : ipconfig /di࿣splaydns
+0x0FE4 : ipconfig /di࿤splaydns
+0x0FE5 : ipconfig /di࿥splaydns
+0x0FE6 : ipconfig /di࿦splaydns
+0x0FE7 : ipconfig /di࿧splaydns
+0x0FE8 : ipconfig /di࿨splaydns
+0x0FE9 : ipconfig /di࿩splaydns
+0x0FEA : ipconfig /di࿪splaydns
+0x0FEB : ipconfig /di࿫splaydns
+0x0FEC : ipconfig /di࿬splaydns
+0x0FED : ipconfig /di࿭splaydns
+0x0FEE : ipconfig /di࿮splaydns
+0x0FEF : ipconfig /di࿯splaydns
+0x0FF0 : ipconfig /di࿰splaydns
+0x0FF1 : ipconfig /di࿱splaydns
+0x0FF2 : ipconfig /di࿲splaydns
+0x0FF3 : ipconfig /di࿳splaydns
+0x0FF4 : ipconfig /di࿴splaydns
+0x0FF5 : ipconfig /di࿵splaydns
+0x0FF6 : ipconfig /di࿶splaydns
+0x0FF7 : ipconfig /di࿷splaydns
+0x0FF8 : ipconfig /di࿸splaydns
+0x0FF9 : ipconfig /di࿹splaydns
+0x0FFA : ipconfig /di࿺splaydns
+0x0FFB : ipconfig /di࿻splaydns
+0x0FFC : ipconfig /di࿼splaydns
+0x0FFD : ipconfig /di࿽splaydns
+0x0FFE : ipconfig /di࿾splaydns
+0x0FFF : ipconfig /di࿿splaydns
+0x10C6 : ipconfig /di჆splaydns
+0x10C7 : ipconfig /diჇsplaydns
+0x10C8 : ipconfig /di჈splaydns
+0x10C9 : ipconfig /di჉splaydns
+0x10CA : ipconfig /di჊splaydns
+0x10CB : ipconfig /di჋splaydns
+0x10CC : ipconfig /di჌splaydns
+0x10CD : ipconfig /diჍsplaydns
+0x10CE : ipconfig /di჎splaydns
+0x10CF : ipconfig /di჏splaydns
+0x10FD : ipconfig /diჽsplaydns
+0x10FE : ipconfig /diჾsplaydns
+0x10FF : ipconfig /diჿsplaydns
+0x1249 : ipconfig /di቉splaydns
+0x124E : ipconfig /di቎splaydns
+0x124F : ipconfig /di቏splaydns
+0x1257 : ipconfig /di቗splaydns
+0x1259 : ipconfig /di቙splaydns
+0x125E : ipconfig /di቞splaydns
+0x125F : ipconfig /di቟splaydns
+0x1289 : ipconfig /di኉splaydns
+0x128E : ipconfig /di኎splaydns
+0x128F : ipconfig /di኏splaydns
+0x12B1 : ipconfig /di኱splaydns
+0x12B6 : ipconfig /di኶splaydns
+0x12B7 : ipconfig /di኷splaydns
+0x12BF : ipconfig /di኿splaydns
+0x12C1 : ipconfig /di዁splaydns
+0x12C6 : ipconfig /di዆splaydns
+0x12C7 : ipconfig /di዇splaydns
+0x12D7 : ipconfig /di዗splaydns
+0x1311 : ipconfig /di጑splaydns
+0x1316 : ipconfig /di጖splaydns
+0x1317 : ipconfig /di጗splaydns
+0x135B : ipconfig /di፛splaydns
+0x135C : ipconfig /di፜splaydns
+0x137D : ipconfig /di፽splaydns
+0x137E : ipconfig /di፾splaydns
+0x137F : ipconfig /di፿splaydns
+0x139A : ipconfig /di᎚splaydns
+0x139B : ipconfig /di᎛splaydns
+0x139C : ipconfig /di᎜splaydns
+0x139D : ipconfig /di᎝splaydns
+0x139E : ipconfig /di᎞splaydns
+0x139F : ipconfig /di᎟splaydns
+0x13F5 : ipconfig /diᏵsplaydns
+0x13F6 : ipconfig /di᏶splaydns
+0x13F7 : ipconfig /di᏷splaydns
+0x13F8 : ipconfig /diᏸsplaydns
+0x13F9 : ipconfig /diᏹsplaydns
+0x13FA : ipconfig /diᏺsplaydns
+0x13FB : ipconfig /diᏻsplaydns
+0x13FC : ipconfig /diᏼsplaydns
+0x13FD : ipconfig /diᏽsplaydns
+0x13FE : ipconfig /di᏾splaydns
+0x13FF : ipconfig /di᏿splaydns
+0x169D : ipconfig /di᚝splaydns
+0x169E : ipconfig /di᚞splaydns
+0x169F : ipconfig /di᚟splaydns
+0x16F1 : ipconfig /diᛱsplaydns
+0x16F2 : ipconfig /diᛲsplaydns
+0x16F3 : ipconfig /diᛳsplaydns
+0x16F4 : ipconfig /diᛴsplaydns
+0x16F5 : ipconfig /diᛵsplaydns
+0x16F6 : ipconfig /diᛶsplaydns
+0x16F7 : ipconfig /diᛷsplaydns
+0x16F8 : ipconfig /diᛸsplaydns
+0x16F9 : ipconfig /di᛹splaydns
+0x16FA : ipconfig /di᛺splaydns
+0x16FB : ipconfig /di᛻splaydns
+0x16FC : ipconfig /di᛼splaydns
+0x16FD : ipconfig /di᛽splaydns
+0x16FE : ipconfig /di᛾splaydns
+0x16FF : ipconfig /di᛿splaydns
+0x170D : ipconfig /diᜍsplaydns
+0x1715 : ipconfig /di᜕splaydns
+0x1716 : ipconfig /di᜖splaydns
+0x1717 : ipconfig /di᜗splaydns
+0x1718 : ipconfig /di᜘splaydns
+0x1719 : ipconfig /di᜙splaydns
+0x171A : ipconfig /di᜚splaydns
+0x171B : ipconfig /di᜛splaydns
+0x171C : ipconfig /di᜜splaydns
+0x171D : ipconfig /di᜝splaydns
+0x171E : ipconfig /di᜞splaydns
+0x171F : ipconfig /diᜟsplaydns
+0x1737 : ipconfig /di᜷splaydns
+0x1738 : ipconfig /di᜸splaydns
+0x1739 : ipconfig /di᜹splaydns
+0x173A : ipconfig /di᜺splaydns
+0x173B : ipconfig /di᜻splaydns
+0x173C : ipconfig /di᜼splaydns
+0x173D : ipconfig /di᜽splaydns
+0x173E : ipconfig /di᜾splaydns
+0x173F : ipconfig /di᜿splaydns
+0x1754 : ipconfig /di᝔splaydns
+0x1755 : ipconfig /di᝕splaydns
+0x1756 : ipconfig /di᝖splaydns
+0x1757 : ipconfig /di᝗splaydns
+0x1758 : ipconfig /di᝘splaydns
+0x1759 : ipconfig /di᝙splaydns
+0x175A : ipconfig /di᝚splaydns
+0x175B : ipconfig /di᝛splaydns
+0x175C : ipconfig /di᝜splaydns
+0x175D : ipconfig /di᝝splaydns
+0x175E : ipconfig /di᝞splaydns
+0x175F : ipconfig /di᝟splaydns
+0x176D : ipconfig /di᝭splaydns
+0x1771 : ipconfig /di᝱splaydns
+0x1774 : ipconfig /di᝴splaydns
+0x1775 : ipconfig /di᝵splaydns
+0x1776 : ipconfig /di᝶splaydns
+0x1777 : ipconfig /di᝷splaydns
+0x1778 : ipconfig /di᝸splaydns
+0x1779 : ipconfig /di᝹splaydns
+0x177A : ipconfig /di᝺splaydns
+0x177B : ipconfig /di᝻splaydns
+0x177C : ipconfig /di᝼splaydns
+0x177D : ipconfig /di᝽splaydns
+0x177E : ipconfig /di᝾splaydns
+0x177F : ipconfig /di᝿splaydns
+0x17DE : ipconfig /di៞splaydns
+0x17DF : ipconfig /di៟splaydns
+0x17EA : ipconfig /di៪splaydns
+0x17EB : ipconfig /di៫splaydns
+0x17EC : ipconfig /di៬splaydns
+0x17ED : ipconfig /di៭splaydns
+0x17EE : ipconfig /di៮splaydns
+0x17EF : ipconfig /di៯splaydns
+0x17FA : ipconfig /di៺splaydns
+0x17FB : ipconfig /di៻splaydns
+0x17FC : ipconfig /di៼splaydns
+0x17FD : ipconfig /di៽splaydns
+0x17FE : ipconfig /di៾splaydns
+0x17FF : ipconfig /di៿splaydns
+0x1806 : ipconfig /di᠆splaydns
+0x180B : ipconfig /di᠋splaydns
+0x180C : ipconfig /di᠌splaydns
+0x180D : ipconfig /di᠍splaydns
+0x180F : ipconfig /di᠏splaydns
+0x181A : ipconfig /di᠚splaydns
+0x181B : ipconfig /di᠛splaydns
+0x181C : ipconfig /di᠜splaydns
+0x181D : ipconfig /di᠝splaydns
+0x181E : ipconfig /di᠞splaydns
+0x181F : ipconfig /di᠟splaydns
+0x1878 : ipconfig /diᡸsplaydns
+0x1879 : ipconfig /di᡹splaydns
+0x187A : ipconfig /di᡺splaydns
+0x187B : ipconfig /di᡻splaydns
+0x187C : ipconfig /di᡼splaydns
+0x187D : ipconfig /di᡽splaydns
+0x187E : ipconfig /di᡾splaydns
+0x187F : ipconfig /di᡿splaydns
+0x18AB : ipconfig /di᢫splaydns
+0x18AC : ipconfig /di᢬splaydns
+0x18AD : ipconfig /di᢭splaydns
+0x18AE : ipconfig /di᢮splaydns
+0x18AF : ipconfig /di᢯splaydns
+0x18F6 : ipconfig /di᣶splaydns
+0x18F7 : ipconfig /di᣷splaydns
+0x18F8 : ipconfig /di᣸splaydns
+0x18F9 : ipconfig /di᣹splaydns
+0x18FA : ipconfig /di᣺splaydns
+0x18FB : ipconfig /di᣻splaydns
+0x18FC : ipconfig /di᣼splaydns
+0x18FD : ipconfig /di᣽splaydns
+0x18FE : ipconfig /di᣾splaydns
+0x18FF : ipconfig /di᣿splaydns
+0x191D : ipconfig /diᤝsplaydns
+0x191E : ipconfig /diᤞsplaydns
+0x191F : ipconfig /di᤟splaydns
+0x192C : ipconfig /di᤬splaydns
+0x192D : ipconfig /di᤭splaydns
+0x192E : ipconfig /di᤮splaydns
+0x192F : ipconfig /di᤯splaydns
+0x193C : ipconfig /di᤼splaydns
+0x193D : ipconfig /di᤽splaydns
+0x193E : ipconfig /di᤾splaydns
+0x193F : ipconfig /di᤿splaydns
+0x1941 : ipconfig /di᥁splaydns
+0x1942 : ipconfig /di᥂splaydns
+0x1943 : ipconfig /di᥃splaydns
+0x196E : ipconfig /di᥮splaydns
+0x196F : ipconfig /di᥯splaydns
+0x1975 : ipconfig /di᥵splaydns
+0x1976 : ipconfig /di᥶splaydns
+0x1977 : ipconfig /di᥷splaydns
+0x1978 : ipconfig /di᥸splaydns
+0x1979 : ipconfig /di᥹splaydns
+0x197A : ipconfig /di᥺splaydns
+0x197B : ipconfig /di᥻splaydns
+0x197C : ipconfig /di᥼splaydns
+0x197D : ipconfig /di᥽splaydns
+0x197E : ipconfig /di᥾splaydns
+0x197F : ipconfig /di᥿splaydns
+0x19AC : ipconfig /di᦬splaydns
+0x19AD : ipconfig /di᦭splaydns
+0x19AE : ipconfig /di᦮splaydns
+0x19AF : ipconfig /di᦯splaydns
+0x19CA : ipconfig /di᧊splaydns
+0x19CB : ipconfig /di᧋splaydns
+0x19CC : ipconfig /di᧌splaydns
+0x19CD : ipconfig /di᧍splaydns
+0x19CE : ipconfig /di᧎splaydns
+0x19CF : ipconfig /di᧏splaydns
+0x19DB : ipconfig /di᧛splaydns
+0x19DC : ipconfig /di᧜splaydns
+0x19DD : ipconfig /di᧝splaydns
+0x1A1C : ipconfig /di᨜splaydns
+0x1A1D : ipconfig /di᨝splaydns
+0x1A5F : ipconfig /di᩟splaydns
+0x1A7D : ipconfig /di᩽splaydns
+0x1A7E : ipconfig /di᩾splaydns
+0x1A8A : ipconfig /di᪊splaydns
+0x1A8B : ipconfig /di᪋splaydns
+0x1A8C : ipconfig /di᪌splaydns
+0x1A8D : ipconfig /di᪍splaydns
+0x1A8E : ipconfig /di᪎splaydns
+0x1A8F : ipconfig /di᪏splaydns
+0x1A9A : ipconfig /di᪚splaydns
+0x1A9B : ipconfig /di᪛splaydns
+0x1A9C : ipconfig /di᪜splaydns
+0x1A9D : ipconfig /di᪝splaydns
+0x1A9E : ipconfig /di᪞splaydns
+0x1A9F : ipconfig /di᪟splaydns
+0x1AAE : ipconfig /di᪮splaydns
+0x1AAF : ipconfig /di᪯splaydns
+0x1AB0 : ipconfig /di᪰splaydns
+0x1AB1 : ipconfig /di᪱splaydns
+0x1AB2 : ipconfig /di᪲splaydns
+0x1AB3 : ipconfig /di᪳splaydns
+0x1AB4 : ipconfig /di᪴splaydns
+0x1AB5 : ipconfig /di᪵splaydns
+0x1AB6 : ipconfig /di᪶splaydns
+0x1AB7 : ipconfig /di᪷splaydns
+0x1AB8 : ipconfig /di᪸splaydns
+0x1AB9 : ipconfig /di᪹splaydns
+0x1ABA : ipconfig /di᪺splaydns
+0x1ABB : ipconfig /di᪻splaydns
+0x1ABC : ipconfig /di᪼splaydns
+0x1ABD : ipconfig /di᪽splaydns
+0x1ABE : ipconfig /di᪾splaydns
+0x1ABF : ipconfig /diᪿsplaydns
+0x1AC0 : ipconfig /diᫀsplaydns
+0x1AC1 : ipconfig /di᫁splaydns
+0x1AC2 : ipconfig /di᫂splaydns
+0x1AC3 : ipconfig /di᫃splaydns
+0x1AC4 : ipconfig /di᫄splaydns
+0x1AC5 : ipconfig /di᫅splaydns
+0x1AC6 : ipconfig /di᫆splaydns
+0x1AC7 : ipconfig /di᫇splaydns
+0x1AC8 : ipconfig /di᫈splaydns
+0x1AC9 : ipconfig /di᫉splaydns
+0x1ACA : ipconfig /di᫊splaydns
+0x1ACB : ipconfig /di᫋splaydns
+0x1ACC : ipconfig /diᫌsplaydns
+0x1ACD : ipconfig /diᫍsplaydns
+0x1ACE : ipconfig /diᫎsplaydns
+0x1ACF : ipconfig /di᫏splaydns
+0x1AD0 : ipconfig /di᫐splaydns
+0x1AD1 : ipconfig /di᫑splaydns
+0x1AD2 : ipconfig /di᫒splaydns
+0x1AD3 : ipconfig /di᫓splaydns
+0x1AD4 : ipconfig /di᫔splaydns
+0x1AD5 : ipconfig /di᫕splaydns
+0x1AD6 : ipconfig /di᫖splaydns
+0x1AD7 : ipconfig /di᫗splaydns
+0x1AD8 : ipconfig /di᫘splaydns
+0x1AD9 : ipconfig /di᫙splaydns
+0x1ADA : ipconfig /di᫚splaydns
+0x1ADB : ipconfig /di᫛splaydns
+0x1ADC : ipconfig /di᫜splaydns
+0x1ADD : ipconfig /di᫝splaydns
+0x1ADE : ipconfig /di᫞splaydns
+0x1ADF : ipconfig /di᫟splaydns
+0x1AE0 : ipconfig /di᫠splaydns
+0x1AE1 : ipconfig /di᫡splaydns
+0x1AE2 : ipconfig /di᫢splaydns
+0x1AE3 : ipconfig /di᫣splaydns
+0x1AE4 : ipconfig /di᫤splaydns
+0x1AE5 : ipconfig /di᫥splaydns
+0x1AE6 : ipconfig /di᫦splaydns
+0x1AE7 : ipconfig /di᫧splaydns
+0x1AE8 : ipconfig /di᫨splaydns
+0x1AE9 : ipconfig /di᫩splaydns
+0x1AEA : ipconfig /di᫪splaydns
+0x1AEB : ipconfig /di᫫splaydns
+0x1AEC : ipconfig /di᫬splaydns
+0x1AED : ipconfig /di᫭splaydns
+0x1AEE : ipconfig /di᫮splaydns
+0x1AEF : ipconfig /di᫯splaydns
+0x1AF0 : ipconfig /di᫰splaydns
+0x1AF1 : ipconfig /di᫱splaydns
+0x1AF2 : ipconfig /di᫲splaydns
+0x1AF3 : ipconfig /di᫳splaydns
+0x1AF4 : ipconfig /di᫴splaydns
+0x1AF5 : ipconfig /di᫵splaydns
+0x1AF6 : ipconfig /di᫶splaydns
+0x1AF7 : ipconfig /di᫷splaydns
+0x1AF8 : ipconfig /di᫸splaydns
+0x1AF9 : ipconfig /di᫹splaydns
+0x1AFA : ipconfig /di᫺splaydns
+0x1AFB : ipconfig /di᫻splaydns
+0x1AFC : ipconfig /di᫼splaydns
+0x1AFD : ipconfig /di᫽splaydns
+0x1AFE : ipconfig /di᫾splaydns
+0x1AFF : ipconfig /di᫿splaydns
+0x1B4C : ipconfig /diᭌsplaydns
+0x1B4D : ipconfig /di᭍splaydns
+0x1B4E : ipconfig /di᭎splaydns
+0x1B4F : ipconfig /di᭏splaydns
+0x1B7D : ipconfig /di᭽splaydns
+0x1B7E : ipconfig /di᭾splaydns
+0x1B7F : ipconfig /di᭿splaydns
+0x1BAB : ipconfig /di᮫splaydns
+0x1BAC : ipconfig /diᮬsplaydns
+0x1BAD : ipconfig /diᮭsplaydns
+0x1BBA : ipconfig /diᮺsplaydns
+0x1BBB : ipconfig /diᮻsplaydns
+0x1BBC : ipconfig /diᮼsplaydns
+0x1BBD : ipconfig /diᮽsplaydns
+0x1BBE : ipconfig /diᮾsplaydns
+0x1BBF : ipconfig /diᮿsplaydns
+0x1BF4 : ipconfig /di᯴splaydns
+0x1BF5 : ipconfig /di᯵splaydns
+0x1BF6 : ipconfig /di᯶splaydns
+0x1BF7 : ipconfig /di᯷splaydns
+0x1BF8 : ipconfig /di᯸splaydns
+0x1BF9 : ipconfig /di᯹splaydns
+0x1BFA : ipconfig /di᯺splaydns
+0x1BFB : ipconfig /di᯻splaydns
+0x1C38 : ipconfig /di᰸splaydns
+0x1C39 : ipconfig /di᰹splaydns
+0x1C3A : ipconfig /di᰺splaydns
+0x1C4A : ipconfig /di᱊splaydns
+0x1C4B : ipconfig /di᱋splaydns
+0x1C4C : ipconfig /di᱌splaydns
+0x1C80 : ipconfig /diᲀsplaydns
+0x1C81 : ipconfig /diᲁsplaydns
+0x1C82 : ipconfig /diᲂsplaydns
+0x1C83 : ipconfig /diᲃsplaydns
+0x1C84 : ipconfig /diᲄsplaydns
+0x1C85 : ipconfig /diᲅsplaydns
+0x1C86 : ipconfig /diᲆsplaydns
+0x1C87 : ipconfig /diᲇsplaydns
+0x1C88 : ipconfig /diᲈsplaydns
+0x1C89 : ipconfig /diᲉsplaydns
+0x1C8A : ipconfig /diᲊsplaydns
+0x1C8B : ipconfig /di᲋splaydns
+0x1C8C : ipconfig /di᲌splaydns
+0x1C8D : ipconfig /di᲍splaydns
+0x1C8E : ipconfig /di᲎splaydns
+0x1C8F : ipconfig /di᲏splaydns
+0x1C90 : ipconfig /diᲐsplaydns
+0x1C91 : ipconfig /diᲑsplaydns
+0x1C92 : ipconfig /diᲒsplaydns
+0x1C93 : ipconfig /diᲓsplaydns
+0x1C94 : ipconfig /diᲔsplaydns
+0x1C95 : ipconfig /diᲕsplaydns
+0x1C96 : ipconfig /diᲖsplaydns
+0x1C97 : ipconfig /diᲗsplaydns
+0x1C98 : ipconfig /diᲘsplaydns
+0x1C99 : ipconfig /diᲙsplaydns
+0x1C9A : ipconfig /diᲚsplaydns
+0x1C9B : ipconfig /diᲛsplaydns
+0x1C9C : ipconfig /diᲜsplaydns
+0x1C9D : ipconfig /diᲝsplaydns
+0x1C9E : ipconfig /diᲞsplaydns
+0x1C9F : ipconfig /diᲟsplaydns
+0x1CA0 : ipconfig /diᲠsplaydns
+0x1CA1 : ipconfig /diᲡsplaydns
+0x1CA2 : ipconfig /diᲢsplaydns
+0x1CA3 : ipconfig /diᲣsplaydns
+0x1CA4 : ipconfig /diᲤsplaydns
+0x1CA5 : ipconfig /diᲥsplaydns
+0x1CA6 : ipconfig /diᲦsplaydns
+0x1CA7 : ipconfig /diᲧsplaydns
+0x1CA8 : ipconfig /diᲨsplaydns
+0x1CA9 : ipconfig /diᲩsplaydns
+0x1CAA : ipconfig /diᲪsplaydns
+0x1CAB : ipconfig /diᲫsplaydns
+0x1CAC : ipconfig /diᲬsplaydns
+0x1CAD : ipconfig /diᲭsplaydns
+0x1CAE : ipconfig /diᲮsplaydns
+0x1CAF : ipconfig /diᲯsplaydns
+0x1CB0 : ipconfig /diᲰsplaydns
+0x1CB1 : ipconfig /diᲱsplaydns
+0x1CB2 : ipconfig /diᲲsplaydns
+0x1CB3 : ipconfig /diᲳsplaydns
+0x1CB4 : ipconfig /diᲴsplaydns
+0x1CB5 : ipconfig /diᲵsplaydns
+0x1CB6 : ipconfig /diᲶsplaydns
+0x1CB7 : ipconfig /diᲷsplaydns
+0x1CB8 : ipconfig /diᲸsplaydns
+0x1CB9 : ipconfig /diᲹsplaydns
+0x1CBA : ipconfig /diᲺsplaydns
+0x1CBB : ipconfig /di᲻splaydns
+0x1CBC : ipconfig /di᲼splaydns
+0x1CBD : ipconfig /diᲽsplaydns
+0x1CBE : ipconfig /diᲾsplaydns
+0x1CBF : ipconfig /diᲿsplaydns
+0x1CC0 : ipconfig /di᳀splaydns
+0x1CC1 : ipconfig /di᳁splaydns
+0x1CC2 : ipconfig /di᳂splaydns
+0x1CC3 : ipconfig /di᳃splaydns
+0x1CC4 : ipconfig /di᳄splaydns
+0x1CC5 : ipconfig /di᳅splaydns
+0x1CC6 : ipconfig /di᳆splaydns
+0x1CC7 : ipconfig /di᳇splaydns
+0x1CC8 : ipconfig /di᳈splaydns
+0x1CC9 : ipconfig /di᳉splaydns
+0x1CCA : ipconfig /di᳊splaydns
+0x1CCB : ipconfig /di᳋splaydns
+0x1CCC : ipconfig /di᳌splaydns
+0x1CCD : ipconfig /di᳍splaydns
+0x1CCE : ipconfig /di᳎splaydns
+0x1CCF : ipconfig /di᳏splaydns
+0x1CF3 : ipconfig /diᳳsplaydns
+0x1CF4 : ipconfig /di᳴splaydns
+0x1CF5 : ipconfig /diᳵsplaydns
+0x1CF6 : ipconfig /diᳶsplaydns
+0x1CF7 : ipconfig /di᳷splaydns
+0x1CF8 : ipconfig /di᳸splaydns
+0x1CF9 : ipconfig /di᳹splaydns
+0x1CFA : ipconfig /diᳺsplaydns
+0x1CFB : ipconfig /di᳻splaydns
+0x1CFC : ipconfig /di᳼splaydns
+0x1CFD : ipconfig /di᳽splaydns
+0x1CFE : ipconfig /di᳾splaydns
+0x1CFF : ipconfig /di᳿splaydns
+0x1DE7 : ipconfig /diᷧsplaydns
+0x1DE8 : ipconfig /diᷨsplaydns
+0x1DE9 : ipconfig /diᷩsplaydns
+0x1DEA : ipconfig /diᷪsplaydns
+0x1DEB : ipconfig /diᷫsplaydns
+0x1DEC : ipconfig /diᷬsplaydns
+0x1DED : ipconfig /diᷭsplaydns
+0x1DEE : ipconfig /diᷮsplaydns
+0x1DEF : ipconfig /diᷯsplaydns
+0x1DF0 : ipconfig /diᷰsplaydns
+0x1DF1 : ipconfig /diᷱsplaydns
+0x1DF2 : ipconfig /diᷲsplaydns
+0x1DF3 : ipconfig /diᷳsplaydns
+0x1DF4 : ipconfig /diᷴsplaydns
+0x1DF5 : ipconfig /di᷵splaydns
+0x1DF6 : ipconfig /di᷶splaydns
+0x1DF7 : ipconfig /di᷷splaydns
+0x1DF8 : ipconfig /di᷸splaydns
+0x1DF9 : ipconfig /di᷹splaydns
+0x1DFA : ipconfig /di᷺splaydns
+0x1DFB : ipconfig /di᷻splaydns
+0x1F16 : ipconfig /di἖splaydns
+0x1F17 : ipconfig /di἗splaydns
+0x1F1E : ipconfig /di἞splaydns
+0x1F1F : ipconfig /di἟splaydns
+0x1F46 : ipconfig /di὆splaydns
+0x1F47 : ipconfig /di὇splaydns
+0x1F4E : ipconfig /di὎splaydns
+0x1F4F : ipconfig /di὏splaydns
+0x1F58 : ipconfig /di὘splaydns
+0x1F5A : ipconfig /di὚splaydns
+0x1F5C : ipconfig /di὜splaydns
+0x1F5E : ipconfig /di὞splaydns
+0x1F7E : ipconfig /di὾splaydns
+0x1F7F : ipconfig /di὿splaydns
+0x1FB5 : ipconfig /di᾵splaydns
+0x1FC5 : ipconfig /di῅splaydns
+0x1FD4 : ipconfig /di῔splaydns
+0x1FD5 : ipconfig /di῕splaydns
+0x1FDC : ipconfig /di῜splaydns
+0x1FF0 : ipconfig /di῰splaydns
+0x1FF1 : ipconfig /di῱splaydns
+0x1FF5 : ipconfig /di῵splaydns
+0x1FFF : ipconfig /di῿splaydns
+0x200C : ipconfig /di‌splaydns
+0x200D : ipconfig /di‍splaydns
+0x200E : ipconfig /di‎splaydns
+0x200F : ipconfig /di‏splaydns
+0x202A : ipconfig /di‪splaydns
+0x202B : ipconfig /di‫splaydns
+0x202C : ipconfig /di‬splaydns
+0x202D : ipconfig /di‭splaydns
+0x202E : ipconfig /di‮splaydns
+0x2060 : ipconfig /di⁠splaydns
+0x2061 : ipconfig /di⁡splaydns
+0x2062 : ipconfig /di⁢splaydns
+0x2063 : ipconfig /di⁣splaydns
+0x2064 : ipconfig /di⁤splaydns
+0x2065 : ipconfig /di⁥splaydns
+0x2066 : ipconfig /di⁦splaydns
+0x2067 : ipconfig /di⁧splaydns
+0x2068 : ipconfig /di⁨splaydns
+0x2069 : ipconfig /di⁩splaydns
+0x206A : ipconfig /di⁪splaydns
+0x206B : ipconfig /di⁫splaydns
+0x206C : ipconfig /di⁬splaydns
+0x206D : ipconfig /di⁭splaydns
+0x206E : ipconfig /di⁮splaydns
+0x206F : ipconfig /di⁯splaydns
+0x2072 : ipconfig /di⁲splaydns
+0x2073 : ipconfig /di⁳splaydns
+0x208F : ipconfig /di₏splaydns
+0x209D : ipconfig /di₝splaydns
+0x209E : ipconfig /di₞splaydns
+0x209F : ipconfig /di₟splaydns
+0x20B6 : ipconfig /di₶splaydns
+0x20B7 : ipconfig /di₷splaydns
+0x20B8 : ipconfig /di₸splaydns
+0x20BB : ipconfig /di₻splaydns
+0x20BC : ipconfig /di₼splaydns
+0x20BD : ipconfig /di₽splaydns
+0x20BE : ipconfig /di₾splaydns
+0x20BF : ipconfig /di₿splaydns
+0x20C0 : ipconfig /di⃀splaydns
+0x20C1 : ipconfig /di⃁splaydns
+0x20C2 : ipconfig /di⃂splaydns
+0x20C3 : ipconfig /di⃃splaydns
+0x20C4 : ipconfig /di⃄splaydns
+0x20C5 : ipconfig /di⃅splaydns
+0x20C6 : ipconfig /di⃆splaydns
+0x20C7 : ipconfig /di⃇splaydns
+0x20C8 : ipconfig /di⃈splaydns
+0x20C9 : ipconfig /di⃉splaydns
+0x20CA : ipconfig /di⃊splaydns
+0x20CB : ipconfig /di⃋splaydns
+0x20CC : ipconfig /di⃌splaydns
+0x20CD : ipconfig /di⃍splaydns
+0x20CE : ipconfig /di⃎splaydns
+0x20CF : ipconfig /di⃏splaydns
+0x20F1 : ipconfig /di⃱splaydns
+0x20F2 : ipconfig /di⃲splaydns
+0x20F3 : ipconfig /di⃳splaydns
+0x20F4 : ipconfig /di⃴splaydns
+0x20F5 : ipconfig /di⃵splaydns
+0x20F6 : ipconfig /di⃶splaydns
+0x20F7 : ipconfig /di⃷splaydns
+0x20F8 : ipconfig /di⃸splaydns
+0x20F9 : ipconfig /di⃹splaydns
+0x20FA : ipconfig /di⃺splaydns
+0x20FB : ipconfig /di⃻splaydns
+0x20FC : ipconfig /di⃼splaydns
+0x20FD : ipconfig /di⃽splaydns
+0x20FE : ipconfig /di⃾splaydns
+0x20FF : ipconfig /di⃿splaydns
+0x218A : ipconfig /di↊splaydns
+0x218B : ipconfig /di↋splaydns
+0x218C : ipconfig /di↌splaydns
+0x218D : ipconfig /di↍splaydns
+0x218E : ipconfig /di↎splaydns
+0x218F : ipconfig /di↏splaydns
+0x23F4 : ipconfig /di⏴splaydns
+0x23F5 : ipconfig /di⏵splaydns
+0x23F6 : ipconfig /di⏶splaydns
+0x23F7 : ipconfig /di⏷splaydns
+0x23F8 : ipconfig /di⏸splaydns
+0x23F9 : ipconfig /di⏹splaydns
+0x23FA : ipconfig /di⏺splaydns
+0x23FB : ipconfig /di⏻splaydns
+0x23FC : ipconfig /di⏼splaydns
+0x23FD : ipconfig /di⏽splaydns
+0x23FE : ipconfig /di⏾splaydns
+0x23FF : ipconfig /di⏿splaydns
+0x2427 : ipconfig /di␧splaydns
+0x2428 : ipconfig /di␨splaydns
+0x2429 : ipconfig /di␩splaydns
+0x242A : ipconfig /di␪splaydns
+0x242B : ipconfig /di␫splaydns
+0x242C : ipconfig /di␬splaydns
+0x242D : ipconfig /di␭splaydns
+0x242E : ipconfig /di␮splaydns
+0x242F : ipconfig /di␯splaydns
+0x2430 : ipconfig /di␰splaydns
+0x2431 : ipconfig /di␱splaydns
+0x2432 : ipconfig /di␲splaydns
+0x2433 : ipconfig /di␳splaydns
+0x2434 : ipconfig /di␴splaydns
+0x2435 : ipconfig /di␵splaydns
+0x2436 : ipconfig /di␶splaydns
+0x2437 : ipconfig /di␷splaydns
+0x2438 : ipconfig /di␸splaydns
+0x2439 : ipconfig /di␹splaydns
+0x243A : ipconfig /di␺splaydns
+0x243B : ipconfig /di␻splaydns
+0x243C : ipconfig /di␼splaydns
+0x243D : ipconfig /di␽splaydns
+0x243E : ipconfig /di␾splaydns
+0x243F : ipconfig /di␿splaydns
+0x244B : ipconfig /di⑋splaydns
+0x244C : ipconfig /di⑌splaydns
+0x244D : ipconfig /di⑍splaydns
+0x244E : ipconfig /di⑎splaydns
+0x244F : ipconfig /di⑏splaydns
+0x2450 : ipconfig /di⑐splaydns
+0x2451 : ipconfig /di⑑splaydns
+0x2452 : ipconfig /di⑒splaydns
+0x2453 : ipconfig /di⑓splaydns
+0x2454 : ipconfig /di⑔splaydns
+0x2455 : ipconfig /di⑕splaydns
+0x2456 : ipconfig /di⑖splaydns
+0x2457 : ipconfig /di⑗splaydns
+0x2458 : ipconfig /di⑘splaydns
+0x2459 : ipconfig /di⑙splaydns
+0x245A : ipconfig /di⑚splaydns
+0x245B : ipconfig /di⑛splaydns
+0x245C : ipconfig /di⑜splaydns
+0x245D : ipconfig /di⑝splaydns
+0x245E : ipconfig /di⑞splaydns
+0x245F : ipconfig /di⑟splaydns
+0x26BD : ipconfig /di⚽splaydns
+0x26BE : ipconfig /di⚾splaydns
+0x26BF : ipconfig /di⚿splaydns
+0x2700 : ipconfig /di✀splaydns
+0x2795 : ipconfig /di➕splaydns
+0x2796 : ipconfig /di➖splaydns
+0x2797 : ipconfig /di➗splaydns
+0x27B0 : ipconfig /di➰splaydns
+0x27BF : ipconfig /di➿splaydns
+0x27CB : ipconfig /di⟋splaydns
+0x27CD : ipconfig /di⟍splaydns
+0x2B4D : ipconfig /di⭍splaydns
+0x2B4E : ipconfig /di⭎splaydns
+0x2B4F : ipconfig /di⭏splaydns
+0x2B5A : ipconfig /di⭚splaydns
+0x2B5B : ipconfig /di⭛splaydns
+0x2B5C : ipconfig /di⭜splaydns
+0x2B5D : ipconfig /di⭝splaydns
+0x2B5E : ipconfig /di⭞splaydns
+0x2B5F : ipconfig /di⭟splaydns
+0x2B60 : ipconfig /di⭠splaydns
+0x2B61 : ipconfig /di⭡splaydns
+0x2B62 : ipconfig /di⭢splaydns
+0x2B63 : ipconfig /di⭣splaydns
+0x2B64 : ipconfig /di⭤splaydns
+0x2B65 : ipconfig /di⭥splaydns
+0x2B66 : ipconfig /di⭦splaydns
+0x2B67 : ipconfig /di⭧splaydns
+0x2B68 : ipconfig /di⭨splaydns
+0x2B69 : ipconfig /di⭩splaydns
+0x2B6A : ipconfig /di⭪splaydns
+0x2B6B : ipconfig /di⭫splaydns
+0x2B6C : ipconfig /di⭬splaydns
+0x2B6D : ipconfig /di⭭splaydns
+0x2B6E : ipconfig /di⭮splaydns
+0x2B6F : ipconfig /di⭯splaydns
+0x2B70 : ipconfig /di⭰splaydns
+0x2B71 : ipconfig /di⭱splaydns
+0x2B72 : ipconfig /di⭲splaydns
+0x2B73 : ipconfig /di⭳splaydns
+0x2B74 : ipconfig /di⭴splaydns
+0x2B75 : ipconfig /di⭵splaydns
+0x2B76 : ipconfig /di⭶splaydns
+0x2B77 : ipconfig /di⭷splaydns
+0x2B78 : ipconfig /di⭸splaydns
+0x2B79 : ipconfig /di⭹splaydns
+0x2B7A : ipconfig /di⭺splaydns
+0x2B7B : ipconfig /di⭻splaydns
+0x2B7C : ipconfig /di⭼splaydns
+0x2B7D : ipconfig /di⭽splaydns
+0x2B7E : ipconfig /di⭾splaydns
+0x2B7F : ipconfig /di⭿splaydns
+0x2B80 : ipconfig /di⮀splaydns
+0x2B81 : ipconfig /di⮁splaydns
+0x2B82 : ipconfig /di⮂splaydns
+0x2B83 : ipconfig /di⮃splaydns
+0x2B84 : ipconfig /di⮄splaydns
+0x2B85 : ipconfig /di⮅splaydns
+0x2B86 : ipconfig /di⮆splaydns
+0x2B87 : ipconfig /di⮇splaydns
+0x2B88 : ipconfig /di⮈splaydns
+0x2B89 : ipconfig /di⮉splaydns
+0x2B8A : ipconfig /di⮊splaydns
+0x2B8B : ipconfig /di⮋splaydns
+0x2B8C : ipconfig /di⮌splaydns
+0x2B8D : ipconfig /di⮍splaydns
+0x2B8E : ipconfig /di⮎splaydns
+0x2B8F : ipconfig /di⮏splaydns
+0x2B90 : ipconfig /di⮐splaydns
+0x2B91 : ipconfig /di⮑splaydns
+0x2B92 : ipconfig /di⮒splaydns
+0x2B93 : ipconfig /di⮓splaydns
+0x2B94 : ipconfig /di⮔splaydns
+0x2B95 : ipconfig /di⮕splaydns
+0x2B96 : ipconfig /di⮖splaydns
+0x2B97 : ipconfig /di⮗splaydns
+0x2B98 : ipconfig /di⮘splaydns
+0x2B99 : ipconfig /di⮙splaydns
+0x2B9A : ipconfig /di⮚splaydns
+0x2B9B : ipconfig /di⮛splaydns
+0x2B9C : ipconfig /di⮜splaydns
+0x2B9D : ipconfig /di⮝splaydns
+0x2B9E : ipconfig /di⮞splaydns
+0x2B9F : ipconfig /di⮟splaydns
+0x2BA0 : ipconfig /di⮠splaydns
+0x2BA1 : ipconfig /di⮡splaydns
+0x2BA2 : ipconfig /di⮢splaydns
+0x2BA3 : ipconfig /di⮣splaydns
+0x2BA4 : ipconfig /di⮤splaydns
+0x2BA5 : ipconfig /di⮥splaydns
+0x2BA6 : ipconfig /di⮦splaydns
+0x2BA7 : ipconfig /di⮧splaydns
+0x2BA8 : ipconfig /di⮨splaydns
+0x2BA9 : ipconfig /di⮩splaydns
+0x2BAA : ipconfig /di⮪splaydns
+0x2BAB : ipconfig /di⮫splaydns
+0x2BAC : ipconfig /di⮬splaydns
+0x2BAD : ipconfig /di⮭splaydns
+0x2BAE : ipconfig /di⮮splaydns
+0x2BAF : ipconfig /di⮯splaydns
+0x2BB0 : ipconfig /di⮰splaydns
+0x2BB1 : ipconfig /di⮱splaydns
+0x2BB2 : ipconfig /di⮲splaydns
+0x2BB3 : ipconfig /di⮳splaydns
+0x2BB4 : ipconfig /di⮴splaydns
+0x2BB5 : ipconfig /di⮵splaydns
+0x2BB6 : ipconfig /di⮶splaydns
+0x2BB7 : ipconfig /di⮷splaydns
+0x2BB8 : ipconfig /di⮸splaydns
+0x2BB9 : ipconfig /di⮹splaydns
+0x2BBA : ipconfig /di⮺splaydns
+0x2BBB : ipconfig /di⮻splaydns
+0x2BBC : ipconfig /di⮼splaydns
+0x2BBD : ipconfig /di⮽splaydns
+0x2BBE : ipconfig /di⮾splaydns
+0x2BBF : ipconfig /di⮿splaydns
+0x2BC0 : ipconfig /di⯀splaydns
+0x2BC1 : ipconfig /di⯁splaydns
+0x2BC2 : ipconfig /di⯂splaydns
+0x2BC3 : ipconfig /di⯃splaydns
+0x2BC4 : ipconfig /di⯄splaydns
+0x2BC5 : ipconfig /di⯅splaydns
+0x2BC6 : ipconfig /di⯆splaydns
+0x2BC7 : ipconfig /di⯇splaydns
+0x2BC8 : ipconfig /di⯈splaydns
+0x2BC9 : ipconfig /di⯉splaydns
+0x2BCA : ipconfig /di⯊splaydns
+0x2BCB : ipconfig /di⯋splaydns
+0x2BCC : ipconfig /di⯌splaydns
+0x2BCD : ipconfig /di⯍splaydns
+0x2BCE : ipconfig /di⯎splaydns
+0x2BCF : ipconfig /di⯏splaydns
+0x2BD0 : ipconfig /di⯐splaydns
+0x2BD1 : ipconfig /di⯑splaydns
+0x2BD2 : ipconfig /di⯒splaydns
+0x2BD3 : ipconfig /di⯓splaydns
+0x2BD4 : ipconfig /di⯔splaydns
+0x2BD5 : ipconfig /di⯕splaydns
+0x2BD6 : ipconfig /di⯖splaydns
+0x2BD7 : ipconfig /di⯗splaydns
+0x2BD8 : ipconfig /di⯘splaydns
+0x2BD9 : ipconfig /di⯙splaydns
+0x2BDA : ipconfig /di⯚splaydns
+0x2BDB : ipconfig /di⯛splaydns
+0x2BDC : ipconfig /di⯜splaydns
+0x2BDD : ipconfig /di⯝splaydns
+0x2BDE : ipconfig /di⯞splaydns
+0x2BDF : ipconfig /di⯟splaydns
+0x2BE0 : ipconfig /di⯠splaydns
+0x2BE1 : ipconfig /di⯡splaydns
+0x2BE2 : ipconfig /di⯢splaydns
+0x2BE3 : ipconfig /di⯣splaydns
+0x2BE4 : ipconfig /di⯤splaydns
+0x2BE5 : ipconfig /di⯥splaydns
+0x2BE6 : ipconfig /di⯦splaydns
+0x2BE7 : ipconfig /di⯧splaydns
+0x2BE8 : ipconfig /di⯨splaydns
+0x2BE9 : ipconfig /di⯩splaydns
+0x2BEA : ipconfig /di⯪splaydns
+0x2BEB : ipconfig /di⯫splaydns
+0x2BEC : ipconfig /di⯬splaydns
+0x2BED : ipconfig /di⯭splaydns
+0x2BEE : ipconfig /di⯮splaydns
+0x2BEF : ipconfig /di⯯splaydns
+0x2BF0 : ipconfig /di⯰splaydns
+0x2BF1 : ipconfig /di⯱splaydns
+0x2BF2 : ipconfig /di⯲splaydns
+0x2BF3 : ipconfig /di⯳splaydns
+0x2BF4 : ipconfig /di⯴splaydns
+0x2BF5 : ipconfig /di⯵splaydns
+0x2BF6 : ipconfig /di⯶splaydns
+0x2BF7 : ipconfig /di⯷splaydns
+0x2BF8 : ipconfig /di⯸splaydns
+0x2BF9 : ipconfig /di⯹splaydns
+0x2BFA : ipconfig /di⯺splaydns
+0x2BFB : ipconfig /di⯻splaydns
+0x2BFC : ipconfig /di⯼splaydns
+0x2BFD : ipconfig /di⯽splaydns
+0x2BFE : ipconfig /di⯾splaydns
+0x2BFF : ipconfig /di⯿splaydns
+0x2C2F : ipconfig /diⰯsplaydns
+0x2C5F : ipconfig /diⱟsplaydns
+0x2CF2 : ipconfig /diⳲsplaydns
+0x2CF3 : ipconfig /diⳳsplaydns
+0x2CF4 : ipconfig /di⳴splaydns
+0x2CF5 : ipconfig /di⳵splaydns
+0x2CF6 : ipconfig /di⳶splaydns
+0x2CF7 : ipconfig /di⳷splaydns
+0x2CF8 : ipconfig /di⳸splaydns
+0x2D26 : ipconfig /di⴦splaydns
+0x2D27 : ipconfig /diⴧsplaydns
+0x2D28 : ipconfig /di⴨splaydns
+0x2D29 : ipconfig /di⴩splaydns
+0x2D2A : ipconfig /di⴪splaydns
+0x2D2B : ipconfig /di⴫splaydns
+0x2D2C : ipconfig /di⴬splaydns
+0x2D2D : ipconfig /diⴭsplaydns
+0x2D2E : ipconfig /di⴮splaydns
+0x2D2F : ipconfig /di⴯splaydns
+0x2D66 : ipconfig /diⵦsplaydns
+0x2D67 : ipconfig /diⵧsplaydns
+0x2D68 : ipconfig /di⵨splaydns
+0x2D69 : ipconfig /di⵩splaydns
+0x2D6A : ipconfig /di⵪splaydns
+0x2D6B : ipconfig /di⵫splaydns
+0x2D6C : ipconfig /di⵬splaydns
+0x2D6D : ipconfig /di⵭splaydns
+0x2D6E : ipconfig /di⵮splaydns
+0x2D71 : ipconfig /di⵱splaydns
+0x2D72 : ipconfig /di⵲splaydns
+0x2D73 : ipconfig /di⵳splaydns
+0x2D74 : ipconfig /di⵴splaydns
+0x2D75 : ipconfig /di⵵splaydns
+0x2D76 : ipconfig /di⵶splaydns
+0x2D77 : ipconfig /di⵷splaydns
+0x2D78 : ipconfig /di⵸splaydns
+0x2D79 : ipconfig /di⵹splaydns
+0x2D7A : ipconfig /di⵺splaydns
+0x2D7B : ipconfig /di⵻splaydns
+0x2D7C : ipconfig /di⵼splaydns
+0x2D7D : ipconfig /di⵽splaydns
+0x2D7E : ipconfig /di⵾splaydns
+0x2D97 : ipconfig /di⶗splaydns
+0x2D98 : ipconfig /di⶘splaydns
+0x2D99 : ipconfig /di⶙splaydns
+0x2D9A : ipconfig /di⶚splaydns
+0x2D9B : ipconfig /di⶛splaydns
+0x2D9C : ipconfig /di⶜splaydns
+0x2D9D : ipconfig /di⶝splaydns
+0x2D9E : ipconfig /di⶞splaydns
+0x2D9F : ipconfig /di⶟splaydns
+0x2DA7 : ipconfig /di⶧splaydns
+0x2DAF : ipconfig /di⶯splaydns
+0x2DB7 : ipconfig /di⶷splaydns
+0x2DBF : ipconfig /di⶿splaydns
+0x2DC7 : ipconfig /di⷇splaydns
+0x2DCF : ipconfig /di⷏splaydns
+0x2DD7 : ipconfig /di⷗splaydns
+0x2DDF : ipconfig /di⷟splaydns
+0x2E32 : ipconfig /di⸲splaydns
+0x2E33 : ipconfig /di⸳splaydns
+0x2E34 : ipconfig /di⸴splaydns
+0x2E35 : ipconfig /di⸵splaydns
+0x2E36 : ipconfig /di⸶splaydns
+0x2E37 : ipconfig /di⸷splaydns
+0x2E38 : ipconfig /di⸸splaydns
+0x2E39 : ipconfig /di⸹splaydns
+0x2E3A : ipconfig /di⸺splaydns
+0x2E3B : ipconfig /di⸻splaydns
+0x2E3C : ipconfig /di⸼splaydns
+0x2E3D : ipconfig /di⸽splaydns
+0x2E3E : ipconfig /di⸾splaydns
+0x2E3F : ipconfig /di⸿splaydns
+0x2E40 : ipconfig /di⹀splaydns
+0x2E41 : ipconfig /di⹁splaydns
+0x2E42 : ipconfig /di⹂splaydns
+0x2E43 : ipconfig /di⹃splaydns
+0x2E44 : ipconfig /di⹄splaydns
+0x2E45 : ipconfig /di⹅splaydns
+0x2E46 : ipconfig /di⹆splaydns
+0x2E47 : ipconfig /di⹇splaydns
+0x2E48 : ipconfig /di⹈splaydns
+0x2E49 : ipconfig /di⹉splaydns
+0x2E4A : ipconfig /di⹊splaydns
+0x2E4B : ipconfig /di⹋splaydns
+0x2E4C : ipconfig /di⹌splaydns
+0x2E4D : ipconfig /di⹍splaydns
+0x2E4E : ipconfig /di⹎splaydns
+0x2E4F : ipconfig /di⹏splaydns
+0x2E50 : ipconfig /di⹐splaydns
+0x2E51 : ipconfig /di⹑splaydns
+0x2E52 : ipconfig /di⹒splaydns
+0x2E53 : ipconfig /di⹓splaydns
+0x2E54 : ipconfig /di⹔splaydns
+0x2E55 : ipconfig /di⹕splaydns
+0x2E56 : ipconfig /di⹖splaydns
+0x2E57 : ipconfig /di⹗splaydns
+0x2E58 : ipconfig /di⹘splaydns
+0x2E59 : ipconfig /di⹙splaydns
+0x2E5A : ipconfig /di⹚splaydns
+0x2E5B : ipconfig /di⹛splaydns
+0x2E5C : ipconfig /di⹜splaydns
+0x2E5D : ipconfig /di⹝splaydns
+0x2E5E : ipconfig /di⹞splaydns
+0x2E5F : ipconfig /di⹟splaydns
+0x2E60 : ipconfig /di⹠splaydns
+0x2E61 : ipconfig /di⹡splaydns
+0x2E62 : ipconfig /di⹢splaydns
+0x2E63 : ipconfig /di⹣splaydns
+0x2E64 : ipconfig /di⹤splaydns
+0x2E65 : ipconfig /di⹥splaydns
+0x2E66 : ipconfig /di⹦splaydns
+0x2E67 : ipconfig /di⹧splaydns
+0x2E68 : ipconfig /di⹨splaydns
+0x2E69 : ipconfig /di⹩splaydns
+0x2E6A : ipconfig /di⹪splaydns
+0x2E6B : ipconfig /di⹫splaydns
+0x2E6C : ipconfig /di⹬splaydns
+0x2E6D : ipconfig /di⹭splaydns
+0x2E6E : ipconfig /di⹮splaydns
+0x2E6F : ipconfig /di⹯splaydns
+0x2E70 : ipconfig /di⹰splaydns
+0x2E71 : ipconfig /di⹱splaydns
+0x2E72 : ipconfig /di⹲splaydns
+0x2E73 : ipconfig /di⹳splaydns
+0x2E74 : ipconfig /di⹴splaydns
+0x2E75 : ipconfig /di⹵splaydns
+0x2E76 : ipconfig /di⹶splaydns
+0x2E77 : ipconfig /di⹷splaydns
+0x2E78 : ipconfig /di⹸splaydns
+0x2E79 : ipconfig /di⹹splaydns
+0x2E7A : ipconfig /di⹺splaydns
+0x2E7B : ipconfig /di⹻splaydns
+0x2E7C : ipconfig /di⹼splaydns
+0x2E7D : ipconfig /di⹽splaydns
+0x2E7E : ipconfig /di⹾splaydns
+0x2E7F : ipconfig /di⹿splaydns
+0x2E9A : ipconfig /di⺚splaydns
+0x2EF4 : ipconfig /di⻴splaydns
+0x2EF5 : ipconfig /di⻵splaydns
+0x2EF6 : ipconfig /di⻶splaydns
+0x2EF7 : ipconfig /di⻷splaydns
+0x2EF8 : ipconfig /di⻸splaydns
+0x2EF9 : ipconfig /di⻹splaydns
+0x2EFA : ipconfig /di⻺splaydns
+0x2EFB : ipconfig /di⻻splaydns
+0x2EFC : ipconfig /di⻼splaydns
+0x2EFD : ipconfig /di⻽splaydns
+0x2EFE : ipconfig /di⻾splaydns
+0x2EFF : ipconfig /di⻿splaydns
+0x2FD6 : ipconfig /di⿖splaydns
+0x2FD7 : ipconfig /di⿗splaydns
+0x2FD8 : ipconfig /di⿘splaydns
+0x2FD9 : ipconfig /di⿙splaydns
+0x2FDA : ipconfig /di⿚splaydns
+0x2FDB : ipconfig /di⿛splaydns
+0x2FDC : ipconfig /di⿜splaydns
+0x2FDD : ipconfig /di⿝splaydns
+0x2FDE : ipconfig /di⿞splaydns
+0x2FDF : ipconfig /di⿟splaydns
+0x2FE0 : ipconfig /di⿠splaydns
+0x2FE1 : ipconfig /di⿡splaydns
+0x2FE2 : ipconfig /di⿢splaydns
+0x2FE3 : ipconfig /di⿣splaydns
+0x2FE4 : ipconfig /di⿤splaydns
+0x2FE5 : ipconfig /di⿥splaydns
+0x2FE6 : ipconfig /di⿦splaydns
+0x2FE7 : ipconfig /di⿧splaydns
+0x2FE8 : ipconfig /di⿨splaydns
+0x2FE9 : ipconfig /di⿩splaydns
+0x2FEA : ipconfig /di⿪splaydns
+0x2FEB : ipconfig /di⿫splaydns
+0x2FEC : ipconfig /di⿬splaydns
+0x2FED : ipconfig /di⿭splaydns
+0x2FEE : ipconfig /di⿮splaydns
+0x2FEF : ipconfig /di⿯splaydns
+0x2FFC : ipconfig /di⿼splaydns
+0x2FFD : ipconfig /di⿽splaydns
+0x2FFE : ipconfig /di⿾splaydns
+0x2FFF : ipconfig /di⿿splaydns
+0x3040 : ipconfig /di぀splaydns
+0x3097 : ipconfig /di゗splaydns
+0x3098 : ipconfig /di゘splaydns
+0x3100 : ipconfig /di㄀splaydns
+0x3101 : ipconfig /di㄁splaydns
+0x3102 : ipconfig /di㄂splaydns
+0x3103 : ipconfig /di㄃splaydns
+0x3104 : ipconfig /di㄄splaydns
+0x312E : ipconfig /diㄮsplaydns
+0x312F : ipconfig /diㄯsplaydns
+0x3130 : ipconfig /di㄰splaydns
+0x318F : ipconfig /di㆏splaydns
+0x3190 : ipconfig /di㆐splaydns
+0x3191 : ipconfig /di㆑splaydns
+0x31BB : ipconfig /diㆻsplaydns
+0x31BC : ipconfig /diㆼsplaydns
+0x31BD : ipconfig /diㆽsplaydns
+0x31BE : ipconfig /diㆾsplaydns
+0x31BF : ipconfig /diㆿsplaydns
+0x31E4 : ipconfig /di㇤splaydns
+0x31E5 : ipconfig /di㇥splaydns
+0x31E6 : ipconfig /di㇦splaydns
+0x31E7 : ipconfig /di㇧splaydns
+0x31E8 : ipconfig /di㇨splaydns
+0x31E9 : ipconfig /di㇩splaydns
+0x31EA : ipconfig /di㇪splaydns
+0x31EB : ipconfig /di㇫splaydns
+0x31EC : ipconfig /di㇬splaydns
+0x31ED : ipconfig /di㇭splaydns
+0x31EE : ipconfig /di㇮splaydns
+0x31EF : ipconfig /di㇯splaydns
+0x321F : ipconfig /di㈟splaydns
+0x32FF : ipconfig /di㋿splaydns
+0x4DB6 : ipconfig /di䶶splaydns
+0x4DB7 : ipconfig /di䶷splaydns
+0x4DB8 : ipconfig /di䶸splaydns
+0x4DB9 : ipconfig /di䶹splaydns
+0x4DBA : ipconfig /di䶺splaydns
+0x4DBB : ipconfig /di䶻splaydns
+0x4DBC : ipconfig /di䶼splaydns
+0x4DBD : ipconfig /di䶽splaydns
+0x4DBE : ipconfig /di䶾splaydns
+0x4DBF : ipconfig /di䶿splaydns
+0x9FCC : ipconfig /di鿌splaydns
+0x9FCD : ipconfig /di鿍splaydns
+0x9FCE : ipconfig /di鿎splaydns
+0x9FCF : ipconfig /di鿏splaydns
+0x9FD0 : ipconfig /di鿐splaydns
+0x9FD1 : ipconfig /di鿑splaydns
+0x9FD2 : ipconfig /di鿒splaydns
+0x9FD3 : ipconfig /di鿓splaydns
+0x9FD4 : ipconfig /di鿔splaydns
+0x9FD5 : ipconfig /di鿕splaydns
+0x9FD6 : ipconfig /di鿖splaydns
+0x9FD7 : ipconfig /di鿗splaydns
+0x9FD8 : ipconfig /di鿘splaydns
+0x9FD9 : ipconfig /di鿙splaydns
+0x9FDA : ipconfig /di鿚splaydns
+0x9FDB : ipconfig /di鿛splaydns
+0x9FDC : ipconfig /di鿜splaydns
+0x9FDD : ipconfig /di鿝splaydns
+0x9FDE : ipconfig /di鿞splaydns
+0x9FDF : ipconfig /di鿟splaydns
+0x9FE0 : ipconfig /di鿠splaydns
+0x9FE1 : ipconfig /di鿡splaydns
+0x9FE2 : ipconfig /di鿢splaydns
+0x9FE3 : ipconfig /di鿣splaydns
+0x9FE4 : ipconfig /di鿤splaydns
+0x9FE5 : ipconfig /di鿥splaydns
+0x9FE6 : ipconfig /di鿦splaydns
+0x9FE7 : ipconfig /di鿧splaydns
+0x9FE8 : ipconfig /di鿨splaydns
+0x9FE9 : ipconfig /di鿩splaydns
+0x9FEA : ipconfig /di鿪splaydns
+0x9FEB : ipconfig /di鿫splaydns
+0x9FEC : ipconfig /di鿬splaydns
+0x9FED : ipconfig /di鿭splaydns
+0x9FEE : ipconfig /di鿮splaydns
+0x9FEF : ipconfig /di鿯splaydns
+0x9FF0 : ipconfig /di鿰splaydns
+0x9FF1 : ipconfig /di鿱splaydns
+0x9FF2 : ipconfig /di鿲splaydns
+0x9FF3 : ipconfig /di鿳splaydns
+0x9FF4 : ipconfig /di鿴splaydns
+0x9FF5 : ipconfig /di鿵splaydns
+0x9FF6 : ipconfig /di鿶splaydns
+0x9FF7 : ipconfig /di鿷splaydns
+0x9FF8 : ipconfig /di鿸splaydns
+0x9FF9 : ipconfig /di鿹splaydns
+0x9FFA : ipconfig /di鿺splaydns
+0x9FFB : ipconfig /di鿻splaydns
+0x9FFC : ipconfig /di鿼splaydns
+0x9FFD : ipconfig /di鿽splaydns
+0x9FFE : ipconfig /di鿾splaydns
+0x9FFF : ipconfig /di鿿splaydns
+0xA48D : ipconfig /di꒍splaydns
+0xA48E : ipconfig /di꒎splaydns
+0xA48F : ipconfig /di꒏splaydns
+0xA4C7 : ipconfig /di꓇splaydns
+0xA4C8 : ipconfig /di꓈splaydns
+0xA4C9 : ipconfig /di꓉splaydns
+0xA4CA : ipconfig /di꓊splaydns
+0xA4CB : ipconfig /di꓋splaydns
+0xA4CC : ipconfig /di꓌splaydns
+0xA4CD : ipconfig /di꓍splaydns
+0xA4CE : ipconfig /di꓎splaydns
+0xA4CF : ipconfig /di꓏splaydns
+0xA62C : ipconfig /di꘬splaydns
+0xA62D : ipconfig /di꘭splaydns
+0xA62E : ipconfig /di꘮splaydns
+0xA62F : ipconfig /di꘯splaydns
+0xA630 : ipconfig /di꘰splaydns
+0xA631 : ipconfig /di꘱splaydns
+0xA632 : ipconfig /di꘲splaydns
+0xA633 : ipconfig /di꘳splaydns
+0xA634 : ipconfig /di꘴splaydns
+0xA635 : ipconfig /di꘵splaydns
+0xA636 : ipconfig /di꘶splaydns
+0xA637 : ipconfig /di꘷splaydns
+0xA638 : ipconfig /di꘸splaydns
+0xA639 : ipconfig /di꘹splaydns
+0xA63A : ipconfig /di꘺splaydns
+0xA63B : ipconfig /di꘻splaydns
+0xA63C : ipconfig /di꘼splaydns
+0xA63D : ipconfig /di꘽splaydns
+0xA63E : ipconfig /di꘾splaydns
+0xA63F : ipconfig /di꘿splaydns
+0xA660 : ipconfig /diꙠsplaydns
+0xA661 : ipconfig /diꙡsplaydns
+0xA674 : ipconfig /diꙴsplaydns
+0xA675 : ipconfig /diꙵsplaydns
+0xA676 : ipconfig /diꙶsplaydns
+0xA677 : ipconfig /diꙷsplaydns
+0xA678 : ipconfig /diꙸsplaydns
+0xA679 : ipconfig /diꙹsplaydns
+0xA67A : ipconfig /diꙺsplaydns
+0xA67B : ipconfig /diꙻsplaydns
+0xA698 : ipconfig /diꚘsplaydns
+0xA699 : ipconfig /diꚙsplaydns
+0xA69A : ipconfig /diꚚsplaydns
+0xA69B : ipconfig /diꚛsplaydns
+0xA69C : ipconfig /diꚜsplaydns
+0xA69D : ipconfig /diꚝsplaydns
+0xA69E : ipconfig /diꚞsplaydns
+0xA69F : ipconfig /diꚟsplaydns
+0xA6F8 : ipconfig /di꛸splaydns
+0xA6F9 : ipconfig /di꛹splaydns
+0xA6FA : ipconfig /di꛺splaydns
+0xA6FB : ipconfig /di꛻splaydns
+0xA6FC : ipconfig /di꛼splaydns
+0xA6FD : ipconfig /di꛽splaydns
+0xA6FE : ipconfig /di꛾splaydns
+0xA6FF : ipconfig /di꛿splaydns
+0xA78F : ipconfig /diꞏsplaydns
+0xA792 : ipconfig /diꞒsplaydns
+0xA793 : ipconfig /diꞓsplaydns
+0xA794 : ipconfig /diꞔsplaydns
+0xA795 : ipconfig /diꞕsplaydns
+0xA796 : ipconfig /diꞖsplaydns
+0xA797 : ipconfig /diꞗsplaydns
+0xA798 : ipconfig /diꞘsplaydns
+0xA799 : ipconfig /diꞙsplaydns
+0xA79A : ipconfig /diꞚsplaydns
+0xA79B : ipconfig /diꞛsplaydns
+0xA79C : ipconfig /diꞜsplaydns
+0xA79D : ipconfig /diꞝsplaydns
+0xA79E : ipconfig /diꞞsplaydns
+0xA79F : ipconfig /diꞟsplaydns
+0xA7AA : ipconfig /diꞪsplaydns
+0xA7AB : ipconfig /diꞫsplaydns
+0xA7AC : ipconfig /diꞬsplaydns
+0xA7AD : ipconfig /diꞭsplaydns
+0xA7AE : ipconfig /diꞮsplaydns
+0xA7AF : ipconfig /diꞯsplaydns
+0xA7B0 : ipconfig /diꞰsplaydns
+0xA7B1 : ipconfig /diꞱsplaydns
+0xA7B2 : ipconfig /diꞲsplaydns
+0xA7B3 : ipconfig /diꞳsplaydns
+0xA7B4 : ipconfig /diꞴsplaydns
+0xA7B5 : ipconfig /diꞵsplaydns
+0xA7B6 : ipconfig /diꞶsplaydns
+0xA7B7 : ipconfig /diꞷsplaydns
+0xA7B8 : ipconfig /diꞸsplaydns
+0xA7B9 : ipconfig /diꞹsplaydns
+0xA7BA : ipconfig /diꞺsplaydns
+0xA7BB : ipconfig /diꞻsplaydns
+0xA7BC : ipconfig /diꞼsplaydns
+0xA7BD : ipconfig /diꞽsplaydns
+0xA7BE : ipconfig /diꞾsplaydns
+0xA7BF : ipconfig /diꞿsplaydns
+0xA7C0 : ipconfig /diꟀsplaydns
+0xA7C1 : ipconfig /diꟁsplaydns
+0xA7C2 : ipconfig /diꟂsplaydns
+0xA7C3 : ipconfig /diꟃsplaydns
+0xA7C4 : ipconfig /diꟄsplaydns
+0xA7C5 : ipconfig /diꟅsplaydns
+0xA7C6 : ipconfig /diꟆsplaydns
+0xA7C7 : ipconfig /diꟇsplaydns
+0xA7C8 : ipconfig /diꟈsplaydns
+0xA7C9 : ipconfig /diꟉsplaydns
+0xA7CA : ipconfig /diꟊsplaydns
+0xA7CB : ipconfig /diꟋsplaydns
+0xA7CC : ipconfig /diꟌsplaydns
+0xA7CD : ipconfig /diꟍsplaydns
+0xA7CE : ipconfig /di꟎splaydns
+0xA7CF : ipconfig /di꟏splaydns
+0xA7D0 : ipconfig /diꟐsplaydns
+0xA7D1 : ipconfig /diꟑsplaydns
+0xA7D2 : ipconfig /di꟒splaydns
+0xA7D3 : ipconfig /diꟓsplaydns
+0xA7D4 : ipconfig /di꟔splaydns
+0xA7D5 : ipconfig /diꟕsplaydns
+0xA7D6 : ipconfig /diꟖsplaydns
+0xA7D7 : ipconfig /diꟗsplaydns
+0xA7D8 : ipconfig /diꟘsplaydns
+0xA7D9 : ipconfig /diꟙsplaydns
+0xA7DA : ipconfig /diꟚsplaydns
+0xA7DB : ipconfig /diꟛsplaydns
+0xA7DC : ipconfig /diꟜsplaydns
+0xA7DD : ipconfig /di꟝splaydns
+0xA7DE : ipconfig /di꟞splaydns
+0xA7DF : ipconfig /di꟟splaydns
+0xA7E0 : ipconfig /di꟠splaydns
+0xA7E1 : ipconfig /di꟡splaydns
+0xA7E2 : ipconfig /di꟢splaydns
+0xA7E3 : ipconfig /di꟣splaydns
+0xA7E4 : ipconfig /di꟤splaydns
+0xA7E5 : ipconfig /di꟥splaydns
+0xA7E6 : ipconfig /di꟦splaydns
+0xA7E7 : ipconfig /di꟧splaydns
+0xA7E8 : ipconfig /di꟨splaydns
+0xA7E9 : ipconfig /di꟩splaydns
+0xA7EA : ipconfig /di꟪splaydns
+0xA7EB : ipconfig /di꟫splaydns
+0xA7EC : ipconfig /di꟬splaydns
+0xA7ED : ipconfig /di꟭splaydns
+0xA7EE : ipconfig /di꟮splaydns
+0xA7EF : ipconfig /di꟯splaydns
+0xA7F0 : ipconfig /di꟰splaydns
+0xA7F1 : ipconfig /di꟱splaydns
+0xA7F2 : ipconfig /diꟲsplaydns
+0xA7F3 : ipconfig /diꟳsplaydns
+0xA7F4 : ipconfig /diꟴsplaydns
+0xA7F5 : ipconfig /diꟵsplaydns
+0xA7F6 : ipconfig /diꟶsplaydns
+0xA7F7 : ipconfig /diꟷsplaydns
+0xA7F8 : ipconfig /diꟸsplaydns
+0xA7F9 : ipconfig /diꟹsplaydns
+0xA82C : ipconfig /di꠬splaydns
+0xA82D : ipconfig /di꠭splaydns
+0xA82E : ipconfig /di꠮splaydns
+0xA82F : ipconfig /di꠯splaydns
+0xA836 : ipconfig /di꠶splaydns
+0xA837 : ipconfig /di꠷splaydns
+0xA838 : ipconfig /di꠸splaydns
+0xA839 : ipconfig /di꠹splaydns
+0xA83A : ipconfig /di꠺splaydns
+0xA83B : ipconfig /di꠻splaydns
+0xA83C : ipconfig /di꠼splaydns
+0xA83D : ipconfig /di꠽splaydns
+0xA83E : ipconfig /di꠾splaydns
+0xA83F : ipconfig /di꠿splaydns
+0xA878 : ipconfig /di꡸splaydns
+0xA879 : ipconfig /di꡹splaydns
+0xA87A : ipconfig /di꡺splaydns
+0xA87B : ipconfig /di꡻splaydns
+0xA87C : ipconfig /di꡼splaydns
+0xA87D : ipconfig /di꡽splaydns
+0xA87E : ipconfig /di꡾splaydns
+0xA87F : ipconfig /di꡿splaydns
+0xA8C5 : ipconfig /diꣅsplaydns
+0xA8C6 : ipconfig /di꣆splaydns
+0xA8C7 : ipconfig /di꣇splaydns
+0xA8C8 : ipconfig /di꣈splaydns
+0xA8C9 : ipconfig /di꣉splaydns
+0xA8CA : ipconfig /di꣊splaydns
+0xA8CB : ipconfig /di꣋splaydns
+0xA8CC : ipconfig /di꣌splaydns
+0xA8CD : ipconfig /di꣍splaydns
+0xA8DA : ipconfig /di꣚splaydns
+0xA8DB : ipconfig /di꣛splaydns
+0xA8DC : ipconfig /di꣜splaydns
+0xA8DD : ipconfig /di꣝splaydns
+0xA8DE : ipconfig /di꣞splaydns
+0xA8DF : ipconfig /di꣟splaydns
+0xA8E0 : ipconfig /di꣠splaydns
+0xA8E1 : ipconfig /di꣡splaydns
+0xA8E2 : ipconfig /di꣢splaydns
+0xA8E3 : ipconfig /di꣣splaydns
+0xA8E4 : ipconfig /di꣤splaydns
+0xA8E5 : ipconfig /di꣥splaydns
+0xA8E6 : ipconfig /di꣦splaydns
+0xA8E7 : ipconfig /di꣧splaydns
+0xA8E8 : ipconfig /di꣨splaydns
+0xA8E9 : ipconfig /di꣩splaydns
+0xA8EA : ipconfig /di꣪splaydns
+0xA8EB : ipconfig /di꣫splaydns
+0xA8EC : ipconfig /di꣬splaydns
+0xA8ED : ipconfig /di꣭splaydns
+0xA8EE : ipconfig /di꣮splaydns
+0xA8EF : ipconfig /di꣯splaydns
+0xA8F0 : ipconfig /di꣰splaydns
+0xA8F1 : ipconfig /di꣱splaydns
+0xA8F8 : ipconfig /di꣸splaydns
+0xA8F9 : ipconfig /di꣹splaydns
+0xA8FA : ipconfig /di꣺splaydns
+0xA8FC : ipconfig /di꣼splaydns
+0xA8FD : ipconfig /diꣽsplaydns
+0xA8FE : ipconfig /diꣾsplaydns
+0xA8FF : ipconfig /diꣿsplaydns
+0xA954 : ipconfig /di꥔splaydns
+0xA955 : ipconfig /di꥕splaydns
+0xA956 : ipconfig /di꥖splaydns
+0xA957 : ipconfig /di꥗splaydns
+0xA958 : ipconfig /di꥘splaydns
+0xA959 : ipconfig /di꥙splaydns
+0xA95A : ipconfig /di꥚splaydns
+0xA95B : ipconfig /di꥛splaydns
+0xA95C : ipconfig /di꥜splaydns
+0xA95D : ipconfig /di꥝splaydns
+0xA95E : ipconfig /di꥞splaydns
+0xA97D : ipconfig /di꥽splaydns
+0xA97E : ipconfig /di꥾splaydns
+0xA97F : ipconfig /di꥿splaydns
+0xA9CE : ipconfig /di꧎splaydns
+0xA9DA : ipconfig /di꧚splaydns
+0xA9DB : ipconfig /di꧛splaydns
+0xA9DC : ipconfig /di꧜splaydns
+0xA9DD : ipconfig /di꧝splaydns
+0xA9E0 : ipconfig /diꧠsplaydns
+0xA9E1 : ipconfig /diꧡsplaydns
+0xA9E2 : ipconfig /diꧢsplaydns
+0xA9E3 : ipconfig /diꧣsplaydns
+0xA9E4 : ipconfig /diꧤsplaydns
+0xA9E5 : ipconfig /diꧥsplaydns
+0xA9E6 : ipconfig /diꧦsplaydns
+0xA9E7 : ipconfig /diꧧsplaydns
+0xA9E8 : ipconfig /diꧨsplaydns
+0xA9E9 : ipconfig /diꧩsplaydns
+0xA9EA : ipconfig /diꧪsplaydns
+0xA9EB : ipconfig /diꧫsplaydns
+0xA9EC : ipconfig /diꧬsplaydns
+0xA9ED : ipconfig /diꧭsplaydns
+0xA9EE : ipconfig /diꧮsplaydns
+0xA9EF : ipconfig /diꧯsplaydns
+0xA9F0 : ipconfig /di꧰splaydns
+0xA9F1 : ipconfig /di꧱splaydns
+0xA9F2 : ipconfig /di꧲splaydns
+0xA9F3 : ipconfig /di꧳splaydns
+0xA9F4 : ipconfig /di꧴splaydns
+0xA9F5 : ipconfig /di꧵splaydns
+0xA9F6 : ipconfig /di꧶splaydns
+0xA9F7 : ipconfig /di꧷splaydns
+0xA9F8 : ipconfig /di꧸splaydns
+0xA9F9 : ipconfig /di꧹splaydns
+0xA9FA : ipconfig /diꧺsplaydns
+0xA9FB : ipconfig /diꧻsplaydns
+0xA9FC : ipconfig /diꧼsplaydns
+0xA9FD : ipconfig /diꧽsplaydns
+0xA9FE : ipconfig /diꧾsplaydns
+0xA9FF : ipconfig /di꧿splaydns
+0xAA37 : ipconfig /di꨷splaydns
+0xAA38 : ipconfig /di꨸splaydns
+0xAA39 : ipconfig /di꨹splaydns
+0xAA3A : ipconfig /di꨺splaydns
+0xAA3B : ipconfig /di꨻splaydns
+0xAA3C : ipconfig /di꨼splaydns
+0xAA3D : ipconfig /di꨽splaydns
+0xAA3E : ipconfig /di꨾splaydns
+0xAA3F : ipconfig /di꨿splaydns
+0xAA4E : ipconfig /di꩎splaydns
+0xAA4F : ipconfig /di꩏splaydns
+0xAA5A : ipconfig /di꩚splaydns
+0xAA5B : ipconfig /di꩛splaydns
+0xAA7C : ipconfig /diꩼsplaydns
+0xAA7D : ipconfig /diꩽsplaydns
+0xAA7E : ipconfig /diꩾsplaydns
+0xAA7F : ipconfig /diꩿsplaydns
+0xAAC3 : ipconfig /di꫃splaydns
+0xAAC4 : ipconfig /di꫄splaydns
+0xAAC5 : ipconfig /di꫅splaydns
+0xAAC6 : ipconfig /di꫆splaydns
+0xAAC7 : ipconfig /di꫇splaydns
+0xAAC8 : ipconfig /di꫈splaydns
+0xAAC9 : ipconfig /di꫉splaydns
+0xAACA : ipconfig /di꫊splaydns
+0xAACB : ipconfig /di꫋splaydns
+0xAACC : ipconfig /di꫌splaydns
+0xAACD : ipconfig /di꫍splaydns
+0xAACE : ipconfig /di꫎splaydns
+0xAACF : ipconfig /di꫏splaydns
+0xAAD0 : ipconfig /di꫐splaydns
+0xAAD1 : ipconfig /di꫑splaydns
+0xAAD2 : ipconfig /di꫒splaydns
+0xAAD3 : ipconfig /di꫓splaydns
+0xAAD4 : ipconfig /di꫔splaydns
+0xAAD5 : ipconfig /di꫕splaydns
+0xAAD6 : ipconfig /di꫖splaydns
+0xAAD7 : ipconfig /di꫗splaydns
+0xAAD8 : ipconfig /di꫘splaydns
+0xAAD9 : ipconfig /di꫙splaydns
+0xAADA : ipconfig /di꫚splaydns
+0xAAE0 : ipconfig /diꫠsplaydns
+0xAAE1 : ipconfig /diꫡsplaydns
+0xAAE2 : ipconfig /diꫢsplaydns
+0xAAE3 : ipconfig /diꫣsplaydns
+0xAAE4 : ipconfig /diꫤsplaydns
+0xAAE5 : ipconfig /diꫥsplaydns
+0xAAE6 : ipconfig /diꫦsplaydns
+0xAAE7 : ipconfig /diꫧsplaydns
+0xAAE8 : ipconfig /diꫨsplaydns
+0xAAE9 : ipconfig /diꫩsplaydns
+0xAAEA : ipconfig /diꫪsplaydns
+0xAAEB : ipconfig /diꫫsplaydns
+0xAAEC : ipconfig /diꫬsplaydns
+0xAAED : ipconfig /diꫭsplaydns
+0xAAEE : ipconfig /diꫮsplaydns
+0xAAEF : ipconfig /diꫯsplaydns
+0xAAF0 : ipconfig /di꫰splaydns
+0xAAF1 : ipconfig /di꫱splaydns
+0xAAF2 : ipconfig /diꫲsplaydns
+0xAAF3 : ipconfig /diꫳsplaydns
+0xAAF4 : ipconfig /diꫴsplaydns
+0xAAF5 : ipconfig /diꫵsplaydns
+0xAAF6 : ipconfig /di꫶splaydns
+0xAAF7 : ipconfig /di꫷splaydns
+0xAAF8 : ipconfig /di꫸splaydns
+0xAAF9 : ipconfig /di꫹splaydns
+0xAAFA : ipconfig /di꫺splaydns
+0xAAFB : ipconfig /di꫻splaydns
+0xAAFC : ipconfig /di꫼splaydns
+0xAAFD : ipconfig /di꫽splaydns
+0xAAFE : ipconfig /di꫾splaydns
+0xAAFF : ipconfig /di꫿splaydns
+0xAB00 : ipconfig /di꬀splaydns
+0xAB07 : ipconfig /di꬇splaydns
+0xAB08 : ipconfig /di꬈splaydns
+0xAB0F : ipconfig /di꬏splaydns
+0xAB10 : ipconfig /di꬐splaydns
+0xAB17 : ipconfig /di꬗splaydns
+0xAB18 : ipconfig /di꬘splaydns
+0xAB19 : ipconfig /di꬙splaydns
+0xAB1A : ipconfig /di꬚splaydns
+0xAB1B : ipconfig /di꬛splaydns
+0xAB1C : ipconfig /di꬜splaydns
+0xAB1D : ipconfig /di꬝splaydns
+0xAB1E : ipconfig /di꬞splaydns
+0xAB1F : ipconfig /di꬟splaydns
+0xAB27 : ipconfig /di꬧splaydns
+0xAB2F : ipconfig /di꬯splaydns
+0xAB30 : ipconfig /diꬰsplaydns
+0xAB31 : ipconfig /diꬱsplaydns
+0xAB32 : ipconfig /diꬲsplaydns
+0xAB33 : ipconfig /diꬳsplaydns
+0xAB34 : ipconfig /diꬴsplaydns
+0xAB35 : ipconfig /diꬵsplaydns
+0xAB36 : ipconfig /diꬶsplaydns
+0xAB37 : ipconfig /diꬷsplaydns
+0xAB38 : ipconfig /diꬸsplaydns
+0xAB39 : ipconfig /diꬹsplaydns
+0xAB3A : ipconfig /diꬺsplaydns
+0xAB3B : ipconfig /diꬻsplaydns
+0xAB3C : ipconfig /diꬼsplaydns
+0xAB3D : ipconfig /diꬽsplaydns
+0xAB3E : ipconfig /diꬾsplaydns
+0xAB3F : ipconfig /diꬿsplaydns
+0xAB40 : ipconfig /diꭀsplaydns
+0xAB41 : ipconfig /diꭁsplaydns
+0xAB42 : ipconfig /diꭂsplaydns
+0xAB43 : ipconfig /diꭃsplaydns
+0xAB44 : ipconfig /diꭄsplaydns
+0xAB45 : ipconfig /diꭅsplaydns
+0xAB46 : ipconfig /diꭆsplaydns
+0xAB47 : ipconfig /diꭇsplaydns
+0xAB48 : ipconfig /diꭈsplaydns
+0xAB49 : ipconfig /diꭉsplaydns
+0xAB4A : ipconfig /diꭊsplaydns
+0xAB4B : ipconfig /diꭋsplaydns
+0xAB4C : ipconfig /diꭌsplaydns
+0xAB4D : ipconfig /diꭍsplaydns
+0xAB4E : ipconfig /diꭎsplaydns
+0xAB4F : ipconfig /diꭏsplaydns
+0xAB50 : ipconfig /diꭐsplaydns
+0xAB51 : ipconfig /diꭑsplaydns
+0xAB52 : ipconfig /diꭒsplaydns
+0xAB53 : ipconfig /diꭓsplaydns
+0xAB54 : ipconfig /diꭔsplaydns
+0xAB55 : ipconfig /diꭕsplaydns
+0xAB56 : ipconfig /diꭖsplaydns
+0xAB57 : ipconfig /diꭗsplaydns
+0xAB58 : ipconfig /diꭘsplaydns
+0xAB59 : ipconfig /diꭙsplaydns
+0xAB5A : ipconfig /diꭚsplaydns
+0xAB5B : ipconfig /di꭛splaydns
+0xAB5C : ipconfig /diꭜsplaydns
+0xAB5D : ipconfig /diꭝsplaydns
+0xAB5E : ipconfig /diꭞsplaydns
+0xAB5F : ipconfig /diꭟsplaydns
+0xAB60 : ipconfig /diꭠsplaydns
+0xAB61 : ipconfig /diꭡsplaydns
+0xAB62 : ipconfig /diꭢsplaydns
+0xAB63 : ipconfig /diꭣsplaydns
+0xAB64 : ipconfig /diꭤsplaydns
+0xAB65 : ipconfig /diꭥsplaydns
+0xAB66 : ipconfig /diꭦsplaydns
+0xAB67 : ipconfig /diꭧsplaydns
+0xAB68 : ipconfig /diꭨsplaydns
+0xAB69 : ipconfig /diꭩsplaydns
+0xAB6A : ipconfig /di꭪splaydns
+0xAB6B : ipconfig /di꭫splaydns
+0xAB6C : ipconfig /di꭬splaydns
+0xAB6D : ipconfig /di꭭splaydns
+0xAB6E : ipconfig /di꭮splaydns
+0xAB6F : ipconfig /di꭯splaydns
+0xAB70 : ipconfig /diꭰsplaydns
+0xAB71 : ipconfig /diꭱsplaydns
+0xAB72 : ipconfig /diꭲsplaydns
+0xAB73 : ipconfig /diꭳsplaydns
+0xAB74 : ipconfig /diꭴsplaydns
+0xAB75 : ipconfig /diꭵsplaydns
+0xAB76 : ipconfig /diꭶsplaydns
+0xAB77 : ipconfig /diꭷsplaydns
+0xAB78 : ipconfig /diꭸsplaydns
+0xAB79 : ipconfig /diꭹsplaydns
+0xAB7A : ipconfig /diꭺsplaydns
+0xAB7B : ipconfig /diꭻsplaydns
+0xAB7C : ipconfig /diꭼsplaydns
+0xAB7D : ipconfig /diꭽsplaydns
+0xAB7E : ipconfig /diꭾsplaydns
+0xAB7F : ipconfig /diꭿsplaydns
+0xAB80 : ipconfig /diꮀsplaydns
+0xAB81 : ipconfig /diꮁsplaydns
+0xAB82 : ipconfig /diꮂsplaydns
+0xAB83 : ipconfig /diꮃsplaydns
+0xAB84 : ipconfig /diꮄsplaydns
+0xAB85 : ipconfig /diꮅsplaydns
+0xAB86 : ipconfig /diꮆsplaydns
+0xAB87 : ipconfig /diꮇsplaydns
+0xAB88 : ipconfig /diꮈsplaydns
+0xAB89 : ipconfig /diꮉsplaydns
+0xAB8A : ipconfig /diꮊsplaydns
+0xAB8B : ipconfig /diꮋsplaydns
+0xAB8C : ipconfig /diꮌsplaydns
+0xAB8D : ipconfig /diꮍsplaydns
+0xAB8E : ipconfig /diꮎsplaydns
+0xAB8F : ipconfig /diꮏsplaydns
+0xAB90 : ipconfig /diꮐsplaydns
+0xAB91 : ipconfig /diꮑsplaydns
+0xAB92 : ipconfig /diꮒsplaydns
+0xAB93 : ipconfig /diꮓsplaydns
+0xAB94 : ipconfig /diꮔsplaydns
+0xAB95 : ipconfig /diꮕsplaydns
+0xAB96 : ipconfig /diꮖsplaydns
+0xAB97 : ipconfig /diꮗsplaydns
+0xAB98 : ipconfig /diꮘsplaydns
+0xAB99 : ipconfig /diꮙsplaydns
+0xAB9A : ipconfig /diꮚsplaydns
+0xAB9B : ipconfig /diꮛsplaydns
+0xAB9C : ipconfig /diꮜsplaydns
+0xAB9D : ipconfig /diꮝsplaydns
+0xAB9E : ipconfig /diꮞsplaydns
+0xAB9F : ipconfig /diꮟsplaydns
+0xABA0 : ipconfig /diꮠsplaydns
+0xABA1 : ipconfig /diꮡsplaydns
+0xABA2 : ipconfig /diꮢsplaydns
+0xABA3 : ipconfig /diꮣsplaydns
+0xABA4 : ipconfig /diꮤsplaydns
+0xABA5 : ipconfig /diꮥsplaydns
+0xABA6 : ipconfig /diꮦsplaydns
+0xABA7 : ipconfig /diꮧsplaydns
+0xABA8 : ipconfig /diꮨsplaydns
+0xABA9 : ipconfig /diꮩsplaydns
+0xABAA : ipconfig /diꮪsplaydns
+0xABAB : ipconfig /diꮫsplaydns
+0xABAC : ipconfig /diꮬsplaydns
+0xABAD : ipconfig /diꮭsplaydns
+0xABAE : ipconfig /diꮮsplaydns
+0xABAF : ipconfig /diꮯsplaydns
+0xABB0 : ipconfig /diꮰsplaydns
+0xABB1 : ipconfig /diꮱsplaydns
+0xABB2 : ipconfig /diꮲsplaydns
+0xABB3 : ipconfig /diꮳsplaydns
+0xABB4 : ipconfig /diꮴsplaydns
+0xABB5 : ipconfig /diꮵsplaydns
+0xABB6 : ipconfig /diꮶsplaydns
+0xABB7 : ipconfig /diꮷsplaydns
+0xABB8 : ipconfig /diꮸsplaydns
+0xABB9 : ipconfig /diꮹsplaydns
+0xABBA : ipconfig /diꮺsplaydns
+0xABBB : ipconfig /diꮻsplaydns
+0xABBC : ipconfig /diꮼsplaydns
+0xABBD : ipconfig /diꮽsplaydns
+0xABBE : ipconfig /diꮾsplaydns
+0xABBF : ipconfig /diꮿsplaydns
+0xABEE : ipconfig /di꯮splaydns
+0xABEF : ipconfig /di꯯splaydns
+0xABFA : ipconfig /di꯺splaydns
+0xABFB : ipconfig /di꯻splaydns
+0xABFC : ipconfig /di꯼splaydns
+0xABFD : ipconfig /di꯽splaydns
+0xABFE : ipconfig /di꯾splaydns
+0xABFF : ipconfig /di꯿splaydns
+0xD7A4 : ipconfig /di힤splaydns
+0xD7A5 : ipconfig /di힥splaydns
+0xD7A6 : ipconfig /di힦splaydns
+0xD7A7 : ipconfig /di힧splaydns
+0xD7A8 : ipconfig /di힨splaydns
+0xD7A9 : ipconfig /di힩splaydns
+0xD7AA : ipconfig /di힪splaydns
+0xD7AB : ipconfig /di힫splaydns
+0xD7AC : ipconfig /di힬splaydns
+0xD7AD : ipconfig /di힭splaydns
+0xD7AE : ipconfig /di힮splaydns
+0xD7AF : ipconfig /di힯splaydns
+0xD7C7 : ipconfig /di퟇splaydns
+0xD7C8 : ipconfig /di퟈splaydns
+0xD7C9 : ipconfig /di퟉splaydns
+0xD7CA : ipconfig /di퟊splaydns
+0xD7FC : ipconfig /di퟼splaydns
+0xD7FD : ipconfig /di퟽splaydns
+0xD7FE : ipconfig /di퟾splaydns
+0xD7FF : ipconfig /di퟿splaydns
+0xD880 : (character can not be printed)
+0xD881 : (character can not be printed)
+0xD882 : (character can not be printed)
+0xD883 : (character can not be printed)
+0xD884 : (character can not be printed)
+0xD885 : (character can not be printed)
+0xD886 : (character can not be printed)
+0xD887 : (character can not be printed)
+0xD888 : (character can not be printed)
+0xD889 : (character can not be printed)
+0xD88A : (character can not be printed)
+0xD88B : (character can not be printed)
+0xD88C : (character can not be printed)
+0xD88D : (character can not be printed)
+0xD88E : (character can not be printed)
+0xD88F : (character can not be printed)
+0xD890 : (character can not be printed)
+0xD891 : (character can not be printed)
+0xD892 : (character can not be printed)
+0xD893 : (character can not be printed)
+0xD894 : (character can not be printed)
+0xD895 : (character can not be printed)
+0xD896 : (character can not be printed)
+0xD897 : (character can not be printed)
+0xD898 : (character can not be printed)
+0xD899 : (character can not be printed)
+0xD89A : (character can not be printed)
+0xD89B : (character can not be printed)
+0xD89C : (character can not be printed)
+0xD89D : (character can not be printed)
+0xD89E : (character can not be printed)
+0xD89F : (character can not be printed)
+0xD8A0 : (character can not be printed)
+0xD8A1 : (character can not be printed)
+0xD8A2 : (character can not be printed)
+0xD8A3 : (character can not be printed)
+0xD8A4 : (character can not be printed)
+0xD8A5 : (character can not be printed)
+0xD8A6 : (character can not be printed)
+0xD8A7 : (character can not be printed)
+0xD8A8 : (character can not be printed)
+0xD8A9 : (character can not be printed)
+0xD8AA : (character can not be printed)
+0xD8AB : (character can not be printed)
+0xD8AC : (character can not be printed)
+0xD8AD : (character can not be printed)
+0xD8AE : (character can not be printed)
+0xD8AF : (character can not be printed)
+0xD8B0 : (character can not be printed)
+0xD8B1 : (character can not be printed)
+0xD8B2 : (character can not be printed)
+0xD8B3 : (character can not be printed)
+0xD8B4 : (character can not be printed)
+0xD8B5 : (character can not be printed)
+0xD8B6 : (character can not be printed)
+0xD8B7 : (character can not be printed)
+0xD8B8 : (character can not be printed)
+0xD8B9 : (character can not be printed)
+0xD8BA : (character can not be printed)
+0xD8BB : (character can not be printed)
+0xD8BC : (character can not be printed)
+0xD8BD : (character can not be printed)
+0xD8BE : (character can not be printed)
+0xD8BF : (character can not be printed)
+0xD8C0 : (character can not be printed)
+0xD8C1 : (character can not be printed)
+0xD8C2 : (character can not be printed)
+0xD8C3 : (character can not be printed)
+0xD8C4 : (character can not be printed)
+0xD8C5 : (character can not be printed)
+0xD8C6 : (character can not be printed)
+0xD8C7 : (character can not be printed)
+0xD8C8 : (character can not be printed)
+0xD8C9 : (character can not be printed)
+0xD8CA : (character can not be printed)
+0xD8CB : (character can not be printed)
+0xD8CC : (character can not be printed)
+0xD8CD : (character can not be printed)
+0xD8CE : (character can not be printed)
+0xD8CF : (character can not be printed)
+0xD8D0 : (character can not be printed)
+0xD8D1 : (character can not be printed)
+0xD8D2 : (character can not be printed)
+0xD8D3 : (character can not be printed)
+0xD8D4 : (character can not be printed)
+0xD8D5 : (character can not be printed)
+0xD8D6 : (character can not be printed)
+0xD8D7 : (character can not be printed)
+0xD8D8 : (character can not be printed)
+0xD8D9 : (character can not be printed)
+0xD8DA : (character can not be printed)
+0xD8DB : (character can not be printed)
+0xD8DC : (character can not be printed)
+0xD8DD : (character can not be printed)
+0xD8DE : (character can not be printed)
+0xD8DF : (character can not be printed)
+0xD8E0 : (character can not be printed)
+0xD8E1 : (character can not be printed)
+0xD8E2 : (character can not be printed)
+0xD8E3 : (character can not be printed)
+0xD8E4 : (character can not be printed)
+0xD8E5 : (character can not be printed)
+0xD8E6 : (character can not be printed)
+0xD8E7 : (character can not be printed)
+0xD8E8 : (character can not be printed)
+0xD8E9 : (character can not be printed)
+0xD8EA : (character can not be printed)
+0xD8EB : (character can not be printed)
+0xD8EC : (character can not be printed)
+0xD8ED : (character can not be printed)
+0xD8EE : (character can not be printed)
+0xD8EF : (character can not be printed)
+0xD8F0 : (character can not be printed)
+0xD8F1 : (character can not be printed)
+0xD8F2 : (character can not be printed)
+0xD8F3 : (character can not be printed)
+0xD8F4 : (character can not be printed)
+0xD8F5 : (character can not be printed)
+0xD8F6 : (character can not be printed)
+0xD8F7 : (character can not be printed)
+0xD8F8 : (character can not be printed)
+0xD8F9 : (character can not be printed)
+0xD8FA : (character can not be printed)
+0xD8FB : (character can not be printed)
+0xD8FC : (character can not be printed)
+0xD8FD : (character can not be printed)
+0xD8FE : (character can not be printed)
+0xD8FF : (character can not be printed)
+0xD900 : (character can not be printed)
+0xD901 : (character can not be printed)
+0xD902 : (character can not be printed)
+0xD903 : (character can not be printed)
+0xD904 : (character can not be printed)
+0xD905 : (character can not be printed)
+0xD906 : (character can not be printed)
+0xD907 : (character can not be printed)
+0xD908 : (character can not be printed)
+0xD909 : (character can not be printed)
+0xD90A : (character can not be printed)
+0xD90B : (character can not be printed)
+0xD90C : (character can not be printed)
+0xD90D : (character can not be printed)
+0xD90E : (character can not be printed)
+0xD90F : (character can not be printed)
+0xD910 : (character can not be printed)
+0xD911 : (character can not be printed)
+0xD912 : (character can not be printed)
+0xD913 : (character can not be printed)
+0xD914 : (character can not be printed)
+0xD915 : (character can not be printed)
+0xD916 : (character can not be printed)
+0xD917 : (character can not be printed)
+0xD918 : (character can not be printed)
+0xD919 : (character can not be printed)
+0xD91A : (character can not be printed)
+0xD91B : (character can not be printed)
+0xD91C : (character can not be printed)
+0xD91D : (character can not be printed)
+0xD91E : (character can not be printed)
+0xD91F : (character can not be printed)
+0xD920 : (character can not be printed)
+0xD921 : (character can not be printed)
+0xD922 : (character can not be printed)
+0xD923 : (character can not be printed)
+0xD924 : (character can not be printed)
+0xD925 : (character can not be printed)
+0xD926 : (character can not be printed)
+0xD927 : (character can not be printed)
+0xD928 : (character can not be printed)
+0xD929 : (character can not be printed)
+0xD92A : (character can not be printed)
+0xD92B : (character can not be printed)
+0xD92C : (character can not be printed)
+0xD92D : (character can not be printed)
+0xD92E : (character can not be printed)
+0xD92F : (character can not be printed)
+0xD930 : (character can not be printed)
+0xD931 : (character can not be printed)
+0xD932 : (character can not be printed)
+0xD933 : (character can not be printed)
+0xD934 : (character can not be printed)
+0xD935 : (character can not be printed)
+0xD936 : (character can not be printed)
+0xD937 : (character can not be printed)
+0xD938 : (character can not be printed)
+0xD939 : (character can not be printed)
+0xD93A : (character can not be printed)
+0xD93B : (character can not be printed)
+0xD93C : (character can not be printed)
+0xD93D : (character can not be printed)
+0xD93E : (character can not be printed)
+0xD93F : (character can not be printed)
+0xD940 : (character can not be printed)
+0xD941 : (character can not be printed)
+0xD942 : (character can not be printed)
+0xD943 : (character can not be printed)
+0xD944 : (character can not be printed)
+0xD945 : (character can not be printed)
+0xD946 : (character can not be printed)
+0xD947 : (character can not be printed)
+0xD948 : (character can not be printed)
+0xD949 : (character can not be printed)
+0xD94A : (character can not be printed)
+0xD94B : (character can not be printed)
+0xD94C : (character can not be printed)
+0xD94D : (character can not be printed)
+0xD94E : (character can not be printed)
+0xD94F : (character can not be printed)
+0xD950 : (character can not be printed)
+0xD951 : (character can not be printed)
+0xD952 : (character can not be printed)
+0xD953 : (character can not be printed)
+0xD954 : (character can not be printed)
+0xD955 : (character can not be printed)
+0xD956 : (character can not be printed)
+0xD957 : (character can not be printed)
+0xD958 : (character can not be printed)
+0xD959 : (character can not be printed)
+0xD95A : (character can not be printed)
+0xD95B : (character can not be printed)
+0xD95C : (character can not be printed)
+0xD95D : (character can not be printed)
+0xD95E : (character can not be printed)
+0xD95F : (character can not be printed)
+0xD960 : (character can not be printed)
+0xD961 : (character can not be printed)
+0xD962 : (character can not be printed)
+0xD963 : (character can not be printed)
+0xD964 : (character can not be printed)
+0xD965 : (character can not be printed)
+0xD966 : (character can not be printed)
+0xD967 : (character can not be printed)
+0xD968 : (character can not be printed)
+0xD969 : (character can not be printed)
+0xD96A : (character can not be printed)
+0xD96B : (character can not be printed)
+0xD96C : (character can not be printed)
+0xD96D : (character can not be printed)
+0xD96E : (character can not be printed)
+0xD96F : (character can not be printed)
+0xD970 : (character can not be printed)
+0xD971 : (character can not be printed)
+0xD972 : (character can not be printed)
+0xD973 : (character can not be printed)
+0xD974 : (character can not be printed)
+0xD975 : (character can not be printed)
+0xD976 : (character can not be printed)
+0xD977 : (character can not be printed)
+0xD978 : (character can not be printed)
+0xD979 : (character can not be printed)
+0xD97A : (character can not be printed)
+0xD97B : (character can not be printed)
+0xD97C : (character can not be printed)
+0xD97D : (character can not be printed)
+0xD97E : (character can not be printed)
+0xD97F : (character can not be printed)
+0xD980 : (character can not be printed)
+0xD981 : (character can not be printed)
+0xD982 : (character can not be printed)
+0xD983 : (character can not be printed)
+0xD984 : (character can not be printed)
+0xD985 : (character can not be printed)
+0xD986 : (character can not be printed)
+0xD987 : (character can not be printed)
+0xD988 : (character can not be printed)
+0xD989 : (character can not be printed)
+0xD98A : (character can not be printed)
+0xD98B : (character can not be printed)
+0xD98C : (character can not be printed)
+0xD98D : (character can not be printed)
+0xD98E : (character can not be printed)
+0xD98F : (character can not be printed)
+0xD990 : (character can not be printed)
+0xD991 : (character can not be printed)
+0xD992 : (character can not be printed)
+0xD993 : (character can not be printed)
+0xD994 : (character can not be printed)
+0xD995 : (character can not be printed)
+0xD996 : (character can not be printed)
+0xD997 : (character can not be printed)
+0xD998 : (character can not be printed)
+0xD999 : (character can not be printed)
+0xD99A : (character can not be printed)
+0xD99B : (character can not be printed)
+0xD99C : (character can not be printed)
+0xD99D : (character can not be printed)
+0xD99E : (character can not be printed)
+0xD99F : (character can not be printed)
+0xD9A0 : (character can not be printed)
+0xD9A1 : (character can not be printed)
+0xD9A2 : (character can not be printed)
+0xD9A3 : (character can not be printed)
+0xD9A4 : (character can not be printed)
+0xD9A5 : (character can not be printed)
+0xD9A6 : (character can not be printed)
+0xD9A7 : (character can not be printed)
+0xD9A8 : (character can not be printed)
+0xD9A9 : (character can not be printed)
+0xD9AA : (character can not be printed)
+0xD9AB : (character can not be printed)
+0xD9AC : (character can not be printed)
+0xD9AD : (character can not be printed)
+0xD9AE : (character can not be printed)
+0xD9AF : (character can not be printed)
+0xD9B0 : (character can not be printed)
+0xD9B1 : (character can not be printed)
+0xD9B2 : (character can not be printed)
+0xD9B3 : (character can not be printed)
+0xD9B4 : (character can not be printed)
+0xD9B5 : (character can not be printed)
+0xD9B6 : (character can not be printed)
+0xD9B7 : (character can not be printed)
+0xD9B8 : (character can not be printed)
+0xD9B9 : (character can not be printed)
+0xD9BA : (character can not be printed)
+0xD9BB : (character can not be printed)
+0xD9BC : (character can not be printed)
+0xD9BD : (character can not be printed)
+0xD9BE : (character can not be printed)
+0xD9BF : (character can not be printed)
+0xD9C0 : (character can not be printed)
+0xD9C1 : (character can not be printed)
+0xD9C2 : (character can not be printed)
+0xD9C3 : (character can not be printed)
+0xD9C4 : (character can not be printed)
+0xD9C5 : (character can not be printed)
+0xD9C6 : (character can not be printed)
+0xD9C7 : (character can not be printed)
+0xD9C8 : (character can not be printed)
+0xD9C9 : (character can not be printed)
+0xD9CA : (character can not be printed)
+0xD9CB : (character can not be printed)
+0xD9CC : (character can not be printed)
+0xD9CD : (character can not be printed)
+0xD9CE : (character can not be printed)
+0xD9CF : (character can not be printed)
+0xD9D0 : (character can not be printed)
+0xD9D1 : (character can not be printed)
+0xD9D2 : (character can not be printed)
+0xD9D3 : (character can not be printed)
+0xD9D4 : (character can not be printed)
+0xD9D5 : (character can not be printed)
+0xD9D6 : (character can not be printed)
+0xD9D7 : (character can not be printed)
+0xD9D8 : (character can not be printed)
+0xD9D9 : (character can not be printed)
+0xD9DA : (character can not be printed)
+0xD9DB : (character can not be printed)
+0xD9DC : (character can not be printed)
+0xD9DD : (character can not be printed)
+0xD9DE : (character can not be printed)
+0xD9DF : (character can not be printed)
+0xD9E0 : (character can not be printed)
+0xD9E1 : (character can not be printed)
+0xD9E2 : (character can not be printed)
+0xD9E3 : (character can not be printed)
+0xD9E4 : (character can not be printed)
+0xD9E5 : (character can not be printed)
+0xD9E6 : (character can not be printed)
+0xD9E7 : (character can not be printed)
+0xD9E8 : (character can not be printed)
+0xD9E9 : (character can not be printed)
+0xD9EA : (character can not be printed)
+0xD9EB : (character can not be printed)
+0xD9EC : (character can not be printed)
+0xD9ED : (character can not be printed)
+0xD9EE : (character can not be printed)
+0xD9EF : (character can not be printed)
+0xD9F0 : (character can not be printed)
+0xD9F1 : (character can not be printed)
+0xD9F2 : (character can not be printed)
+0xD9F3 : (character can not be printed)
+0xD9F4 : (character can not be printed)
+0xD9F5 : (character can not be printed)
+0xD9F6 : (character can not be printed)
+0xD9F7 : (character can not be printed)
+0xD9F8 : (character can not be printed)
+0xD9F9 : (character can not be printed)
+0xD9FA : (character can not be printed)
+0xD9FB : (character can not be printed)
+0xD9FC : (character can not be printed)
+0xD9FD : (character can not be printed)
+0xD9FE : (character can not be printed)
+0xD9FF : (character can not be printed)
+0xDA00 : (character can not be printed)
+0xDA01 : (character can not be printed)
+0xDA02 : (character can not be printed)
+0xDA03 : (character can not be printed)
+0xDA04 : (character can not be printed)
+0xDA05 : (character can not be printed)
+0xDA06 : (character can not be printed)
+0xDA07 : (character can not be printed)
+0xDA08 : (character can not be printed)
+0xDA09 : (character can not be printed)
+0xDA0A : (character can not be printed)
+0xDA0B : (character can not be printed)
+0xDA0C : (character can not be printed)
+0xDA0D : (character can not be printed)
+0xDA0E : (character can not be printed)
+0xDA0F : (character can not be printed)
+0xDA10 : (character can not be printed)
+0xDA11 : (character can not be printed)
+0xDA12 : (character can not be printed)
+0xDA13 : (character can not be printed)
+0xDA14 : (character can not be printed)
+0xDA15 : (character can not be printed)
+0xDA16 : (character can not be printed)
+0xDA17 : (character can not be printed)
+0xDA18 : (character can not be printed)
+0xDA19 : (character can not be printed)
+0xDA1A : (character can not be printed)
+0xDA1B : (character can not be printed)
+0xDA1C : (character can not be printed)
+0xDA1D : (character can not be printed)
+0xDA1E : (character can not be printed)
+0xDA1F : (character can not be printed)
+0xDA20 : (character can not be printed)
+0xDA21 : (character can not be printed)
+0xDA22 : (character can not be printed)
+0xDA23 : (character can not be printed)
+0xDA24 : (character can not be printed)
+0xDA25 : (character can not be printed)
+0xDA26 : (character can not be printed)
+0xDA27 : (character can not be printed)
+0xDA28 : (character can not be printed)
+0xDA29 : (character can not be printed)
+0xDA2A : (character can not be printed)
+0xDA2B : (character can not be printed)
+0xDA2C : (character can not be printed)
+0xDA2D : (character can not be printed)
+0xDA2E : (character can not be printed)
+0xDA2F : (character can not be printed)
+0xDA30 : (character can not be printed)
+0xDA31 : (character can not be printed)
+0xDA32 : (character can not be printed)
+0xDA33 : (character can not be printed)
+0xDA34 : (character can not be printed)
+0xDA35 : (character can not be printed)
+0xDA36 : (character can not be printed)
+0xDA37 : (character can not be printed)
+0xDA38 : (character can not be printed)
+0xDA39 : (character can not be printed)
+0xDA3A : (character can not be printed)
+0xDA3B : (character can not be printed)
+0xDA3C : (character can not be printed)
+0xDA3D : (character can not be printed)
+0xDA3E : (character can not be printed)
+0xDA3F : (character can not be printed)
+0xDA40 : (character can not be printed)
+0xDA41 : (character can not be printed)
+0xDA42 : (character can not be printed)
+0xDA43 : (character can not be printed)
+0xDA44 : (character can not be printed)
+0xDA45 : (character can not be printed)
+0xDA46 : (character can not be printed)
+0xDA47 : (character can not be printed)
+0xDA48 : (character can not be printed)
+0xDA49 : (character can not be printed)
+0xDA4A : (character can not be printed)
+0xDA4B : (character can not be printed)
+0xDA4C : (character can not be printed)
+0xDA4D : (character can not be printed)
+0xDA4E : (character can not be printed)
+0xDA4F : (character can not be printed)
+0xDA50 : (character can not be printed)
+0xDA51 : (character can not be printed)
+0xDA52 : (character can not be printed)
+0xDA53 : (character can not be printed)
+0xDA54 : (character can not be printed)
+0xDA55 : (character can not be printed)
+0xDA56 : (character can not be printed)
+0xDA57 : (character can not be printed)
+0xDA58 : (character can not be printed)
+0xDA59 : (character can not be printed)
+0xDA5A : (character can not be printed)
+0xDA5B : (character can not be printed)
+0xDA5C : (character can not be printed)
+0xDA5D : (character can not be printed)
+0xDA5E : (character can not be printed)
+0xDA5F : (character can not be printed)
+0xDA60 : (character can not be printed)
+0xDA61 : (character can not be printed)
+0xDA62 : (character can not be printed)
+0xDA63 : (character can not be printed)
+0xDA64 : (character can not be printed)
+0xDA65 : (character can not be printed)
+0xDA66 : (character can not be printed)
+0xDA67 : (character can not be printed)
+0xDA68 : (character can not be printed)
+0xDA69 : (character can not be printed)
+0xDA6A : (character can not be printed)
+0xDA6B : (character can not be printed)
+0xDA6C : (character can not be printed)
+0xDA6D : (character can not be printed)
+0xDA6E : (character can not be printed)
+0xDA6F : (character can not be printed)
+0xDA70 : (character can not be printed)
+0xDA71 : (character can not be printed)
+0xDA72 : (character can not be printed)
+0xDA73 : (character can not be printed)
+0xDA74 : (character can not be printed)
+0xDA75 : (character can not be printed)
+0xDA76 : (character can not be printed)
+0xDA77 : (character can not be printed)
+0xDA78 : (character can not be printed)
+0xDA79 : (character can not be printed)
+0xDA7A : (character can not be printed)
+0xDA7B : (character can not be printed)
+0xDA7C : (character can not be printed)
+0xDA7D : (character can not be printed)
+0xDA7E : (character can not be printed)
+0xDA7F : (character can not be printed)
+0xDA80 : (character can not be printed)
+0xDA81 : (character can not be printed)
+0xDA82 : (character can not be printed)
+0xDA83 : (character can not be printed)
+0xDA84 : (character can not be printed)
+0xDA85 : (character can not be printed)
+0xDA86 : (character can not be printed)
+0xDA87 : (character can not be printed)
+0xDA88 : (character can not be printed)
+0xDA89 : (character can not be printed)
+0xDA8A : (character can not be printed)
+0xDA8B : (character can not be printed)
+0xDA8C : (character can not be printed)
+0xDA8D : (character can not be printed)
+0xDA8E : (character can not be printed)
+0xDA8F : (character can not be printed)
+0xDA90 : (character can not be printed)
+0xDA91 : (character can not be printed)
+0xDA92 : (character can not be printed)
+0xDA93 : (character can not be printed)
+0xDA94 : (character can not be printed)
+0xDA95 : (character can not be printed)
+0xDA96 : (character can not be printed)
+0xDA97 : (character can not be printed)
+0xDA98 : (character can not be printed)
+0xDA99 : (character can not be printed)
+0xDA9A : (character can not be printed)
+0xDA9B : (character can not be printed)
+0xDA9C : (character can not be printed)
+0xDA9D : (character can not be printed)
+0xDA9E : (character can not be printed)
+0xDA9F : (character can not be printed)
+0xDAA0 : (character can not be printed)
+0xDAA1 : (character can not be printed)
+0xDAA2 : (character can not be printed)
+0xDAA3 : (character can not be printed)
+0xDAA4 : (character can not be printed)
+0xDAA5 : (character can not be printed)
+0xDAA6 : (character can not be printed)
+0xDAA7 : (character can not be printed)
+0xDAA8 : (character can not be printed)
+0xDAA9 : (character can not be printed)
+0xDAAA : (character can not be printed)
+0xDAAB : (character can not be printed)
+0xDAAC : (character can not be printed)
+0xDAAD : (character can not be printed)
+0xDAAE : (character can not be printed)
+0xDAAF : (character can not be printed)
+0xDAB0 : (character can not be printed)
+0xDAB1 : (character can not be printed)
+0xDAB2 : (character can not be printed)
+0xDAB3 : (character can not be printed)
+0xDAB4 : (character can not be printed)
+0xDAB5 : (character can not be printed)
+0xDAB6 : (character can not be printed)
+0xDAB7 : (character can not be printed)
+0xDAB8 : (character can not be printed)
+0xDAB9 : (character can not be printed)
+0xDABA : (character can not be printed)
+0xDABB : (character can not be printed)
+0xDABC : (character can not be printed)
+0xDABD : (character can not be printed)
+0xDABE : (character can not be printed)
+0xDABF : (character can not be printed)
+0xDAC0 : (character can not be printed)
+0xDAC1 : (character can not be printed)
+0xDAC2 : (character can not be printed)
+0xDAC3 : (character can not be printed)
+0xDAC4 : (character can not be printed)
+0xDAC5 : (character can not be printed)
+0xDAC6 : (character can not be printed)
+0xDAC7 : (character can not be printed)
+0xDAC8 : (character can not be printed)
+0xDAC9 : (character can not be printed)
+0xDACA : (character can not be printed)
+0xDACB : (character can not be printed)
+0xDACC : (character can not be printed)
+0xDACD : (character can not be printed)
+0xDACE : (character can not be printed)
+0xDACF : (character can not be printed)
+0xDAD0 : (character can not be printed)
+0xDAD1 : (character can not be printed)
+0xDAD2 : (character can not be printed)
+0xDAD3 : (character can not be printed)
+0xDAD4 : (character can not be printed)
+0xDAD5 : (character can not be printed)
+0xDAD6 : (character can not be printed)
+0xDAD7 : (character can not be printed)
+0xDAD8 : (character can not be printed)
+0xDAD9 : (character can not be printed)
+0xDADA : (character can not be printed)
+0xDADB : (character can not be printed)
+0xDADC : (character can not be printed)
+0xDADD : (character can not be printed)
+0xDADE : (character can not be printed)
+0xDADF : (character can not be printed)
+0xDAE0 : (character can not be printed)
+0xDAE1 : (character can not be printed)
+0xDAE2 : (character can not be printed)
+0xDAE3 : (character can not be printed)
+0xDAE4 : (character can not be printed)
+0xDAE5 : (character can not be printed)
+0xDAE6 : (character can not be printed)
+0xDAE7 : (character can not be printed)
+0xDAE8 : (character can not be printed)
+0xDAE9 : (character can not be printed)
+0xDAEA : (character can not be printed)
+0xDAEB : (character can not be printed)
+0xDAEC : (character can not be printed)
+0xDAED : (character can not be printed)
+0xDAEE : (character can not be printed)
+0xDAEF : (character can not be printed)
+0xDAF0 : (character can not be printed)
+0xDAF1 : (character can not be printed)
+0xDAF2 : (character can not be printed)
+0xDAF3 : (character can not be printed)
+0xDAF4 : (character can not be printed)
+0xDAF5 : (character can not be printed)
+0xDAF6 : (character can not be printed)
+0xDAF7 : (character can not be printed)
+0xDAF8 : (character can not be printed)
+0xDAF9 : (character can not be printed)
+0xDAFA : (character can not be printed)
+0xDAFB : (character can not be printed)
+0xDAFC : (character can not be printed)
+0xDAFD : (character can not be printed)
+0xDAFE : (character can not be printed)
+0xDAFF : (character can not be printed)
+0xDB00 : (character can not be printed)
+0xDB01 : (character can not be printed)
+0xDB02 : (character can not be printed)
+0xDB03 : (character can not be printed)
+0xDB04 : (character can not be printed)
+0xDB05 : (character can not be printed)
+0xDB06 : (character can not be printed)
+0xDB07 : (character can not be printed)
+0xDB08 : (character can not be printed)
+0xDB09 : (character can not be printed)
+0xDB0A : (character can not be printed)
+0xDB0B : (character can not be printed)
+0xDB0C : (character can not be printed)
+0xDB0D : (character can not be printed)
+0xDB0E : (character can not be printed)
+0xDB0F : (character can not be printed)
+0xDB10 : (character can not be printed)
+0xDB11 : (character can not be printed)
+0xDB12 : (character can not be printed)
+0xDB13 : (character can not be printed)
+0xDB14 : (character can not be printed)
+0xDB15 : (character can not be printed)
+0xDB16 : (character can not be printed)
+0xDB17 : (character can not be printed)
+0xDB18 : (character can not be printed)
+0xDB19 : (character can not be printed)
+0xDB1A : (character can not be printed)
+0xDB1B : (character can not be printed)
+0xDB1C : (character can not be printed)
+0xDB1D : (character can not be printed)
+0xDB1E : (character can not be printed)
+0xDB1F : (character can not be printed)
+0xDB20 : (character can not be printed)
+0xDB21 : (character can not be printed)
+0xDB22 : (character can not be printed)
+0xDB23 : (character can not be printed)
+0xDB24 : (character can not be printed)
+0xDB25 : (character can not be printed)
+0xDB26 : (character can not be printed)
+0xDB27 : (character can not be printed)
+0xDB28 : (character can not be printed)
+0xDB29 : (character can not be printed)
+0xDB2A : (character can not be printed)
+0xDB2B : (character can not be printed)
+0xDB2C : (character can not be printed)
+0xDB2D : (character can not be printed)
+0xDB2E : (character can not be printed)
+0xDB2F : (character can not be printed)
+0xDB30 : (character can not be printed)
+0xDB31 : (character can not be printed)
+0xDB32 : (character can not be printed)
+0xDB33 : (character can not be printed)
+0xDB34 : (character can not be printed)
+0xDB35 : (character can not be printed)
+0xDB36 : (character can not be printed)
+0xDB37 : (character can not be printed)
+0xDB38 : (character can not be printed)
+0xDB39 : (character can not be printed)
+0xDB3A : (character can not be printed)
+0xDB3B : (character can not be printed)
+0xDB3C : (character can not be printed)
+0xDB3D : (character can not be printed)
+0xDB3E : (character can not be printed)
+0xDB3F : (character can not be printed)
+0xDB40 : (character can not be printed)
+0xDB41 : (character can not be printed)
+0xDB42 : (character can not be printed)
+0xDB43 : (character can not be printed)
+0xDB44 : (character can not be printed)
+0xDB45 : (character can not be printed)
+0xDB46 : (character can not be printed)
+0xDB47 : (character can not be printed)
+0xDB48 : (character can not be printed)
+0xDB49 : (character can not be printed)
+0xDB4A : (character can not be printed)
+0xDB4B : (character can not be printed)
+0xDB4C : (character can not be printed)
+0xDB4D : (character can not be printed)
+0xDB4E : (character can not be printed)
+0xDB4F : (character can not be printed)
+0xDB50 : (character can not be printed)
+0xDB51 : (character can not be printed)
+0xDB52 : (character can not be printed)
+0xDB53 : (character can not be printed)
+0xDB54 : (character can not be printed)
+0xDB55 : (character can not be printed)
+0xDB56 : (character can not be printed)
+0xDB57 : (character can not be printed)
+0xDB58 : (character can not be printed)
+0xDB59 : (character can not be printed)
+0xDB5A : (character can not be printed)
+0xDB5B : (character can not be printed)
+0xDB5C : (character can not be printed)
+0xDB5D : (character can not be printed)
+0xDB5E : (character can not be printed)
+0xDB5F : (character can not be printed)
+0xDB60 : (character can not be printed)
+0xDB61 : (character can not be printed)
+0xDB62 : (character can not be printed)
+0xDB63 : (character can not be printed)
+0xDB64 : (character can not be printed)
+0xDB65 : (character can not be printed)
+0xDB66 : (character can not be printed)
+0xDB67 : (character can not be printed)
+0xDB68 : (character can not be printed)
+0xDB69 : (character can not be printed)
+0xDB6A : (character can not be printed)
+0xDB6B : (character can not be printed)
+0xDB6C : (character can not be printed)
+0xDB6D : (character can not be printed)
+0xDB6E : (character can not be printed)
+0xDB6F : (character can not be printed)
+0xDB70 : (character can not be printed)
+0xDB71 : (character can not be printed)
+0xDB72 : (character can not be printed)
+0xDB73 : (character can not be printed)
+0xDB74 : (character can not be printed)
+0xDB75 : (character can not be printed)
+0xDB76 : (character can not be printed)
+0xDB77 : (character can not be printed)
+0xDB78 : (character can not be printed)
+0xDB79 : (character can not be printed)
+0xDB7A : (character can not be printed)
+0xDB7B : (character can not be printed)
+0xDB7C : (character can not be printed)
+0xDB7D : (character can not be printed)
+0xDB7E : (character can not be printed)
+0xDB7F : (character can not be printed)
+0xFA2E : ipconfig /di郞splaydns
+0xFA2F : ipconfig /di隷splaydns
+0xFA6E : ipconfig /di﩮splaydns
+0xFA6F : ipconfig /di﩯splaydns
+0xFADA : ipconfig /di﫚splaydns
+0xFADB : ipconfig /di﫛splaydns
+0xFADC : ipconfig /di﫜splaydns
+0xFADD : ipconfig /di﫝splaydns
+0xFADE : ipconfig /di﫞splaydns
+0xFADF : ipconfig /di﫟splaydns
+0xFAE0 : ipconfig /di﫠splaydns
+0xFAE1 : ipconfig /di﫡splaydns
+0xFAE2 : ipconfig /di﫢splaydns
+0xFAE3 : ipconfig /di﫣splaydns
+0xFAE4 : ipconfig /di﫤splaydns
+0xFAE5 : ipconfig /di﫥splaydns
+0xFAE6 : ipconfig /di﫦splaydns
+0xFAE7 : ipconfig /di﫧splaydns
+0xFAE8 : ipconfig /di﫨splaydns
+0xFAE9 : ipconfig /di﫩splaydns
+0xFAEA : ipconfig /di﫪splaydns
+0xFAEB : ipconfig /di﫫splaydns
+0xFAEC : ipconfig /di﫬splaydns
+0xFAED : ipconfig /di﫭splaydns
+0xFAEE : ipconfig /di﫮splaydns
+0xFAEF : ipconfig /di﫯splaydns
+0xFAF0 : ipconfig /di﫰splaydns
+0xFAF1 : ipconfig /di﫱splaydns
+0xFAF2 : ipconfig /di﫲splaydns
+0xFAF3 : ipconfig /di﫳splaydns
+0xFAF4 : ipconfig /di﫴splaydns
+0xFAF5 : ipconfig /di﫵splaydns
+0xFAF6 : ipconfig /di﫶splaydns
+0xFAF7 : ipconfig /di﫷splaydns
+0xFAF8 : ipconfig /di﫸splaydns
+0xFAF9 : ipconfig /di﫹splaydns
+0xFAFA : ipconfig /di﫺splaydns
+0xFAFB : ipconfig /di﫻splaydns
+0xFAFC : ipconfig /di﫼splaydns
+0xFAFD : ipconfig /di﫽splaydns
+0xFAFE : ipconfig /di﫾splaydns
+0xFAFF : ipconfig /di﫿splaydns
+0xFB07 : ipconfig /di﬇splaydns
+0xFB08 : ipconfig /di﬈splaydns
+0xFB09 : ipconfig /di﬉splaydns
+0xFB0A : ipconfig /di﬊splaydns
+0xFB0B : ipconfig /di﬋splaydns
+0xFB0C : ipconfig /di﬌splaydns
+0xFB0D : ipconfig /di﬍splaydns
+0xFB0E : ipconfig /di﬎splaydns
+0xFB0F : ipconfig /di﬏splaydns
+0xFB10 : ipconfig /di﬐splaydns
+0xFB11 : ipconfig /di﬑splaydns
+0xFB12 : ipconfig /di﬒splaydns
+0xFB18 : ipconfig /di﬘splaydns
+0xFB19 : ipconfig /di﬙splaydns
+0xFB1A : ipconfig /di﬚splaydns
+0xFB1B : ipconfig /di﬛splaydns
+0xFB1C : ipconfig /di﬜splaydns
+0xFB37 : ipconfig /di﬷splaydns
+0xFB3D : ipconfig /di﬽splaydns
+0xFB3F : ipconfig /di﬿splaydns
+0xFB42 : ipconfig /di﭂splaydns
+0xFB45 : ipconfig /di﭅splaydns
+0xFBB2 : ipconfig /di﮲splaydns
+0xFBB3 : ipconfig /di﮳splaydns
+0xFBB4 : ipconfig /di﮴splaydns
+0xFBB5 : ipconfig /di﮵splaydns
+0xFBB6 : ipconfig /di﮶splaydns
+0xFBB7 : ipconfig /di﮷splaydns
+0xFBB8 : ipconfig /di﮸splaydns
+0xFBB9 : ipconfig /di﮹splaydns
+0xFBBA : ipconfig /di﮺splaydns
+0xFBBB : ipconfig /di﮻splaydns
+0xFBBC : ipconfig /di﮼splaydns
+0xFBBD : ipconfig /di﮽splaydns
+0xFBBE : ipconfig /di﮾splaydns
+0xFBBF : ipconfig /di﮿splaydns
+0xFBC0 : ipconfig /di﯀splaydns
+0xFBC1 : ipconfig /di﯁splaydns
+0xFBC2 : ipconfig /di﯂splaydns
+0xFBC3 : ipconfig /di﯃splaydns
+0xFBC4 : ipconfig /di﯄splaydns
+0xFBC5 : ipconfig /di﯅splaydns
+0xFBC6 : ipconfig /di﯆splaydns
+0xFBC7 : ipconfig /di﯇splaydns
+0xFBC8 : ipconfig /di﯈splaydns
+0xFBC9 : ipconfig /di﯉splaydns
+0xFBCA : ipconfig /di﯊splaydns
+0xFBCB : ipconfig /di﯋splaydns
+0xFBCC : ipconfig /di﯌splaydns
+0xFBCD : ipconfig /di﯍splaydns
+0xFBCE : ipconfig /di﯎splaydns
+0xFBCF : ipconfig /di﯏splaydns
+0xFBD0 : ipconfig /di﯐splaydns
+0xFBD1 : ipconfig /di﯑splaydns
+0xFBD2 : ipconfig /di﯒splaydns
+0xFD40 : ipconfig /di﵀splaydns
+0xFD41 : ipconfig /di﵁splaydns
+0xFD42 : ipconfig /di﵂splaydns
+0xFD43 : ipconfig /di﵃splaydns
+0xFD44 : ipconfig /di﵄splaydns
+0xFD45 : ipconfig /di﵅splaydns
+0xFD46 : ipconfig /di﵆splaydns
+0xFD47 : ipconfig /di﵇splaydns
+0xFD48 : ipconfig /di﵈splaydns
+0xFD49 : ipconfig /di﵉splaydns
+0xFD4A : ipconfig /di﵊splaydns
+0xFD4B : ipconfig /di﵋splaydns
+0xFD4C : ipconfig /di﵌splaydns
+0xFD4D : ipconfig /di﵍splaydns
+0xFD4E : ipconfig /di﵎splaydns
+0xFD4F : ipconfig /di﵏splaydns
+0xFD90 : ipconfig /di﶐splaydns
+0xFD91 : ipconfig /di﶑splaydns
+0xFDC8 : ipconfig /di﷈splaydns
+0xFDC9 : ipconfig /di﷉splaydns
+0xFDCA : ipconfig /di﷊splaydns
+0xFDCB : ipconfig /di﷋splaydns
+0xFDCC : ipconfig /di﷌splaydns
+0xFDCD : ipconfig /di﷍splaydns
+0xFDCE : ipconfig /di﷎splaydns
+0xFDCF : ipconfig /di﷏splaydns
+0xFDD0 : ipconfig /di﷐splaydns
+0xFDD1 : ipconfig /di﷑splaydns
+0xFDD2 : ipconfig /di﷒splaydns
+0xFDD3 : ipconfig /di﷓splaydns
+0xFDD4 : ipconfig /di﷔splaydns
+0xFDD5 : ipconfig /di﷕splaydns
+0xFDD6 : ipconfig /di﷖splaydns
+0xFDD7 : ipconfig /di﷗splaydns
+0xFDD8 : ipconfig /di﷘splaydns
+0xFDD9 : ipconfig /di﷙splaydns
+0xFDDA : ipconfig /di﷚splaydns
+0xFDDB : ipconfig /di﷛splaydns
+0xFDDC : ipconfig /di﷜splaydns
+0xFDDD : ipconfig /di﷝splaydns
+0xFDDE : ipconfig /di﷞splaydns
+0xFDDF : ipconfig /di﷟splaydns
+0xFDE0 : ipconfig /di﷠splaydns
+0xFDE1 : ipconfig /di﷡splaydns
+0xFDE2 : ipconfig /di﷢splaydns
+0xFDE3 : ipconfig /di﷣splaydns
+0xFDE4 : ipconfig /di﷤splaydns
+0xFDE5 : ipconfig /di﷥splaydns
+0xFDE6 : ipconfig /di﷦splaydns
+0xFDE7 : ipconfig /di﷧splaydns
+0xFDE8 : ipconfig /di﷨splaydns
+0xFDE9 : ipconfig /di﷩splaydns
+0xFDEA : ipconfig /di﷪splaydns
+0xFDEB : ipconfig /di﷫splaydns
+0xFDEC : ipconfig /di﷬splaydns
+0xFDED : ipconfig /di﷭splaydns
+0xFDEE : ipconfig /di﷮splaydns
+0xFDEF : ipconfig /di﷯splaydns
+0xFDFE : ipconfig /di﷾splaydns
+0xFDFF : ipconfig /di﷿splaydns
+0xFE00 : ipconfig /di︀splaydns
+0xFE01 : ipconfig /di︁splaydns
+0xFE02 : ipconfig /di︂splaydns
+0xFE03 : ipconfig /di︃splaydns
+0xFE04 : ipconfig /di︄splaydns
+0xFE05 : ipconfig /di︅splaydns
+0xFE06 : ipconfig /di︆splaydns
+0xFE07 : ipconfig /di︇splaydns
+0xFE08 : ipconfig /di︈splaydns
+0xFE09 : ipconfig /di︉splaydns
+0xFE0A : ipconfig /di︊splaydns
+0xFE0B : ipconfig /di︋splaydns
+0xFE0C : ipconfig /di︌splaydns
+0xFE0D : ipconfig /di︍splaydns
+0xFE0E : ipconfig /di︎splaydns
+0xFE0F : ipconfig /di️splaydns
+0xFE1A : ipconfig /di︚splaydns
+0xFE1B : ipconfig /di︛splaydns
+0xFE1C : ipconfig /di︜splaydns
+0xFE1D : ipconfig /di︝splaydns
+0xFE1E : ipconfig /di︞splaydns
+0xFE1F : ipconfig /di︟splaydns
+0xFE27 : ipconfig /di︧splaydns
+0xFE28 : ipconfig /di︨splaydns
+0xFE29 : ipconfig /di︩splaydns
+0xFE2A : ipconfig /di︪splaydns
+0xFE2B : ipconfig /di︫splaydns
+0xFE2C : ipconfig /di︬splaydns
+0xFE2D : ipconfig /di︭splaydns
+0xFE2E : ipconfig /di︮splaydns
+0xFE2F : ipconfig /di︯splaydns
+0xFE53 : ipconfig /di﹓splaydns
+0xFE67 : ipconfig /di﹧splaydns
+0xFE6C : ipconfig /di﹬splaydns
+0xFE6D : ipconfig /di﹭splaydns
+0xFE6E : ipconfig /di﹮splaydns
+0xFE6F : ipconfig /di﹯splaydns
+0xFE75 : ipconfig /di﹵splaydns
+0xFEFD : ipconfig /di﻽splaydns
+0xFEFE : ipconfig /di﻾splaydns
+0xFEFF : ipconfig /di﻿splaydns
+0xFF00 : ipconfig /di＀splaydns
+0xFFBF : ipconfig /di﾿splaydns
+0xFFC0 : ipconfig /di￀splaydns
+0xFFC1 : ipconfig /di￁splaydns
+0xFFC8 : ipconfig /di￈splaydns
+0xFFC9 : ipconfig /di￉splaydns
+0xFFD0 : ipconfig /di￐splaydns
+0xFFD1 : ipconfig /di￑splaydns
+0xFFD8 : ipconfig /di￘splaydns
+0xFFD9 : ipconfig /di￙splaydns
+0xFFDD : ipconfig /di￝splaydns
+0xFFDE : ipconfig /di￞splaydns
+0xFFDF : ipconfig /di￟splaydns
+0xFFE7 : ipconfig /di￧splaydns
+0xFFEF : ipconfig /di￯splaydns
+0xFFF0 : ipconfig /di￰splaydns
+0xFFF1 : ipconfig /di￱splaydns
+0xFFF2 : ipconfig /di￲splaydns
+0xFFF3 : ipconfig /di￳splaydns
+0xFFF4 : ipconfig /di￴splaydns
+0xFFF5 : ipconfig /di￵splaydns
+0xFFF6 : ipconfig /di￶splaydns
+0xFFF7 : ipconfig /di￷splaydns
+0xFFF8 : ipconfig /di￸splaydns
+0xFFF9 : ipconfig /di￹splaydns
+0xFFFA : ipconfig /di￺splaydns
+0xFFFB : ipconfig /di￻splaydns
+0xFFFC : ipconfig /di￼splaydns
+0xFFFD : ipconfig /di�splaydns
+0xFFFE : ipconfig /di￾splaydns
+
+:: Character Substitution
+The following commands were found to be working:
+0x02E2 : ipconfig /diˢplaydns
+0x209B : ipconfig /diₛplaydns
+0xA731 : ipconfig /diꜱplaydns
+0xFF33 : ipconfig /diＳplaydns
+0xFF53 : ipconfig /diｓplaydns
+
+:: Quote Insertion
+Inserting quotes in the first argument did work, such as:
+ipconfig /"d"isplaydns
+
+:: Shorthand Commands
+No alternative commands were found.

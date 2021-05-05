@@ -1,0 +1,21 @@
+PROCESS OBFUSCATION REPORT FOR icacls
+- Generated on 2021-01-03T20:00:31.704185
+- Command used      : icacls "c:\users\wietze\downloads\test.txt" /grant administrators:(f)
+- Insertion position:                                               ^
+- Char ranges scanned: 0x0001..0xFFFE
+
+:: Option Char Substitution
+No alternative commands were found.
+
+:: Character Insertion
+No alternative commands were found.
+
+:: Character Substitution
+No alternative commands were found.
+
+:: Quote Insertion
+Inserting quotes in the first argument did work, such as:
+icacls "c:\users\wietze\downloads\test.txt" /"g"rant administrators:(f)
+
+:: Shorthand Commands
+No alternative commands were found.

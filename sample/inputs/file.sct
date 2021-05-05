@@ -1,0 +1,54 @@
+<?XML version="1.0"?>
+<scriptlet>
+<registration 
+    progid="PoC"
+    classid="{F0001111-0000-0000-0000-0000FEEDACDC}" >
+	<script language="VBScript">
+
+
+		<![CDATA[
+
+Set objWshShell = CreateObject("Wscript.Shell")
+Set objWMIService = GetObject("winmgmts:\\.\root\CIMV2") 
+
+      Function lng_MyProcessCmd ()
+	lng_MyProcessCmd = ""                     ' Initially assume failure
+        lng_MyProcessID = 0                     ' Initially assume failure
+        
+
+        If objWMIService Is Nothing Then Exit Function      ' Should only happen if in Guest or other super-limited account
+
+        Set objChildProcess = objWshShell.Exec ( "wscript inputs\sleep.vbs" ) ' Fork a child process that just waits until its killed
+
+        Set colPIDs= objWMIService.ExecQuery ( "Select * From Win32_Process Where ProcessId=" & objChildProcess.ProcessID,, 0 )
+
+        For Each objPID In colPIDs                  ' There's exactly 1 item, but .ItemIndex(0) doesn't work in XP
+
+          lng_MyProcessID = objPID.ParentProcessId          ' Return child's parent Process ID, which is MY process ID!
+
+        Next
+
+        Set colPIDs= objWMIService.ExecQuery ( "Select * From Win32_Process Where ProcessId=" & lng_MyProcessID,, 0 )
+
+        For Each objPID In colPIDs                  ' There's exactly 1 item, but .ItemIndex(0) doesn't work in XP
+
+          lng_MyProcessCmd = objPID.CommandLine         ' Return child's parent Process ID, which is MY process ID!
+          lng_MyProcessID = objPID.ParentProcessId          ' Return child's parent Process ID, which is MY process ID!
+
+        Next
+
+
+        Call objChildProcess.Terminate()                ' Terminate our temp child
+
+Set objFSO=CreateObject("Scripting.FileSystemObject")
+Set objFile = objFSO.OpenTextFile( "inputs\results.txt", 8, -1 )
+objFile.WriteLine lng_MyProcessCmd
+objFile.Close
+      End Function 
+lng_MyProcessCmd()
+		]]>
+</script>
+
+<!--var r = new ActiveXObject("WScript.Shell").Run("cmd.exe /c echo hELLO WORLD!");		-->
+</registration>
+</scriptlet>

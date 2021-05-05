@@ -1,0 +1,22 @@
+PROCESS OBFUSCATION REPORT FOR MpCmdRun.exe
+- Generated on 2021-01-02T17:39:03.094686
+- Command used      : "C:\Program Files\Windows Defender\MpCmdRun.exe" -RemoveDefinitions -All
+- Insertion position:                                                   ^
+- Char ranges scanned: 0x0001..0xFFFE
+
+:: Option Char Substitution
+The following 1 commands were found to be working:
+0x002F : "C:\Program Files\Windows Defender\MpCmdRun.exe" /RemoveDefinitions -All
+
+:: Character Insertion
+No alternative commands were found.
+
+:: Character Substitution
+No alternative commands were found.
+
+:: Quote Insertion
+Inserting quotes in the first argument did work, such as:
+"C:\Program Files\Windows Defender\MpCmdRun.exe" -"R"emoveDefinitions -All
+
+:: Shorthand Commands
+No alternative commands were found.

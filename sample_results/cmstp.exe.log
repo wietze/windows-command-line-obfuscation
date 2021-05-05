@@ -1,0 +1,21 @@
+PROCESS OBFUSCATION REPORT FOR cmstp.exe
+- Generated on 2020-12-03T21:53:50.349533
+- Command used      : cmstp.exe /s c:\users\wietze\downloads\cmstp.inf
+- Insertion position:            ^
+- Char ranges scanned: 0x0001..0x00FE 0x02B0..0x02FE 0x2070..0x209E
+
+:: Character Insertion
+The following 3 commands were found to be working:
+0x2072 : cmstp.exe /⁲s c:\users\wietze\downloads\cmstp.inf
+0x2073 : cmstp.exe /⁳s c:\users\wietze\downloads\cmstp.inf
+0x209D : cmstp.exe /₝s c:\users\wietze\downloads\cmstp.inf
+
+:: Character Substitution
+The following commands were found to be working:
+0x0049 : cmstp.exe /I c:\users\wietze\downloads\cmstp.inf
+
+:: Quote Insertion
+Inserting quotes in the first argument did not appear to be working.
+
+:: Shorthand Commands
+No alternative commands were found.

@@ -1,0 +1,41 @@
+PROCESS OBFUSCATION REPORT FOR curl
+- Generated on 2021-01-04T02:00:40.003795
+- Command used      : curl -N https://www.google.com/robots.txt -r 0-16
+- Insertion position:       ^
+- Char ranges scanned: 0x0001..0xFFFE
+
+:: Option Char Substitution
+No alternative commands were found.
+
+:: Character Insertion
+The following 12 commands were found to be working:
+0x004C : curl -NL https://www.google.com/robots.txt -r 0-16
+0x0070 : curl -Np https://www.google.com/robots.txt -r 0-16
+0x011D : curl -Nĝ https://www.google.com/robots.txt -r 0-16
+0x0144 : curl -Nń https://www.google.com/robots.txt -r 0-16
+0x0146 : curl -Nņ https://www.google.com/robots.txt -r 0-16
+0x0154 : curl -NŔ https://www.google.com/robots.txt -r 0-16
+0x019A : curl -Nƚ https://www.google.com/robots.txt -r 0-16
+0x01E7 : curl -Nǧ https://www.google.com/robots.txt -r 0-16
+0x01F0 : curl -Nǰ https://www.google.com/robots.txt -r 0-16
+0x2009 : curl -N  https://www.google.com/robots.txt -r 0-16
+0xFF41 : curl -Nａ https://www.google.com/robots.txt -r 0-16
+0xFF46 : curl -Nｆ https://www.google.com/robots.txt -r 0-16
+
+:: Character Substitution
+The following commands were found to be working:
+0x011E : curl -Ğ https://www.google.com/robots.txt -r 0-16
+0x0139 : curl -Ĺ https://www.google.com/robots.txt -r 0-16
+0x0143 : curl -Ń https://www.google.com/robots.txt -r 0-16
+0x0144 : curl -ń https://www.google.com/robots.txt -r 0-16
+0x01E4 : curl -Ǥ https://www.google.com/robots.txt -r 0-16
+0x210A : curl -ℊ https://www.google.com/robots.txt -r 0-16
+0x2112 : curl -ℒ https://www.google.com/robots.txt -r 0-16
+0x211D : curl -ℝ https://www.google.com/robots.txt -r 0-16
+0xFF11 : curl -１ https://www.google.com/robots.txt -r 0-16
+
+:: Quote Insertion
+Inserting quotes in the first argument did not appear to be working.
+
+:: Shorthand Commands
+No alternative commands were found.

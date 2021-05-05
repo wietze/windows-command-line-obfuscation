@@ -1,0 +1,21 @@
+PROCESS OBFUSCATION REPORT FOR csc.exe
+- Generated on 2020-11-28T22:27:16.668663
+- Command used      : C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe -out:My.exe inputs\file.cs
+- Insertion position:                                                            ^
+- Char ranges scanned: 0x0001..0xFFFE
+
+:: Different dash/hyphens
+The following 1 commands were found to be working:
+0x002F : C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /out:My.exe inputs\file.cs
+
+:: Character Insertion
+No alternative commands were found.
+
+:: Character Replacement
+No alternative commands were found.
+
+:: Quote Insertion
+Inserting quotes in the first argument did not appear to be working.
+
+:: Shortened Commands
+No alternative commands were found.

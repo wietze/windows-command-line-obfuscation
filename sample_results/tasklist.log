@@ -1,0 +1,24 @@
+PROCESS OBFUSCATION REPORT FOR tasklist
+- Generated on 2020-11-30T13:22:20.949047
+- Command used      : tasklist /fi "USERNAME eq test"
+- Insertion position:           ^
+- Char ranges scanned: 0x0001..0xFFFE
+
+:: Different dash/hyphens
+The following 2 commands were found to be working:
+0x002D : tasklist -fi "USERNAME eq test"
+0xFE63 : tasklist ﹣fi "USERNAME eq test"
+
+:: Character Insertion
+No alternative commands were found.
+
+:: Character Replacement
+The following commands were found to be working:
+0x1DA0 : tasklist /ᶠi "USERNAME eq test"
+
+:: Quote Insertion
+Inserting quotes in the first argument did work, such as:
+tasklist /"f"i "USERNAME eq test"
+
+:: Shortened Commands
+No alternative commands were found.

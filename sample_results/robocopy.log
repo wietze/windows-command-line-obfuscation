@@ -1,0 +1,21 @@
+PROCESS OBFUSCATION REPORT FOR robocopy
+- Generated on 2021-01-04T00:10:55.206747
+- Command used      : robocopy c:\windows\temp c:\windows\temp\temp2 /L
+- Insertion position:                                                 ^
+- Char ranges scanned: 0x0001..0xFFFE
+
+:: Option Char Substitution
+The following 1 commands were found to be working:
+0x002D : robocopy c:\windows\temp c:\windows\temp\temp2 -L
+
+:: Character Insertion
+No alternative commands were found.
+
+:: Character Substitution
+No alternative commands were found.
+
+:: Quote Insertion
+Inserting quotes in the first argument did not appear to be working.
+
+:: Shorthand Commands
+No alternative commands were found.

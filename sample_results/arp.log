@@ -1,0 +1,134 @@
+PROCESS OBFUSCATION REPORT FOR arp
+- Generated on 2021-01-02T14:08:31.751740
+- Command used      : arp -a
+- Insertion position:      ^
+- Char ranges scanned: 0x0001..0xFFFE
+
+:: Option Char Substitution
+The following 8 commands were found to be working:
+0x002F : arp /a
+0x2010 : arp ‐a
+0x2012 : arp ‒a
+0x2015 : arp ―a
+0x2044 : arp ⁄a
+0x2212 : arp −a
+0x2215 : arp ∕a
+0xFF0D : arp －a
+
+:: Character Insertion
+The following 67 commands were found to be working:
+0x0022 : arp -"a
+0x0041 : arp -Aa
+0x0044 : arp -Da
+0x0047 : arp -Ga
+0x0053 : arp -Sa
+0x0061 : arp -aa
+0x0064 : arp -da
+0x0067 : arp -ga
+0x0073 : arp -sa
+0x00A0 : arp - a
+0x0100 : arp -Āa
+0x0101 : arp -āa
+0x0102 : arp -Ăa
+0x0103 : arp -ăa
+0x0104 : arp -Ąa
+0x0105 : arp -ąa
+0x010E : arp -Ďa
+0x010F : arp -ďa
+0x0111 : arp -đa
+0x011C : arp -Ĝa
+0x011D : arp -ĝa
+0x011E : arp -Ğa
+0x011F : arp -ğa
+0x0120 : arp -Ġa
+0x0121 : arp -ġa
+0x0122 : arp -Ģa
+0x0123 : arp -ģa
+0x015A : arp -Śa
+0x015B : arp -śa
+0x015C : arp -Ŝa
+0x015D : arp -ŝa
+0x015E : arp -Şa
+0x015F : arp -şa
+0x0191 : arp -Ƒa
+0x0192 : arp -ƒa
+0x01CD : arp -Ǎa
+0x01CE : arp -ǎa
+0x01DE : arp -Ǟa
+0x01DF : arp -ǟa
+0x01E4 : arp -Ǥa
+0x01E5 : arp -ǥa
+0x01E6 : arp -Ǧa
+0x01E7 : arp -ǧa
+0x0261 : arp -ɡa
+0x02BA : arp -ʺa
+0x030E : arp -̎a
+0x0393 : arp -Γa
+0x03A3 : arp -Σa
+0x03B1 : arp -αa
+0x03B4 : arp -δa
+0x03C3 : arp -σa
+0x2007 : arp - a
+0x201F : arp -‟a
+0x2026 : arp -…a
+0x202F : arp - a
+0x2033 : arp -″a
+0x2036 : arp -‶a
+0x210A : arp -ℊa
+0xFF02 : arp -＂a
+0xFF21 : arp -Ａa
+0xFF24 : arp -Ｄa
+0xFF27 : arp -Ｇa
+0xFF33 : arp -Ｓa
+0xFF41 : arp -ａa
+0xFF44 : arp -ｄa
+0xFF47 : arp -ｇa
+0xFF53 : arp -ｓa
+
+:: Character Substitution
+The following commands were found to be working:
+0x0047 : arp -G
+0x0067 : arp -g
+0x00A0 : arp - 
+0x0100 : arp -Ā
+0x0101 : arp -ā
+0x0102 : arp -Ă
+0x0103 : arp -ă
+0x0104 : arp -Ą
+0x0105 : arp -ą
+0x011C : arp -Ĝ
+0x011D : arp -ĝ
+0x011E : arp -Ğ
+0x011F : arp -ğ
+0x0120 : arp -Ġ
+0x0121 : arp -ġ
+0x0122 : arp -Ģ
+0x0123 : arp -ģ
+0x0191 : arp -Ƒ
+0x0192 : arp -ƒ
+0x01CD : arp -Ǎ
+0x01CE : arp -ǎ
+0x01DE : arp -Ǟ
+0x01DF : arp -ǟ
+0x01E4 : arp -Ǥ
+0x01E5 : arp -ǥ
+0x01E6 : arp -Ǧ
+0x01E7 : arp -ǧ
+0x0261 : arp -ɡ
+0x0393 : arp -Γ
+0x03B1 : arp -α
+0x2007 : arp - 
+0x2026 : arp -…
+0x202F : arp - 
+0x210A : arp -ℊ
+0xFF21 : arp -Ａ
+0xFF27 : arp -Ｇ
+0xFF41 : arp -ａ
+0xFF47 : arp -ｇ
+
+:: Quote Insertion
+Inserting quotes in the first argument did work, such as:
+arp -"a"
+
+:: Shorthand Commands
+No alternative commands were found.

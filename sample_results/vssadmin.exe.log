@@ -1,0 +1,21 @@
+PROCESS OBFUSCATION REPORT FOR vssadmin.exe
+- Generated on 2021-01-03T22:36:50.549504
+- Command used      : c:\users\wietze\downloads\test\vssadmin.exe list volumes
+- Insertion position:                                               ^
+- Char ranges scanned: 0x0001..0xFFFE
+
+:: Option Char Substitution
+The command does not contain any arguments starting with a slash or dash.
+
+:: Character Insertion
+No alternative commands were found.
+
+:: Character Substitution
+No alternative commands were found.
+
+:: Quote Insertion
+Inserting quotes in the first argument did work, such as:
+c:\users\wietze\downloads\test\vssadmin.exe l"i"st volumes
+
+:: Shorthand Commands
+No alternative commands were found.

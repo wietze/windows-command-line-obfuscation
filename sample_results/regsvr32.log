@@ -1,0 +1,286 @@
+PROCESS OBFUSCATION REPORT FOR regsvr32
+- Generated on 2021-01-02T20:09:36.730781
+- Command used      : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+- Insertion position:              ^
+- Char ranges scanned: 0x0001..0x00FE 0x02B0..0x02FE 0x2070..0x209E
+
+:: Option Char Substitution
+The following 30 commands were found to be working:
+0x002D : regsvr32 /s /u -i:inputs\file.sct scrobj.dll
+0x005C : regsvr32 /s /u \i:inputs\file.sct scrobj.dll
+0x007E : regsvr32 /s /u ~i:inputs\file.sct scrobj.dll
+0x00AD : regsvr32 /s /u ­i:inputs\file.sct scrobj.dll
+0x058A : regsvr32 /s /u ֊i:inputs\file.sct scrobj.dll
+0x05BE : regsvr32 /s /u ־i:inputs\file.sct scrobj.dll
+0x1400 : regsvr32 /s /u ᐀i:inputs\file.sct scrobj.dll
+0x1806 : regsvr32 /s /u ᠆i:inputs\file.sct scrobj.dll
+0x2010 : regsvr32 /s /u ‐i:inputs\file.sct scrobj.dll
+0x2012 : regsvr32 /s /u ‒i:inputs\file.sct scrobj.dll
+0x2013 : regsvr32 /s /u –i:inputs\file.sct scrobj.dll
+0x2014 : regsvr32 /s /u —i:inputs\file.sct scrobj.dll
+0x2015 : regsvr32 /s /u ―i:inputs\file.sct scrobj.dll
+0x2044 : regsvr32 /s /u ⁄i:inputs\file.sct scrobj.dll
+0x2053 : regsvr32 /s /u ⁓i:inputs\file.sct scrobj.dll
+0x2212 : regsvr32 /s /u −i:inputs\file.sct scrobj.dll
+0x2215 : regsvr32 /s /u ∕i:inputs\file.sct scrobj.dll
+0x244A : regsvr32 /s /u ⑊i:inputs\file.sct scrobj.dll
+0x29F8 : regsvr32 /s /u ⧸i:inputs\file.sct scrobj.dll
+0x2E17 : regsvr32 /s /u ⸗i:inputs\file.sct scrobj.dll
+0x2E3A : regsvr32 /s /u ⸺i:inputs\file.sct scrobj.dll
+0x2E3B : regsvr32 /s /u ⸻i:inputs\file.sct scrobj.dll
+0x301C : regsvr32 /s /u 〜i:inputs\file.sct scrobj.dll
+0x3030 : regsvr32 /s /u 〰i:inputs\file.sct scrobj.dll
+0x30A0 : regsvr32 /s /u ゠i:inputs\file.sct scrobj.dll
+0xFE31 : regsvr32 /s /u ︱i:inputs\file.sct scrobj.dll
+0xFE32 : regsvr32 /s /u ︲i:inputs\file.sct scrobj.dll
+0xFE58 : regsvr32 /s /u ﹘i:inputs\file.sct scrobj.dll
+0xFE63 : regsvr32 /s /u ﹣i:inputs\file.sct scrobj.dll
+0xFF0D : regsvr32 /s /u －i:inputs\file.sct scrobj.dll
+
+:: Character Insertion
+The following 222 commands were found to be working:
+0x0001 : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x0002 : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x0003 : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x0004 : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x0005 : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x0006 : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x0007 : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x0008 : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x0009 : regsvr32 /s /u	 /i:inputs\file.sct scrobj.dll
+0x000A : regsvr32 /s /u
+ /i:inputs\file.sct scrobj.dll
+0x000B : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x000C : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x000D : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x000E : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x000F : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x0010 : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x0011 : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x0012 : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x0013 : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x0014 : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x0015 : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x0016 : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x0017 : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x0018 : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x0019 : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x001A : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x001B : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x001C : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x001D : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x001E : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x001F : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x0020 : regsvr32 /s /u  /i:inputs\file.sct scrobj.dll
+0x0021 : regsvr32 /s /u! /i:inputs\file.sct scrobj.dll
+0x0023 : regsvr32 /s /u# /i:inputs\file.sct scrobj.dll
+0x0024 : regsvr32 /s /u$ /i:inputs\file.sct scrobj.dll
+0x0025 : regsvr32 /s /u% /i:inputs\file.sct scrobj.dll
+0x0026 : regsvr32 /s /u& /i:inputs\file.sct scrobj.dll
+0x0027 : regsvr32 /s /u' /i:inputs\file.sct scrobj.dll
+0x0028 : regsvr32 /s /u( /i:inputs\file.sct scrobj.dll
+0x0029 : regsvr32 /s /u) /i:inputs\file.sct scrobj.dll
+0x002A : regsvr32 /s /u* /i:inputs\file.sct scrobj.dll
+0x002B : regsvr32 /s /u+ /i:inputs\file.sct scrobj.dll
+0x002C : regsvr32 /s /u, /i:inputs\file.sct scrobj.dll
+0x002D : regsvr32 /s /u- /i:inputs\file.sct scrobj.dll
+0x002E : regsvr32 /s /u. /i:inputs\file.sct scrobj.dll
+0x002F : regsvr32 /s /u/ /i:inputs\file.sct scrobj.dll
+0x0030 : regsvr32 /s /u0 /i:inputs\file.sct scrobj.dll
+0x0031 : regsvr32 /s /u1 /i:inputs\file.sct scrobj.dll
+0x0032 : regsvr32 /s /u2 /i:inputs\file.sct scrobj.dll
+0x0033 : regsvr32 /s /u3 /i:inputs\file.sct scrobj.dll
+0x0035 : regsvr32 /s /u5 /i:inputs\file.sct scrobj.dll
+0x0036 : regsvr32 /s /u6 /i:inputs\file.sct scrobj.dll
+0x0037 : regsvr32 /s /u7 /i:inputs\file.sct scrobj.dll
+0x0038 : regsvr32 /s /u8 /i:inputs\file.sct scrobj.dll
+0x0039 : regsvr32 /s /u9 /i:inputs\file.sct scrobj.dll
+0x003A : regsvr32 /s /u: /i:inputs\file.sct scrobj.dll
+0x003B : regsvr32 /s /u; /i:inputs\file.sct scrobj.dll
+0x003C : regsvr32 /s /u< /i:inputs\file.sct scrobj.dll
+0x003D : regsvr32 /s /u= /i:inputs\file.sct scrobj.dll
+0x003E : regsvr32 /s /u> /i:inputs\file.sct scrobj.dll
+0x003F : regsvr32 /s /u? /i:inputs\file.sct scrobj.dll
+0x0040 : regsvr32 /s /u@ /i:inputs\file.sct scrobj.dll
+0x0041 : regsvr32 /s /uA /i:inputs\file.sct scrobj.dll
+0x0042 : regsvr32 /s /uB /i:inputs\file.sct scrobj.dll
+0x0043 : regsvr32 /s /uC /i:inputs\file.sct scrobj.dll
+0x0044 : regsvr32 /s /uD /i:inputs\file.sct scrobj.dll
+0x0045 : regsvr32 /s /uE /i:inputs\file.sct scrobj.dll
+0x0046 : regsvr32 /s /uF /i:inputs\file.sct scrobj.dll
+0x0047 : regsvr32 /s /uG /i:inputs\file.sct scrobj.dll
+0x0048 : regsvr32 /s /uH /i:inputs\file.sct scrobj.dll
+0x0049 : regsvr32 /s /uI /i:inputs\file.sct scrobj.dll
+0x004A : regsvr32 /s /uJ /i:inputs\file.sct scrobj.dll
+0x004B : regsvr32 /s /uK /i:inputs\file.sct scrobj.dll
+0x004C : regsvr32 /s /uL /i:inputs\file.sct scrobj.dll
+0x004D : regsvr32 /s /uM /i:inputs\file.sct scrobj.dll
+0x004E : regsvr32 /s /uN /i:inputs\file.sct scrobj.dll
+0x004F : regsvr32 /s /uO /i:inputs\file.sct scrobj.dll
+0x0050 : regsvr32 /s /uP /i:inputs\file.sct scrobj.dll
+0x0051 : regsvr32 /s /uQ /i:inputs\file.sct scrobj.dll
+0x0052 : regsvr32 /s /uR /i:inputs\file.sct scrobj.dll
+0x0053 : regsvr32 /s /uS /i:inputs\file.sct scrobj.dll
+0x0054 : regsvr32 /s /uT /i:inputs\file.sct scrobj.dll
+0x0055 : regsvr32 /s /uU /i:inputs\file.sct scrobj.dll
+0x0056 : regsvr32 /s /uV /i:inputs\file.sct scrobj.dll
+0x0057 : regsvr32 /s /uW /i:inputs\file.sct scrobj.dll
+0x0058 : regsvr32 /s /uX /i:inputs\file.sct scrobj.dll
+0x0059 : regsvr32 /s /uY /i:inputs\file.sct scrobj.dll
+0x005A : regsvr32 /s /uZ /i:inputs\file.sct scrobj.dll
+0x005B : regsvr32 /s /u[ /i:inputs\file.sct scrobj.dll
+0x005C : regsvr32 /s /u\ /i:inputs\file.sct scrobj.dll
+0x005D : regsvr32 /s /u] /i:inputs\file.sct scrobj.dll
+0x005E : regsvr32 /s /u^ /i:inputs\file.sct scrobj.dll
+0x005F : regsvr32 /s /u_ /i:inputs\file.sct scrobj.dll
+0x0060 : regsvr32 /s /u` /i:inputs\file.sct scrobj.dll
+0x0061 : regsvr32 /s /ua /i:inputs\file.sct scrobj.dll
+0x0067 : regsvr32 /s /ug /i:inputs\file.sct scrobj.dll
+0x006A : regsvr32 /s /uj /i:inputs\file.sct scrobj.dll
+0x006C : regsvr32 /s /ul /i:inputs\file.sct scrobj.dll
+0x006E : regsvr32 /s /un /i:inputs\file.sct scrobj.dll
+0x006F : regsvr32 /s /uo /i:inputs\file.sct scrobj.dll
+0x0070 : regsvr32 /s /up /i:inputs\file.sct scrobj.dll
+0x0071 : regsvr32 /s /uq /i:inputs\file.sct scrobj.dll
+0x0072 : regsvr32 /s /ur /i:inputs\file.sct scrobj.dll
+0x0073 : regsvr32 /s /us /i:inputs\file.sct scrobj.dll
+0x0074 : regsvr32 /s /ut /i:inputs\file.sct scrobj.dll
+0x0075 : regsvr32 /s /uu /i:inputs\file.sct scrobj.dll
+0x0076 : regsvr32 /s /uv /i:inputs\file.sct scrobj.dll
+0x0077 : regsvr32 /s /uw /i:inputs\file.sct scrobj.dll
+0x0078 : regsvr32 /s /ux /i:inputs\file.sct scrobj.dll
+0x0079 : regsvr32 /s /uy /i:inputs\file.sct scrobj.dll
+0x007A : regsvr32 /s /uz /i:inputs\file.sct scrobj.dll
+0x007B : regsvr32 /s /u{ /i:inputs\file.sct scrobj.dll
+0x007C : regsvr32 /s /u| /i:inputs\file.sct scrobj.dll
+0x007D : regsvr32 /s /u} /i:inputs\file.sct scrobj.dll
+0x007E : regsvr32 /s /u~ /i:inputs\file.sct scrobj.dll
+0x007F : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x0081 : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x008D : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x008F : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x0090 : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x009D : regsvr32 /s /u /i:inputs\file.sct scrobj.dll
+0x00A0 : regsvr32 /s /u  /i:inputs\file.sct scrobj.dll
+0x00A1 : regsvr32 /s /u¡ /i:inputs\file.sct scrobj.dll
+0x00A2 : regsvr32 /s /u¢ /i:inputs\file.sct scrobj.dll
+0x00A3 : regsvr32 /s /u£ /i:inputs\file.sct scrobj.dll
+0x00A4 : regsvr32 /s /u¤ /i:inputs\file.sct scrobj.dll
+0x00A5 : regsvr32 /s /u¥ /i:inputs\file.sct scrobj.dll
+0x00A6 : regsvr32 /s /u¦ /i:inputs\file.sct scrobj.dll
+0x00A7 : regsvr32 /s /u§ /i:inputs\file.sct scrobj.dll
+0x00A8 : regsvr32 /s /u¨ /i:inputs\file.sct scrobj.dll
+0x00A9 : regsvr32 /s /u© /i:inputs\file.sct scrobj.dll
+0x00AA : regsvr32 /s /uª /i:inputs\file.sct scrobj.dll
+0x00AB : regsvr32 /s /u« /i:inputs\file.sct scrobj.dll
+0x00AC : regsvr32 /s /u¬ /i:inputs\file.sct scrobj.dll
+0x00AD : regsvr32 /s /u­ /i:inputs\file.sct scrobj.dll
+0x00AF : regsvr32 /s /u¯ /i:inputs\file.sct scrobj.dll
+0x00B2 : regsvr32 /s /u² /i:inputs\file.sct scrobj.dll
+0x00B3 : regsvr32 /s /u³ /i:inputs\file.sct scrobj.dll
+0x00B4 : regsvr32 /s /u´ /i:inputs\file.sct scrobj.dll
+0x00B6 : regsvr32 /s /u¶ /i:inputs\file.sct scrobj.dll
+0x00B7 : regsvr32 /s /u· /i:inputs\file.sct scrobj.dll
+0x00B8 : regsvr32 /s /u¸ /i:inputs\file.sct scrobj.dll
+0x00B9 : regsvr32 /s /u¹ /i:inputs\file.sct scrobj.dll
+0x00BC : regsvr32 /s /u¼ /i:inputs\file.sct scrobj.dll
+0x00BD : regsvr32 /s /u½ /i:inputs\file.sct scrobj.dll
+0x00BE : regsvr32 /s /u¾ /i:inputs\file.sct scrobj.dll
+0x00C0 : regsvr32 /s /uÀ /i:inputs\file.sct scrobj.dll
+0x00C1 : regsvr32 /s /uÁ /i:inputs\file.sct scrobj.dll
+0x00C2 : regsvr32 /s /uÂ /i:inputs\file.sct scrobj.dll
+0x00C3 : regsvr32 /s /uÃ /i:inputs\file.sct scrobj.dll
+0x00C4 : regsvr32 /s /uÄ /i:inputs\file.sct scrobj.dll
+0x00C5 : regsvr32 /s /uÅ /i:inputs\file.sct scrobj.dll
+0x00C6 : regsvr32 /s /uÆ /i:inputs\file.sct scrobj.dll
+0x00C7 : regsvr32 /s /uÇ /i:inputs\file.sct scrobj.dll
+0x00C8 : regsvr32 /s /uÈ /i:inputs\file.sct scrobj.dll
+0x00C9 : regsvr32 /s /uÉ /i:inputs\file.sct scrobj.dll
+0x00CA : regsvr32 /s /uÊ /i:inputs\file.sct scrobj.dll
+0x00CB : regsvr32 /s /uË /i:inputs\file.sct scrobj.dll
+0x00CC : regsvr32 /s /uÌ /i:inputs\file.sct scrobj.dll
+0x00CD : regsvr32 /s /uÍ /i:inputs\file.sct scrobj.dll
+0x00CE : regsvr32 /s /uÎ /i:inputs\file.sct scrobj.dll
+0x00CF : regsvr32 /s /uÏ /i:inputs\file.sct scrobj.dll
+0x00D0 : regsvr32 /s /uÐ /i:inputs\file.sct scrobj.dll
+0x00D1 : regsvr32 /s /uÑ /i:inputs\file.sct scrobj.dll
+0x00D2 : regsvr32 /s /uÒ /i:inputs\file.sct scrobj.dll
+0x00D3 : regsvr32 /s /uÓ /i:inputs\file.sct scrobj.dll
+0x00D4 : regsvr32 /s /uÔ /i:inputs\file.sct scrobj.dll
+0x00D6 : regsvr32 /s /uÖ /i:inputs\file.sct scrobj.dll
+0x00D7 : regsvr32 /s /u× /i:inputs\file.sct scrobj.dll
+0x00D8 : regsvr32 /s /uØ /i:inputs\file.sct scrobj.dll
+0x00D9 : regsvr32 /s /uÙ /i:inputs\file.sct scrobj.dll
+0x00DA : regsvr32 /s /uÚ /i:inputs\file.sct scrobj.dll
+0x00DB : regsvr32 /s /uÛ /i:inputs\file.sct scrobj.dll
+0x00DC : regsvr32 /s /uÜ /i:inputs\file.sct scrobj.dll
+0x00DD : regsvr32 /s /uÝ /i:inputs\file.sct scrobj.dll
+0x00DE : regsvr32 /s /uÞ /i:inputs\file.sct scrobj.dll
+0x00DF : regsvr32 /s /uß /i:inputs\file.sct scrobj.dll
+0x00E0 : regsvr32 /s /uà /i:inputs\file.sct scrobj.dll
+0x00E3 : regsvr32 /s /uã /i:inputs\file.sct scrobj.dll
+0x00E4 : regsvr32 /s /uä /i:inputs\file.sct scrobj.dll
+0x00E5 : regsvr32 /s /uå /i:inputs\file.sct scrobj.dll
+0x00E9 : regsvr32 /s /ué /i:inputs\file.sct scrobj.dll
+0x00EA : regsvr32 /s /uê /i:inputs\file.sct scrobj.dll
+0x00EB : regsvr32 /s /uë /i:inputs\file.sct scrobj.dll
+0x00EC : regsvr32 /s /uì /i:inputs\file.sct scrobj.dll
+0x00EE : regsvr32 /s /uî /i:inputs\file.sct scrobj.dll
+0x00EF : regsvr32 /s /uï /i:inputs\file.sct scrobj.dll
+0x00F0 : regsvr32 /s /uð /i:inputs\file.sct scrobj.dll
+0x00F1 : regsvr32 /s /uñ /i:inputs\file.sct scrobj.dll
+0x00F2 : regsvr32 /s /uò /i:inputs\file.sct scrobj.dll
+0x00F3 : regsvr32 /s /uó /i:inputs\file.sct scrobj.dll
+0x00F4 : regsvr32 /s /uô /i:inputs\file.sct scrobj.dll
+0x00F5 : regsvr32 /s /uõ /i:inputs\file.sct scrobj.dll
+0x00F6 : regsvr32 /s /uö /i:inputs\file.sct scrobj.dll
+0x00F7 : regsvr32 /s /u÷ /i:inputs\file.sct scrobj.dll
+0x00F8 : regsvr32 /s /uø /i:inputs\file.sct scrobj.dll
+0x00F9 : regsvr32 /s /uù /i:inputs\file.sct scrobj.dll
+0x00FA : regsvr32 /s /uú /i:inputs\file.sct scrobj.dll
+0x00FB : regsvr32 /s /uû /i:inputs\file.sct scrobj.dll
+0x00FC : regsvr32 /s /uü /i:inputs\file.sct scrobj.dll
+0x00FD : regsvr32 /s /uý /i:inputs\file.sct scrobj.dll
+0x00FE : regsvr32 /s /uþ /i:inputs\file.sct scrobj.dll
+0x02B9 : regsvr32 /s /uʹ /i:inputs\file.sct scrobj.dll
+0x02BA : regsvr32 /s /uʺ /i:inputs\file.sct scrobj.dll
+0x02BC : regsvr32 /s /uʼ /i:inputs\file.sct scrobj.dll
+0x02C4 : regsvr32 /s /u˄ /i:inputs\file.sct scrobj.dll
+0x02C6 : regsvr32 /s /uˆ /i:inputs\file.sct scrobj.dll
+0x02C8 : regsvr32 /s /uˈ /i:inputs\file.sct scrobj.dll
+0x02C9 : regsvr32 /s /uˉ /i:inputs\file.sct scrobj.dll
+0x02CA : regsvr32 /s /uˊ /i:inputs\file.sct scrobj.dll
+0x02CB : regsvr32 /s /uˋ /i:inputs\file.sct scrobj.dll
+0x02CD : regsvr32 /s /uˍ /i:inputs\file.sct scrobj.dll
+0x02DA : regsvr32 /s /u˚ /i:inputs\file.sct scrobj.dll
+0x02DC : regsvr32 /s /u˜ /i:inputs\file.sct scrobj.dll
+0x2070 : regsvr32 /s /u⁰ /i:inputs\file.sct scrobj.dll
+0x2075 : regsvr32 /s /u⁵ /i:inputs\file.sct scrobj.dll
+0x2077 : regsvr32 /s /u⁷ /i:inputs\file.sct scrobj.dll
+0x207F : regsvr32 /s /uⁿ /i:inputs\file.sct scrobj.dll
+0x2080 : regsvr32 /s /u₀ /i:inputs\file.sct scrobj.dll
+0x2082 : regsvr32 /s /u₂ /i:inputs\file.sct scrobj.dll
+0x2087 : regsvr32 /s /u₇ /i:inputs\file.sct scrobj.dll
+0x2088 : regsvr32 /s /u₈ /i:inputs\file.sct scrobj.dll
+
+:: Character Substitution
+The following commands were found to be working:
+0x0043 : regsvr32 /s /C /i:inputs\file.sct scrobj.dll
+0x0045 : regsvr32 /s /E /i:inputs\file.sct scrobj.dll
+0x0049 : regsvr32 /s /I /i:inputs\file.sct scrobj.dll
+0x004E : regsvr32 /s /N /i:inputs\file.sct scrobj.dll
+0x0053 : regsvr32 /s /S /i:inputs\file.sct scrobj.dll
+0x0056 : regsvr32 /s /V /i:inputs\file.sct scrobj.dll
+0x0063 : regsvr32 /s /c /i:inputs\file.sct scrobj.dll
+0x0065 : regsvr32 /s /e /i:inputs\file.sct scrobj.dll
+0x0069 : regsvr32 /s /i /i:inputs\file.sct scrobj.dll
+0x006E : regsvr32 /s /n /i:inputs\file.sct scrobj.dll
+0x0073 : regsvr32 /s /s /i:inputs\file.sct scrobj.dll
+0x0076 : regsvr32 /s /v /i:inputs\file.sct scrobj.dll
+
+:: Quote Insertion
+Inserting quotes in the first argument did work, such as:
+regsvr32 /s /u /"i":inputs\file.sct scrobj.dll
+
+:: Shorthand Commands
+No alternative commands were found.

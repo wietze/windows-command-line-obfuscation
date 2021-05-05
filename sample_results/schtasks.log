@@ -1,0 +1,24 @@
+PROCESS OBFUSCATION REPORT FOR schtasks
+- Generated on 2021-01-02T13:24:43.862104
+- Command used      : schtasks /showsid /TN \Microsoft\XblGameSave\XblGameSaveTask
+- Insertion position:           ^
+- Char ranges scanned: 0x0001..0xFFFE
+
+:: Option Char Substitution
+The following 2 commands were found to be working:
+0x002D : schtasks -showsid /TN \Microsoft\XblGameSave\XblGameSaveTask
+0xFE63 : schtasks ﹣showsid /TN \Microsoft\XblGameSave\XblGameSaveTask
+
+:: Character Insertion
+No alternative commands were found.
+
+:: Character Substitution
+The following commands were found to be working:
+0x02E2 : schtasks /ˢhowsid /TN \Microsoft\XblGameSave\XblGameSaveTask
+
+:: Quote Insertion
+Inserting quotes in the first argument did work, such as:
+schtasks /"s"howsid /TN \Microsoft\XblGameSave\XblGameSaveTask
+
+:: Shorthand Commands
+No alternative commands were found.

@@ -1,0 +1,23 @@
+PROCESS OBFUSCATION REPORT FOR msiexec
+- Generated on 2020-11-30T06:39:36.837353
+- Command used      : msiexec /y "inputs\test.dll"
+- Insertion position:          ^
+- Char ranges scanned: 0x0001..0xFFFE
+
+:: Different dash/hyphens
+The following 1 commands were found to be working:
+0x002D : msiexec -y "inputs\test.dll"
+
+:: Character Insertion
+No alternative commands were found.
+
+:: Character Replacement
+The following commands were found to be working:
+0x005A : msiexec /Z "inputs\test.dll"
+0x007A : msiexec /z "inputs\test.dll"
+
+:: Quote Insertion
+Inserting quotes in the first argument did not appear to be working.
+
+:: Shortened Commands
+No alternative commands were found.

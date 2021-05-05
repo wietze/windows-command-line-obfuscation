@@ -1,0 +1,21 @@
+PROCESS OBFUSCATION REPORT FOR bitsadmin
+- Generated on 2021-01-02T18:20:46.580663
+- Command used      : bitsadmin /transfer xy https://duckduckgo.com/robots.txt c:\windows\temp\robots.txt
+- Insertion position:             ^
+- Char ranges scanned: 0x0001..0xFFFE
+
+:: Option Char Substitution
+No alternative commands were found.
+
+:: Character Insertion
+No alternative commands were found.
+
+:: Character Substitution
+No alternative commands were found.
+
+:: Quote Insertion
+Inserting quotes in the first argument did work, such as:
+bitsadmin /"t"ransfer xy https://duckduckgo.com/robots.txt c:\windows\temp\robots.txt
+
+:: Shorthand Commands
+No alternative commands were found.

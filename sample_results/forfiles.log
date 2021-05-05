@@ -1,0 +1,20 @@
+PROCESS OBFUSCATION REPORT FOR forfiles
+- Generated on 2020-12-03T22:36:42.564321
+- Command used      : forfiles /P c:\windows\ /M *.bin /c "cmd /c echo HI"
+- Insertion position:           ^
+- Char ranges scanned: 0x0001..0xFFFE
+
+:: Character Insertion
+No alternative commands were found.
+
+:: Character Substitution
+The following commands were found to be working:
+0x1D3E : forfiles /ᴾ c:\windows\ /M *.bin /c "cmd /c echo HI"
+0x1D56 : forfiles /ᵖ c:\windows\ /M *.bin /c "cmd /c echo HI"
+
+:: Quote Insertion
+Inserting quotes in the first argument did work, such as:
+forfiles /"P" c:\windows\ /M *.bin /c "cmd /c echo HI"
+
+:: Shorthand Commands
+No alternative commands were found.

@@ -1,0 +1,21 @@
+PROCESS OBFUSCATION REPORT FOR netsh
+- Generated on 2020-11-30T12:40:20.824276
+- Command used      : netsh advfirewall show currentprofile state
+- Insertion position:            ^
+- Char ranges scanned: 0x0001..0xFFFE
+
+:: Different dash/hyphens
+The command does not contain any arguments starting with a slash or dash.
+
+:: Character Insertion
+No alternative commands were found.
+
+:: Character Replacement
+No alternative commands were found.
+
+:: Quote Insertion
+Inserting quotes in the first argument did work, such as:
+netsh a"d"vfirewall show currentprofile state
+
+:: Shortened Commands
+No alternative commands were found.

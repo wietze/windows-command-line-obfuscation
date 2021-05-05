@@ -1,0 +1,35 @@
+PROCESS OBFUSCATION REPORT FOR at
+- Generated on 2021-01-02T21:06:28.538054
+- Command used      : at 12:34 /interactive cmd
+- Insertion position:               ^
+- Char ranges scanned: 0x0001..0xFFFE
+
+:: Option Char Substitution
+No alternative commands were found.
+
+:: Character Insertion
+The following 2 commands were found to be working:
+0x0009 : at 12:34 /inter	active cmd
+0x0020 : at 12:34 /inter active cmd
+
+:: Character Substitution
+The following commands were found to be working:
+0x0009 : at 12:34 /inte	active cmd
+0x0020 : at 12:34 /inte active cmd
+
+:: Quote Insertion
+Inserting quotes in the first argument did work, such as:
+at 12:34 /"i"nteractive cmd
+
+:: Shorthand Commands
+The following 10 commands were found to be working:
+at 12:34 /i cmd
+at 12:34 /in cmd
+at 12:34 /int cmd
+at 12:34 /inte cmd
+at 12:34 /inter cmd
+at 12:34 /intera cmd
+at 12:34 /interac cmd
+at 12:34 /interact cmd
+at 12:34 /interacti cmd
+at 12:34 /interactiv cmd

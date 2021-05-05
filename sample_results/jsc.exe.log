@@ -1,0 +1,23 @@
+PROCESS OBFUSCATION REPORT FOR jsc.exe
+- Generated on 2021-01-04T01:41:59.300625
+- Command used      : c:\windows\Microsoft.NET\Framework64\v4.0.30319\jsc.exe /target:exe /out:cache\file.exe inputs\file.js
+- Insertion position:                                                            ^
+- Char ranges scanned: 0x0001..0xFFFE
+
+:: Option Char Substitution
+The following 1 commands were found to be working:
+0x002D : c:\windows\Microsoft.NET\Framework64\v4.0.30319\jsc.exe -target:exe /out:cache\file.exe inputs\file.js
+
+:: Character Insertion
+No alternative commands were found.
+
+:: Character Substitution
+No alternative commands were found.
+
+:: Quote Insertion
+Inserting quotes in the first argument did work, such as:
+c:\windows\Microsoft.NET\Framework64\v4.0.30319\jsc.exe /"t"arget:exe /out:cache\file.exe inputs\file.js
+
+:: Shorthand Commands
+The following 1 commands were found to be working:
+c:\windows\Microsoft.NET\Framework64\v4.0.30319\jsc.exe /t:exe /out:cache\file.exe inputs\file.js

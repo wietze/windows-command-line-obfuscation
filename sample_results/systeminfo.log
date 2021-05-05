@@ -1,0 +1,24 @@
+PROCESS OBFUSCATION REPORT FOR systeminfo
+- Generated on 2020-11-30T14:00:18.809353
+- Command used      : systeminfo /s localhost
+- Insertion position:             ^
+- Char ranges scanned: 0x0001..0xFFFE
+
+:: Different dash/hyphens
+The following 2 commands were found to be working:
+0x002D : systeminfo -s localhost
+0xFE63 : systeminfo ﹣s localhost
+
+:: Character Insertion
+No alternative commands were found.
+
+:: Character Replacement
+The following commands were found to be working:
+0x02E2 : systeminfo /ˢ localhost
+
+:: Quote Insertion
+Inserting quotes in the first argument did work, such as:
+systeminfo /"s" localhost
+
+:: Shortened Commands
+No alternative commands were found.

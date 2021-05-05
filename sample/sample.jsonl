@@ -1,0 +1,40 @@
+
+
+
+{"command": "\"C:\\Program Files\\Windows Defender\\MpCmdRun.exe\" -RemoveDefinitions -All", "range": "full", "elevated": true}
+{"command": "arp -a", "range": "full"}
+{"command": "at 12:34 /interactive cmd", "range": "full"}
+{"command": "bitsadmin /transfer xy https://duckduckgo.com/robots.txt c:\\windows\\temp\\robots.txt", "timeout": 5, "exit_code_only": true, "range": "full", "elevated": true}
+{"command": "C:\\windows\\Microsoft.NET\\Framework64\\v4.0.30319\\csc.exe -out:cache\\file.exe inputs\\file.cs", "char_offset": 59, "range": "full"}
+{"command": "c:\\windows\\Microsoft.NET\\Framework64\\v4.0.30319\\jsc.exe /target:exe /out:cache\\file.exe inputs\\file.js", "range": "full"}
+{"command": "c:\\windows\\Microsoft.NET\\Framework64\\v4.0.30319\\vbc.exe /target:exe /out:cache\\file.exe inputs\\file.vbs", "range": "full"}
+{"command": "certutil -split -urlcache -f https://www.bing.com/robots.txt cache\\{random}.txt", "range": "full"}
+{"command": "cmdkey /list", "range": "full"}
+{"command": "cmstp.exe /s c:\\windows\\temp\\cmstp.inf", "range": "educated"}
+{"command": "curl -N https://www.google.com/robots.txt -r 0-16", "range": "full"}
+{"command": "findstr /offline \"findstr\" \"*.json\"", "range": "full"}
+{"command": "fltmc.exe filters", "range": "full"}
+{"command": "forfiles /P c:\\windows\\ /M *.bin /c \"cmd /c echo hi\"", "range": "full"}
+{"command": "ipconfig /displaydns", "range": "full"}
+{"command": "nbtstat -n", "range": "full"}
+{"command": "net share x=c:\\ /remark:{random}", "post_command": "net share /delete x", "range": "full"}
+{"command": "netsh advfirewall show currentprofile state", "range": "full"}
+{"command": "netstat -p UDPv6", "range": "full"}
+{"command": "nltest /domain_trusts", "range": "full"}
+{"command": "nslookup -querytype=ALL -timeout=10 _ldap._tcp.dc._msdcs.WORKGROUP", "range": "full"}
+{"command": "ping /n 1 localhost", "range": "full"}
+{"command": "powershell /encodedcommand ZQBjAGgAbwAgACIAQAB3AGkAZQB0AHoAZQAiAA==", "timeout": 5, "range": "educated", "comment": "Too slow for 'full' range"}
+{"command": "query process /id:123", "range": "full"}
+{"command": "qwinsta /mode", "range": "full"}
+{"command": "reg export HKCU\\SOFTWARE\\Microsoft\\accessibility cache\\out.reg /y", "range": "full"}
+{"command": "regsvr32 /s /u /i:inputs\\file.sct scrobj.dll", "char_offset":13, "range": "educated", "comment": "Special case - look at the generated file `inputs\\results.txt` to see the commands that worked."}
+{"command": "route print 123*", "range": "full"}
+{"command": "sc query eventlog", "range": "full"}
+{"command": "schtasks /showsid /TN \"\\Microsoft\\XblGameSave\\XblGameSaveTask\"", "range": "full"}
+{"command": "systeminfo /s localhost", "timeout": 5, "exit_code_only": true, "range": "full"}
+{"command": "takeown /F config.json", "range": "full"}
+{"command": "taskkill /im test.exe", "range": "full"}
+{"command": "tasklist /fi \"USERNAME eq test\"", "timeout": 5, "range": "full"}
+{"command": "wevtutil gli HardwareEvents", "exit_code_only": true, "range": "full"}
+{"command": "winrs -remote:localhost echo hello", "range": "full", "elevated": true}
+{"command": "wmic os get BuildNumber", "range": "full"}
