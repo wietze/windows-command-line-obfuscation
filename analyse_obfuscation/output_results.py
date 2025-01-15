@@ -45,7 +45,7 @@ def write_report(report_dir: str, name: str, command: str, char_offset: int, sca
     output_file = os.path.join(report_dir, file_name)
 
     # Open file
-    with open(output_file, 'w', encoding='utf-8') as f:
+    with open(output_file, 'w', encoding='utf-16le') as f:
         # Print header
         f.write('PROCESS OBFUSCATION REPORT FOR {}\n'.format(name))
         f.write('- Generated on {}\n'.format(datetime.datetime.now().isoformat()))

@@ -2,6 +2,7 @@ import logging
 import os
 import random
 import re
+import shlex
 import subprocess
 from multiprocessing.pool import ThreadPool
 from typing import List, Set, Tuple, Union
@@ -12,11 +13,12 @@ from .helpers import SpecialCharOperation
 
 
 class TestCase():
-    def __init__(self, command: List[str], char_offset: int, arg_index: int, scan_range: List[int], post_command: List[str], exit_code_only: bool, timeout: int):
+    def __init__(self, command: List[str], char_offset: int, arg_index: int, scan_range: List[int], pre_command: List[str], post_command: List[str], exit_code_only: bool, timeout: int):
         self.command = command
         self.char_offset = char_offset
         self.arg_index = arg_index
         self.scan_range = scan_range
+        self.pre_command = pre_command
         self.post_command = post_command
         self.exit_code_only = exit_code_only
         self.timeout = timeout
@@ -27,6 +29,7 @@ class TestProcessObfuscation():
         self.log = log
         self.command = test_case.command
         self.command_flat = ' '.join(test_case.command)
+        self.pre_command = test_case.pre_command
         self.post_command = test_case.post_command
         self.expected_code, self.expected_output = self.__get_expected_result__()
         self.exit_code_only = test_case.exit_code_only
@@ -67,20 +70,22 @@ class TestProcessObfuscation():
                 continue
             if any([char == preferred_char for preferred_char in preferred_chars]):
                 return i+1
-        return 2 if len(command_part) > 1 else 1
+
+        return (2 if command_part[1] != '-' else 3) if len(command_part) > 1 else 1
 
     def __get_expected_result__(self) -> Tuple[int, str]:
         # Prepare command to run
         command = self.__randomise__(self.command_flat)
-        self.log.info('About to run command "{}"'.format(' '.join(command)))
         # Run 'normal' command to get expected exit code
         try:
-            result = self.__execute_command__(command)
+            result = self.__execute_command__(command, pre_command=self.pre_command)
             exit_code, stdout = result.returncode, "{} / {}".format(result.stdout, result.stderr)
             # Check if observed exit code is 0
             if exit_code != 0:
                 self.log.warning("Observed exit code is {}, which is not 0 as usual".format(exit_code))
                 self.log.warning("Test outcome may contain unexpected results")
+                self.log.warning(stdout)
+                # sys.exit(-1)
         except FileNotFoundError:
             self.log.error("Command \"{}\" could not be executed: file not found".format(command))
             raise
@@ -101,13 +106,12 @@ class TestProcessObfuscation():
     def __run_command__(self, command: str):
         # Prepare command
         command = self.__randomise__(command)
-        self.log.info('About to run command "{}"'.format(command))
+        # self.log.info('About to run command "{}"'.format(shlex.split(command, posix=False)))
         try:
             # Run command
-
-            result = self.__execute_command__(command, timeout=self.timeout)
+            result = self.__execute_command__(command, timeout=self.timeout, pre_command=self.pre_command)
             exit_code, stdout = result.returncode, "{} / {}".format(result.stdout, result.stderr)
-            self.log.info('Exit code {} observed ({} desired)'.format(exit_code, self.expected_code))
+            self.log.info('Exit code {} observed ({} desired) for {}'.format(exit_code, self.expected_code, command))
             # Return result
             return exit_code == self.expected_code and (self.exit_code_only or stdout == self.expected_output)
         except subprocess.TimeoutExpired:
@@ -120,7 +124,7 @@ class TestProcessObfuscation():
             if self.post_command:
                 result = None
                 try:
-                    result = self.__execute_command__(' '.join(self.post_command))
+                    result = self.__execute_command__(self.post_command)
                 except Exception as e:
                     self.log.warning("Post command caused exception ({})".format(e))
                 finally:
@@ -131,8 +135,11 @@ class TestProcessObfuscation():
     def __get_option_argument__(self, arg_index: int) -> int:
         return self.select_arg_index(self.command, arg_index)
 
-    def __execute_command__(self, command: str, timeout: int = None) -> subprocess.CompletedProcess:
-        return subprocess.run(['sh', '-c', command] if os.sep == '/' else command, capture_output=True, timeout=timeout)
+    def __execute_command__(self, command: str, timeout: int = None, pre_command: list[str] = []) -> subprocess.CompletedProcess:
+        cmd = command.split(' ')  # list(shlex.shlex(command, punctuation_chars=True, posix=True)) #[shlex.quote(c) for c in shlex.split(command, posix=True)]
+        # self.log.debug('About to run command "{}"'.format(' '.join(cmd)))
+        p1 = subprocess.Popen(shlex.split(pre_command, posix=True) if os.sep == '/' else pre_command, stdin=subprocess.PIPE, stdout=subprocess.PIPE) if pre_command else None
+        return subprocess.run(cmd if os.sep == '/' else command, stdin=p1.stdout if p1 else None, capture_output=True, timeout=timeout)
 
     # Public Methods
     def check_special_chars(self, char_at_position: int, operation: SpecialCharOperation) -> Set[Tuple[int, str]]:
@@ -159,7 +166,8 @@ class TestProcessObfuscation():
             return None
         # Simply add quotes between 0,1 and 1,2 of first argument - e.g. net s"t"art
         command_part = self.__get_option_argument__(arg_index)
-        test_arg = self.command[command_part][:1] + '"' + self.command[command_part][1] + '"' + self.command[command_part][2:]
+        quote = '"'  # if os.sep != '/' else '\\"'
+        test_arg = self.command[command_part][:1] + quote + self.command[command_part][1] + quote + self.command[command_part][2:]
         new_command = ' '.join(self.command[:command_part] + [test_arg] + self.command[command_part+1:])
         # Quotes don't work in subprocess when using lists
         result = self.__run_command__(new_command)

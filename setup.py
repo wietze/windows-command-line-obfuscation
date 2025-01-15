@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="analyse_obfuscation",
-    version="1.0.0",
+    version="1.1.0",
     author="@Wietze",
     description=description_short,
     long_description=description_long,
