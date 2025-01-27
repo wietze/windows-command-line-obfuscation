@@ -13,6 +13,12 @@ from .helpers import SpecialCharOperation, TqdmHandler
 from .output_results import print_results, write_report
 from .test_process_obfuscation import TestCase, TestProcessObfuscation
 
+TESTS = {'option_char': lambda test, test_case: test.check_option_char(test_case.arg_index),
+         'char_insert': lambda test, test_case: test.check_special_chars(test_case.char_offset, SpecialCharOperation.INSERT),
+         'char_substitute': lambda test, test_case: test.check_special_chars(test_case.char_offset, SpecialCharOperation.REPLACE),
+         'quotes': lambda test, test_case: test.check_quote_injection(test_case.arg_index),
+         'shorthands': lambda test, test_case: test.check_shortened_option(test_case.arg_index)}
+
 
 def run_tests(test_cases: List[TestCase], threads: int, report_dir: str, log: logging.Logger) -> None:
     """ For a list of commands: run tests, create reports, write summary to stdout """
@@ -28,12 +34,9 @@ def run_tests(test_cases: List[TestCase], threads: int, report_dir: str, log: lo
                 test = TestProcessObfuscation(test_case, threads, log)
 
                 # Run individual tests
-                test_outcomes = {'option_char': test.check_option_char(test_case.arg_index),
-                                 'char_insert': test.check_special_chars(test_case.char_offset, SpecialCharOperation.INSERT),
-                                 'char_substitution': test.check_special_chars(test_case.char_offset, SpecialCharOperation.REPLACE),
-                                 'quotes': test.check_quote_injection(test_case.arg_index),
-                                 'shorthand_command': test.check_shortened_option(test_case.arg_index)
-                                 }
+                test_outcomes = dict()
+                for subtest, function in TESTS.items():
+                    test_outcomes[subtest] = function(test, test_case) if not test_case.tests or subtest in test_case.tests else None
 
                 # Parse results
                 result[display_name] = test_outcomes
@@ -114,7 +117,7 @@ def create_test_case(args: Namespace, parser: argparse.ArgumentParser, json_file
     if not os.path.isdir(args.report_dir):
         parser.error("path specified in --report_dir does not exist.")
 
-    return TestCase(command=command, char_offset=char_offset, arg_index=arg_index, scan_range=scan_range, pre_command=args.pre_command, post_command=args.post_command, exit_code_only=args.exit_code_only, timeout=args.timeout)
+    return TestCase(command=command, char_offset=char_offset, arg_index=arg_index, scan_range=scan_range, pre_command=args.pre_command, post_command=args.post_command, exit_code_only=args.exit_code_only, timeout=args.timeout, tests=args.tests)
 
 
 # Prepare logger
@@ -148,6 +151,7 @@ def parse_arguments() -> None:
     optional_c.add_argument('--post_command', metavar='process_name', type=str, help='Command to run unconditionally after each attempt (e.g. to clean up)')
     optional_c.add_argument('--exit_code_only', action='store_true', help='Only base success on the exit code (and not the output of the command)')
     optional_c.add_argument('--timeout', metavar='n', type=float, help='Number of seconds per execution before timing out.', default=2)
+    optional_c.add_argument('--tests', choices=list(TESTS.keys()), type=str, nargs='+', help='Number of seconds per execution before timing out.', default=None)
 
     # JSON File options
     required.add_argument('--json_file', metavar='c:\\path\\to\\file.jsonl', type=str, help='Path to JSON file (JSON Line formatted) containing commands config')
@@ -176,7 +180,7 @@ def parse_arguments() -> None:
         log.addHandler(file_handler)
 
     if args.json_file:
-        single_command_args = ['command', 'range', 'custom_range', 'char_offset', 'pre_command', 'post_command', 'exit_code_only']
+        single_command_args = ['command', 'range', 'custom_range', 'char_offset', 'pre_command', 'post_command', 'exit_code_only', 'tests']
         given_args = {key: value for (key, value) in args._get_kwargs()}
         if any([given_args[x] for x in single_command_args]):
             raise ValueError("When --json_file is specified, the following arguments should not be specified on the command line but in the JSON file: {}".format(', '.join(single_command_args)))

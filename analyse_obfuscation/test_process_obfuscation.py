@@ -13,7 +13,7 @@ from .helpers import SpecialCharOperation
 
 
 class TestCase():
-    def __init__(self, command: List[str], char_offset: int, arg_index: int, scan_range: List[int], pre_command: List[str], post_command: List[str], exit_code_only: bool, timeout: int):
+    def __init__(self, command: List[str], char_offset: int, arg_index: int, scan_range: List[int], pre_command: List[str], post_command: List[str], exit_code_only: bool, timeout: int, tests:List[str]):
         self.command = command
         self.char_offset = char_offset
         self.arg_index = arg_index
@@ -22,6 +22,7 @@ class TestCase():
         self.post_command = post_command
         self.exit_code_only = exit_code_only
         self.timeout = timeout
+        self.tests = tests
 
 
 class TestProcessObfuscation():

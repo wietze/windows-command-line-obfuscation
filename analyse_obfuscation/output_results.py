@@ -13,7 +13,7 @@ colorama.init()
 
 def print_results(results: Dict[str, Dict[str, Union[Set[Tuple[int, str]], str, None]]]) -> None:
     """ For a dict with (test, result_dict), prepare a terminaltables AsciiTable and print to stdout """
-    matrix = [['Process', 'Dash/Hyphen', 'Char (insert)', 'Char (replace)', 'Quotes', 'Shortened']]
+    matrix = [['Process', 'Option Char', 'Char (insert)', 'Char (replace)', 'Quotes (insert)', 'Shorthands']]
     for display_name, test_outcomes in results.items():
         matrix.append([display_name] + [parse_outcome(test_outcome) for test_outcome in test_outcomes.values()])
 
@@ -82,7 +82,7 @@ def write_report(report_dir: str, name: str, command: str, char_offset: int, sca
                 f.write('No alternative commands were found.\n')
 
         # Character substitution test
-        outcomes = test_outcomes.get('char_substitution')
+        outcomes = test_outcomes.get('char_substitute')
         if outcomes is not None:
             f.write('\n:: Character Substitution\n')
             if outcomes:
@@ -106,7 +106,7 @@ def write_report(report_dir: str, name: str, command: str, char_offset: int, sca
                 f.write('Inserting quotes in the first argument did not appear to be working.\n')
 
         # Shorthand commands
-        outcomes = test_outcomes.get('shorthand_command')
+        outcomes = test_outcomes.get('shorthands')
         f.write('\n:: Shorthand Commands\n')
         if outcomes is not None:
             if outcomes:
